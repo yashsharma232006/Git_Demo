@@ -1,3 +1,21 @@
 body{
     background-color: black;
 }
+h1{
+    color: cadetblue;
+}
+p{
+    color: blanchedalmond;
+}
+h2{
+    color: burlywood;
+}
+ol{
+    color: cornsilk;
+}
+ul{
+    color: cornsilk
+}
+dl{
+    color: cornsilk
+}
