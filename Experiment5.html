@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration form</title>
+</head>
+<body>
+
+    <h1 style="text-align: center;">Student Registration Form</h1>
+    <hr style="height: 1mm;" color="grey">
+    <form>
+        <label>Full Name : </label><input required type="text" placeholder="Enter your full name">
+        
+        <br></br>
+
+        <label>Email : </label><input required type="email" placeholder="Enter valid email address">
+        
+        <br></br>
+
+        <label>Password : </label><input required type="password" placeholder="Enter password">
+        
+        <br></br>
+
+        <label for="">Gender: </label>
+        <label>
+            <input required type="radio" name="gender" value="male">
+            Male
+        </label>
+
+        <label>
+            <input required type="radio" name="gender" value="female">
+            Female
+        </label>
+
+        <label>
+            <input required type="radio" name="gender" value="other">
+            Other
+        </label>
+
+        <br><br>
+
+        <label required for="course">Choose your Course:</label>
+
+        <select id="languages">
+            <option value="--Select Course--">--Select Course--</option>
+            <option value="B.tech">B.tech</option>
+            <option value="Mtech">M.tech</option>
+            <option value="BCA">BCA</option>
+            <option value="MCA">MCA</option>
+            <option value="MBA">MBA</option>
+            <option value="BBA">BBA</option>
+            <option value="PHD">PHD</option>
+        </select>
+
+        <br></br>
+
+        <label>Contact number:</label>
+            <input type="text" placeholder="Enter phone number">
+        
+        <br><br>
+        
+        <label for="">Address : </label>
+        <textarea rows="4" cols="70" placeholder="Enter your address"></textarea>
+        <br><br>
+
+        <button>Register</button>
+        <button>CLEAR</button>
+    </form>
+
+    <hr style="height: 1mm;" color="grey">
+
+<h5>&copy 2025 Student Registration Portal</h5>
+    
+    
+</body>
+</html>
