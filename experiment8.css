@@ -1,5 +1,6 @@
 body {
   font-family: 'Georgia', serif;
+  background-color: whitesmoke
   margin: 20px;
 }
 
@@ -7,6 +8,7 @@ body {
 
 .container {
   border: 2px solid black;
+  background-color: pink;
   display: flex;
   justify-content: center;     
   align-items: center;         
