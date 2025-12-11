@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+    text-align: center;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+    padding: 10px;
+}
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+.card:hover {
+    transform: scale(1.03);
+}
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+.card h3 {
+    font-size: 18px;
+    margin: 15px 0 10px;
+}
+.desc {
+    font-size: 14px;
+    color: dimgray;
+    margin-bottom: 10px;
+}
+.price {
+    color: green;
+    font-size: 22px;
+    margin: 10px;
+}
+button {
+    background-color:blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+}
+button:hover {
+    background-color: darkblue;
+}
+/* mobile phone */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+    .actions a {
+        font-size: 0.9rem;
+    }
+}
+/* Tablet */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .nav-links a {
+        font-size: 0.9rem;
+    }
+/* Desktop */
+@media (min-width: 1025px) {
+    .nav-links a {
+        font-size: 1rem;
+    }
+}
+}
