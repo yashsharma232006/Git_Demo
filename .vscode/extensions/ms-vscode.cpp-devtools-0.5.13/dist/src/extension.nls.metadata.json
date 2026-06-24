@@ -1,0 +1,11 @@
+{
+	"messages": [
+		"Install CMake Tools",
+		"We recommend that you install the CMake Tools extension to enable CMake build and test tools."
+	],
+	"keys": [
+		"install.cmake.tools",
+		"install.cmake.tools.recommendation"
+	],
+	"filePath": "src\\extension"
+}

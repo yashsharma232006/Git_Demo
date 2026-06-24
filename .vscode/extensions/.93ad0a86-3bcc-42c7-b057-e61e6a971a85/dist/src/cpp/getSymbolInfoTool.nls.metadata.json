@@ -1,0 +1,9 @@
+{
+	"messages": [
+		"Getting symbol information"
+	],
+	"keys": [
+		"cpp.getSymbolInfo.startCalling"
+	],
+	"filePath": "src\\cpp\\getSymbolInfoTool"
+}

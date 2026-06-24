@@ -1,0 +1,13 @@
+{
+	"messages": [
+		"Run tests with CMake Tools",
+		"Do you want to run tests with the CMake Tools extension?",
+		"Test with the CMake Tools extension"
+	],
+	"keys": [
+		"test.with.cmake.tools.confirmation.title",
+		"test.with.cmake.tools.confirmation.message",
+		"test.with.cmake.tools"
+	],
+	"filePath": "src\\cmake\\testTool"
+}

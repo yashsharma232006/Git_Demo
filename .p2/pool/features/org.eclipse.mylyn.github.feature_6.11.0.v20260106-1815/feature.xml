@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ *******************************************************************************
+ * Copyright (c) 2011, 2026 Contributors to Eclipse Foundation
+ * 
+ * This program and the accompanying materials are made available under the
+ * terms of the Eclipse Public License 2.0 which is available at
+ * https://www.eclipse.org/legal/epl-2.0/.
+ * 
+ * SPDX-License-Identifier: EPL-2.0
+ * 
+ * Contributors:
+ *   See git history
+ *******************************************************************************
+-->
+<feature
+      id="org.eclipse.mylyn.github.feature"
+      label="%featureName"
+      version="6.11.0.v20260106-1815"
+      provider-name="%providerName"
+      plugin="org.eclipse.mylyn.tasks.core">
+
+   <description url="http://www.eclipse.org/egit">
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.eclipse.egit" version="6.2.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.mylyn.tasks.feature" version="4.10.0" match="equivalent"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.mylyn.github.core"
+         version="6.11.0.v20260106-1815"/>
+
+   <plugin
+         id="org.eclipse.mylyn.github.ui"
+         version="6.11.0.v20260106-1815"/>
+
+   <plugin
+         id="org.eclipse.egit.github.core"
+         version="6.1.0.202203080745-r"/>
+
+   <plugin
+         id="org.eclipse.mylyn.github.doc"
+         version="6.11.0.v20260106-1815"/>
+
+</feature>

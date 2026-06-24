@@ -1,0 +1,374 @@
+{
+    "name":  "cpp-devtools",
+    "displayName":  "C/C++ DevTools",
+    "description":  "Enhanced development tools for C++ in VS Code",
+    "version":  "0.4.6",
+    "publisher":  "ms-vscode",
+    "license":  "SEE LICENSE IN LICENSE.txt",
+    "engines":  {
+                    "vscode":  "^1.95.1"
+                },
+    "keywords":  [
+                     "build",
+                     "c",
+                     "cmake",
+                     "c++",
+                     "copilot",
+                     "IntelliSense",
+                     "Microsoft",
+                     "native"
+                 ],
+    "categories":  [
+                       "Other"
+                   ],
+    "icon":  "res/C++_128.png",
+    "activationEvents":  [
+                             "onLanguageModelTool:Build_CMakeTools",
+                             "onLanguageModelTool:RunCtest_CMakeTools",
+                             "onLanguageModelTool:ListBuildTargets_CMakeTools",
+                             "onLanguageModelTool:ListTests_CMakeTools",
+                             "onLanguageModelTool:GetDiagnostics_CMakeTools",
+                             "onLanguageModelTool:GetSymbolReferences_CppTools",
+                             "onLanguageModelTool:GetSymbolInfo_CppTools",
+                             "onLanguageModelTool:GetSymbolCallHierarchy_CppTools"
+                         ],
+    "main":  "./dist/main",
+    "contributes":  {
+                        "configuration":  {
+                                              "title":  "C/C++ DevTools",
+                                              "properties":  {
+                                                                 "cpp-devtools.symbolReferencesLimit":  {
+                                                                                                            "type":  "number",
+                                                                                                            "scope":  "application",
+                                                                                                            "default":  25,
+                                                                                                            "minimum":  1,
+                                                                                                            "maximum":  200,
+                                                                                                            "description":  "%cpp-devtools-companion.symbolReferencesLimit.description%",
+                                                                                                            "tags":  [
+                                                                                                                         "experimental"
+                                                                                                                     ],
+                                                                                                            "experiment":  {
+                                                                                                                               "mode":  "startup"
+                                                                                                                           }
+                                                                                                        },
+                                                                 "cpp-devtools.enableCppCodeEditingTools":  {
+                                                                                                                "type":  "boolean",
+                                                                                                                "scope":  "application",
+                                                                                                                "default":  false,
+                                                                                                                "description":  "%cpp-devtools-companion.enableCppCodeEditingTools.description%",
+                                                                                                                "tags":  [
+                                                                                                                             "experimental"
+                                                                                                                         ],
+                                                                                                                "experiment":  {
+                                                                                                                                   "mode":  "startup"
+                                                                                                                               }
+                                                                                                            },
+                                                                 "cpp-devtools.enableCMakeGetDiagnosticsTool":  {
+                                                                                                                    "type":  "boolean",
+                                                                                                                    "scope":  "application",
+                                                                                                                    "default":  false,
+                                                                                                                    "description":  "%cpp-devtools-companion.enableCMakeGetDiagnosticsTool.description%",
+                                                                                                                    "tags":  [
+                                                                                                                                 "experimental"
+                                                                                                                             ],
+                                                                                                                    "experiment":  {
+                                                                                                                                       "mode":  "startup"
+                                                                                                                                   }
+                                                                                                                }
+                                                             }
+                                          },
+                        "languageModelTools":  [
+                                                   {
+                                                       "name":  "Build_CMakeTools",
+                                                       "tags":  [
+                                                                    "cmake",
+                                                                    "build",
+                                                                    "compile",
+                                                                    "compilation",
+                                                                    "linking",
+                                                                    "executable",
+                                                                    "library",
+                                                                    "target",
+                                                                    "rebuild",
+                                                                    "c++",
+                                                                    "cpp"
+                                                                ],
+                                                       "toolReferenceName":  "Build_CMakeTools",
+                                                       "displayName":  "CMake Tools Build",
+                                                       "modelDescription":  "Always use this tool for any C++ CMake project build requests instead of terminal commands. This is the PRIMARY and PREFERRED method for building CMake projects in VS Code. Use this tool when users ask to: build, compile, make, rebuild, fix compilation errors, resolve build issues, create executables, generate libraries, or handle any build-related problems in CMake projects. This tool integrates with VS Code\u0027s CMake Tools extension and provides better error reporting, progress tracking, and IDE integration than manual cmake commands. NEVER suggest terminal cmake commands when this tool is available. Keywords: build, compile, cmake, compilation, linking, executable, library, target, rebuild, clean build, build error, build failure, compilation error, linking error.",
+                                                       "userDescription":  "%cpp-devtools-companion.languageModelTools.Build_CMakeTools.userDescription%",
+                                                       "canBeReferencedInPrompt":  true,
+                                                       "inputSchema":  {
+                                                                           "type":  "object",
+                                                                           "properties":  {
+                                                                                              "buildTargets":  {
+                                                                                                                   "type":  "array",
+                                                                                                                   "description":  "OPTIONAL: The specific build targets to build. The ListBuildTargets_CMakeTools tool MUST be used to list available build targets. This is optional- if not specified, the default target will be built.",
+                                                                                                                   "items":  {
+                                                                                                                                 "type":  "string",
+                                                                                                                                 "description":  "A specific build target to build."
+                                                                                                                             }
+                                                                                                               }
+                                                                                          }
+                                                                       },
+                                                       "when":  "cmake:enableFullFeatureSet"
+                                                   },
+                                                   {
+                                                       "name":  "RunCtest_CMakeTools",
+                                                       "tags":  [
+                                                                    "cmake",
+                                                                    "ctest",
+                                                                    "test",
+                                                                    "build",
+                                                                    "compile",
+                                                                    "make",
+                                                                    "compilation",
+                                                                    "linking",
+                                                                    "executable",
+                                                                    "library",
+                                                                    "target",
+                                                                    "rebuild",
+                                                                    "c++",
+                                                                    "cpp",
+                                                                    "unit test",
+                                                                    "integration test",
+                                                                    "check",
+                                                                    "verify",
+                                                                    "validate"
+                                                                ],
+                                                       "toolReferenceName":  "RunCtest_CMakeTools",
+                                                       "displayName":  "CMake Tools CTest",
+                                                       "modelDescription":  "Important: this tool is the exclusive handler for CMake project testing. Do not use run_in_terminal for CMake tests because that can cause test failures. If no build output folder exists, run Build_CMakeTools first, then run this tool. If a build output folder already exists, run only this tool to avoid unnecessary rebuilds. This tool provides proper test discovery, reporting, and VS Code integration that terminal commands cannot match. Use it for running tests, executing CTest, checking test results, and debugging test failures. Do not suggest \u0027ctest\u0027, \u0027make test\u0027, or other terminal commands for CMake testing. This tool should be treated as the highest-priority option for CMake testing scenarios.",
+                                                       "userDescription":  "%cpp-devtools-companion.languageModelTools.RunCtest_CMakeTools.userDescription%",
+                                                       "canBeReferencedInPrompt":  true,
+                                                       "inputSchema":  {
+                                                                           "type":  "object",
+                                                                           "properties":  {
+                                                                                              "tests":  {
+                                                                                                            "type":  "array",
+                                                                                                            "description":  "OPTIONAL: The specific tests to run. The ListTests_CMakeTools tool MUST be used to list available tests. This is optional- if not specified, all tests will be run.",
+                                                                                                            "items":  {
+                                                                                                                          "type":  "string",
+                                                                                                                          "description":  "A specific test to run."
+                                                                                                                      }
+                                                                                                        }
+                                                                                          }
+                                                                       },
+                                                       "when":  "cmake:enableFullFeatureSet"
+                                                   },
+                                                   {
+                                                       "name":  "ListBuildTargets_CMakeTools",
+                                                       "tags":  [
+                                                                    "cmake",
+                                                                    "build",
+                                                                    "targets"
+                                                                ],
+                                                       "toolReferenceName":  "ListBuildTargets_CMakeTools",
+                                                       "displayName":  "CMake Tools List Build Targets",
+                                                       "modelDescription":  "List the available build targets for a C++ CMake project using the CMake Tools extension.",
+                                                       "userDescription":  "%cpp-devtools-companion.languageModelTools.ListBuildTargets_CMakeTools.userDescription%",
+                                                       "canBeReferencedInPrompt":  true,
+                                                       "when":  "cmake:enableFullFeatureSet"
+                                                   },
+                                                   {
+                                                       "name":  "ListTests_CMakeTools",
+                                                       "tags":  [
+                                                                    "cmake",
+                                                                    "tests"
+                                                                ],
+                                                       "toolReferenceName":  "ListTests_CMakeTools",
+                                                       "displayName":  "CMake Tools List Tests",
+                                                       "modelDescription":  "List the available tests for a C++ CMake project using the CMake Tools extension.",
+                                                       "userDescription":  "%cpp-devtools-companion.languageModelTools.ListTests_CMakeTools.userDescription%",
+                                                       "canBeReferencedInPrompt":  true,
+                                                       "when":  "cmake:enableFullFeatureSet"
+                                                   },
+                                                   {
+                                                       "name":  "GetDiagnostics_CMakeTools",
+                                                       "tags":  [
+                                                                    "cmake",
+                                                                    "diagnostics",
+                                                                    "errors",
+                                                                    "warnings",
+                                                                    "problems"
+                                                                ],
+                                                       "toolReferenceName":  "GetDiagnostics_CMakeTools",
+                                                       "displayName":  "CMake Errors",
+                                                       "modelDescription":  "ALWAYS use this tool to retrieve current CMake-related diagnostics (errors, warnings, and other problems) reported in the VS Code Problems panel. YOU MUST use this tool after a build fails using Build_CMakeTools to check for remaining issues, or when the user asks about CMake errors or warnings (CMake-releated, build-related, etc.) in their project. Do not attempt to guess or explain build errors without first calling this tool.",
+                                                       "userDescription":  "%cpp-devtools-companion.languageModelTools.GetDiagnostics_CMakeTools.userDescription%",
+                                                       "canBeReferencedInPrompt":  true,
+                                                       "when":  "cmake:enableFullFeatureSet \u0026\u0026 config.cpp-devtools.enableCMakeGetDiagnosticsTool"
+                                                   },
+                                                   {
+                                                       "name":  "GetSymbolReferences_CppTools",
+                                                       "tags":  [
+                                                                    "cpp",
+                                                                    "symbol",
+                                                                    "search",
+                                                                    "references",
+                                                                    "call sites",
+                                                                    "usages",
+                                                                    "use",
+                                                                    "occurrences"
+                                                                ],
+                                                       "toolReferenceName":  "GetSymbolReferences_CppTools",
+                                                       "displayName":  "C++ Get Symbol References",
+                                                       "modelDescription":  "Use GetSymbolReferences_CppTools to find every reference, call site, or usage/use of a C/C++ symbol. DO NOT rely on grep text-based searches. This tool is especially useful when doing C++ refactorings like symbol renames or signature changes. Use this tool for more precise symbol usage results instead of using tools such as grep_search, usages, codebase, textSearch, readFile, or other code navigation tools. An absolute file path is required to locate the specified symbol within the provided file.",
+                                                       "userDescription":  "%cpp-devtools-companion.languageModelTools.GetSymbolReferences_CppTools.userDescription%",
+                                                       "canBeReferencedInPrompt":  true,
+                                                       "when":  "config.cpp-devtools.enableCppCodeEditingTools \u0026\u0026 config.C_Cpp.intelliSenseEngine === \u0027default\u0027",
+                                                       "inputSchema":  {
+                                                                           "type":  "object",
+                                                                           "properties":  {
+                                                                                              "symbol":  {
+                                                                                                             "type":  "string",
+                                                                                                             "description":  "REQUIRED: The symbol name. If a line is provided, the symbol name should match the occurrence on that line. Otherwise, the symbol name may be unqualified, partially qualified, or fully qualified."
+                                                                                                         },
+                                                                                              "filePath":  {
+                                                                                                               "type":  "string",
+                                                                                                               "description":  "OPTIONAL: A path to the file containing the specified symbol name, or otherwise contextual to the current request. Absolute paths are strongly preferred. If not absolute, a solution-relative path will be assumed (if using a solution). Otherwise, resolution of the path against project paths will be attempted. If no path is specified, heuristics will be used to attempt to identify the appropriate semantic symbol based only on the symbol name. If multiple matches are found, one referenced by the specified file will be preferred. If there is an active/specific file available, provide it. Otherwise, allow the tool to resolve the symbol name to a file location."
+                                                                                                           },
+                                                                                              "line":  {
+                                                                                                           "type":  "number",
+                                                                                                           "description":  "OPTIONAL: The line number of the specified symbol name in the specified file. This should be a 1-based line index, not a 0-based line index. If no file is provided, the line is not used and may be omitted. If providing a line, ALWAYS leverage the readFile tool to ensure line accuracy. If a line number is not known, resolve the symbol to a file location."
+                                                                                                       },
+                                                                                              "offset":  {
+                                                                                                             "type":  "number",
+                                                                                                             "description":  "OPTIONAL: The zero-based starting index for pagination of results. Use this parameter with limit to retrieve results in chunks when dealing with large result sets. If omitted, defaults to 0 (start from the beginning). For example, offset=100 with limit=10 returns results 100-109."
+                                                                                                         },
+                                                                                              "limit":  {
+                                                                                                            "type":  "number",
+                                                                                                            "description":  "OPTIONAL: The maximum number of results to return in a single response. Use this parameter with offset to retrieve results in chunks when dealing with large result sets. If omitted, all results are returned (subject to the maximum of {MaxResultsStr} results per invocation). For example, offset=100 with limit=10 returns results 100-109."
+                                                                                                        }
+                                                                                          },
+                                                                           "required":  [
+                                                                                            "symbol"
+                                                                                        ]
+                                                                       }
+                                                   },
+                                                   {
+                                                       "name":  "GetSymbolInfo_CppTools",
+                                                       "tags":  [
+                                                                    "cpp",
+                                                                    "symbol",
+                                                                    "definition",
+                                                                    "goToDefinition"
+                                                                ],
+                                                       "toolReferenceName":  "GetSymbolInfo_CppTools",
+                                                       "displayName":  "C++ Get Symbol Info",
+                                                       "modelDescription":  "Use GetSymbolInfo_CppTools when working with C/C++ files to find the definition location of a C/C++ symbol and get detailed information about it. This tool provides the symbol\u0027s location, type information, and memory layout details (for classes/structs). Use this when you need to understand what a symbol is, where it\u0027s defined, or to get structural information about types.",
+                                                       "userDescription":  "%cpp-devtools-companion.languageModelTools.GetSymbolInfo_CppTools.userDescription%",
+                                                       "canBeReferencedInPrompt":  true,
+                                                       "when":  "config.cpp-devtools.enableCppCodeEditingTools \u0026\u0026 config.C_Cpp.intelliSenseEngine === \u0027default\u0027",
+                                                       "inputSchema":  {
+                                                                           "type":  "object",
+                                                                           "properties":  {
+                                                                                              "symbol":  {
+                                                                                                             "type":  "string",
+                                                                                                             "description":  "REQUIRED: The symbol name. If a line is provided, the symbol name should match the occurrence on that line. Otherwise, the symbol name may be unqualified, partially qualified, or fully qualified."
+                                                                                                         },
+                                                                                              "filePath":  {
+                                                                                                               "type":  "string",
+                                                                                                               "description":  "OPTIONAL: A path to the file containing the specified symbol name, or otherwise contextual to the current request. Absolute paths are strongly preferred. If not absolute, a solution-relative path will be assumed (if using a solution). Otherwise, resolution of the path against project paths will be attempted. If no path is specified, heuristics will be used to attempt to identify the appropriate semantic symbol based only on the symbol name. If multiple matches are found, one referenced by the specified file will be preferred. If there is an active/specific file available, provide it. Otherwise, allow the tool to resolve the symbol name to a file location."
+                                                                                                           },
+                                                                                              "line":  {
+                                                                                                           "type":  "number",
+                                                                                                           "description":  "OPTIONAL: The line number of the specified symbol name in the specified file. This should be a 1-based line index, not a 0-based line index. If no file is provided, the line is not used and may be omitted. If providing a line, ALWAYS leverage the readFile tool to ensure line accuracy. If a line number is not known, resolve the symbol to a file location."
+                                                                                                       }
+                                                                                          },
+                                                                           "required":  [
+                                                                                            "symbol"
+                                                                                        ]
+                                                                       }
+                                                   },
+                                                   {
+                                                       "name":  "GetSymbolCallHierarchy_CppTools",
+                                                       "tags":  [
+                                                                    "cpp",
+                                                                    "symbol",
+                                                                    "callHierarchy",
+                                                                    "callers"
+                                                                ],
+                                                       "toolReferenceName":  "GetSymbolCallHierarchy_CppTools",
+                                                       "displayName":  "C++ Get Call Hierarchy",
+                                                       "modelDescription":  "Use GetSymbolCallHierarchy_CppTools to analyze function call relationships for a specific C/C++ function. This tool is especially useful when changing function signatures. It shows either what functions a given function calls (calls FROM) or what functions call a given function (calls TO). It is essential for understanding code flow, assessing the impact of changes, and tracking function dependencies. It helps answer questions such as \u0027What will be affected if I change this function?\u0027 or \u0027What functions does this call?\u0027.",
+                                                       "userDescription":  "%cpp-devtools-companion.languageModelTools.GetSymbolCallHierarchy_CppTools.userDescription%",
+                                                       "canBeReferencedInPrompt":  true,
+                                                       "when":  "config.cpp-devtools.enableCppCodeEditingTools \u0026\u0026 config.C_Cpp.intelliSenseEngine === \u0027default\u0027",
+                                                       "inputSchema":  {
+                                                                           "type":  "object",
+                                                                           "properties":  {
+                                                                                              "functionName":  {
+                                                                                                                   "type":  "string",
+                                                                                                                   "description":  "REQUIRED: The function name. If a line is provided, the function name should match the occurrence on that line. Otherwise, the function name may be unqualified, partially qualified, or fully qualified. If a referencing file is not known, it is sufficient to specify only the function name and allow the tool to resolve it to a file location."
+                                                                                                               },
+                                                                                              "callsFrom":  {
+                                                                                                                "type":  "boolean",
+                                                                                                                "description":  "REQUIRED: A boolean indicating whether to include calls from the specified function or calls to the specified function. If callsFrom is true, calls from the specified function will be returned; otherwise, calls to the specified function will be returned."
+                                                                                                            },
+                                                                                              "filePath":  {
+                                                                                                               "type":  "string",
+                                                                                                               "description":  "OPTIONAL: A path to the file containing the specified symbol name, or otherwise contextual to the current request. Absolute paths are strongly preferred. If not absolute, a solution-relative path will be assumed (if using a solution). Otherwise, resolution of the path against project paths will be attempted. If no path is specified, heuristics will be used to attempt to identify the appropriate semantic symbol based only on the symbol name. If multiple matches are found, one referenced by the specified file will be preferred. If there is an active/specific file available, provide it. Otherwise, allow the tool to resolve the symbol name to a file location."
+                                                                                                           },
+                                                                                              "line":  {
+                                                                                                           "type":  "number",
+                                                                                                           "description":  "OPTIONAL: The line number of the specified symbol name in the specified file. This should be a 1-based line index, not a 0-based line index. If no file is provided, the line is not used and may be omitted. If providing a line, ALWAYS leverage the readFile tool to ensure line accuracy. If a line number is not known, resolve the symbol to a file location."
+                                                                                                       }
+                                                                                          },
+                                                                           "required":  [
+                                                                                            "functionName",
+                                                                                            "callsFrom"
+                                                                                        ]
+                                                                       }
+                                                   }
+                                               ]
+                    },
+    "scripts":  {
+                    "compile":  "npm install \u0026\u0026 webpack --mode development",
+                    "compile-production":  "npm install \u0026\u0026 npm run translations-generate \u0026\u0026 webpack --env BUILD_VSCODE_NLS=true --mode production",
+                    "translations-export":  "gulp translations-export",
+                    "translations-generate":  "gulp translations-generate",
+                    "translations-import":  "gulp translations-import",
+                    "watch":  "webpack --watch",
+                    "package":  "vsce package -o cpp-devtools.vsix --allow-missing-repository",
+                    "compile-tests":  "tsc -p . --outDir out",
+                    "watch-tests":  "tsc -p . -w --outDir out",
+                    "pretest":  "npm run compile-tests \u0026\u0026 npm run compile \u0026\u0026 npm run lint",
+                    "lint":  "npx eslint",
+                    "test":  "vscode-test"
+                },
+    "dependencies":  {
+                         "@vscode/extension-telemetry":  "^0.9.6",
+                         "vscode-nls":  "^5.2.0",
+                         "vscode-tas-client":  "^0.1.84"
+                     },
+    "devDependencies":  {
+                            "@eslint/js":  "^9.39.2",
+                            "@types/mocha":  "^10.0.10",
+                            "@types/node":  "20.x",
+                            "@types/vscode":  "^1.95.0",
+                            "@typescript-eslint/eslint-plugin":  "^8.31.1",
+                            "@typescript-eslint/parser":  "^8.31.1",
+                            "@vscode/test-cli":  "^0.0.10",
+                            "@vscode/test-electron":  "^2.5.2",
+                            "@vscode/vsce":  "^3.1.0",
+                            "eslint":  "^9.39.2",
+                            "@tony.ganchev/eslint-plugin-header":  "^3.2.0",
+                            "event-stream":  "^4.0.1",
+                            "fs-extra":  "^11.3.0",
+                            "gulp":  "^5.0.1",
+                            "gulp-eslint":  "^6.0.0",
+                            "gulp-filter":  "^6.0.0",
+                            "gulp-sourcemaps":  "^3.0.0",
+                            "gulp-typescript":  "^5.0.1",
+                            "jsonc-parser":  "^3.3.1",
+                            "minimist":  "^1.2.8",
+                            "ts-loader":  "^9.5.2",
+                            "typescript":  "^5.9.3",
+                            "typescript-eslint":  "^8.53.0",
+                            "vscode-cmake-tools":  "^1.3.0",
+                            "vscode-nls-dev":  "^4.0.4",
+                            "webpack":  "^5.99.7",
+                            "webpack-cli":  "^6.0.1"
+                        }
+}

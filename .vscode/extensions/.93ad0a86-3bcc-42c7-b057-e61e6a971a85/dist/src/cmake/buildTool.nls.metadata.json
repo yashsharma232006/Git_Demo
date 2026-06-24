@@ -1,0 +1,17 @@
+{
+	"messages": [
+		"Do you want to build the CMake project with the CMake Tools extension?",
+		"Do you want to build targets [{0}] with the CMake Tools extension?",
+		"Do you want to build the targets [{0}], and more with the CMake Tools extension?",
+		"and more",
+		"Build {0}with the CMake Tools extension"
+	],
+	"keys": [
+		"build.with.cmake.tools.confirmation.no.targets.message",
+		"build.with.cmake.tools.confirmation.with.targets.show.allmessage",
+		"build.with.cmake.tools.confirmation.with.targets.limited.message",
+		"and.more",
+		"build.with.cmake.tools.confirmation.title"
+	],
+	"filePath": "src\\cmake\\buildTool"
+}

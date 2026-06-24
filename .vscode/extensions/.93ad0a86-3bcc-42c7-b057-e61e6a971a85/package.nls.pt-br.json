@@ -1,0 +1,13 @@
+{
+	"cpp-devtools-companion.languageModelTools.Build_CMakeTools.userDescription": "Compile um projeto do CMake com a extensão CMake Tools",
+	"cpp-devtools-companion.languageModelTools.RunCtest_CMakeTools.userDescription": "Executar os testes do CTest para um projeto do CMake com a extensão CMake Tools",
+	"cpp-devtools-companion.languageModelTools.ListBuildTargets_CMakeTools.userDescription": "Liste os destinos de build disponíveis para este projeto do CMake com a extensão CMake Tools",
+	"cpp-devtools-companion.languageModelTools.ListTests_CMakeTools.userDescription": "Liste os testes disponíveis para este projeto do CMake com a extensão CMake Tools",
+	"cpp-devtools-companion.languageModelTools.GetDiagnostics_CMakeTools.userDescription": "Obter diagnóstico do CMake (erros, avisos e problemas) no painel Problemas do VS Code",
+	"cpp-devtools-companion.symbolReferencesLimit.description": "Número máximo de referências de símbolo a serem retornadas por solicitação individual.",
+	"cpp-devtools-companion.enableCppCodeEditingTools.description": "Habilite as ferramentas de edição de código C++.",
+	"cpp-devtools-companion.enableCMakeGetDiagnosticsTool.description": "Habilite a ferramenta Obter Diagnóstico do CMake.",
+	"cpp-devtools-companion.languageModelTools.GetSymbolReferences_CppTools.userDescription": "Localize todas as referências para um símbolo C++.",
+	"cpp-devtools-companion.languageModelTools.GetSymbolInfo_CppTools.userDescription": "Obter definição de símbolo para um símbolo C++.",
+	"cpp-devtools-companion.languageModelTools.GetSymbolCallHierarchy_CppTools.userDescription": "Obter hierarquia de chamadas para um símbolo C++."
+}

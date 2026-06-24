@@ -1,0 +1,1078 @@
+{
+	"AddFileDependencies": {
+		"name": "AddFileDependencies",
+		"description": "Tento modul načtěte do projektu CMake pomocí:"
+	},
+	"AndroidTestUtilities": {
+		"name": "AndroidTestUtilities",
+		"description": "Tento modul poskytuje příkaz k vytvoření testu, který přenese data potřebná k testování chování zařízení Android do připojeného zařízení Android."
+	},
+	"BundleUtilities": {
+		"name": "BundleUtilities",
+		"description": "Tento modul poskytuje pomocné příkazy pro sestavování samostatných aplikací ve stylu balíčků pomocí CMake, například balíčků .app pro macOS nebo podobných balíčků aplikací založených na adresářích v jiných operačních systémech."
+	},
+	"CheckCCompilerFlag": {
+		"name": "CheckCCompilerFlag",
+		"description": "Tento modul poskytuje příkaz pro kontrolu, zda kompilátor jazyka C podporuje daný příznak."
+	},
+	"CheckCompilerFlag": {
+		"name": "CheckCompilerFlag",
+		"description": "Tento modul poskytuje příkaz pro kontrolu, zda kompilátor podporuje daný příznak."
+	},
+	"CheckCSourceCompiles": {
+		"name": "CheckCSourceCompiles",
+		"description": "Tento modul poskytuje příkaz pro kontrolu, zda se dá sestavit zdrojový kód jazyka C."
+	},
+	"CheckCSourceRuns": {
+		"name": "CheckCSourceRuns",
+		"description": "Tento modul poskytuje příkaz pro kontrolu, zda se dá zdrojový kód jazyka C sestavit a spustit."
+	},
+	"CheckCXXCompilerFlag": {
+		"name": "CheckCXXCompilerFlag",
+		"description": "Tento modul poskytuje příkaz pro kontrolu, zda kompilátor jazyka C++ podporuje daný příznak."
+	},
+	"CheckCXXSourceCompiles": {
+		"name": "CheckCXXSourceCompiles",
+		"description": "Tento modul poskytuje příkaz pro kontrolu, zda se dá sestavit zdrojový kód jazyka C++."
+	},
+	"CheckCXXSourceRuns": {
+		"name": "CheckCXXSourceRuns",
+		"description": "Tento modul poskytuje příkaz pro kontrolu, zda se dá zdrojový kód jazyka C++ sestavit a spustit."
+	},
+	"CheckCXXSymbolExists": {
+		"name": "CheckCXXSymbolExists",
+		"description": "Tento modul poskytuje příkaz pro kontrolu existence symbolu C++."
+	},
+	"CheckFortranCompilerFlag": {
+		"name": "CheckFortranCompilerFlag",
+		"description": "Tento modul poskytuje příkaz pro kontrolu, zda kompilátor jazyka Fortran podporuje daný příznak."
+	},
+	"CheckFortranFunctionExists": {
+		"name": "CheckFortranFunctionExists",
+		"description": "Tento modul poskytuje příkaz pro kontrolu existence funkce Fortran."
+	},
+	"CheckFortranSourceCompiles": {
+		"name": "CheckFortranSourceCompiles",
+		"description": "Tento modul poskytuje příkaz pro kontrolu, zda se dá sestavit zdrojový kód jazyka Fortran."
+	},
+	"CheckFortranSourceRuns": {
+		"name": "CheckFortranSourceRuns",
+		"description": "Tento modul poskytuje příkaz pro kontrolu, zda se dá zdrojový kód jazyka Fortran sestavit a spustit."
+	},
+	"CheckFunctionExists": {
+		"name": "CheckFunctionExists",
+		"description": "Tento modul poskytuje příkaz pro kontrolu existence funkce jazyka C."
+	},
+	"CheckIncludeFile": {
+		"name": "CheckIncludeFile",
+		"description": "Tento modul poskytuje příkaz pro kontrolu hlavičkového souboru jazyka C."
+	},
+	"CheckIncludeFileCXX": {
+		"name": "CheckIncludeFileCXX",
+		"description": "Tento modul poskytuje příkaz pro kontrolu hlavičkového souboru jazyka C++."
+	},
+	"CheckIncludeFiles": {
+		"name": "CheckIncludeFiles",
+		"description": "Tento modul poskytuje příkaz pro kontrolu jednoho nebo více hlavičkových souborů jazyka C/C++."
+	},
+	"CheckIPOSupported": {
+		"name": "CheckIPOSupported",
+		"description": "Tento modul poskytuje příkaz pro kontrolu, zda kompilátor podporuje meziprocedurální optimalizaci (IPO/LTO)."
+	},
+	"CheckLanguage": {
+		"name": "CheckLanguage",
+		"description": "Tento modul poskytuje příkaz pro kontrolu, zda se dá jazyk povolit pomocí příkazů enable_language nebo project."
+	},
+	"CheckLibraryExists": {
+		"name": "CheckLibraryExists",
+		"description": "Tento modul poskytuje příkaz pro kontrolu existence knihovny jazyka C."
+	},
+	"CheckLinkerFlag": {
+		"name": "CheckLinkerFlag",
+		"description": "Tento modul poskytuje příkaz pro kontrolu, zda je daný příznak propojení podporován kompilátorem."
+	},
+	"CheckOBJCCompilerFlag": {
+		"name": "CheckOBJCCompilerFlag",
+		"description": "Tento modul poskytuje příkaz pro kontrolu, zda kompilátor Objective-C podporuje daný příznak."
+	},
+	"CheckOBJCSourceCompiles": {
+		"name": "CheckOBJCSourceCompiles",
+		"description": "Tento modul poskytuje příkaz pro kontrolu, zda lze sestavit zdrojový kód jazyka Objective-C."
+	},
+	"CheckOBJCSourceRuns": {
+		"name": "CheckOBJCSourceRuns",
+		"description": "Tento modul poskytuje příkaz pro kontrolu, zda lze zdrojový kód jazyka Objective-C sestavit a spustit."
+	},
+	"CheckOBJCXXCompilerFlag": {
+		"name": "CheckOBJCXXCompilerFlag",
+		"description": "Tento modul poskytuje příkaz pro kontrolu, zda kompilátor Objective-C++ podporuje daný příznak."
+	},
+	"CheckOBJCXXSourceCompiles": {
+		"name": "CheckOBJCXXSourceCompiles",
+		"description": "Tento modul poskytuje příkaz pro kontrolu, zda je možné sestavit zdrojový kód Objective-C++."
+	},
+	"CheckOBJCXXSourceRuns": {
+		"name": "CheckOBJCXXSourceRuns",
+		"description": "Tento modul poskytuje příkaz pro kontrolu, zda se dá zdrojový kód Objective-C++ sestavit a spustit."
+	},
+	"CheckPIESupported": {
+		"name": "CheckPIESupported",
+		"description": "Tento modul poskytuje příkaz, který zjišťuje, zda linker podporuje kód PIE (Position Independent Code) nebo NO_PIE (No Position Independent Code) pro spustitelné soubory."
+	},
+	"CheckPrototypeDefinition": {
+		"name": "CheckPrototypeDefinition",
+		"description": "Tento modul poskytuje příkaz pro kontrolu, zda má funkce jazyka C očekávaný prototyp."
+	},
+	"CheckSourceCompiles": {
+		"name": "CheckSourceCompiles",
+		"description": "Tento modul poskytuje příkaz, který kontroluje, zda se dá zdrojový kód sestavit pro daný jazyk."
+	},
+	"CheckSourceRuns": {
+		"name": "CheckSourceRuns",
+		"description": "Tento modul poskytuje příkaz pro kontrolu, zda se dá zdrojový kód sestavit a spustit."
+	},
+	"CheckStructHasMember": {
+		"name": "CheckStructHasMember",
+		"description": "Tento modul poskytuje příkaz pro kontrolu, zda struktura nebo třída má zadanou členskou proměnnou."
+	},
+	"CheckSymbolExists": {
+		"name": "CheckSymbolExists",
+		"description": "Tento modul poskytuje příkaz pro kontrolu existence symbolu C."
+	},
+	"CheckTypeSize": {
+		"name": "CheckTypeSize",
+		"description": "Tento modul poskytuje příkaz pro kontrolu velikosti typu nebo výrazu jazyka C/C++."
+	},
+	"CheckVariableExists": {
+		"name": "CheckVariableExists",
+		"description": "Tento modul poskytuje příkaz pro kontrolu existence proměnné C."
+	},
+	"CMakeAddFortranSubdirectory": {
+		"name": "CMakeAddFortranSubdirectory",
+		"description": "Tento modul poskytuje příkaz pro přidání projektu Fortran umístěného v podadresáři."
+	},
+	"CMakeBackwardCompatibilityCXX": {
+		"name": "CMakeBackwardCompatibilityCXX",
+		"description": "Tento modul definuje několik zpětně kompatibilních proměnných mezipaměti pro jazyk CXX pro podporu raného jazyka C++ (před C++98, ANSI C++)."
+	},
+	"CMakeDependentOption": {
+		"name": "CMakeDependentOption",
+		"description": "Tento modul poskytuje příkaz pro definici logických voleb, jejichž dostupnost a výchozí hodnoty závisí na zadaných podmínkách nebo jiných volbách. To pomáhá udržovat přehledné konfigurační rozhraní tím, že se zobrazují pouze možnosti, které jsou relevantní pro aktuální nastavení."
+	},
+	"CMakeDetermineVSServicePack": {
+		"name": "CMakeDetermineVSServicePack",
+		"description": "Tento modul poskytuje příkaz k určení nainstalované verze aktualizace Service Pack pro Visual Studio 2012 a starší."
+	},
+	"CMakeExpandImportedTargets": {
+		"name": "CMakeExpandImportedTargets",
+		"description": "Tento modul načtěte do projektu CMake pomocí:"
+	},
+	"CMakeFindDependencyMacro": {
+		"name": "CMakeFindDependencyMacro",
+		"description": "Tento modul poskytuje příkaz implementovaný jako makro, které najde závislost balíčku."
+	},
+	"CMakeFindFrameworks": {
+		"name": "CMakeFindFrameworks",
+		"description": "pomocný modul pro vyhledání architektur OSX"
+	},
+	"CMakeFindPackageMode": {
+		"name": "CMakeFindPackageMode",
+		"description": "Tento modul je spuštěn nástrojem cmake, když je vyvolán s volbou --find-package <Find-Package Tool Mode>, aby vyhledal požadovaný balíček."
+	},
+	"CMakeForceCompiler": {
+		"name": "CMakeForceCompiler",
+		"description": "Načtěte tento modul do souboru sady nástrojů CMake:"
+	},
+	"CMakeGraphVizOptions": {
+		"name": "CMakeGraphVizOptions",
+		"description": "Tento modul není určený k přímému zahrnutí do projektů CMake. Dříve obsahoval informace pro použití Graphviz v CMake. Informace o použití nástroje Graphviz v CMake najdete v nápovědě k přepínači --graphviz příkazu cmake."
+	},
+	"CMakePackageConfigHelpers": {
+		"name": "CMakePackageConfigHelpers",
+		"description": "Tento modul poskytuje pomocné příkazy pro vytváření konfiguračních souborů <Libraries providing Config-file packages>, které mohou být zahrnuty v jiných projektech za účelem nalezení a použití balíčku."
+	},
+	"CMakeParseArguments": {
+		"name": "CMakeParseArguments",
+		"description": "Tento modul kdysi implementoval příkaz cmake_parse_arguments, který je nyní nativně implementován nástrojem CMake. Teď je to prázdný zástupný symbol pro kompatibilitu s projekty, které ho obsahují, aby se příkaz získal z nástroje CMake 3.4 a nižší verze."
+	},
+	"CMakePrintHelpers": {
+		"name": "CMakePrintHelpers",
+		"description": "Tento modul poskytuje komfortní příkazy určené především k ladění, které slouží k vypisování hodnot vlastností a proměnných."
+	},
+	"CMakePrintSystemInformation": {
+		"name": "CMakePrintSystemInformation",
+		"description": "Tento modul se dá použít pro diagnostiku a tisk systémových informací."
+	},
+	"CMakePushCheckState": {
+		"name": "CMakePushCheckState",
+		"description": "Tento modul poskytuje příkazy pro správu stavu proměnných, které ovlivňují provádění různých kontrolních příkazů CMake (např. check_symbol_exists atd.)."
+	},
+	"CMakeVerifyManifest": {
+		"name": "CMakeVerifyManifest",
+		"description": "Tento modul je určený k použití v režimu příkazového řádku pomocí cmake -P k ověření, že vložené manifesty a manifesty vedle sebe odpovídají projektu."
+	},
+	"CPack": {
+		"name": "CPack",
+		"description": "Tento modul konfiguruje generátory pro binární instalační programy a zdrojové balíčky."
+	},
+	"CPackArchive": {
+		"name": "CPackArchive",
+		"description": "Dokumentace ke generátoru CPack Archive se přesunula sem: Generátor CPack Archive"
+	},
+	"CPackBundle": {
+		"name": "CPackBundle",
+		"description": "Dokumentace ke generátoru CPack Bundle se přesunula sem: Generátor CPack Bundle"
+	},
+	"CPackComponent": {
+		"name": "CPackComponent",
+		"description": "Tento modul poskytuje příkazy pro konfiguraci komponent pro binární instalační programy a zdrojové balíčky."
+	},
+	"CPackCygwin": {
+		"name": "CPackCygwin",
+		"description": "Dokumentace ke generátoru CPack Cygwin se přesunula sem: Generátor CPack Cygwin"
+	},
+	"CPackDeb": {
+		"name": "CPackDeb",
+		"description": "Dokumentace ke generátoru CPack DEB se přesunula sem: Generátor CPack DEB"
+	},
+	"CPackDMG": {
+		"name": "CPackDMG",
+		"description": "Dokumentace ke generátoru CPack DragNDrop se přesunula sem: Generátor CPack DragNDrop"
+	},
+	"CPackFreeBSD": {
+		"name": "CPackFreeBSD",
+		"description": "Dokumentace ke generátoru CPack FreeBSD se přesunula sem: Generátor CPack FreeBSD"
+	},
+	"CPackIFW": {
+		"name": "CPackIFW",
+		"description": "Tento modul vyhledá umístění nástrojů příkazového řádku dodaných s QtIFW (Qt Installer Framework)."
+	},
+	"CPackIFWConfigureFile": {
+		"name": "CPackIFWConfigureFile",
+		"description": "Tento modul poskytuje příkaz podobný configure_file pro konfiguraci šablon souborů připravených ve stylu QtIFW/SDK/Creator."
+	},
+	"CPackNSIS": {
+		"name": "CPackNSIS",
+		"description": "Dokumentace ke generátoru CPack NSIS se přesunula sem: Generátor CPack NSIS"
+	},
+	"CPackNuGet": {
+		"name": "CPackNuGet",
+		"description": "Dokumentace ke generátoru CPack NuGet se přesunula sem: Generátor CPack NuGet"
+	},
+	"CPackProductBuild": {
+		"name": "CPackProductBuild",
+		"description": "Dokumentace ke generátoru CPack productbuild se přesunula sem: Generátor CPack productbuild"
+	},
+	"CPackRPM": {
+		"name": "CPackRPM",
+		"description": "Dokumentace ke generátoru CPack RPM se přesunula sem: Generátor CPack RPM"
+	},
+	"CPackWIX": {
+		"name": "CPackWIX",
+		"description": "Dokumentace ke generátoru CPack WIX se přesunula sem: Generátor CPack WIX"
+	},
+	"CSharpUtilities": {
+		"name": "CSharpUtilities",
+		"description": "Tento modul nástrojů má zjednodušit konfiguraci cílů CSharp/.NET a poskytuje kolekci příkazů pro správu cílů CSharp s generátory Visual Studia verze 2010 a novějšími."
+	},
+	"CTest": {
+		"name": "CTest",
+		"description": "Konfigurace projektu pro testování pomocí CTest/CDash"
+	},
+	"CTestCoverageCollectGCOV": {
+		"name": "CTestCoverageCollectGCOV",
+		"description": "Tento modul je určen pro použití ve skriptech ovládacího panelu CTest a poskytuje příkaz pro generování tarballu obsahujícího zprávy o pokrytí kódu."
+	},
+	"CTestScriptMode": {
+		"name": "CTestScriptMode",
+		"description": "Tento modul není určený k přímému zahrnutí nebo vyvolání kódem projektu. Interně ho používá CTest v režimu skriptu (-S) k určení aktuálního systému. Podrobnosti o použití najdete v nápovědě k přepínači -S příkazu ctest."
+	},
+	"CTestUseLaunchers": {
+		"name": "CTestUseLaunchers",
+		"description": "Tento modul nastavuje globální vlastnosti RULE_LAUNCH_*, pokud je proměnná CTEST_USE_LAUNCHERS nastavena na hodnotu podobnou true (např. ON):"
+	},
+	"Dart": {
+		"name": "Dart",
+		"description": "Konfigurace projektu pro testování pomocí CTestu nebo starého klienta Dart Tcl"
+	},
+	"DeployQt4": {
+		"name": "DeployQt4",
+		"description": "Tento modul poskytuje kolekci pomocných příkazů CMake užitečných pro sestavování a nasazování samostatných spustitelných souborů Qt4."
+	},
+	"Documentation": {
+		"name": "Documentation",
+		"description": "Tento modul poskytuje podporu pro architekturu dokumentace VTK. Je závislý na několika nástrojích (Doxygen, Perl atd.)."
+	},
+	"ExternalData": {
+		"name": "ExternalData",
+		"description": "Tento modul poskytuje příkazy pro správu datových souborů uložených mimo zdrojový strom."
+	},
+	"ExternalProject": {
+		"name": "ExternalProject",
+		"description": "Tento modul poskytuje příkazy pro stahování a sestavování externích projektů jako součást fáze sestavení v CMake."
+	},
+	"FeatureSummary": {
+		"name": "FeatureSummary",
+		"description": "Tento modul poskytuje příkazy pro generování souhrnu povolených a zakázaných funkcí."
+	},
+	"FetchContent": {
+		"name": "FetchContent",
+		"description": "Tento modul poskytuje příkazy pro naplnění obsahu při konfiguraci nebo jako součást volajícího skriptu."
+	},
+	"FindALSA": {
+		"name": "FindALSA",
+		"description": "Najde knihovnu ALSA (Advanced Linux Sound Architecture):"
+	},
+	"FindArmadillo": {
+		"name": "FindArmadillo",
+		"description": "Najde knihovnu Armadillo C++:"
+	},
+	"FindASPELL": {
+		"name": "FindASPELL",
+		"description": "Najde knihovnu pro kontrolu pravopisu GNU Aspell:"
+	},
+	"FindAVIFile": {
+		"name": "FindAVIFile",
+		"description": "Najde knihovnu AVIFile a cesty zahrnutí:"
+	},
+	"FindBacktrace": {
+		"name": "FindBacktrace",
+		"description": "Najde knihovnu backtrace(3), která poskytuje funkce pro vlastní ladění aplikací:"
+	},
+	"FindBISON": {
+		"name": "FindBISON",
+		"description": "Najde generátor analyzátoru příkazového řádku Bison a poskytne příkaz CMake pro generování vlastních pravidel sestavení pro použití Bisonu:"
+	},
+	"FindBLAS": {
+		"name": "FindBLAS",
+		"description": "Najde nainstalovanou knihovnu BLAS (Basic Linear Algebra Subprograms) ve Fortranu, která implementuje rozhraní lineární algebry BLAS:"
+	},
+	"FindBoost": {
+		"name": "FindBoost",
+		"description": "Najít adresáře souborů zahrnutí a knihovny Boost"
+	},
+	"FindBullet": {
+		"name": "FindBullet",
+		"description": "Najde fyzikální modul Bullet:"
+	},
+	"FindBZip2": {
+		"name": "FindBZip2",
+		"description": "Najde knihovnu pro kompresi dat BZip2 (libbz2):"
+	},
+	"FindCABLE": {
+		"name": "FindCABLE",
+		"description": "Najde instalaci CABLE a určí její cesty zahrnutí a knihovny:"
+	},
+	"FindCoin3D": {
+		"name": "FindCoin3D",
+		"description": "Najde Coin3D (Open Inventor):"
+	},
+	"FindCUDA": {
+		"name": "FindCUDA",
+		"description": "Tento modul už není nutné používat ani volat find_package(CUDA) pro kompilaci kódu CUDA. Místo toho uveďte CUDA mezi jazyky pojmenovanými ve volání příkazu projektu na nejvyšší úrovni nebo volejte příkaz enable_language s CUDA. Pak můžete přidat zdroje CUDA (.cu) přímo k cílům podobným jiným jazykům."
+	},
+	"FindCUDAToolkit": {
+		"name": "FindCUDAToolkit",
+		"description": "Najde sadu nástrojů NVIDIA CUDA a přidružené knihovny, ale nevyžaduje, aby byl pro daný projekt povolený jazyk CUDA:"
+	},
+	"FindCups": {
+		"name": "FindCups",
+		"description": "Najde společný tiskový systém UNIX (CUPS):"
+	},
+	"FindCURL": {
+		"name": "FindCURL",
+		"description": "Najde nativní instalaci jazyka curl (včetně adresářů a knihoven) pro přenos dat pomocí URL:"
+	},
+	"FindCurses": {
+		"name": "FindCurses",
+		"description": "Najde knihovnu curses nebo ncurses:"
+	},
+	"FindCVS": {
+		"name": "FindCVS",
+		"description": "Najde systém souběžných verzí (CVS):"
+	},
+	"FindCxxTest": {
+		"name": "FindCxxTest",
+		"description": "Najde CxxTest, sadu frameworků pro jednotkové testování v jazyce C++, a poskytne pomocný příkaz pro vytvoření testovacích běhů a jejich integraci s CTest:"
+	},
+	"FindCygwin": {
+		"name": "FindCygwin",
+		"description": "Najde Cygwin, prostředí kompatibilní s POSIXem, které běží nativně v Microsoft Windows:"
+	},
+	"FindDart": {
+		"name": "FindDart",
+		"description": "Najde DART:"
+	},
+	"FindDCMTK": {
+		"name": "FindDCMTK",
+		"description": "Najde knihovny a aplikace DICOM ToolKit (DCMTK):"
+	},
+	"FindDevIL": {
+		"name": "FindDevIL",
+		"description": "Najde knihovnu DevIL (Developer's Image Library):"
+	},
+	"FindDoxygen": {
+		"name": "FindDoxygen",
+		"description": "Najde Doxygen, generátor dokumentace zdrojového kódu, spolu s některými volitelnými podpůrnými nástroji a poskytne příkaz pro integraci dokumentace založené na Doxygenu do projektů CMake:"
+	},
+	"FindEnvModules": {
+		"name": "FindEnvModules",
+		"description": "Najde implementaci modulů prostředí a poskytne příkazy pro použití ve skriptech CMake:"
+	},
+	"FindEXPAT": {
+		"name": "FindEXPAT",
+		"description": "Najde nativní hlavičky a knihovnu Expat:"
+	},
+	"FindFLEX": {
+		"name": "FindFLEX",
+		"description": "Najde generátor příkazového řádku Fast Lexical Analyzer (Flex) a jeho knihovnu a poskytne příkazy CMake pro vytvoření vlastních pravidel sestavení pro použití Flex:"
+	},
+	"FindFLTK": {
+		"name": "FindFLTK",
+		"description": "Najde sadu nástrojů Fast Light Toolkit (FLTK), multiplatformní sadu nástrojů pro vývoj grafického uživatelského rozhraní:"
+	},
+	"FindFLTK2": {
+		"name": "FindFLTK2",
+		"description": "Najde sadu nástrojů Fast Light Toolkit (FLTK) verze 2.x, multiplatformní sadu nástrojů pro vývoj grafického uživatelského rozhraní:"
+	},
+	"FindFontconfig": {
+		"name": "FindFontconfig",
+		"description": "Najde Fontconfig, knihovnu pro konfiguraci a přizpůsobení písem:"
+	},
+	"FindFreetype": {
+		"name": "FindFreetype",
+		"description": "Najde knihovnu rendereru písma FreeType:"
+	},
+	"FindGCCXML": {
+		"name": "FindGCCXML",
+		"description": "Najde spustitelný soubor front-endu GCC-XML:"
+	},
+	"FindGDAL": {
+		"name": "FindGDAL",
+		"description": "Najde knihovnu Geospatial Data Abstraction Library (GDAL):"
+	},
+	"FindGettext": {
+		"name": "FindGettext",
+		"description": "Najde nástroje GNU gettext a poskytne příkazy pro vytváření vícejazyčných zpráv:"
+	},
+	"FindGIF": {
+		"name": "FindGIF",
+		"description": "Najde knihovnu GIF (Graphics Interchange Format) (giflib):"
+	},
+	"FindGit": {
+		"name": "FindGit",
+		"description": "Najde distribuovaný systém správy verzí Git:"
+	},
+	"FindGLEW": {
+		"name": "FindGLEW",
+		"description": "Najde knihovnu OpenGL Extension Wrangler Library (GLEW):"
+	},
+	"FindGLUT": {
+		"name": "FindGLUT",
+		"description": "Najde knihovnu OpenGL Utility Toolkit (GLUT), která poskytuje jednoduché rozhraní API pro vytváření oken, zpracování vstupů a správu událostí v aplikacích OpenGL:"
+	},
+	"FindGnuplot": {
+		"name": "FindGnuplot",
+		"description": "Najde grafický nástroj příkazového řádku Gnuplot pro generování dvourozměrných a trojrozměrných grafů (gnuplot):"
+	},
+	"FindGnuTLS": {
+		"name": "FindGnuTLS",
+		"description": "Najde knihovnu GNU Transport Layer Security (GnuTLS):"
+	},
+	"FindGSL": {
+		"name": "FindGSL",
+		"description": "Najde nativní soubory zahrnutí a knihovny GSL (GNU Scientific Library):"
+	},
+	"FindGTest": {
+		"name": "FindGTest",
+		"description": "Najde GoogleTest, testovací a napodobující architekturu Google C++:"
+	},
+	"FindGTK": {
+		"name": "FindGTK",
+		"description": "Najde GTK, glib a GTKGLArea:"
+	},
+	"FindGTK2": {
+		"name": "FindGTK2",
+		"description": "Najde knihovny widgetů GTK a několik dalších volitelných komponent:"
+	},
+	"FindHDF5": {
+		"name": "FindHDF5",
+		"description": "Najde HDF5 (Hierarchical Data Format), knihovnu pro čtení a zápis dat pole popisujících sebe sama:"
+	},
+	"FindHg": {
+		"name": "FindHg",
+		"description": "Najde spustitelný soubor klienta příkazového řádku Mercurial (hg) a poskytne příkaz pro extrakci informací z pracovní kopie Mercurial:"
+	},
+	"FindHSPELL": {
+		"name": "FindHSPELL",
+		"description": "Najde modul pro kontrolu hebrejského pravopisu a morfologie (Hspell):"
+	},
+	"FindHTMLHelp": {
+		"name": "FindHTMLHelp",
+		"description": "Najde kompilátor Microsoft HTML Nápovědy a jeho rozhraní API, které jsou součástí HTML Help Workshop:"
+	},
+	"FindIce": {
+		"name": "FindIce",
+		"description": "Najde programy, knihovny a datové soubory ZeroC Internet Communication Engine (Ice):"
+	},
+	"FindIconv": {
+		"name": "FindIconv",
+		"description": "Najde v systému funkce POSIX.1 iconv():"
+	},
+	"FindIcotool": {
+		"name": "FindIcotool",
+		"description": "Najde icotool, program příkazového řádku pro konverzi a vytváření souborů ikon a kurzorů Win32:"
+	},
+	"FindICU": {
+		"name": "FindICU",
+		"description": "Najde knihovny a programy ICU (International Components for Unicode):"
+	},
+	"FindImageMagick": {
+		"name": "FindImageMagick",
+		"description": "Najde ImageMagick, softwarovou sadu pro zobrazování, konverzi a manipulaci s rastrovými obrázky:"
+	},
+	"FindIntl": {
+		"name": "FindIntl",
+		"description": "Najde podporu internacionalizace, která zahrnuje funkce pro překlad zpráv, například gettext():"
+	},
+	"FindITK": {
+		"name": "FindITK",
+		"description": "Tento modul už neexistuje."
+	},
+	"FindJasper": {
+		"name": "FindJasper",
+		"description": "Najde sadu nástrojů JasPer Image Coding Toolkit pro zpracování obrazových dat v různých formátech, například JPEG-2000:"
+	},
+	"FindJava": {
+		"name": "FindJava",
+		"description": "Najde instalaci Javy a určí její běhové nástroje a vývojové komponenty:"
+	},
+	"FindJNI": {
+		"name": "FindJNI",
+		"description": "Najde adresáře zahrnutí a knihovny Java Native Interface (JNI):"
+	},
+	"FindJPEG": {
+		"name": "FindJPEG",
+		"description": "Najde knihovnu JPEG (Joint Photographic Experts Group) (libjpeg):"
+	},
+	"FindKDE3": {
+		"name": "FindKDE3",
+		"description": "Najde adresáře zahrnutí, knihovny KDE 3 a nástroje preprocesoru specifické pro KDE:"
+	},
+	"FindKDE4": {
+		"name": "FindKDE4",
+		"description": "Najde instalaci KDE 4:"
+	},
+	"FindLAPACK": {
+		"name": "FindLAPACK",
+		"description": "Najde nainstalovanou knihovnu Fortran Linear Algebra PACKage (LAPACK), která implementuje rozhraní LAPACK pro lineární algebru:"
+	},
+	"FindLATEX": {
+		"name": "FindLATEX",
+		"description": "Najde kompilátor LaTeXu a software související s Latexem, například BibTeX:"
+	},
+	"FindLibArchive": {
+		"name": "FindLibArchive",
+		"description": "Najde knihovnu libarchive a adresáře zahrnutí:"
+	},
+	"FindLibinput": {
+		"name": "FindLibinput",
+		"description": "Najde knihovnu libinput, která zpracovává vstupní zařízení v kompozitorech Wayland a poskytuje obecný vstupní ovladač X.Org:"
+	},
+	"FindLibLZMA": {
+		"name": "FindLibLZMA",
+		"description": "Najde knihovnu liblzma pro kompresi dat, která implementuje algoritmus LZMA (Lempel-Ziv-Markovův řetězec):"
+	},
+	"FindLibXml2": {
+		"name": "FindLibXml2",
+		"description": "Najde knihovnu pro zpracování XML (libxml2):"
+	},
+	"FindLibXslt": {
+		"name": "FindLibXslt",
+		"description": "Najde knihovny XSLT (Extensible Stylesheet Language Transformations) transformací XSL (libxslt):"
+	},
+	"FindLTTngUST": {
+		"name": "FindLTTngUST",
+		"description": "Najde knihovnu trasování uživatelského prostoru LTTng (Linux Trace Toolkit: další generace) (LTTng-UST):"
+	},
+	"FindLua": {
+		"name": "FindLua",
+		"description": "Najde knihovnu Lua:"
+	},
+	"FindLua50": {
+		"name": "FindLua50",
+		"description": "Najde knihovnu Lua:"
+	},
+	"FindLua51": {
+		"name": "FindLua51",
+		"description": "Najde knihovnu Lua:"
+	},
+	"FindMatlab": {
+		"name": "FindMatlab",
+		"description": "Najde MATLAB nebo MATLAB Compiler Runtime (MCR) a poskytne nástroji CMake jeho nástroje, knihovny a kompilátory:"
+	},
+	"FindMFC": {
+		"name": "FindMFC",
+		"description": "Najde nativní knihovnu Microsoft Foundation Class Library (MFC) pro vývoj aplikací MFC ve Windows:"
+	},
+	"FindMotif": {
+		"name": "FindMotif",
+		"description": "Najde sadu nástrojů grafického uživatelského rozhraní Motif (nebo LessTif):"
+	},
+	"FindMPEG": {
+		"name": "FindMPEG",
+		"description": "Najde nativní knihovnu MPEG (libmpeg2):"
+	},
+	"FindMPEG2": {
+		"name": "FindMPEG2",
+		"description": "Najde nativní knihovnu MPEG2 (libmpeg2):"
+	},
+	"FindMPI": {
+		"name": "FindMPI",
+		"description": "Najde implementaci MPI (Message Passing Interface):"
+	},
+	"FindMsys": {
+		"name": "FindMsys",
+		"description": "Najde MSYS, prostředí kompatibilní s POSIXem, které běží nativně v Microsoft Windows:"
+	},
+	"FindODBC": {
+		"name": "FindODBC",
+		"description": "Najde knihovnu ODBC (Open Database Connectivity), která implementuje standardní rozhraní API pro přístup k databázovým systémům:"
+	},
+	"FindOpenACC": {
+		"name": "FindOpenACC",
+		"description": "Najde a zjistí podporu OpenACC v kompilátoru:"
+	},
+	"FindOpenAL": {
+		"name": "FindOpenAL",
+		"description": "Najde knihovnu Open Audio Library (OpenAL):"
+	},
+	"FindOpenCL": {
+		"name": "FindOpenCL",
+		"description": "Najde OpenCL (Open Computing Language):"
+	},
+	"FindOpenGL": {
+		"name": "FindOpenGL",
+		"description": "Najde knihovny OpenGL a OpenGL Utility Library (GLU) pro použití OpenGL v projektu CMake:"
+	},
+	"FindOpenMP": {
+		"name": "FindOpenMP",
+		"description": "Najde podporu Open Multi-Processing (OpenMP) v kompilátoru:"
+	},
+	"FindOpenSceneGraph": {
+		"name": "FindOpenSceneGraph",
+		"description": "Najde OpenSceneGraph (OSG), aplikační programové rozhraní pro 3D grafiku:"
+	},
+	"FindOpenSP": {
+		"name": "FindOpenSP",
+		"description": "Najde knihovnu OpenSP:"
+	},
+	"FindOpenSSL": {
+		"name": "FindOpenSSL",
+		"description": "Najde nainstalovanou knihovnu šifrování OpenSSL a určí její verzi:"
+	},
+	"FindOpenThreads": {
+		"name": "FindOpenThreads",
+		"description": "Najde knihovnu pro práci s vlákny založenou na OpenThreads C++:"
+	},
+	"Findosg": {
+		"name": "Findosg",
+		"description": "Najde základní knihovnu OpenSceneGraph osg (libosg)."
+	},
+	"FindosgAnimation": {
+		"name": "FindosgAnimation",
+		"description": "Najde knihovnu osgAnimation ze sady nástrojů OpenSceneGraph."
+	},
+	"FindosgDB": {
+		"name": "FindosgDB",
+		"description": "Najde knihovnu osgDB ze sady nástrojů OpenSceneGraph."
+	},
+	"FindosgFX": {
+		"name": "FindosgFX",
+		"description": "Najde sadu osgFX NodeKit ze sady nástrojů OpenSceneGraph."
+	},
+	"FindosgGA": {
+		"name": "FindosgGA",
+		"description": "Najde knihovnu osgGA ze sady nástrojů OpenSceneGraph."
+	},
+	"FindosgIntrospection": {
+		"name": "FindosgIntrospection",
+		"description": "Najde knihovnu osgIntrospection ze sady nástrojů OpenSceneGraph."
+	},
+	"FindosgManipulator": {
+		"name": "FindosgManipulator",
+		"description": "Najde sadu uzlů osgManipulator NodeKit ze sady nástrojů OpenSceneGraph."
+	},
+	"FindosgParticle": {
+		"name": "FindosgParticle",
+		"description": "VNajde sadu uzlů osgParticle NodeKit ze sady nástrojů OpenSceneGraph."
+	},
+	"FindosgPresentation": {
+		"name": "FindosgPresentation",
+		"description": "Najde sadu uzlů osgPresentation NodeKit ze sady nástrojů OpenSceneGraph, která je k dispozici od verze OpenSceneGraph 3.0.0."
+	},
+	"FindosgProducer": {
+		"name": "FindosgProducer",
+		"description": "Najde knihovnu nástrojů osgProducer ze sady nástrojů OpenSceneGraph."
+	},
+	"FindosgQt": {
+		"name": "FindosgQt",
+		"description": "Najde knihovnu nástrojů osgQt ze sady nástrojů OpenSceneGraph."
+	},
+	"FindosgShadow": {
+		"name": "FindosgShadow",
+		"description": "Najde sadu osgShadow NodeKit ze sady nástrojů OpenSceneGraph."
+	},
+	"FindosgSim": {
+		"name": "FindosgSim",
+		"description": "Najde sadu osgSim NodeKit ze sady nástrojů OpenSceneGraph."
+	},
+	"FindosgTerrain": {
+		"name": "FindosgTerrain",
+		"description": "Najde sadu uzlů osgTerrain NodeKit ze sady nástrojů OpenSceneGraph."
+	},
+	"FindosgText": {
+		"name": "FindosgText",
+		"description": "Najde sadu osgText NodeKit ze sady nástrojů OpenSceneGraph."
+	},
+	"FindosgUtil": {
+		"name": "FindosgUtil",
+		"description": "Najde knihovnu osgUtil ze sady nástrojů OpenSceneGraph."
+	},
+	"FindosgViewer": {
+		"name": "FindosgViewer",
+		"description": "Najde knihovnu osgViewer ze sady nástrojů OpenSceneGraph."
+	},
+	"FindosgVolume": {
+		"name": "FindosgVolume",
+		"description": "Najde sadu uzlů osgVolume NodeKit ze sady nástrojů OpenSceneGraph."
+	},
+	"FindosgWidget": {
+		"name": "FindosgWidget",
+		"description": "Najde sadu osgWidget NodeKit ze sady nástrojů OpenSceneGraph."
+	},
+	"Findosg_functions": {
+		"name": "Findosg_functions",
+		"description": "Tento modul není při běžném použití příkazu find_package určen k přímému zahrnutí ani vyvolání v kódu projektu. Je interně používán moduly hledání OpenSceneGraph (OSG) k pomoci při vyhledávání knihoven OSG a NodeKits. Podrobnosti o použití najdete v modulu FindOpenSceneGraph."
+	},
+	"FindPackageHandleStandardArgs": {
+		"name": "FindPackageHandleStandardArgs",
+		"description": "Tento modul poskytuje příkazy určené pro použití v modulech Find implementujících volání find_package(<PackageName>)."
+	},
+	"FindPackageMessage": {
+		"name": "FindPackageMessage",
+		"description": "Tento modul poskytuje příkaz pro tisk zpráv o výsledcích hledání a je určen pro použití v modulech hledání implementujících volání find_package(<PackageName>)."
+	},
+	"FindPatch": {
+		"name": "FindPatch",
+		"description": "Najde spustitelný soubor příkazového řádku opravy pro použití rozdílových oprav u původních souborů:"
+	},
+	"FindPerl": {
+		"name": "FindPerl",
+		"description": "Najde interpret jazyka Perl:"
+	},
+	"FindPerlLibs": {
+		"name": "FindPerlLibs",
+		"description": "Najde knihovny Perl:"
+	},
+	"FindPHP4": {
+		"name": "FindPHP4",
+		"description": "Najde PHP verze 4, univerzální skriptovací jazyk:"
+	},
+	"FindPhysFS": {
+		"name": "FindPhysFS",
+		"description": "Najde knihovnu PhysicsFS (PhysFS) pro vstupně-výstupní abstrakci souborů:"
+	},
+	"FindPike": {
+		"name": "FindPike",
+		"description": "Najde kompilátor a interpret jazyka Pike:"
+	},
+	"FindPkgConfig": {
+		"name": "FindPkgConfig",
+		"description": "Modul pkg-config pro nástroj CMake"
+	},
+	"FindPNG": {
+		"name": "FindPNG",
+		"description": "Najde libpng, oficiální referenční knihovnu pro formát obrázků PNG:"
+	},
+	"FindPostgreSQL": {
+		"name": "FindPostgreSQL",
+		"description": "Najde instalaci PostgreSQL – klientskou knihovnu (libpq) a volitelně i server:"
+	},
+	"FindProducer": {
+		"name": "FindProducer",
+		"description": "Najde knihovnu Producer, knihovnu pro práci s okny a událostmi určenou především pro grafické aplikace v reálném čase:"
+	},
+	"FindProtobuf": {
+		"name": "FindProtobuf",
+		"description": "Tento modul vyhledá knihovnu vyrovnávacích pamětí protokolu (Protobuf) v režimu modulu:"
+	},
+	"FindPython": {
+		"name": "FindPython",
+		"description": "Najde interpret, kompilátor a vývojové prostředí Pythonu (adresáře souborů zahrnutí a knihovny):"
+	},
+	"FindPython2": {
+		"name": "FindPython2",
+		"description": "Najde interpret, kompilátor a vývojové prostředí Pythonu 2 (adresáře souborů zahrnutí a knihovny):"
+	},
+	"FindPython3": {
+		"name": "FindPython3",
+		"description": "Najde interpret, kompilátor a vývojové prostředí Pythonu 3 (adresáře souborů zahrnutí a knihovny):"
+	},
+	"FindPythonInterp": {
+		"name": "FindPythonInterp",
+		"description": "Najde interpret jazyka Python a určí umístění jeho spustitelného souboru:"
+	},
+	"FindPythonLibs": {
+		"name": "FindPythonLibs",
+		"description": "Najde instalaci Pythonu a určí umístění jeho adresářů zahrnutí a knihoven a také název knihovny Pythonu, se kterou se má propojit:"
+	},
+	"FindQt": {
+		"name": "FindQt",
+		"description": "Najde nainstalovanou verzi Qt3 nebo Qt4:"
+	},
+	"FindQt3": {
+		"name": "FindQt3",
+		"description": "Najde Qt3, multiplatformní vývojový rámec pro tvorbu grafických uživatelských rozhraní a aplikací:"
+	},
+	"FindQt4": {
+		"name": "FindQt4",
+		"description": "Najde Qt4, multiplatformní vývojový rámec pro tvorbu grafických uživatelských rozhraní a aplikací:"
+	},
+	"FindQuickTime": {
+		"name": "FindQuickTime",
+		"description": "Najde multimediální rámec QuickTime, který poskytuje podporu pro video, zvuk a interaktivní média:"
+	},
+	"FindRTI": {
+		"name": "FindRTI",
+		"description": "Najde standardní knihovny HLA RTI a jejich adresáře zahrnutí:"
+	},
+	"FindRuby": {
+		"name": "FindRuby",
+		"description": "Najde instalaci Ruby a umístění jejích souborů pro zahrnutí a knihoven:"
+	},
+	"FindSDL": {
+		"name": "FindSDL",
+		"description": "Najde knihovnu SDL (Simple DirectMedia Layer):"
+	},
+	"FindSDL_gfx": {
+		"name": "FindSDL_gfx",
+		"description": "Najde knihovnu SDL_gfx, která poskytuje podporu grafiky v aplikacích SDL (Simple DirectMedia Layer):"
+	},
+	"FindSDL_image": {
+		"name": "FindSDL_image",
+		"description": "Najde knihovnu SDL_image, která načítá obrázky různých formátů jako povrchy SDL (Simple DirectMedia Layer):"
+	},
+	"FindSDL_mixer": {
+		"name": "FindSDL_mixer",
+		"description": "Najde knihovnu SDL_mixer, která poskytuje zvukový mixér s podporou různých formátů souborů v aplikacích SDL (Simple DirectMedia Layer):"
+	},
+	"FindSDL_net": {
+		"name": "FindSDL_net",
+		"description": "Najde knihovnu SDL_net, multiplatformní síťovou knihovnu pro použití s aplikacemi SDL (Simple DirectMedia Layer):"
+	},
+	"FindSDL_sound": {
+		"name": "FindSDL_sound",
+		"description": "Najde knihovnu SDL_sound, abstraktní dekodér zvukových souborů pro použití v aplikacích SDL (Simple DirectMedia Layer):"
+	},
+	"FindSDL_ttf": {
+		"name": "FindSDL_ttf",
+		"description": "Najde knihovnu SDL_ttf, která poskytuje podporu pro vykreslování textu pomocí písem TrueType v aplikacích SDL (Simple DirectMedia Layer):"
+	},
+	"FindSelfPackers": {
+		"name": "FindSelfPackers",
+		"description": "Najde UPX, Ultimate Packer pro eXecutables:"
+	},
+	"FindSQLite3": {
+		"name": "FindSQLite3",
+		"description": "Najde knihovnu SQLite 3:"
+	},
+	"FindSquish": {
+		"name": "FindSquish",
+		"description": "Najde Squish, multiplatformní automatizovanou architekturu pro testování grafického uživatelského rozhraní pro aplikace postavené na různých technologiích grafického uživatelského rozhraní:"
+	},
+	"FindSubversion": {
+		"name": "FindSubversion",
+		"description": "Najde spustitelný soubor klienta příkazového řádku Subversion (svn) a poskytne příkazy pro extrakci informací z pracovní kopie Subversion:"
+	},
+	"FindSWIG": {
+		"name": "FindSWIG",
+		"description": "Najde nainstalovaný spustitelný soubor Simplified Wrapper and Interface Generator (SWIG) a určí jeho verzi:"
+	},
+	"FindTCL": {
+		"name": "FindTCL",
+		"description": "Najde Tcl (Tool Command Language), dynamický programovací jazyk:"
+	},
+	"FindTclsh": {
+		"name": "FindTclsh",
+		"description": "Najde spustitelný soubor příkazového řádku prostředí Tcl (tclsh), který obsahuje interpret jazyka Tcl (Tool Command Language):"
+	},
+	"FindTclStub": {
+		"name": "FindTclStub",
+		"description": "Najde knihovnu Tcl Stub Library, která slouží k vytváření rozšíření Tcl nezávislých na verzi:"
+	},
+	"FindThreads": {
+		"name": "FindThreads",
+		"description": "Najde a určí knihovnu vláken systému pro podporu vícevláknového zpracování:"
+	},
+	"FindTIFF": {
+		"name": "FindTIFF",
+		"description": "Najde knihovnu TIFF (libtiff):"
+	},
+	"FindUnixCommands": {
+		"name": "FindUnixCommands",
+		"description": "Najde unixové příkazy bash, cp, gzip, mv, rm a tar, včetně těch z Cygwinu nebo MSYS:"
+	},
+	"FindVTK": {
+		"name": "FindVTK",
+		"description": "Tento modul už neexistuje."
+	},
+	"FindVulkan": {
+		"name": "FindVulkan",
+		"description": "Najde Vulkan, multiplatformní 3D grafické a výpočetní rozhraní API s nízkými režijními náklady, spolu se souvisejícími vývojovými nástroji, které obvykle poskytuje Vulkan SDK:"
+	},
+	"FindWget": {
+		"name": "FindWget",
+		"description": "Tento modul nalezne nástroj příkazového řádku wget pro načítání obsahu z webových serverů:"
+	},
+	"FindWish": {
+		"name": "FindWish",
+		"description": "Najde wish, jednoduchý spustitelný soubor příkazového řádku pro správu oken:"
+	},
+	"FindwxWidgets": {
+		"name": "FindwxWidgets",
+		"description": "Najde instalaci wxWidgets a poskytne požadavky na použití v projektech:"
+	},
+	"FindwxWindows": {
+		"name": "FindwxWindows",
+		"description": "Najde instalaci wxWidgets (dříve známou jako wxWindows) a určí umístění adresářů zahrnutí a knihoven a název knihovny:"
+	},
+	"FindX11": {
+		"name": "FindX11",
+		"description": "Najde instalaci X11 v systémech podobných Unixu:"
+	},
+	"FindXalanC": {
+		"name": "FindXalanC",
+		"description": "Najde hlavičky a knihovny procesoru transformace XSL Apache Xalan-C++:"
+	},
+	"FindXCTest": {
+		"name": "FindXCTest",
+		"description": "Najde architekturu XCTest pro psaní testů jednotek v projektech Xcode:"
+	},
+	"FindXercesC": {
+		"name": "FindXercesC",
+		"description": "Najde hlavičky a knihovny validačního parseru XML Apache Xerces-C++:"
+	},
+	"FindXMLRPC": {
+		"name": "FindXMLRPC",
+		"description": "Najde nativní knihovnu XML-RPC pro jazyky C a C++:"
+	},
+	"FindZLIB": {
+		"name": "FindZLIB",
+		"description": "Najde nativní knihovnu pro kompresi dat zlib:"
+	},
+	"FortranCInterface": {
+		"name": "FortranCInterface",
+		"description": "Tento modul poskytuje proměnné a příkazy pro detekci rozhraní Fortran/C."
+	},
+	"GenerateExportHeader": {
+		"name": "GenerateExportHeader",
+		"description": "Tento modul poskytuje příkazy pro generování hlavičkového souboru obsahujícího definice maker preprocesoru pro řízení viditelnosti symbolů jazyka C/C++."
+	},
+	"GetPrerequisites": {
+		"name": "GetPrerequisites",
+		"description": "Tento modul poskytuje příkazy pro analýzu a seznam závislostí (předpokladů) spustitelných souborů nebo sdílených knihoven. Tyto příkazy zobrazují seznam sdílených knihoven (soubory .dll, .dylib nebo .so) vyžadovaných spustitelným programem nebo sdílenou knihovnou."
+	},
+	"GNUInstallDirs": {
+		"name": "GNUInstallDirs",
+		"description": "Tento modul definuje proměnné instalačního adresáře podle standardů kódování GNU a poskytuje příkaz pro výpočet absolutních cest souvisejících s instalací."
+	},
+	"GoogleTest": {
+		"name": "GoogleTest",
+		"description": "Tento modul poskytuje příkazy, které vám pomůžou používat infrastrukturu Google Test."
+	},
+	"InstallRequiredSystemLibraries": {
+		"name": "InstallRequiredSystemLibraries",
+		"description": "Tento modul umožňuje vyhledat systémové knihovny modulu runtime poskytované kompilátorem a přidat pro ně pravidla instalace."
+	},
+	"MacroAddFileDependencies": {
+		"name": "MacroAddFileDependencies",
+		"description": "Tento modul načtěte do projektu CMake pomocí:"
+	},
+	"ProcessorCount": {
+		"name": "ProcessorCount",
+		"description": "Tento modul poskytuje příkaz pro určení počtu procesorů nebo jader."
+	},
+	"SelectLibraryConfigurations": {
+		"name": "SelectLibraryConfigurations",
+		"description": "Tento modul poskytuje příkaz pro automatické nastavení knihovních proměnných, pokud je k dispozici balíček s více konfiguracemi sestavení. Je určený pro použití v modulech Find implementujících volání find_package(<PackageName>)."
+	},
+	"SquishTestScript": {
+		"name": "SquishTestScript",
+		"description": "Tento modul není určen k přímému zahrnutí do projektu CMake. Jedná se o interní testovací skript CMake, který se používá ke spouštění testů GUI pomocí Squish. Podrobnosti o použití najdete v dokumentaci k příkazu squish_add_test v modulu FindSquish."
+	},
+	"TestBigEndian": {
+		"name": "TestBigEndian",
+		"description": "Tento modul poskytuje příkaz ke kontrole endianity (pořadí bajtů) cílové architektury."
+	},
+	"TestCXXAcceptsFlag": {
+		"name": "TestCXXAcceptsFlag",
+		"description": "Tento modul poskytuje příkaz pro testování, zda kompilátor C++ (CXX) podporuje konkrétní příznaky."
+	},
+	"TestForANSIForScope": {
+		"name": "TestForANSIForScope",
+		"description": "Tento modul kontroluje, zda kompilátor CXX omezuje rozsah proměnných deklarovaných v příkazu for-init na tělo smyčky."
+	},
+	"TestForANSIStreamHeaders": {
+		"name": "TestForANSIStreamHeaders",
+		"description": "Tento modul kontroluje, zda kompilátor CXX podporuje hlavičky standardních knihoven bez přípony .h (např. <iostream>)."
+	},
+	"TestForSSTREAM": {
+		"name": "TestForSSTREAM",
+		"description": "Tento modul zkontroluje, jestli standardní hlavička C++ <sstream> existuje a funguje správně."
+	},
+	"TestForSTDNamespace": {
+		"name": "TestForSTDNamespace",
+		"description": "Tento modul zkontroluje, zda kompilátor CXX podporuje obor názvů std pro standardní knihovnu C++."
+	},
+	"UseEcos": {
+		"name": "UseEcos",
+		"description": "Tento modul definuje proměnné a poskytuje příkazy potřebné k vytvoření aplikace eCos."
+	},
+	"UseJava": {
+		"name": "UseJava",
+		"description": "Tento soubor poskytuje podporu pro Javu. Předpokládá se, že již byl načten modul FindJava. Informace o tom, jak načíst Javu do projektu CMake, najdete v podrobnostech o modulu FindJava."
+	},
+	"UseJavaClassFilelist": {
+		"name": "UseJavaClassFilelist",
+		"description": "Tento modul byl dříve zdokumentován omylem a nikdy nebyl určen k přímému začlenění do kódu projektu. Projděte si modul UseJava."
+	},
+	"UseJavaSymlinks": {
+		"name": "UseJavaSymlinks",
+		"description": "Tento modul byl dříve zdokumentován omylem a nikdy nebyl určen k přímému začlenění do kódu projektu. Projděte si modul UseJava."
+	},
+	"UsePkgConfig": {
+		"name": "UsePkgConfig",
+		"description": "Tento modul načtěte do projektu CMake pomocí:"
+	},
+	"UseSWIG": {
+		"name": "UseSWIG",
+		"description": "Tento modul poskytuje podporu pro SWIG. Předpokládá se, že již byl načten modul FindSWIG."
+	},
+	"UsewxWidgets": {
+		"name": "UsewxWidgets",
+		"description": "Tento modul slouží jako pohodlný obal pro použití knihovny wxWidgets (dříve známé jako wxWindows) a přenáší její požadavky na použití, jako jsou adresáře knihoven, adresáře zahrnutí a příznaky kompilátoru, do aktuálního adresářového prostoru pro použití v cílech."
+	},
+	"Use_wxWindows": {
+		"name": "Use_wxWindows",
+		"description": "Tento modul slouží jako pohodlný obal pro vyhledání knihovny wxWidgets (dříve známé jako wxWindows) a přenáší její požadavky na použití, jako jsou knihovny, adresáře zahrnutí a příznaky kompilátoru, do aktuálního adresářového prostoru pro použití v cílech."
+	},
+	"WriteBasicConfigVersionFile": {
+		"name": "WriteBasicConfigVersionFile",
+		"description": "Zastaralé od verze 3.0: Použijte identický příkaz write_basic_package_version_file() z modulu CMakePackageConfigHelpers."
+	},
+	"WriteCompilerDetectionHeader": {
+		"name": "WriteCompilerDetectionHeader",
+		"description": "Tento modul poskytuje příkaz pro generování hlavičkového souboru s makry preprocesoru."
+	}
+}

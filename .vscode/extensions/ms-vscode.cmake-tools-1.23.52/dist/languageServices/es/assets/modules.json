@@ -1,0 +1,1078 @@
+{
+	"AddFileDependencies": {
+		"name": "AddFileDependencies",
+		"description": "Cargue este módulo en un proyecto de CMake con:"
+	},
+	"AndroidTestUtilities": {
+		"name": "AndroidTestUtilities",
+		"description": "Este módulo proporciona un comando para crear una prueba que envía los datos necesarios para probar el comportamiento de un dispositivo Android a un dispositivo Android conectado."
+	},
+	"BundleUtilities": {
+		"name": "BundleUtilities",
+		"description": "Este módulo ofrece comandos de utilidad para ensamblar aplicaciones independientes tipo lote con CMake, como los lotes de .app de macOS o aplicaciones similares basadas en directorios en otros sistemas operativos."
+	},
+	"CheckCCompilerFlag": {
+		"name": "CheckCCompilerFlag",
+		"description": "Este módulo proporciona un comando para comprobar si el compilador de C admite una marca determinada."
+	},
+	"CheckCompilerFlag": {
+		"name": "CheckCompilerFlag",
+		"description": "Este módulo proporciona un comando para comprobar si el compilador admite una marca determinada."
+	},
+	"CheckCSourceCompiles": {
+		"name": "CheckCSourceCompiles",
+		"description": "Este módulo proporciona un comando para comprobar si se puede compilar un origen C."
+	},
+	"CheckCSourceRuns": {
+		"name": "CheckCSourceRuns",
+		"description": "Este módulo proporciona un comando para comprobar si se puede compilar y ejecutar un origen C."
+	},
+	"CheckCXXCompilerFlag": {
+		"name": "CheckCXXCompilerFlag",
+		"description": "Este módulo proporciona un comando para comprobar si el compilador de C++ admite una marca determinada."
+	},
+	"CheckCXXSourceCompiles": {
+		"name": "CheckCXXSourceCompiles",
+		"description": "Este módulo proporciona un comando para comprobar si se puede compilar un origen C++."
+	},
+	"CheckCXXSourceRuns": {
+		"name": "CheckCXXSourceRuns",
+		"description": "Este módulo proporciona un comando para comprobar si se puede compilar y ejecutar un origen C++."
+	},
+	"CheckCXXSymbolExists": {
+		"name": "CheckCXXSymbolExists",
+		"description": "Este módulo proporciona un comando para comprobar si existe un símbolo C++."
+	},
+	"CheckFortranCompilerFlag": {
+		"name": "CheckFortranCompilerFlag",
+		"description": "Este módulo proporciona un comando para comprobar si el compilador de Fortran admite una marca determinada."
+	},
+	"CheckFortranFunctionExists": {
+		"name": "CheckFortranFunctionExists",
+		"description": "Este módulo proporciona un comando para comprobar si existe una función de Fortran."
+	},
+	"CheckFortranSourceCompiles": {
+		"name": "CheckFortranSourceCompiles",
+		"description": "Este módulo proporciona un comando para comprobar si se puede compilar un origen de Fortran."
+	},
+	"CheckFortranSourceRuns": {
+		"name": "CheckFortranSourceRuns",
+		"description": "Este módulo proporciona un comando para comprobar si se puede compilar y ejecutar un origen de Fortran."
+	},
+	"CheckFunctionExists": {
+		"name": "CheckFunctionExists",
+		"description": "Este módulo proporciona un comando para comprobar si existe una función C."
+	},
+	"CheckIncludeFile": {
+		"name": "CheckIncludeFile",
+		"description": "Este módulo proporciona un comando para comprobar un archivo de encabezado de C."
+	},
+	"CheckIncludeFileCXX": {
+		"name": "CheckIncludeFileCXX",
+		"description": "Este módulo proporciona un comando para comprobar un archivo de encabezado de C++."
+	},
+	"CheckIncludeFiles": {
+		"name": "CheckIncludeFiles",
+		"description": "Este módulo proporciona un comando para comprobar uno o más archivos de encabezado de C/C++."
+	},
+	"CheckIPOSupported": {
+		"name": "CheckIPOSupported",
+		"description": "Este módulo proporciona un comando para comprobar si el compilador admite la optimización entre procedimientos (IPO/LTO)."
+	},
+	"CheckLanguage": {
+		"name": "CheckLanguage",
+		"description": "Este módulo proporciona un comando para comprobar si se puede habilitar un lenguaje usando los comandos enable_language o de proyecto."
+	},
+	"CheckLibraryExists": {
+		"name": "CheckLibraryExists",
+		"description": "Este módulo proporciona un comando para comprobar si existe una biblioteca de C."
+	},
+	"CheckLinkerFlag": {
+		"name": "CheckLinkerFlag",
+		"description": "Este módulo proporciona un comando para comprobar si el compilador admite una determinada marca de vínculo."
+	},
+	"CheckOBJCCompilerFlag": {
+		"name": "CheckOBJCCompilerFlag",
+		"description": "Este módulo proporciona un comando para comprobar si el compilador de Objective-C admite una marca determinada."
+	},
+	"CheckOBJCSourceCompiles": {
+		"name": "CheckOBJCSourceCompiles",
+		"description": "Este módulo proporciona un comando para comprobar si se puede compilar un origen Objective-C."
+	},
+	"CheckOBJCSourceRuns": {
+		"name": "CheckOBJCSourceRuns",
+		"description": "Este módulo proporciona un comando para comprobar si se puede compilar y ejecutar un origen Objective-C."
+	},
+	"CheckOBJCXXCompilerFlag": {
+		"name": "CheckOBJCXXCompilerFlag",
+		"description": "Este módulo proporciona un comando para comprobar si el compilador de Objective-C++ admite una marca determinada."
+	},
+	"CheckOBJCXXSourceCompiles": {
+		"name": "CheckOBJCXXSourceCompiles",
+		"description": "Este módulo proporciona un comando para comprobar si se puede compilar un origen Objective-C++."
+	},
+	"CheckOBJCXXSourceRuns": {
+		"name": "CheckOBJCXXSourceRuns",
+		"description": "Este módulo proporciona un comando para comprobar si se puede compilar y ejecutar un origen Objective-C++."
+	},
+	"CheckPIESupported": {
+		"name": "CheckPIESupported",
+		"description": "En este módulo se proporciona un comando para comprobar si el enlazador admite código independiente de la posición (PIE) o sin código independiente de la posición (NO_PIE) para los ejecutables."
+	},
+	"CheckPrototypeDefinition": {
+		"name": "CheckPrototypeDefinition",
+		"description": "Este módulo proporciona un comando para comprobar si una función de C tiene el prototipo esperado."
+	},
+	"CheckSourceCompiles": {
+		"name": "CheckSourceCompiles",
+		"description": "Este módulo proporciona un comando que comprueba si se puede compilar un código fuente para un lenguaje determinado."
+	},
+	"CheckSourceRuns": {
+		"name": "CheckSourceRuns",
+		"description": "Este módulo proporciona un comando para comprobar si se puede compilar y ejecutar un código fuente."
+	},
+	"CheckStructHasMember": {
+		"name": "CheckStructHasMember",
+		"description": "Este módulo proporciona un comando para comprobar si una estructura o clase tiene una variable miembro especificada."
+	},
+	"CheckSymbolExists": {
+		"name": "CheckSymbolExists",
+		"description": "Este módulo proporciona un comando para comprobar si existe un símbolo C."
+	},
+	"CheckTypeSize": {
+		"name": "CheckTypeSize",
+		"description": "Este módulo proporciona un comando para comprobar el tamaño de un tipo o expresión en C/C++."
+	},
+	"CheckVariableExists": {
+		"name": "CheckVariableExists",
+		"description": "Este módulo proporciona un comando para comprobar si existe una variable C."
+	},
+	"CMakeAddFortranSubdirectory": {
+		"name": "CMakeAddFortranSubdirectory",
+		"description": "Este módulo proporciona un comando para agregar un proyecto de Fortran ubicado en un subdirectorio."
+	},
+	"CMakeBackwardCompatibilityCXX": {
+		"name": "CMakeBackwardCompatibilityCXX",
+		"description": "Este módulo define varias variables de caché para compatibilidad con versiones anteriores del lenguaje CXX, para admitir C++ pionero (anterior a C++98, ANSI C++)."
+	},
+	"CMakeDependentOption": {
+		"name": "CMakeDependentOption",
+		"description": "Este módulo proporciona un comando para definir opciones booleanas cuya disponibilidad y valores predeterminados dependen de condiciones especificadas u otras opciones. Esto ayuda a mantener una interfaz de configuración limpia mostrando solo las opciones relevantes para la configuración actual."
+	},
+	"CMakeDetermineVSServicePack": {
+		"name": "CMakeDetermineVSServicePack",
+		"description": "Este módulo proporciona un comando para determinar la versión del Service Pack de Visual Studio instalada para Visual Studio 2012 y anteriores."
+	},
+	"CMakeExpandImportedTargets": {
+		"name": "CMakeExpandImportedTargets",
+		"description": "Cargue este módulo en un proyecto de CMake con:"
+	},
+	"CMakeFindDependencyMacro": {
+		"name": "CMakeFindDependencyMacro",
+		"description": "Este módulo proporciona un comando implementado como una macro que busca la dependencia de un paquete."
+	},
+	"CMakeFindFrameworks": {
+		"name": "CMakeFindFrameworks",
+		"description": "módulo auxiliar para buscar marcos de OSX"
+	},
+	"CMakeFindPackageMode": {
+		"name": "CMakeFindPackageMode",
+		"description": "CMake ejecuta este módulo cuando se invoca con la opción --find-package <Find-Package Tool Mode> para localizar el paquete solicitado."
+	},
+	"CMakeForceCompiler": {
+		"name": "CMakeForceCompiler",
+		"description": "Cargue este módulo en un archivo de cadena de herramientas de CMake:"
+	},
+	"CMakeGraphVizOptions": {
+		"name": "CMakeGraphVizOptions",
+		"description": "Este módulo no está pensado para incluirse directamente en proyectos de CMake. Una vez contenía la información para usar Graphviz en CMake. Para el uso de Graphviz en CMake, consulte cmake --graphviz."
+	},
+	"CMakePackageConfigHelpers": {
+		"name": "CMakePackageConfigHelpers",
+		"description": "Este módulo proporciona comandos auxiliares para crear archivos de configuración <Bibliotecas que proporcionan paquetes de archivos de configuración> que otros proyectos pueden incluir para buscar y usar un paquete."
+	},
+	"CMakeParseArguments": {
+		"name": "CMakeParseArguments",
+		"description": "Este módulo, una vez implementado el comando cmake_parse_arguments, ahora lo implementa de forma nativa CMake. Ahora es un marcador de posición vacío para la compatibilidad con proyectos que lo incluyen para obtener el comando de CMake 3.4 y versiones anteriores."
+	},
+	"CMakePrintHelpers": {
+		"name": "CMakePrintHelpers",
+		"description": "Este módulo ofrece comandos útiles, principalmente para depuración, que imprimen los valores de propiedades y variables."
+	},
+	"CMakePrintSystemInformation": {
+		"name": "CMakePrintSystemInformation",
+		"description": "Este módulo se puede usar para diagnósticos y para imprimir información del sistema."
+	},
+	"CMakePushCheckState": {
+		"name": "CMakePushCheckState",
+		"description": "Este módulo ofrece comandos para administrar el estado de variables que afectan a cómo se ejecutan varios comandos de comprobación de CMake (por ejemplo, check_symbol_exists, etc.)."
+	},
+	"CMakeVerifyManifest": {
+		"name": "CMakeVerifyManifest",
+		"description": "Este módulo está pensado para usarse en modo de línea de comandos con cmake -P  para comprobar que los manifiestos integrados y los manifiestos paralelos de un proyecto coinciden."
+	},
+	"CPack": {
+		"name": "CPack",
+		"description": "En este módulo se configuran generadores para instaladores binarios y paquetes de origen."
+	},
+	"CPackArchive": {
+		"name": "CPackArchive",
+		"description": "La documentación del generador de archivos de CPack se ha movido aquí: Generador de archivos de CPack"
+	},
+	"CPackBundle": {
+		"name": "CPackBundle",
+		"description": "La documentación del generador de paquetes CPack se ha movido aquí: generador de paquetes CPack"
+	},
+	"CPackComponent": {
+		"name": "CPackComponent",
+		"description": "En este módulo se proporcionan comandos para configurar componentes para instaladores binarios y paquetes de origen."
+	},
+	"CPackCygwin": {
+		"name": "CPackCygwin",
+		"description": "La documentación del generador Cygwin de CPack se ha movido aquí: Generador Cygwin de CPack"
+	},
+	"CPackDeb": {
+		"name": "CPackDeb",
+		"description": "La documentación del generador DEB de CPack se ha movido aquí: Generador DEB de CPack"
+	},
+	"CPackDMG": {
+		"name": "CPackDMG",
+		"description": "La documentación del generador DragNDrop de CPack se ha movido aquí: Generador DragNDrop de CPack"
+	},
+	"CPackFreeBSD": {
+		"name": "CPackFreeBSD",
+		"description": "La documentación del generador FreeBSD de CPack se ha movido aquí: Generador FreeBSD de CPack"
+	},
+	"CPackIFW": {
+		"name": "CPackIFW",
+		"description": "En este módulo se busca la ubicación de las utilidades de línea de comandos proporcionadas con Qt Installer Framework (QtIFW)."
+	},
+	"CPackIFWConfigureFile": {
+		"name": "CPackIFWConfigureFile",
+		"description": "Este módulo proporciona un comando similar a configure_file para configurar plantillas de archivo preparadas en el estilo QtIFW/SDK/Creator."
+	},
+	"CPackNSIS": {
+		"name": "CPackNSIS",
+		"description": "La documentación del generador NSIS de CPack se ha movido aquí: Generador NSIS de CPack"
+	},
+	"CPackNuGet": {
+		"name": "CPackNuGet",
+		"description": "La documentación del generador NuGet de CPack se ha movido aquí: Generador NuGet de CPack"
+	},
+	"CPackProductBuild": {
+		"name": "CPackProductBuild",
+		"description": "La documentación del generador productbuild de CPack se ha movido aquí: Generador productbuild de CPack"
+	},
+	"CPackRPM": {
+		"name": "CPackRPM",
+		"description": "La documentación del generador RPM de CPack se ha movido aquí: Generador RPM de CPack"
+	},
+	"CPackWIX": {
+		"name": "CPackWIX",
+		"description": "La documentación del generador WIX de CPack se ha movido aquí: Generador WIX de CPack"
+	},
+	"CSharpUtilities": {
+		"name": "CSharpUtilities",
+		"description": "Este módulo de utilidad está diseñado para simplificar la configuración de los objetivos de CSharp/.NET y proporciona una colección de comandos para administrar objetivos de CSharp con generadores de Visual Studio, versión 2010 y posteriores."
+	},
+	"CTest": {
+		"name": "CTest",
+		"description": "Configuración de un proyecto para pruebas con CTest/CDash"
+	},
+	"CTestCoverageCollectGCOV": {
+		"name": "CTestCoverageCollectGCOV",
+		"description": "Este módulo está diseñado para usarse en scripts del panel de CTest y proporciona un comando para generar un tarball que contiene informes de cobertura de código."
+	},
+	"CTestScriptMode": {
+		"name": "CTestScriptMode",
+		"description": "Este módulo no está pensado para ser incluido ni invocado directamente por el código del proyecto. CTest lo usa internamente en modo de script (-S) para determinar el sistema actual. Para obtener detalles de uso, consulte ctest -S."
+	},
+	"CTestUseLaunchers": {
+		"name": "CTestUseLaunchers",
+		"description": "Este módulo establece las propiedades globales RULE_LAUNCH_* cuando la variable CTEST_USE_LAUNCHERS está configurada con un valor similar a verdadero (por ejemplo, ON):"
+	},
+	"Dart": {
+		"name": "Dart",
+		"description": "Configuración de un proyecto para pruebas con CTest o el antiguo cliente Dart Tcl"
+	},
+	"DeployQt4": {
+		"name": "DeployQt4",
+		"description": "Este módulo ofrece una colección de comandos de utilidad de CMake para ensamblar e implementar ejecutables Qt4 independientes."
+	},
+	"Documentation": {
+		"name": "Documentation",
+		"description": "Este módulo proporciona compatibilidad con el marco de documentación de VTK. Se basa en varias herramientas (Doxygen, Perl, etc.)."
+	},
+	"ExternalData": {
+		"name": "ExternalData",
+		"description": "Este módulo proporciona comandos para administrar archivos de datos almacenados fuera del árbol de origen."
+	},
+	"ExternalProject": {
+		"name": "ExternalProject",
+		"description": "En este módulo se proporcionan comandos para descargar y compilar proyectos externos como parte de la fase de compilación de CMake."
+	},
+	"FeatureSummary": {
+		"name": "FeatureSummary",
+		"description": "En este módulo se proporcionan comandos para generar un resumen de las características habilitadas o deshabilitadas."
+	},
+	"FetchContent": {
+		"name": "FetchContent",
+		"description": "Este módulo proporciona comandos para rellenar el contenido en el momento de la configuración o como parte del script de llamada."
+	},
+	"FindALSA": {
+		"name": "FindALSA",
+		"description": "Busca la biblioteca Advanced Linux Sound Architecture (ALSA) (asound):"
+	},
+	"FindArmadillo": {
+		"name": "FindArmadillo",
+		"description": "Busca la biblioteca Armadillo de C++:"
+	},
+	"FindASPELL": {
+		"name": "FindASPELL",
+		"description": "Busca la biblioteca del corrector ortográfico de GNU Aspell:"
+	},
+	"FindAVIFile": {
+		"name": "FindAVIFile",
+		"description": "Busca la biblioteca AVIFile e incluye rutas de acceso:"
+	},
+	"FindBacktrace": {
+		"name": "FindBacktrace",
+		"description": "Busca backtrace(3), una biblioteca que proporciona funciones para la depuración automática de aplicaciones:"
+	},
+	"FindBISON": {
+		"name": "FindBISON",
+		"description": "Busca el generador de analizadores de línea de comandos Bison y proporciona un comando de CMake para generar reglas de compilación personalizadas para usar Bison:"
+	},
+	"FindBLAS": {
+		"name": "FindBLAS",
+		"description": "Busca la biblioteca Fortran de subprogramas de álgebra lineal Básico (BLAS) instalada, que implementa la interfaz de álgebra lineal de BLAS:"
+	},
+	"FindBoost": {
+		"name": "FindBoost",
+		"description": "Buscar directorios y bibliotecas de inclusión de Boost"
+	},
+	"FindBullet": {
+		"name": "FindBullet",
+		"description": "Busca el motor de física de viñetas:"
+	},
+	"FindBZip2": {
+		"name": "FindBZip2",
+		"description": "Busca la biblioteca de compresión de datos BZip2 (libbz2):"
+	},
+	"FindCABLE": {
+		"name": "FindCABLE",
+		"description": "Busca la instalación de CABLE y determina sus rutas de acceso de inclusión y bibliotecas:"
+	},
+	"FindCoin3D": {
+		"name": "FindCoin3D",
+		"description": "Busca Coin3D (Open Inventor):"
+	},
+	"FindCUDA": {
+		"name": "FindCUDA",
+		"description": "Ya no es necesario usar este módulo ni llamar a find_package (CUDA) para compilar código CUDA. En su lugar, enumere CUDA entre los idiomas denominados en la llamada de nivel superior al comando del proyecto o llame al comando enable_language con CUDA. A continuación, se pueden agregar orígenes CUDA (.cu) directamente a destinos similares a otros lenguajes."
+	},
+	"FindCUDAToolkit": {
+		"name": "FindCUDAToolkit",
+		"description": "Busca el kit de herramientas NVIDIA CUDA y las bibliotecas asociadas, pero no requiere que el lenguaje CUDA esté habilitado para un proyecto determinado:"
+	},
+	"FindCups": {
+		"name": "FindCups",
+		"description": "Busca el sistema de impresión UNIX común (CUPS):"
+	},
+	"FindCURL": {
+		"name": "FindCURL",
+		"description": "Busca la instalación nativa de curl (incluidos directorios y bibliotecas) para transferir datos con URLS:"
+	},
+	"FindCurses": {
+		"name": "FindCurses",
+		"description": "Busca la biblioteca curses o ncurses:"
+	},
+	"FindCVS": {
+		"name": "FindCVS",
+		"description": "Busca el sistema de versiones simultáneas (CVS):"
+	},
+	"FindCxxTest": {
+		"name": "FindCxxTest",
+		"description": "Busca CxxTest, un conjunto de marcos de pruebas unitarias de C++, y proporciona un comando auxiliar para crear ejecutores de pruebas e integrarlos con CTest:"
+	},
+	"FindCygwin": {
+		"name": "FindCygwin",
+		"description": "Busca Cygwin, un entorno compatible con POSIX que se ejecuta de forma nativa en Microsoft Windows:"
+	},
+	"FindDart": {
+		"name": "FindDart",
+		"description": "Busca DART:"
+	},
+	"FindDCMTK": {
+		"name": "FindDCMTK",
+		"description": "Busca las bibliotecas y aplicaciones de DICOM ToolKit (DCMTK):"
+	},
+	"FindDevIL": {
+		"name": "FindDevIL",
+		"description": "Busca la biblioteca de imágenes del desarrollador, DevIL:"
+	},
+	"FindDoxygen": {
+		"name": "FindDoxygen",
+		"description": "Busca Doxygen, un generador de documentación de código fuente, junto con algunas herramientas auxiliares opcionales, y proporciona un comando para integrar la documentación basada en Doxygen en proyectos de CMake:"
+	},
+	"FindEnvModules": {
+		"name": "FindEnvModules",
+		"description": "Busca una implementación de módulos de entorno y proporciona comandos para usarlos en scripts de CMake:"
+	},
+	"FindEXPAT": {
+		"name": "FindEXPAT",
+		"description": "Busca la biblioteca y los encabezados Expat nativos:"
+	},
+	"FindFLEX": {
+		"name": "FindFLEX",
+		"description": "Busca el generador de línea de comandos Fast Lexical Analyzer (Flex) y su biblioteca, y proporciona comandos de CMake para crear reglas de compilación personalizadas para usar Flex:"
+	},
+	"FindFLTK": {
+		"name": "FindFLTK",
+		"description": "Busca Fast Light Toolkit (FLTK), un kit de herramientas multiplataforma para el desarrollo de GUI:"
+	},
+	"FindFLTK2": {
+		"name": "FindFLTK2",
+		"description": "Busca la versión 2.x de Fast Light Toolkit (FLTK), un kit de herramientas multiplataforma para el desarrollo de GUI:"
+	},
+	"FindFontconfig": {
+		"name": "FindFontconfig",
+		"description": "Busca Fontconfig, una biblioteca para la configuración y personalización de fuentes:"
+	},
+	"FindFreetype": {
+		"name": "FindFreetype",
+		"description": "Busca la biblioteca del representador de fuentes FreeType:"
+	},
+	"FindGCCXML": {
+		"name": "FindGCCXML",
+		"description": "Busca el ejecutable de front-end GCC-XML:"
+	},
+	"FindGDAL": {
+		"name": "FindGDAL",
+		"description": "Busca la biblioteca de abstracción de datos geoespaciales (GDAL):"
+	},
+	"FindGettext": {
+		"name": "FindGettext",
+		"description": "Busca las herramientas de GNU gettext y proporciona comandos para generar mensajes multilingües:"
+	},
+	"FindGIF": {
+		"name": "FindGIF",
+		"description": "Busca la biblioteca Formato de intercambio de gráficos (GIF) (giflib):"
+	},
+	"FindGit": {
+		"name": "FindGit",
+		"description": "Busca el sistema de control de versiones distribuido de Git:"
+	},
+	"FindGLEW": {
+		"name": "FindGLEW",
+		"description": "Busca la biblioteca OpenGL Extension Wrangler (GLEW):"
+	},
+	"FindGLUT": {
+		"name": "FindGLUT",
+		"description": "Busca la biblioteca de OpenGL Utility Toolkit (GLUT), que proporciona una API sencilla para crear ventanas, controlar entradas y administrar eventos en aplicaciones OpenGL:"
+	},
+	"FindGnuplot": {
+		"name": "FindGnuplot",
+		"description": "Busca la utilidad de gráficos de línea de comandos Gnuplot para generar trazados bidimensionales y tridimensionales (gnuplot):"
+	},
+	"FindGnuTLS": {
+		"name": "FindGnuTLS",
+		"description": "Busca la biblioteca GNU de seguridad de la capa de transporte (GnuTLS):"
+	},
+	"FindGSL": {
+		"name": "FindGSL",
+		"description": "Busca la biblioteca nativa GNU Scientific Library (GSL) que incluye y bibliotecas:"
+	},
+	"FindGTest": {
+		"name": "FindGTest",
+		"description": "Busca GoogleTest, el marco de pruebas y simulación de C++ de Google:"
+	},
+	"FindGTK": {
+		"name": "FindGTK",
+		"description": "Busca GTK, glib y GTKGLArea:"
+	},
+	"FindGTK2": {
+		"name": "FindGTK2",
+		"description": "Busca las bibliotecas de widgets de GTK y algunos de sus otros componentes opcionales:"
+	},
+	"FindHDF5": {
+		"name": "FindHDF5",
+		"description": "Busca formato jerárquico de datos (HDF5), una biblioteca para leer y escribir datos de matriz autodescriptivos:"
+	},
+	"FindHg": {
+		"name": "FindHg",
+		"description": "Busca el ejecutable del cliente de línea de comandos Mercurial (hg) y proporciona un comando para extraer información de una copia de trabajo de Mercurial:"
+	},
+	"FindHSPELL": {
+		"name": "FindHSPELL",
+		"description": "Busca el corrector ortográfico hebreo y el motor de transformación (Hspell):"
+	},
+	"FindHTMLHelp": {
+		"name": "FindHTMLHelp",
+		"description": "Busca el compilador de ayuda HTML de Microsoft y su API, que forma parte del taller de ayuda HTML:"
+	},
+	"FindIce": {
+		"name": "FindIce",
+		"description": "Busca los programas, las bibliotecas y los archivos de datos del motor de comunicación de Internet (Ice):"
+	},
+	"FindIconv": {
+		"name": "FindIconv",
+		"description": "Busca las funciones iconv() POSIX.1 en el sistema:"
+	},
+	"FindIcotool": {
+		"name": "FindIcotool",
+		"description": "Busca icotool, programa de línea de comandos para convertir y crear archivos de icono y cursor de Win32:"
+	},
+	"FindICU": {
+		"name": "FindICU",
+		"description": "Busca los componentes internacionales para bibliotecas y programas Unicode (ICU):"
+	},
+	"FindImageMagick": {
+		"name": "FindImageMagick",
+		"description": "Busca ImageMagick, un conjunto de software para mostrar, convertir y manipular imágenes de trama:"
+	},
+	"FindIntl": {
+		"name": "FindIntl",
+		"description": "Busca compatibilidad con la internacionalización que incluye funciones de traducción de mensajes como gettext():"
+	},
+	"FindITK": {
+		"name": "FindITK",
+		"description": "Este módulo ya no existe."
+	},
+	"FindJasper": {
+		"name": "FindJasper",
+		"description": "Busca el kit de herramientas de codificación de imágenes de JasPer para controlar los datos de imagen en una variedad de formatos, como JPEG-2000:"
+	},
+	"FindJava": {
+		"name": "FindJava",
+		"description": "Busca la instalación de Java y determina sus herramientas en tiempo de ejecución y componentes de desarrollo:"
+	},
+	"FindJNI": {
+		"name": "FindJNI",
+		"description": "Busca los directorios de inclusión y bibliotecas de la interfaz nativa de Java (JNI):"
+	},
+	"FindJPEG": {
+		"name": "FindJPEG",
+		"description": "Busca la biblioteca del grupo de expertos en fotografía conjunta (JPEG):"
+	},
+	"FindKDE3": {
+		"name": "FindKDE3",
+		"description": "Las búsqueda de KDE 3 incluyen directorios, bibliotecas y herramientas de preprocesador específicas de KDE:"
+	},
+	"FindKDE4": {
+		"name": "FindKDE4",
+		"description": "Busca la instalación de KDE 4:"
+	},
+	"FindLAPACK": {
+		"name": "FindLAPACK",
+		"description": "Busca la biblioteca Fortran instalada de Linear Algebra PACKage (LAPACK) que implementa la interfaz de álgebra lineal LAPACK:"
+	},
+	"FindLATEX": {
+		"name": "FindLATEX",
+		"description": "Busca el compilador LaTeX y software relacionado, como BibTeX:"
+	},
+	"FindLibArchive": {
+		"name": "FindLibArchive",
+		"description": "Busca la biblioteca libarchive e incluye directorios:"
+	},
+	"FindLibinput": {
+		"name": "FindLibinput",
+		"description": "Busca la biblioteca libinput que controla los dispositivos de entrada en compositores Wayland y proporciona un controlador de entrada genérico X.Org:"
+	},
+	"FindLibLZMA": {
+		"name": "FindLibLZMA",
+		"description": "Busca liblzma, una biblioteca de compresión de datos que implementa LZMA (algoritmo de cadena Lempel-Ziv-Mar hash):"
+	},
+	"FindLibXml2": {
+		"name": "FindLibXml2",
+		"description": "Busca la biblioteca de procesamiento XML (libxml2):"
+	},
+	"FindLibXslt": {
+		"name": "FindLibXslt",
+		"description": "Busca las transformaciones XSL, biblioteca de transformaciones de lenguaje de hoja de estilos extensible (XSLT) (libxslt):"
+	},
+	"FindLTTngUST": {
+		"name": "FindLTTngUST",
+		"description": "Busca la biblioteca de seguimiento en espacio de usuario LTTng (Linux Trace Toolkit: próxima generación) (LTTng-UST):"
+	},
+	"FindLua": {
+		"name": "FindLua",
+		"description": "Busca la biblioteca Lua:"
+	},
+	"FindLua50": {
+		"name": "FindLua50",
+		"description": "Busca la biblioteca Lua:"
+	},
+	"FindLua51": {
+		"name": "FindLua51",
+		"description": "Busca la biblioteca Lua:"
+	},
+	"FindMatlab": {
+		"name": "FindMatlab",
+		"description": "Busca MATLAB o MATLAB Compiler Runtime (MCR) y proporciona sus herramientas, bibliotecas y compiladores a CMake:"
+	},
+	"FindMFC": {
+		"name": "FindMFC",
+		"description": "Busca la biblioteca nativa de Microsoft Foundation Class (MFC) para desarrollar aplicaciones MFC en Windows:"
+	},
+	"FindMotif": {
+		"name": "FindMotif",
+		"description": "Busca el kit de herramientas de interfaz gráfica de usuario Motif (o LessTif):"
+	},
+	"FindMPEG": {
+		"name": "FindMPEG",
+		"description": "Busca la biblioteca MPEG nativa (libmpeg2):"
+	},
+	"FindMPEG2": {
+		"name": "FindMPEG2",
+		"description": "Busca la biblioteca MPEG2 nativa (libmpeg2):"
+	},
+	"FindMPI": {
+		"name": "FindMPI",
+		"description": "Busca una implementación de interfaz de paso de mensajes (MPI):"
+	},
+	"FindMsys": {
+		"name": "FindMsys",
+		"description": "Busca MSYS, un entorno compatible con POSIX que se ejecuta de forma nativa en Microsoft Windows:"
+	},
+	"FindODBC": {
+		"name": "FindODBC",
+		"description": "Busca la biblioteca de conectividad abierta de bases de datos (ODBC), que implementa una API estándar para acceder a los sistemas de base de datos:"
+	},
+	"FindOpenACC": {
+		"name": "FindOpenACC",
+		"description": "Busca y detecta la compatibilidad con OpenACC en un compilador:"
+	},
+	"FindOpenAL": {
+		"name": "FindOpenAL",
+		"description": "Busca la biblioteca Open Audio Library (OpenAL):"
+	},
+	"FindOpenCL": {
+		"name": "FindOpenCL",
+		"description": "Busca Open Computing Language (OpenCL):"
+	},
+	"FindOpenGL": {
+		"name": "FindOpenGL",
+		"description": "Busca OpenGL y la biblioteca de utilidades OpenGL (GLU) para usar OpenGL en un proyecto de CMake:"
+	},
+	"FindOpenMP": {
+		"name": "FindOpenMP",
+		"description": "Busca soporte de Open Multi-Processing (OpenMP) en un compilador:"
+	},
+	"FindOpenSceneGraph": {
+		"name": "FindOpenSceneGraph",
+		"description": "Busca OpenSceneGraph (OSG), una interfaz de programación de aplicaciones de gráficos 3D:"
+	},
+	"FindOpenSP": {
+		"name": "FindOpenSP",
+		"description": "Busca la biblioteca OpenSP:"
+	},
+	"FindOpenSSL": {
+		"name": "FindOpenSSL",
+		"description": "Busca la biblioteca de cifrado de OpenSSL instalada y determina su versión:"
+	},
+	"FindOpenThreads": {
+		"name": "FindOpenThreads",
+		"description": "Busca la biblioteca de subprocesos basada en C++ OpenThreads:"
+	},
+	"Findosg": {
+		"name": "Findosg",
+		"description": "Busca la biblioteca principal osg de OpenSceneGraph (libosg)."
+	},
+	"FindosgAnimation": {
+		"name": "FindosgAnimation",
+		"description": "Busca la biblioteca osgAnimation del kit de herramientas OpenSceneGraph."
+	},
+	"FindosgDB": {
+		"name": "FindosgDB",
+		"description": "Busca la biblioteca osgDB del kit de herramientas OpenSceneGraph."
+	},
+	"FindosgFX": {
+		"name": "FindosgFX",
+		"description": "Busca el NodeKit osgFX del kit de herramientas OpenSceneGraph."
+	},
+	"FindosgGA": {
+		"name": "FindosgGA",
+		"description": "Busca la biblioteca osgGA del kit de herramientas OpenSceneGraph."
+	},
+	"FindosgIntrospection": {
+		"name": "FindosgIntrospection",
+		"description": "Busca la biblioteca osgIntrospection del kit de herramientas OpenSceneGraph."
+	},
+	"FindosgManipulator": {
+		"name": "FindosgManipulator",
+		"description": "Busca el NodeKit osgManipulator del kit de herramientas OpenSceneGraph."
+	},
+	"FindosgParticle": {
+		"name": "FindosgParticle",
+		"description": "Busca el NodeKit osgParticle del kit de herramientas OpenSceneGraph."
+	},
+	"FindosgPresentation": {
+		"name": "FindosgPresentation",
+		"description": "Busca el osgPresentation NodeKit del kit de herramientas OpenSceneGraph, disponible desde la versión 3.0.0 de OpenSceneGraph."
+	},
+	"FindosgProducer": {
+		"name": "FindosgProducer",
+		"description": "Busca la biblioteca de utilidades osgProducer del kit de herramientas OpenSceneGraph."
+	},
+	"FindosgQt": {
+		"name": "FindosgQt",
+		"description": "Busca la biblioteca de utilidades osgQt del kit de herramientas OpenSceneGraph."
+	},
+	"FindosgShadow": {
+		"name": "FindosgShadow",
+		"description": "Busca el NodeKit osgShadow del kit de herramientas OpenSceneGraph."
+	},
+	"FindosgSim": {
+		"name": "FindosgSim",
+		"description": "Busca el NodeKit osgSim del kit de herramientas OpenSceneGraph."
+	},
+	"FindosgTerrain": {
+		"name": "FindosgTerrain",
+		"description": "Busca el NodeKit osgTerrain del kit de herramientas OpenSceneGraph."
+	},
+	"FindosgText": {
+		"name": "FindosgText",
+		"description": "Busca el osgText NodeKit del kit de herramientas OpenSceneGraph."
+	},
+	"FindosgUtil": {
+		"name": "FindosgUtil",
+		"description": "Busca la biblioteca osgUtil del kit de herramientas OpenSceneGraph."
+	},
+	"FindosgViewer": {
+		"name": "FindosgViewer",
+		"description": "Busca la biblioteca osgViewer del kit de herramientas OpenSceneGraph."
+	},
+	"FindosgVolume": {
+		"name": "FindosgVolume",
+		"description": "Busca el osgVolume NodeKit del kit de herramientas OpenSceneGraph."
+	},
+	"FindosgWidget": {
+		"name": "FindosgWidget",
+		"description": "Busca el osgWidget NodeKit del kit de herramientas OpenSceneGraph."
+	},
+	"Findosg_functions": {
+		"name": "Findosg_functions",
+		"description": "Este módulo no está pensado para ser incluido ni invocado directamente por el código del proyecto durante el uso típico de find_package comando. Lo usan internamente los módulos de búsqueda de OpenSceneGraph (OSG) para ayudar a localizar las bibliotecas y NodeKits de OSG. Para obtener detalles de uso, consulte el módulo FindOpenSceneGraph."
+	},
+	"FindPackageHandleStandardArgs": {
+		"name": "FindPackageHandleStandardArgs",
+		"description": "Este módulo proporciona comandos destinados a su uso en los módulos de búsqueda que implementan llamadas find_package(<PackageName>)."
+	},
+	"FindPackageMessage": {
+		"name": "FindPackageMessage",
+		"description": "Este módulo proporciona un comando para imprimir mensajes de resultados de búsqueda y está pensado para usarse en módulos de búsqueda que implementan llamadas a find_package(<PackageName>)."
+	},
+	"FindPatch": {
+		"name": "FindPatch",
+		"description": "Busca el archivo ejecutable de la línea de comandos de revisión para aplicar revisiones de diferencias a los archivos originales:"
+	},
+	"FindPerl": {
+		"name": "FindPerl",
+		"description": "Busca un intérprete de Perl:"
+	},
+	"FindPerlLibs": {
+		"name": "FindPerlLibs",
+		"description": "Busca bibliotecas Perl:"
+	},
+	"FindPHP4": {
+		"name": "FindPHP4",
+		"description": "Busca la versión 4 de PHP, un lenguaje de scripting de uso general:"
+	},
+	"FindPhysFS": {
+		"name": "FindPhysFS",
+		"description": "Busca la biblioteca PhysicsFS (PhysFS) para la abstracción de entrada/salida de archivos:"
+	},
+	"FindPike": {
+		"name": "FindPike",
+		"description": "Busca el compilador e intérprete Pike:"
+	},
+	"FindPkgConfig": {
+		"name": "FindPkgConfig",
+		"description": "Módulo pkg-config para CMake."
+	},
+	"FindPNG": {
+		"name": "FindPNG",
+		"description": "Busca libpng, la biblioteca de referencia oficial para el formato de imagen PNG:"
+	},
+	"FindPostgreSQL": {
+		"name": "FindPostgreSQL",
+		"description": "Busca la instalación de PostgreSQL: la biblioteca cliente (libpq) y, opcionalmente, el servidor:"
+	},
+	"FindProducer": {
+		"name": "FindProducer",
+		"description": "Busca la biblioteca productor, una biblioteca de control de eventos y ventanas diseñada principalmente para aplicaciones de gráficos en tiempo real:"
+	},
+	"FindProtobuf": {
+		"name": "FindProtobuf",
+		"description": "Este módulo busca la biblioteca Protocol Buffers (Protobuf) en modo módulo:"
+	},
+	"FindPython": {
+		"name": "FindPython",
+		"description": "Busca el intérprete de Python, el compilador y el entorno de desarrollo (incluidos directorios y bibliotecas):"
+	},
+	"FindPython2": {
+		"name": "FindPython2",
+		"description": "Busca el intérprete de Python 2, el compilador y el entorno de desarrollo (incluidos directorios y bibliotecas):"
+	},
+	"FindPython3": {
+		"name": "FindPython3",
+		"description": "Busca el intérprete de Python 3, el compilador y el entorno de desarrollo (incluidos directorios y bibliotecas):"
+	},
+	"FindPythonInterp": {
+		"name": "FindPythonInterp",
+		"description": "Busca el intérprete de Python y determina la ubicación de su ejecutable:"
+	},
+	"FindPythonLibs": {
+		"name": "FindPythonLibs",
+		"description": "Busca la instalación de Python y determina la ubicación de sus directorios de inclusión y bibliotecas, así como el nombre de la biblioteca de Python con la que se va a vincular:"
+	},
+	"FindQt": {
+		"name": "FindQt",
+		"description": "Busca una versión instalada de Qt3 o Qt4:"
+	},
+	"FindQt3": {
+		"name": "FindQt3",
+		"description": "Busca Qt3, un marco de desarrollo de aplicaciones multiplataforma para crear interfaces gráficas de usuario y aplicaciones:"
+	},
+	"FindQt4": {
+		"name": "FindQt4",
+		"description": "Busca Qt4, un marco de desarrollo de aplicaciones multiplataforma para crear interfaces gráficas de usuario y aplicaciones:"
+	},
+	"FindQuickTime": {
+		"name": "FindQuickTime",
+		"description": "Busca el marco multimedia QuickTime, que proporciona compatibilidad con vídeo, audio y medios interactivos:"
+	},
+	"FindRTI": {
+		"name": "FindRTI",
+		"description": "Busca bibliotecas estándar de HLA RTI y sus directorios de inclusión:"
+	},
+	"FindRuby": {
+		"name": "FindRuby",
+		"description": "Busca la instalación de Ruby y las ubicaciones de sus archivos de inclusión y bibliotecas:"
+	},
+	"FindSDL": {
+		"name": "FindSDL",
+		"description": "Busca la biblioteca SDL (Capa simple de DirectMedia):"
+	},
+	"FindSDL_gfx": {
+		"name": "FindSDL_gfx",
+		"description": "Busca la biblioteca de SDL_gfx que proporciona compatibilidad con gráficos en aplicaciones SDL (capa simple de DirectMedia):"
+	},
+	"FindSDL_image": {
+		"name": "FindSDL_image",
+		"description": "Busca la biblioteca de SDL_image que carga imágenes de varios formatos como superficies SDL (Capa simple de DirectMedia):"
+	},
+	"FindSDL_mixer": {
+		"name": "FindSDL_mixer",
+		"description": "Busca la biblioteca de SDL_mixer que proporciona un mezclador de audio compatible con varios formatos de archivo en aplicaciones SDL (Capa simple de DirectMedia):"
+	},
+	"FindSDL_net": {
+		"name": "FindSDL_net",
+		"description": "Busca la biblioteca SDL_net, una biblioteca de red multiplataforma para su uso con las aplicaciones SDL (Capa simple de DirectMedia):"
+	},
+	"FindSDL_sound": {
+		"name": "FindSDL_sound",
+		"description": "Busca la biblioteca de SDL_sound, un descodificador de archivos de sonido abstracto para su uso en aplicaciones SDL (Capa simple de DirectMedia):"
+	},
+	"FindSDL_ttf": {
+		"name": "FindSDL_ttf",
+		"description": "Busca la biblioteca SDL_ttf que proporciona compatibilidad para representar texto con fuentes TrueType en aplicaciones SDL (Capa simple de DirectMedia):"
+	},
+	"FindSelfPackers": {
+		"name": "FindSelfPackers",
+		"description": "Busca UPX, Ultimate Packer para eXecutables:"
+	},
+	"FindSQLite3": {
+		"name": "FindSQLite3",
+		"description": "Busca la biblioteca SQLite 3:"
+	},
+	"FindSquish": {
+		"name": "FindSquish",
+		"description": "Busca Squish, un marco de pruebas de GUI automatizada multiplataforma para aplicaciones basadas en diversas tecnologías de GUI:"
+	},
+	"FindSubversion": {
+		"name": "FindSubversion",
+		"description": "Busca un ejecutable cliente de línea de comandos de Subversion (svn) y proporciona comandos para extraer información de una copia de trabajo de Subversion:"
+	},
+	"FindSWIG": {
+		"name": "FindSWIG",
+		"description": "Busca el ejecutable del contenedor simplificado y del generador de interfaz (SWIG) instalado y determina su versión:"
+	},
+	"FindTCL": {
+		"name": "FindTCL",
+		"description": "Busca el lenguaje Tcl (lenguaje de comandos de herramienta), lenguaje de programación dinámico:"
+	},
+	"FindTclsh": {
+		"name": "FindTclsh",
+		"description": "Busca el ejecutable de línea de comandos (tclsh) del shell de Tcl, que incluye el intérprete Tcl (lenguaje de comandos de herramienta):"
+	},
+	"FindTclStub": {
+		"name": "FindTclStub",
+		"description": "Busca la biblioteca de código auxiliar de Tcl, que se usa para compilar extensiones de Tcl independientes de la versión:"
+	},
+	"FindThreads": {
+		"name": "FindThreads",
+		"description": "Busca y determina la biblioteca de subprocesos del sistema para la compatibilidad con multithreading:"
+	},
+	"FindTIFF": {
+		"name": "FindTIFF",
+		"description": "Busca la biblioteca TIFF (libtiff):"
+	},
+	"FindUnixCommands": {
+		"name": "FindUnixCommands",
+		"description": "Busca los comandos Unix bash, cp, gzip, mv, rm y tar, incluyendo los de Cygwin o MSYS:"
+	},
+	"FindVTK": {
+		"name": "FindVTK",
+		"description": "Este módulo ya no existe."
+	},
+	"FindVulkan": {
+		"name": "FindVulkan",
+		"description": "Busca Vulkan, una API de gráficos y computación 3D multiplataforma y de baja sobrecarga, junto con herramientas de desarrollo relacionadas que suele proporcionar el SDK de Vulkan:"
+	},
+	"FindWget": {
+		"name": "FindWget",
+		"description": "En este módulo se encuentra la herramienta de línea de comandos wget para recuperar contenido de servidores web:"
+	},
+	"FindWish": {
+		"name": "FindWish",
+		"description": "Busca wish, un archivo ejecutable sencillo de línea de comandos del shell de ventana:"
+	},
+	"FindwxWidgets": {
+		"name": "FindwxWidgets",
+		"description": "Busca una instalación de wxWidgets y proporciona requisitos de uso para el uso en proyectos:"
+	},
+	"FindwxWindows": {
+		"name": "FindwxWindows",
+		"description": "Busca la instalación de wxWidgets (anteriormente conocido como wxWindows) y determina las ubicaciones de sus directorios de inclusión y bibliotecas, así como el nombre de la biblioteca:"
+	},
+	"FindX11": {
+		"name": "FindX11",
+		"description": "Busca la instalación X11 en sistemas similares a Unix:"
+	},
+	"FindXalanC": {
+		"name": "FindXalanC",
+		"description": "Busca los encabezados y las bibliotecas del procesador de transformación XSL de Apache Xalan-C++:"
+	},
+	"FindXCTest": {
+		"name": "FindXCTest",
+		"description": "Busca el marco XCTest para escribir pruebas unitarias en proyectos de Xcode:"
+	},
+	"FindXercesC": {
+		"name": "FindXercesC",
+		"description": "Busca las bibliotecas y encabezados del analizador XML de validación de Apache Xerces-C++:"
+	},
+	"FindXMLRPC": {
+		"name": "FindXMLRPC",
+		"description": "Busca la biblioteca XML-RPC nativa para C y C++:"
+	},
+	"FindZLIB": {
+		"name": "FindZLIB",
+		"description": "Busca la biblioteca nativa de compresión de datos zlib:"
+	},
+	"FortranCInterface": {
+		"name": "FortranCInterface",
+		"description": "Este módulo proporciona variables y comandos para detectar la interfaz Fortran/C."
+	},
+	"GenerateExportHeader": {
+		"name": "GenerateExportHeader",
+		"description": "Este módulo ofrece comandos para generar un archivo de encabezado que contiene definiciones de macros de preprocesador para controlar la visibilidad de símbolos en C/C++."
+	},
+	"GetPrerequisites": {
+		"name": "GetPrerequisites",
+		"description": "Este módulo proporciona comandos para analizar y enumerar las dependencias (requisitos previos) de los archivos ejecutables o de biblioteca compartida. Estos comandos enumeran las bibliotecas compartidas (archivos .dll, .dylib o .so) que requiere un archivo ejecutable o una biblioteca compartida."
+	},
+	"GNUInstallDirs": {
+		"name": "GNUInstallDirs",
+		"description": "Este módulo define las variables del directorio de instalación según los estándares de codificación GNU y proporciona un comando para calcular rutas absolutas relacionadas con la instalación."
+	},
+	"GoogleTest": {
+		"name": "GoogleTest",
+		"description": "En este módulo se proporcionan comandos para ayudar a usar la infraestructura de Google Test."
+	},
+	"InstallRequiredSystemLibraries": {
+		"name": "InstallRequiredSystemLibraries",
+		"description": "Este módulo busca bibliotecas en tiempo de ejecución del sistema proporcionadas por el compilador y agrega reglas de instalación para ellas."
+	},
+	"MacroAddFileDependencies": {
+		"name": "MacroAddFileDependencies",
+		"description": "Cargue este módulo en un proyecto de CMake con:"
+	},
+	"ProcessorCount": {
+		"name": "ProcessorCount",
+		"description": "Este módulo proporciona un comando para determinar el número de procesadores o núcleos."
+	},
+	"SelectLibraryConfigurations": {
+		"name": "SelectLibraryConfigurations",
+		"description": "Este módulo proporciona un comando para establecer automáticamente variables de biblioteca cuando el paquete está disponible con varias configuraciones de compilación. Está pensado para su uso en los módulos de búsqueda que implementan llamadas find_package(<PackageName>)."
+	},
+	"SquishTestScript": {
+		"name": "SquishTestScript",
+		"description": "Este módulo no está pensado para incluirse directamente en un proyecto de CMake. Es un script de prueba interno de CMake que se usa para lanzar pruebas de interfaz gráfica con Squish. Para obtener detalles de uso, consulte la documentación del comando squish_add_test en el módulo FindSquish."
+	},
+	"TestBigEndian": {
+		"name": "TestBigEndian",
+		"description": "Este módulo proporciona un comando para comprobar el endianismo (orden de bytes) de la arquitectura de destino."
+	},
+	"TestCXXAcceptsFlag": {
+		"name": "TestCXXAcceptsFlag",
+		"description": "Este módulo proporciona un comando para probar si el compilador de C++ (CXX) admite marcas específicas."
+	},
+	"TestForANSIForScope": {
+		"name": "TestForANSIForScope",
+		"description": "Este módulo verifica si el compilador CXX limita el ámbito de las variables declaradas en una instrucción para la inicialización al cuerpo del bucle."
+	},
+	"TestForANSIStreamHeaders": {
+		"name": "TestForANSIStreamHeaders",
+		"description": "Este módulo comprueba si el compilador CXX admite encabezados de la biblioteca estándar sin la extensión .h (por ejemplo, <iostream>)."
+	},
+	"TestForSSTREAM": {
+		"name": "TestForSSTREAM",
+		"description": "Este módulo comprueba si el encabezado estándar de C++ <sstream> existe y funciona correctamente."
+	},
+	"TestForSTDNamespace": {
+		"name": "TestForSTDNamespace",
+		"description": "Este módulo comprueba si el compilador CXX admite el espacio de nombres std para la biblioteca estándar de C++."
+	},
+	"UseEcos": {
+		"name": "UseEcos",
+		"description": "Este módulo define las variables y proporciona comandos necesarios para compilar la aplicación eCos."
+	},
+	"UseJava": {
+		"name": "UseJava",
+		"description": "Este archivo proporciona compatibilidad con Java. Se supone que FindJava ya se ha cargado. Consulte FindJava para obtener información sobre cómo cargar Java en el proyecto de CMake."
+	},
+	"UseJavaClassFilelist": {
+		"name": "UseJavaClassFilelist",
+		"description": "Este módulo se documentó anteriormente por error y nunca estuvo pensado para la inclusión directa por parte del código del proyecto. Consulte el módulo UseJava."
+	},
+	"UseJavaSymlinks": {
+		"name": "UseJavaSymlinks",
+		"description": "Este módulo se documentó anteriormente por error y nunca estuvo pensado para la inclusión directa por parte del código del proyecto. Consulte el módulo UseJava."
+	},
+	"UsePkgConfig": {
+		"name": "UsePkgConfig",
+		"description": "Cargue este módulo en un proyecto de CMake con:"
+	},
+	"UseSWIG": {
+		"name": "UseSWIG",
+		"description": "Este módulo proporciona compatibilidad con SWIG. Se supone que el módulo FindSWIG ya se ha cargado."
+	},
+	"UsewxWidgets": {
+		"name": "UsewxWidgets",
+		"description": "Este módulo actúa como un contenedor cómodo para usar la biblioteca wxWidgets (anteriormente conocida como wxWindows) y propaga sus requisitos de uso, como directorios de biblioteca, directorios de inclusión y marcas de compilador, en el ámbito de directorio actual para su uso por parte de destinos."
+	},
+	"Use_wxWindows": {
+		"name": "Use_wxWindows",
+		"description": "Este módulo sirve como contenedor de comodidad para buscar la biblioteca wxWidgets (anteriormente conocida como wxWindows) y propaga sus requisitos de uso, como bibliotecas, directorios de inclusión y marcas de compilador, en el ámbito de directorio actual para su uso por parte de destinos."
+	},
+	"WriteBasicConfigVersionFile": {
+		"name": "WriteBasicConfigVersionFile",
+		"description": "En desuso desde la versión 3.0: use el comando idéntico write_basic_package_version_file() del módulo CMakePackageConfigHelpers."
+	},
+	"WriteCompilerDetectionHeader": {
+		"name": "WriteCompilerDetectionHeader",
+		"description": "Este módulo proporciona un comando para generar el encabezado con macros de preprocesador."
+	}
+}

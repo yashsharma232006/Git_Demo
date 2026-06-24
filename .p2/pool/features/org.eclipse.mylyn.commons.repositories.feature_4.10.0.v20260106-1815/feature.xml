@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Copyright (c) 2010, 2026 Tasktop Technologies and others.
+ 
+    This program and the accompanying materials are made available under the
+    terms of the Eclipse Public License v. 2.0 which is available at
+    https://www.eclipse.org/legal/epl-2.0
+ 
+    SPDX-License-Identifier: EPL-2.0
+
+    Contributors:
+         Tasktop Technologies - initial API and implementation
+         ArSysOp - ongoing support
+ -->
+<feature
+      id="org.eclipse.mylyn.commons.repositories.feature"
+      label="%featureName"
+      version="4.10.0.v20260106-1815"
+      provider-name="%providerName"
+      plugin="org.eclipse.mylyn.commons.core">
+
+   <description url="https://eclipse.org/mylyn">
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.eclipse.mylyn.commons.feature" version="4.10.0" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.mylyn.commons.net"
+         version="4.10.0.v20260106-1815"/>
+
+   <plugin
+         id="org.eclipse.mylyn.commons.repositories.core"
+         version="4.10.0.v20260106-1815"/>
+
+   <plugin
+         id="org.eclipse.mylyn.commons.repositories.http.core"
+         version="4.10.0.v20260106-1815"/>
+
+   <plugin
+         id="org.eclipse.mylyn.commons.repositories.ui"
+         version="4.10.0.v20260106-1815"/>
+
+   <plugin
+         id="org.eclipse.mylyn.commons.xmlrpc"
+         version="4.10.0.v20260106-1815"/>
+
+</feature>

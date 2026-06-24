@@ -1,0 +1,13 @@
+{
+	"cpp-devtools-companion.languageModelTools.Build_CMakeTools.userDescription": "Skompiluj projekt CMake z rozszerzeniem CMake Tools",
+	"cpp-devtools-companion.languageModelTools.RunCtest_CMakeTools.userDescription": "Uruchom testy CTest dla projektu CMake z rozszerzeniem CMake Tools",
+	"cpp-devtools-companion.languageModelTools.ListBuildTargets_CMakeTools.userDescription": "Wyświetl listę dostępnych celów kompilacji dla tego projektu CMake z rozszerzeniem CMake Tools",
+	"cpp-devtools-companion.languageModelTools.ListTests_CMakeTools.userDescription": "Wyświetl listę dostępnych testów dla tego projektu narzędzia CMake z rozszerzeniem CMake Tools",
+	"cpp-devtools-companion.languageModelTools.GetDiagnostics_CMakeTools.userDescription": "Pobierz diagnostykę usługi CMake (błędy, ostrzeżenia i problemy) z panelu Problemy w programie VS Code",
+	"cpp-devtools-companion.symbolReferencesLimit.description": "Maksymalna liczba odwołań do symboli zwracanych w pojedynczym żądaniu.",
+	"cpp-devtools-companion.enableCppCodeEditingTools.description": "Włącz narzędzia do edycji kodu C++.",
+	"cpp-devtools-companion.enableCMakeGetDiagnosticsTool.description": "Włącz narzędzie diagnostyczne CMake — Pobierz diagnostykę.",
+	"cpp-devtools-companion.languageModelTools.GetSymbolReferences_CppTools.userDescription": "Znajdź wszystkie odwołania do symbolu języka C++.",
+	"cpp-devtools-companion.languageModelTools.GetSymbolInfo_CppTools.userDescription": "Pobierz definicję symbolu języka C++.",
+	"cpp-devtools-companion.languageModelTools.GetSymbolCallHierarchy_CppTools.userDescription": "Pobierz hierarchię wywołań symbolu języka C++."
+}

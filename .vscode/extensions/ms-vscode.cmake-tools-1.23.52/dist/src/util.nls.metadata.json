@@ -1,0 +1,13 @@
+{
+	"messages": [
+		"Invalid version string {0}",
+		"Extension is undefined!",
+		"\"sourceDirectory\" is not a directory"
+	],
+	"keys": [
+		"invalid.version.string",
+		"extension.is.undefined",
+		"sourcedirectory.not.a.directory"
+	],
+	"filePath": "src\\util"
+}

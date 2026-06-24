@@ -1,0 +1,9 @@
+{
+	"messages": [
+		"List tests with the CMake Tools extension"
+	],
+	"keys": [
+		"list.tests.with.cmake.tools"
+	],
+	"filePath": "src\\cmake\\listTestsTool"
+}

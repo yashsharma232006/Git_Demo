@@ -1,0 +1,9 @@
+{
+	"messages": [
+		"The C++ DevTools extension may be used only with Microsoft Visual Studio Code, vscode.dev, GitHub Codespaces from GitHub, Inc., and successor Microsoft, GitHub, and other Microsoft affiliates' products and services"
+	],
+	"keys": [
+		"strings.licenseViolation"
+	],
+	"filePath": "src\\hostChecking\\licenseInformation"
+}

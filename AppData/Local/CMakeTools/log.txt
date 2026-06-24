@@ -1,0 +1,254 @@
+2025-12-02T14:21:36.357Z [debug] [main] Safe constructing new CMakeProject instance
+2025-12-02T14:21:36.358Z [debug] [variant] Constructing VariantManager
+2025-12-02T14:21:36.359Z [debug] [main] Constructing new CMakeProject instance
+2025-12-02T14:21:36.359Z [debug] [main] Starting CMake Tools second-phase init
+2025-12-02T14:21:36.360Z [debug] [expand] expanded ${workspaceFolder}
+2025-12-02T14:21:36.366Z [debug] [kit] Not reading non-existent kits file: C:\Users\Yash Sharma\AppData\Local\CMakeTools\cmake-tools-kits.json
+2025-12-02T14:21:36.383Z [debug] [kit] Not reading non-existent kits file: c:\Users\Yash Sharma\OneDrive\Documents\C++\.vscode\cmake-kits.json
+2025-12-02T14:21:36.454Z [info] [variant] Loaded new set of variants
+2025-12-02T14:21:36.459Z [debug] [main] CMakeProject instance initialization complete.
+2025-12-02T14:21:36.484Z [info] [kit] Detected kits definition version change from undefined to 2. Silently scanning for kits.
+2025-12-02T14:21:36.528Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T14:21:36.605Z [debug] [kitsController] Rescanning for kits
+2025-12-02T14:21:36.605Z [debug] [kit] Scanning for Kits on system
+2025-12-02T14:21:36.608Z [debug] [kit] Scanning directory C:/WINDOWS/system32 for compilers
+2025-12-02T14:21:36.608Z [debug] [kit] Scanning directory C:/WINDOWS for compilers
+2025-12-02T14:21:36.608Z [debug] [kit] Scanning directory C:/WINDOWS/System32/Wbem for compilers
+2025-12-02T14:21:36.609Z [debug] [kit] Scanning directory C:/WINDOWS/System32/WindowsPowerShell/v1.0 for compilers
+2025-12-02T14:21:36.609Z [debug] [kit] Scanning directory C:/WINDOWS/System32/OpenSSH for compilers
+2025-12-02T14:21:36.609Z [debug] [kit] Scanning directory C:/Program Files/Git/cmd for compilers
+2025-12-02T14:21:36.609Z [debug] [kit] Scanning directory C:/MinGW/bin for compilers
+2025-12-02T14:21:36.609Z [debug] [kit] Scanning directory C:/Users/Yash Sharma/AppData/Local/Programs/Python/Launcher for compilers
+2025-12-02T14:21:36.609Z [debug] [kit] Scanning directory C:/Users/Yash Sharma/AppData/Local/Microsoft/WindowsApps for compilers
+2025-12-02T14:21:36.610Z [debug] [kit] Scanning directory C:/Users/Yash Sharma/AppData/Local/Programs/Microsoft VS Code/bin for compilers
+2025-12-02T14:21:36.610Z [debug] [kit] Skipping scan of not existing path C:/Program Files/LLVM/bin
+2025-12-02T14:21:36.610Z [debug] [kit] Found 0 kits in directory C:/Program Files/LLVM/bin
+2025-12-02T14:21:36.610Z [debug] [kit] Skipping scan of not existing path C:/Program Files (x86)/LLVM/bin
+2025-12-02T14:21:36.611Z [debug] [kit] Found 0 kits in directory C:/Program Files (x86)/LLVM/bin
+2025-12-02T14:21:36.611Z [debug] [kit] Skipping scan of not existing path C:/msys64/mingw32/bin
+2025-12-02T14:21:36.611Z [debug] [kit] Found 0 kits in directory C:/msys64/mingw32/bin
+2025-12-02T14:21:36.611Z [debug] [kit] Skipping scan of not existing path C:/msys64/mingw64/bin
+2025-12-02T14:21:36.612Z [debug] [kit] Found 0 kits in directory C:/msys64/mingw64/bin
+2025-12-02T14:21:36.612Z [debug] [kit] Skipping scan of not existing path C:/msys64/clang32/bin
+2025-12-02T14:21:36.612Z [debug] [kit] Found 0 kits in directory C:/msys64/clang32/bin
+2025-12-02T14:21:36.612Z [debug] [kit] Skipping scan of not existing path C:/msys64/clang64/bin
+2025-12-02T14:21:36.613Z [debug] [kit] Found 0 kits in directory C:/msys64/clang64/bin
+2025-12-02T14:21:36.613Z [debug] [kit] Skipping scan of not existing path C:/msys64/clangarm64/bin
+2025-12-02T14:21:36.613Z [debug] [kit] Found 0 kits in directory C:/msys64/clangarm64/bin
+2025-12-02T14:21:36.613Z [debug] [kit] Skipping scan of not existing path C:/msys64/ucrt64/bin
+2025-12-02T14:21:36.613Z [debug] [kit] Found 0 kits in directory C:/msys64/ucrt64/bin
+2025-12-02T14:21:36.613Z [debug] [kit] Scanning directory C:/WINDOWS/system32 for compilers
+2025-12-02T14:21:36.614Z [debug] [kit] Scanning directory C:/WINDOWS for compilers
+2025-12-02T14:21:36.614Z [debug] [kit] Scanning directory C:/WINDOWS/System32/Wbem for compilers
+2025-12-02T14:21:36.614Z [debug] [kit] Scanning directory C:/WINDOWS/System32/WindowsPowerShell/v1.0 for compilers
+2025-12-02T14:21:36.614Z [debug] [kit] Scanning directory C:/WINDOWS/System32/OpenSSH for compilers
+2025-12-02T14:21:36.614Z [debug] [kit] Scanning directory C:/Program Files/Git/cmd for compilers
+2025-12-02T14:21:36.614Z [debug] [kit] Scanning directory C:/MinGW/bin for compilers
+2025-12-02T14:21:36.614Z [debug] [kit] Scanning directory C:/Users/Yash Sharma/AppData/Local/Programs/Python/Launcher for compilers
+2025-12-02T14:21:36.614Z [debug] [kit] Scanning directory C:/Users/Yash Sharma/AppData/Local/Microsoft/WindowsApps for compilers
+2025-12-02T14:21:36.615Z [debug] [kit] Scanning directory C:/Users/Yash Sharma/AppData/Local/Programs/Microsoft VS Code/bin for compilers
+2025-12-02T14:21:36.615Z [debug] [kit] Skipping scan of not existing path C:/Program Files/LLVM/bin
+2025-12-02T14:21:36.615Z [debug] [kit] Skipping scan of not existing path C:/Program Files (x86)/LLVM/bin
+2025-12-02T14:21:36.615Z [debug] [kit] Skipping scan of not existing path C:/msys64/mingw32/bin
+2025-12-02T14:21:36.615Z [debug] [kit] Skipping scan of not existing path C:/msys64/mingw64/bin
+2025-12-02T14:21:36.615Z [debug] [kit] Skipping scan of not existing path C:/msys64/clang32/bin
+2025-12-02T14:21:36.615Z [debug] [kit] Skipping scan of not existing path C:/msys64/clang64/bin
+2025-12-02T14:21:36.616Z [debug] [kit] Skipping scan of not existing path C:/msys64/clangarm64/bin
+2025-12-02T14:21:36.616Z [debug] [kit] Skipping scan of not existing path C:/msys64/ucrt64/bin
+2025-12-02T14:21:36.622Z [debug] [kit] Found 0 kits in directory C:/WINDOWS
+2025-12-02T14:21:36.624Z [debug] [kit] Found 0 kits in directory C:/WINDOWS/System32/WindowsPowerShell/v1.0
+2025-12-02T14:21:36.624Z [debug] [kit] Found 0 kits in directory C:/WINDOWS/System32/OpenSSH
+2025-12-02T14:21:36.625Z [debug] [kit] Found 0 kits in directory C:/Program Files/Git/cmd
+2025-12-02T14:21:36.626Z [debug] [kit] Testing GCC binary: C:\MinGW\bin\gcc.exe
+2025-12-02T14:21:36.626Z [info] [proc] Executing command: C:\MinGW\bin\gcc.exe -v
+2025-12-02T14:21:36.636Z [debug] [kit] Testing GCC binary: C:\MinGW\bin\mingw32-gcc-6.3.0.exe
+2025-12-02T14:21:36.637Z [info] [proc] Executing command: C:\MinGW\bin\mingw32-gcc-6.3.0.exe -v
+2025-12-02T14:21:36.851Z [debug] [kit] Testing GCC binary: C:\MinGW\bin\mingw32-gcc.exe
+2025-12-02T14:21:36.852Z [info] [proc] Executing command: C:\MinGW\bin\mingw32-gcc.exe -v
+2025-12-02T14:21:37.049Z [debug] [kit] Found 0 kits in directory C:/Users/Yash Sharma/AppData/Local/Programs/Python/Launcher
+2025-12-02T14:21:37.052Z [debug] [kit] Found 0 kits in directory C:/Users/Yash Sharma/AppData/Local/Microsoft/WindowsApps
+2025-12-02T14:21:37.053Z [debug] [kit] Found 0 kits in directory C:/Users/Yash Sharma/AppData/Local/Programs/Microsoft VS Code/bin
+2025-12-02T14:21:37.071Z [debug] [kit] Found 0 kits in directory C:/WINDOWS/System32/Wbem
+2025-12-02T14:21:37.208Z [debug] [kit] Found 0 kits in directory C:/WINDOWS/system32
+2025-12-02T14:21:37.217Z [debug] [kit] Detected GCC compiler: C:\MinGW\bin\mingw32-gcc-6.3.0.exe
+2025-12-02T14:21:37.219Z [debug] [kit] Detected GCC compiler: C:\MinGW\bin\gcc.exe
+2025-12-02T14:21:37.226Z [debug] [kit] Detected GCC compiler: C:\MinGW\bin\mingw32-gcc.exe
+2025-12-02T14:21:37.227Z [debug] [kit] Testing GCC binary: C:\MinGW\bin\mingw32-gcc.exe
+2025-12-02T14:21:37.228Z [info] [proc] Executing command: C:\MinGW\bin\mingw32-gcc.exe -v
+2025-12-02T14:21:37.236Z [info] [proc] Executing command: C:\MinGW\bin\mingw32-make.exe -v
+2025-12-02T14:21:37.236Z [debug] [proc]   with environment: {"ALLUSERSPROFILE":"C:\\ProgramData","APPDATA":"C:\\Users\\Yash Sharma\\AppData\\Roaming","APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL":"1","APPLICATION_INSIGHTS_NO_STATSBEAT":"true","CHROME_CRASHPAD_PIPE_NAME":"\\\\.\\pipe\\crashpad_16556_BFTGGYAPQJEVYYJD","COMPUTERNAME":"LAPTOP-KSVRS50N","ComSpec":"C:\\WINDOWS\\system32\\cmd.exe","CommonProgramFiles":"C:\\Program Files\\Common Files","CommonProgramFiles(x86)":"C:\\Program Files (x86)\\Common Files","CommonProgramW6432":"C:\\Program Files\\Common Files","DriverData":"C:\\Windows\\System32\\Drivers\\DriverData","EFC_8184_1592913036":"1","ELECTRON_RUN_AS_NODE":"1","HOMEDRIVE":"C:","HOMEPATH":"\\Users\\Yash Sharma","LOCALAPPDATA":"C:\\Users\\Yash Sharma\\AppData\\Local","LOGONSERVER":"\\\\LAPTOP-KSVRS50N","NUMBER_OF_PROCESSORS":"18","ORIGINAL_XDG_CURRENT_DESKTOP":"undefined","OS":"Windows_NT","OneDrive":"C:\\Users\\Yash Sharma\\OneDrive","OneDriveConsumer":"C:\\Users\\Yash Sharma\\OneDrive","OnlineServices":"Online Services","PATHEXT":".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC","PROCESSOR_ARCHITECTURE":"AMD64","PROCESSOR_IDENTIFIER":"Intel64 Family 6 Model 170 Stepping 4, GenuineIntel","PROCESSOR_LEVEL":"6","PROCESSOR_REVISION":"aa04","PSModulePath":"C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules","PUBLIC":"C:\\Users\\Public","Path":"C:\\MinGW\\bin","ProgramData":"C:\\ProgramData","ProgramFiles":"C:\\Program Files","ProgramFiles(x86)":"C:\\Program Files (x86)","ProgramW6432":"C:\\Program Files","RegionCode":"APJ","SESSIONNAME":"Console","SystemDrive":"C:","SystemRoot":"C:\\WINDOWS","TEMP":"C:\\Users\\YASHSH~1\\AppData\\Local\\Temp","TMP":"C:\\Users\\YASHSH~1\\AppData\\Local\\Temp","USERDOMAIN":"LAPTOP-KSVRS50N","USERDOMAIN_ROAMINGPROFILE":"LAPTOP-KSVRS50N","USERNAME":"Yash Sharma","USERPROFILE":"C:\\Users\\Yash Sharma","VSCODE_CODE_CACHE_PATH":"C:\\Users\\Yash Sharma\\AppData\\Roaming\\Code\\CachedData\\cb1933bbc38d329b3595673a600fab5c7368f0a7","VSCODE_CRASH_REPORTER_PROCESS_TYPE":"extensionHost","VSCODE_CWD":"C:\\Users\\Yash Sharma\\AppData\\Local\\Programs\\Microsoft VS Code","VSCODE_ESM_ENTRYPOINT":"vs/workbench/api/node/extensionHostProcess","VSCODE_HANDLES_UNCAUGHT_ERRORS":"true","VSCODE_IPC_HOOK":"\\\\.\\pipe\\e4080c60-1.106.1-main-sock","VSCODE_NLS_CONFIG":"{\"userLocale\":\"en-us\",\"osLocale\":\"en-in\",\"resolvedLanguage\":\"en\",\"defaultMessagesFile\":\"C:\\\\Users\\\\Yash Sharma\\\\AppData\\\\Local\\\\Programs\\\\Microsoft VS Code\\\\resources\\\\app\\\\out\\\\nls.messages.json\",\"locale\":\"en-us\",\"availableLanguages\":{}}","VSCODE_PID":"16556","ZES_ENABLE_SYSMAN":"1","platformcode":"KV","windir":"C:\\WINDOWS"}
+2025-12-02T14:21:37.292Z [info] [proc] Executing command: C:\MinGW\bin\mingw32-make.exe -v
+2025-12-02T14:21:37.292Z [debug] [proc]   with environment: {"ALLUSERSPROFILE":"C:\\ProgramData","APPDATA":"C:\\Users\\Yash Sharma\\AppData\\Roaming","APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL":"1","APPLICATION_INSIGHTS_NO_STATSBEAT":"true","CHROME_CRASHPAD_PIPE_NAME":"\\\\.\\pipe\\crashpad_16556_BFTGGYAPQJEVYYJD","COMPUTERNAME":"LAPTOP-KSVRS50N","ComSpec":"C:\\WINDOWS\\system32\\cmd.exe","CommonProgramFiles":"C:\\Program Files\\Common Files","CommonProgramFiles(x86)":"C:\\Program Files (x86)\\Common Files","CommonProgramW6432":"C:\\Program Files\\Common Files","DriverData":"C:\\Windows\\System32\\Drivers\\DriverData","EFC_8184_1592913036":"1","ELECTRON_RUN_AS_NODE":"1","HOMEDRIVE":"C:","HOMEPATH":"\\Users\\Yash Sharma","LOCALAPPDATA":"C:\\Users\\Yash Sharma\\AppData\\Local","LOGONSERVER":"\\\\LAPTOP-KSVRS50N","NUMBER_OF_PROCESSORS":"18","ORIGINAL_XDG_CURRENT_DESKTOP":"undefined","OS":"Windows_NT","OneDrive":"C:\\Users\\Yash Sharma\\OneDrive","OneDriveConsumer":"C:\\Users\\Yash Sharma\\OneDrive","OnlineServices":"Online Services","PATHEXT":".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC","PROCESSOR_ARCHITECTURE":"AMD64","PROCESSOR_IDENTIFIER":"Intel64 Family 6 Model 170 Stepping 4, GenuineIntel","PROCESSOR_LEVEL":"6","PROCESSOR_REVISION":"aa04","PSModulePath":"C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules","PUBLIC":"C:\\Users\\Public","Path":"C:\\MinGW\\bin","ProgramData":"C:\\ProgramData","ProgramFiles":"C:\\Program Files","ProgramFiles(x86)":"C:\\Program Files (x86)","ProgramW6432":"C:\\Program Files","RegionCode":"APJ","SESSIONNAME":"Console","SystemDrive":"C:","SystemRoot":"C:\\WINDOWS","TEMP":"C:\\Users\\YASHSH~1\\AppData\\Local\\Temp","TMP":"C:\\Users\\YASHSH~1\\AppData\\Local\\Temp","USERDOMAIN":"LAPTOP-KSVRS50N","USERDOMAIN_ROAMINGPROFILE":"LAPTOP-KSVRS50N","USERNAME":"Yash Sharma","USERPROFILE":"C:\\Users\\Yash Sharma","VSCODE_CODE_CACHE_PATH":"C:\\Users\\Yash Sharma\\AppData\\Roaming\\Code\\CachedData\\cb1933bbc38d329b3595673a600fab5c7368f0a7","VSCODE_CRASH_REPORTER_PROCESS_TYPE":"extensionHost","VSCODE_CWD":"C:\\Users\\Yash Sharma\\AppData\\Local\\Programs\\Microsoft VS Code","VSCODE_ESM_ENTRYPOINT":"vs/workbench/api/node/extensionHostProcess","VSCODE_HANDLES_UNCAUGHT_ERRORS":"true","VSCODE_IPC_HOOK":"\\\\.\\pipe\\e4080c60-1.106.1-main-sock","VSCODE_NLS_CONFIG":"{\"userLocale\":\"en-us\",\"osLocale\":\"en-in\",\"resolvedLanguage\":\"en\",\"defaultMessagesFile\":\"C:\\\\Users\\\\Yash Sharma\\\\AppData\\\\Local\\\\Programs\\\\Microsoft VS Code\\\\resources\\\\app\\\\out\\\\nls.messages.json\",\"locale\":\"en-us\",\"availableLanguages\":{}}","VSCODE_PID":"16556","ZES_ENABLE_SYSMAN":"1","platformcode":"KV","windir":"C:\\WINDOWS"}
+2025-12-02T14:21:37.301Z [debug] [kit] Detected GCC compiler: C:\MinGW\bin\mingw32-gcc.exe
+2025-12-02T14:21:37.303Z [info] [proc] Executing command: C:\MinGW\bin\mingw32-make.exe -v
+2025-12-02T14:21:37.303Z [debug] [proc]   with environment: {"ALLUSERSPROFILE":"C:\\ProgramData","APPDATA":"C:\\Users\\Yash Sharma\\AppData\\Roaming","APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL":"1","APPLICATION_INSIGHTS_NO_STATSBEAT":"true","CHROME_CRASHPAD_PIPE_NAME":"\\\\.\\pipe\\crashpad_16556_BFTGGYAPQJEVYYJD","COMPUTERNAME":"LAPTOP-KSVRS50N","ComSpec":"C:\\WINDOWS\\system32\\cmd.exe","CommonProgramFiles":"C:\\Program Files\\Common Files","CommonProgramFiles(x86)":"C:\\Program Files (x86)\\Common Files","CommonProgramW6432":"C:\\Program Files\\Common Files","DriverData":"C:\\Windows\\System32\\Drivers\\DriverData","EFC_8184_1592913036":"1","ELECTRON_RUN_AS_NODE":"1","HOMEDRIVE":"C:","HOMEPATH":"\\Users\\Yash Sharma","LOCALAPPDATA":"C:\\Users\\Yash Sharma\\AppData\\Local","LOGONSERVER":"\\\\LAPTOP-KSVRS50N","NUMBER_OF_PROCESSORS":"18","ORIGINAL_XDG_CURRENT_DESKTOP":"undefined","OS":"Windows_NT","OneDrive":"C:\\Users\\Yash Sharma\\OneDrive","OneDriveConsumer":"C:\\Users\\Yash Sharma\\OneDrive","OnlineServices":"Online Services","PATHEXT":".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC","PROCESSOR_ARCHITECTURE":"AMD64","PROCESSOR_IDENTIFIER":"Intel64 Family 6 Model 170 Stepping 4, GenuineIntel","PROCESSOR_LEVEL":"6","PROCESSOR_REVISION":"aa04","PSModulePath":"C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules","PUBLIC":"C:\\Users\\Public","Path":"C:\\MinGW\\bin","ProgramData":"C:\\ProgramData","ProgramFiles":"C:\\Program Files","ProgramFiles(x86)":"C:\\Program Files (x86)","ProgramW6432":"C:\\Program Files","RegionCode":"APJ","SESSIONNAME":"Console","SystemDrive":"C:","SystemRoot":"C:\\WINDOWS","TEMP":"C:\\Users\\YASHSH~1\\AppData\\Local\\Temp","TMP":"C:\\Users\\YASHSH~1\\AppData\\Local\\Temp","USERDOMAIN":"LAPTOP-KSVRS50N","USERDOMAIN_ROAMINGPROFILE":"LAPTOP-KSVRS50N","USERNAME":"Yash Sharma","USERPROFILE":"C:\\Users\\Yash Sharma","VSCODE_CODE_CACHE_PATH":"C:\\Users\\Yash Sharma\\AppData\\Roaming\\Code\\CachedData\\cb1933bbc38d329b3595673a600fab5c7368f0a7","VSCODE_CRASH_REPORTER_PROCESS_TYPE":"extensionHost","VSCODE_CWD":"C:\\Users\\Yash Sharma\\AppData\\Local\\Programs\\Microsoft VS Code","VSCODE_ESM_ENTRYPOINT":"vs/workbench/api/node/extensionHostProcess","VSCODE_HANDLES_UNCAUGHT_ERRORS":"true","VSCODE_IPC_HOOK":"\\\\.\\pipe\\e4080c60-1.106.1-main-sock","VSCODE_NLS_CONFIG":"{\"userLocale\":\"en-us\",\"osLocale\":\"en-in\",\"resolvedLanguage\":\"en\",\"defaultMessagesFile\":\"C:\\\\Users\\\\Yash Sharma\\\\AppData\\\\Local\\\\Programs\\\\Microsoft VS Code\\\\resources\\\\app\\\\out\\\\nls.messages.json\",\"locale\":\"en-us\",\"availableLanguages\":{}}","VSCODE_PID":"16556","ZES_ENABLE_SYSMAN":"1","platformcode":"KV","windir":"C:\\WINDOWS"}
+2025-12-02T14:21:37.405Z [debug] [kit] Found 3 kits in directory C:/MinGW/bin
+2025-12-02T14:21:37.405Z [info] [kit] Found Kit (trusted): GCC 6.3.0 mingw32
+2025-12-02T14:21:37.405Z [info] [kit] Found Kit (trusted): GCC 6.3.0 mingw32
+2025-12-02T14:21:37.406Z [info] [kit] Found Kit (trusted): GCC 6.3.0 mingw32
+2025-12-02T14:21:37.407Z [debug] [kitsController] Saving kits to C:\Users\Yash Sharma\AppData\Local\CMakeTools\cmake-tools-kits.json
+2025-12-02T14:21:37.407Z [debug] [kitsController] Saving new kits to C:\Users\Yash Sharma\AppData\Local\CMakeTools\cmake-tools-kits.json
+2025-12-02T14:21:41.213Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T14:22:06.111Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T14:22:21.368Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T14:23:18.413Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T14:23:45.638Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T14:23:47.982Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T14:27:00.965Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T14:27:02.554Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T14:27:07.844Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T14:28:39.619Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T14:28:43.015Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T14:28:53.925Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T14:28:55.722Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T14:31:05.350Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T14:31:41.332Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T14:31:42.813Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T14:38:29.654Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T14:38:31.853Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T14:38:37.138Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T14:38:37.991Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T14:41:04.602Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T14:41:08.027Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T14:41:17.720Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T14:41:18.822Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T14:41:20.790Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T14:41:22.221Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T14:46:58.608Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T14:47:03.489Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T14:47:05.586Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T14:47:34.280Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T14:47:36.309Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T14:54:45.147Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T14:54:46.638Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:00:57.078Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:00:59.945Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:01:03.954Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:01:05.469Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:01:09.307Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:01:10.867Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:01:12.887Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:01:21.353Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:01:22.901Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:02:24.525Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:02:30.584Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:02:42.940Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:03:59.475Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:04:02.868Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:04:04.562Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:04:07.166Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:04:10.296Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:04:15.947Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:04:19.209Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:04:21.935Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:04:23.948Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:04:26.432Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:04:30.054Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:04:36.068Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:04:42.835Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:04:45.451Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:04:46.895Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:04:50.564Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:04:51.802Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:05:32.102Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:05:34.382Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:06:52.122Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:06:54.274Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:06:56.381Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:06:57.797Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:07:00.095Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:07:02.614Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:07:05.714Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:07:14.268Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:07:16.427Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:07:21.025Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:07:23.531Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:07:25.012Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:07:27.616Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:07:31.013Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:08:30.621Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:08:36.113Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:08:40.045Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:08:41.978Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:08:43.780Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:08:46.016Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:09:04.438Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:09:10.855Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:09:23.430Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:09:46.373Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:09:51.301Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:09:55.064Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:10:20.688Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:10:24.847Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:10:27.796Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:10:29.493Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:10:30.879Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:10:32.426Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:10:42.561Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:10:43.973Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:10:46.174Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:10:48.328Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:10:52.261Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:10:56.611Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:10:58.110Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:10:59.161Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:11:02.544Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:11:05.399Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:11:07.439Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:11:10.560Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:11:17.513Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:11:21.324Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:11:25.028Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:11:27.112Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:11:28.310Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:11:31.059Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:11:33.876Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:11:35.577Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:11:37.276Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:11:39.960Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:11:41.260Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:11:45.876Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:11:52.392Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:11:54.189Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:11:55.310Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:11:58.493Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:12:05.706Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:13:04.030Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:13:07.523Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:13:11.692Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:13:13.940Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:13:16.360Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:13:49.614Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:13:51.973Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:14:02.400Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:14:06.880Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:14:08.012Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:14:13.898Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:14:15.805Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:14:18.535Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:14:20.868Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:14:24.400Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:14:26.112Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:14:51.456Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:14:52.953Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:14:56.399Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:15:02.811Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:15:05.940Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:17:19.609Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:17:21.503Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:17:22.595Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:19:40.842Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:19:45.547Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:19:49.022Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:19:52.884Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:19:57.305Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:20:51.273Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:20:59.981Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:21:01.615Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:21:06.599Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:21:07.780Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:21:11.681Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:21:55.914Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:22:44.423Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:22:51.991Z [debug] [main] Not starting CMake driver: no kit selected
+2025-12-02T15:23:02.229Z [debug] [extension] Deactivate CMakeTools

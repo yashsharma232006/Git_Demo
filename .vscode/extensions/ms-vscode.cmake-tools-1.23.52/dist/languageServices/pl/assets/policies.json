@@ -1,0 +1,1123 @@
+{
+	"CMP0000": {
+		"name": "CMP0000",
+		"description": "Należy określić minimalną wymaganą wersję narzędzia CMake.",
+		"introduced_version": "2.6.0",
+		"removed_version": "4.0"
+	},
+	"CMP0001": {
+		"name": "CMP0001",
+		"description": "CMAKE_BACKWARDS_COMPATIBILITY nie powinny być już używane.",
+		"introduced_version": "2.6.0",
+		"removed_version": "4.0"
+	},
+	"CMP0002": {
+		"name": "CMP0002",
+		"description": "Logiczne nazwy obiektów docelowych muszą być globalnie unikatowe.",
+		"introduced_version": "2.6.0",
+		"removed_version": "4.0"
+	},
+	"CMP0003": {
+		"name": "CMP0003",
+		"description": "Biblioteki połączone za pośrednictwem pełnej ścieżki nie tworzą już ścieżek wyszukiwania konsolidatora.",
+		"introduced_version": "2.6.0",
+		"removed_version": "4.0"
+	},
+	"CMP0004": {
+		"name": "CMP0004",
+		"description": "Połączone biblioteki mogą nie mieć spacji wiodących lub końcowych.",
+		"introduced_version": "2.6.0",
+		"removed_version": "4.0"
+	},
+	"CMP0005": {
+		"name": "CMP0005",
+		"description": "Wartości definicji preprocesora są teraz automatycznie zmieniane.",
+		"introduced_version": "2.6.0",
+		"removed_version": "4.0"
+	},
+	"CMP0006": {
+		"name": "CMP0006",
+		"description": "Instalowanie miejsc docelowych MACOSX_BUNDLE wymaga lokalizacji docelowej pakietu.",
+		"introduced_version": "2.6.0",
+		"removed_version": "4.0"
+	},
+	"CMP0007": {
+		"name": "CMP0007",
+		"description": "polecenie listy nie ignoruje już pustych elementów.",
+		"introduced_version": "2.6.0",
+		"removed_version": "4.0"
+	},
+	"CMP0008": {
+		"name": "CMP0008",
+		"description": "Biblioteki połączone pełną ścieżką muszą mieć prawidłową nazwę pliku biblioteki.",
+		"introduced_version": "2.6.1",
+		"removed_version": "4.0"
+	},
+	"CMP0009": {
+		"name": "CMP0009",
+		"description": "Wywołania GLOB_RECURSE FILE nie powinny domyślnie następować po sylinkach.",
+		"introduced_version": "2.6.2",
+		"removed_version": "4.0"
+	},
+	"CMP0010": {
+		"name": "CMP0010",
+		"description": "Nieprawidłowa składnia odwołania do zmiennej jest błędem.",
+		"introduced_version": "2.6.3",
+		"removed_version": "4.0"
+	},
+	"CMP0011": {
+		"name": "CMP0011",
+		"description": "Dołączone skrypty wykonują automatyczne cmake_policy PUSH i POP.",
+		"introduced_version": "2.6.3",
+		"removed_version": "4.0"
+	},
+	"CMP0012": {
+		"name": "CMP0012",
+		"description": "Polecenie IF rozpoznaje liczby i stałe logiczne.",
+		"introduced_version": "2.8.0",
+		"removed_version": "4.0"
+	},
+	"CMP0013": {
+		"name": "CMP0013",
+		"description": "Zduplikowane katalogi binarne są niedozwolone.",
+		"introduced_version": "2.8.0",
+		"removed_version": "4.0"
+	},
+	"CMP0014": {
+		"name": "CMP0014",
+		"description": "Katalogi wejściowe muszą mieć plik CMakeLists.txt.",
+		"introduced_version": "2.8.0",
+		"removed_version": "4.0"
+	},
+	"CMP0015": {
+		"name": "CMP0015",
+		"description": "link_directories traktuje ścieżki względem katalogu źródłowego.",
+		"introduced_version": "2.8.1",
+		"removed_version": "4.0"
+	},
+	"CMP0016": {
+		"name": "CMP0016",
+		"description": "target_link_libraries zgłasza błąd, jeśli jego jedyny argument nie jest miejscem docelowym.",
+		"introduced_version": "2.8.3",
+		"removed_version": "4.0"
+	},
+	"CMP0017": {
+		"name": "CMP0017",
+		"description": "Preferuj pliki z katalogu modułu narzędzia CMake, gdy są dołączane z tego miejsca.",
+		"introduced_version": "2.8.4",
+		"removed_version": "4.0"
+	},
+	"CMP0018": {
+		"name": "CMP0018",
+		"description": "Ignoruj zmienną CMAKE_SHARED_LIBRARY_<Lang>_FLAGS.",
+		"introduced_version": "2.8.9",
+		"removed_version": "4.0"
+	},
+	"CMP0019": {
+		"name": "CMP0019",
+		"description": "Nie rozwijaj ponownie zmiennych w informacjach o dołączaniu i łączeniu.",
+		"introduced_version": "2.8.11",
+		"removed_version": "4.0"
+	},
+	"CMP0020": {
+		"name": "CMP0020",
+		"description": "Automatycznie połącz pliki wykonywalne Qt z obiektem docelowym qtmain w systemie Windows.",
+		"introduced_version": "2.8.11",
+		"removed_version": "4.0"
+	},
+	"CMP0021": {
+		"name": "CMP0021",
+		"description": "Błąd krytyczny ścieżek względnych we właściwości INCLUDE_DIRECTORIES docelowej.",
+		"introduced_version": "2.8.12",
+		"removed_version": "4.0"
+	},
+	"CMP0022": {
+		"name": "CMP0022",
+		"description": "INTERFACE_LINK_LIBRARIES definiuje interfejs linku.",
+		"introduced_version": "2.8.12",
+		"removed_version": "4.0"
+	},
+	"CMP0023": {
+		"name": "CMP0023",
+		"description": "Sygnatury target_link_libraries zwykłe i słowa kluczowego nie mogą być mieszane.",
+		"introduced_version": "2.8.12",
+		"removed_version": "4.0"
+	},
+	"CMP0024": {
+		"name": "CMP0024",
+		"description": "Nie zezwalaj na dołączanie wyników eksportu.",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0025": {
+		"name": "CMP0025",
+		"description": "Identyfikator kompilatora dla oprogramowania Apple Clang to teraz AppleClang.",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0026": {
+		"name": "CMP0026",
+		"description": "Nie zezwalaj na używanie właściwości LOCATION dla miejsc docelowych kompilacji.",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0027": {
+		"name": "CMP0027",
+		"description": "Warunkowo połączone zaimportowane obiekty docelowe z brakującymi katalogami include.",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0028": {
+		"name": "CMP0028",
+		"description": "Dwukropek w nazwie docelowej oznacza miejsce docelowe ALIAS lub IMPORTED.",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0029": {
+		"name": "CMP0029",
+		"description": "Nie należy wywoływać polecenia subdir_depends.",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0030": {
+		"name": "CMP0030",
+		"description": "Nie należy wywoływać polecenia use_mangled_mesa.",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0031": {
+		"name": "CMP0031",
+		"description": "Nie należy wywoływać polecenia load_command.",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0032": {
+		"name": "CMP0032",
+		"description": "Nie należy wywoływać polecenia output_required_files.",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0033": {
+		"name": "CMP0033",
+		"description": "Nie należy wywoływać polecenia export_library_dependencies.",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0034": {
+		"name": "CMP0034",
+		"description": "Nie należy wywoływać polecenia utility_source.",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0035": {
+		"name": "CMP0035",
+		"description": "Nie należy wywoływać polecenia variable_requires.",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0036": {
+		"name": "CMP0036",
+		"description": "Nie należy wywoływać polecenia build_name.",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0037": {
+		"name": "CMP0037",
+		"description": "Nazwy miejsc docelowych nie powinny być zastrzeżone i powinny być zgodne ze wzorcem poprawności.",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0038": {
+		"name": "CMP0038",
+		"description": "Obiekty docelowe nie mogą łączyć się bezpośrednio z sobą.",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0039": {
+		"name": "CMP0039",
+		"description": "Miejsca docelowe narzędzia mogą nie mieć zależności linków.",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0040": {
+		"name": "CMP0040",
+		"description": "Miejsce docelowe w podpisie TARGET add_custom_command musi istnieć i musi być zdefiniowany w bieżącym katalogu.",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0041": {
+		"name": "CMP0041",
+		"description": "Błąd względnego dołączania z wyrażeniem generatora.",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0042": {
+		"name": "CMP0042",
+		"description": "MACOSX_RPATH jest domyślnie włączone.",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0043": {
+		"name": "CMP0043",
+		"description": "Ignoruj właściwości COMPILE_DEFINITIONS_<Config>",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0044": {
+		"name": "CMP0044",
+		"description": "Wyrażenia generatora <LANG>_COMPILER_ID z uwzględnieniem wielkości liter",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0045": {
+		"name": "CMP0045",
+		"description": "Błąd nieistniejącego obiektu docelowego w get_target_property.",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0046": {
+		"name": "CMP0046",
+		"description": "Błąd dotyczący nieistniejącej zależności w add_dependencies.",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0047": {
+		"name": "CMP0047",
+		"description": "Użyj identyfikatora kompilatora QCC dla sterowników qcc w QNX.",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0048": {
+		"name": "CMP0048",
+		"description": "Polecenie project zarządza zmiennymi VERSION.",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0049": {
+		"name": "CMP0049",
+		"description": "Nie rozwijaj zmiennych w docelowych wpisach źródłowych.",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0050": {
+		"name": "CMP0050",
+		"description": "Nie zezwalaj na sygnatury SOURCE add_custom_command.",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0051": {
+		"name": "CMP0051",
+		"description": "Wyświetl TARGET_OBJECTS we właściwości docelowej SOURCES.",
+		"introduced_version": "3.1",
+		"removed_version": "4.0"
+	},
+	"CMP0052": {
+		"name": "CMP0052",
+		"description": "Odrzuć katalogi źródłowe i kompilacyjne w zainstalowanych INTERFACE_INCLUDE_DIRECTORIES.",
+		"introduced_version": "3.1",
+		"removed_version": "4.0"
+	},
+	"CMP0053": {
+		"name": "CMP0053",
+		"description": "Uprość odwołanie do zmiennej i ocenę sekwencji ucieczki.",
+		"introduced_version": "3.1",
+		"removed_version": "4.0"
+	},
+	"CMP0054": {
+		"name": "CMP0054",
+		"description": "Interpretuj tylko argumenty IF jako zmienne lub słowa kluczowe, gdy nie są w cudzysłowie.",
+		"introduced_version": "3.1",
+		"removed_version": "4.0"
+	},
+	"CMP0055": {
+		"name": "CMP0055",
+		"description": "Ścisłe sprawdzanie dla polecenia przerwania.",
+		"introduced_version": "3.2",
+		"removed_version": "4.0"
+	},
+	"CMP0056": {
+		"name": "CMP0056",
+		"description": "Honoruj flagi linku w sygnaturze pliku źródłowego try_compile.",
+		"introduced_version": "3.2",
+		"removed_version": "4.0"
+	},
+	"CMP0057": {
+		"name": "CMP0057",
+		"description": "Obsługa nowego operatora, jeśli IN_LIST.",
+		"introduced_version": "3.3",
+		"removed_version": "4.0"
+	},
+	"CMP0058": {
+		"name": "CMP0058",
+		"description": "Ninja wymaga jawnego określenia niestandardowych produktów byproduktów poleceń.",
+		"introduced_version": "3.3",
+		"removed_version": "4.0"
+	},
+	"CMP0059": {
+		"name": "CMP0059",
+		"description": "Nie traktuj definicji jako wbudowanej właściwości katalogu.",
+		"introduced_version": "3.3",
+		"removed_version": "4.0"
+	},
+	"CMP0060": {
+		"name": "CMP0060",
+		"description": "Łącz biblioteki według pełnej ścieżki nawet w katalogach niejawnych.",
+		"introduced_version": "3.3",
+		"removed_version": "4.0"
+	},
+	"CMP0061": {
+		"name": "CMP0061",
+		"description": "Narzędzie CTest domyślnie nie informuje o ignorowaniu błędów (-i).",
+		"introduced_version": "3.3",
+		"removed_version": "4.0"
+	},
+	"CMP0062": {
+		"name": "CMP0062",
+		"description": "Nie zezwalaj na instalowanie wyników eksportu.",
+		"introduced_version": "3.3",
+		"removed_version": "4.0"
+	},
+	"CMP0063": {
+		"name": "CMP0063",
+		"description": "Uwzględniaj właściwości widoczności dla wszystkich typów docelowych.",
+		"introduced_version": "3.3",
+		"removed_version": "4.0"
+	},
+	"CMP0064": {
+		"name": "CMP0064",
+		"description": "Rozpoznawaj TEST jako operatora dla polecenia IF.",
+		"introduced_version": "3.4",
+		"removed_version": "4.0"
+	},
+	"CMP0065": {
+		"name": "CMP0065",
+		"description": "Nie dodawaj flag do eksportowania symboli z plików wykonywalnych bez właściwości docelowej ENABLE_EXPORTS.",
+		"introduced_version": "3.4",
+		"removed_version": "4.0"
+	},
+	"CMP0066": {
+		"name": "CMP0066",
+		"description": "Honoruj flagi konfiguracji w sygnaturze pliku źródłowego try_compile.",
+		"introduced_version": "3.7"
+	},
+	"CMP0067": {
+		"name": "CMP0067",
+		"description": "Honoruj standard języka w sygnaturze pliku źródłowego try_compile.",
+		"introduced_version": "3.8"
+	},
+	"CMP0068": {
+		"name": "CMP0068",
+		"description": "Ustawienia RPATH w systemie macOS nie mają wpływu na install_name.",
+		"introduced_version": "3.9"
+	},
+	"CMP0069": {
+		"name": "CMP0069",
+		"description": "INTERPROCEDURAL_OPTIMIZATION jest wymuszane po włączeniu.",
+		"introduced_version": "3.9"
+	},
+	"CMP0070": {
+		"name": "CMP0070",
+		"description": "Zdefiniuj zachowanie pliku dla ścieżek względnych.",
+		"introduced_version": "3.10"
+	},
+	"CMP0071": {
+		"name": "CMP0071",
+		"description": "Zezwalaj AUTOMOC i AUTOUIC na przetwarzanie plików GENERATED.",
+		"introduced_version": "3.10"
+	},
+	"CMP0072": {
+		"name": "CMP0072",
+		"description": "FindOpenGL domyślnie preferuje GLVND, jeśli jest dostępna.",
+		"introduced_version": "3.11"
+	},
+	"CMP0073": {
+		"name": "CMP0073",
+		"description": "Nie produkuj starszych wpisów pamięci podręcznej _LIB_DEPENDS.",
+		"introduced_version": "3.12"
+	},
+	"CMP0074": {
+		"name": "CMP0074",
+		"description": "find_package używa zmiennych <PackageName>_ROOT.",
+		"introduced_version": "3.12"
+	},
+	"CMP0075": {
+		"name": "CMP0075",
+		"description": "Uwzględnij makra sprawdzania plików, które uwzględniają CMAKE_REQUIRED_LIBRARIES.",
+		"introduced_version": "3.12"
+	},
+	"CMP0076": {
+		"name": "CMP0076",
+		"description": "Polecenie target_sources konwertuje ścieżki względne na bezwzględne.",
+		"introduced_version": "3.13"
+	},
+	"CMP0077": {
+		"name": "CMP0077",
+		"description": "opcja uwzględnia zmienne normalne.",
+		"introduced_version": "3.13"
+	},
+	"CMP0078": {
+		"name": "CMP0078",
+		"description": "UseSWIG generuje standardowe nazwy obiektów docelowych.",
+		"introduced_version": "3.13"
+	},
+	"CMP0079": {
+		"name": "CMP0079",
+		"description": "target_link_libraries umożliwia używanie z miejscami docelowymi w innych katalogach.",
+		"introduced_version": "3.13"
+	},
+	"CMP0080": {
+		"name": "CMP0080",
+		"description": "Nie można uwzględnić elementów BundleUtilities w czasie konfiguracji.",
+		"introduced_version": "3.13"
+	},
+	"CMP0081": {
+		"name": "CMP0081",
+		"description": "Ścieżki względne nie są dozwolone we właściwości LINK_DIRECTORIES docelowej.",
+		"introduced_version": "3.13"
+	},
+	"CMP0082": {
+		"name": "CMP0082",
+		"description": "Reguły instalacji z wywołań add_subdirectory są przeplatane z wywołaniami w wywołującym.",
+		"introduced_version": "3.14"
+	},
+	"CMP0083": {
+		"name": "CMP0083",
+		"description": "Aby sterować generowaniem pliku wykonywalnego niezależnego od położenia (PIE), niektóre flagi są wymagane w czasie łączenia.",
+		"introduced_version": "3.14"
+	},
+	"CMP0084": {
+		"name": "CMP0084",
+		"description": "Moduł FindQt nie istnieje dla find_package.",
+		"introduced_version": "3.14"
+	},
+	"CMP0085": {
+		"name": "CMP0085",
+		"description": "$<IN_LIST:... > obsługuje puste elementy listy.",
+		"introduced_version": "3.14"
+	},
+	"CMP0086": {
+		"name": "CMP0086",
+		"description": "UseSWIG honoruje SWIG_MODULE_NAME za pośrednictwem flagi -module.",
+		"introduced_version": "3.14"
+	},
+	"CMP0087": {
+		"name": "CMP0087",
+		"description": "zainstaluj wyrażenia generatora obsługi.",
+		"introduced_version": "3.14"
+	},
+	"CMP0088": {
+		"name": "CMP0088",
+		"description": "FindBISON uruchamia plik bison w CMAKE_CURRENT_BINARY_DIR podczas wykonywania.",
+		"introduced_version": "3.14"
+	},
+	"CMP0089": {
+		"name": "CMP0089",
+		"description": "Identyfikator kompilatora dla kompilatorów XL opartych na programie IBM Clang to teraz XLClang.",
+		"introduced_version": "3.15"
+	},
+	"CMP0090": {
+		"name": "CMP0090",
+		"description": "Eksport nie wypełnia domyślnie rejestru pakietów.",
+		"introduced_version": "3.15"
+	},
+	"CMP0091": {
+		"name": "CMP0091",
+		"description": "Flagi biblioteki środowiska uruchomieniowego MSVC są wybierane przez abstrakcję.",
+		"introduced_version": "3.15"
+	},
+	"CMP0092": {
+		"name": "CMP0092",
+		"description": "Flagi ostrzeżenia MSVC nie są domyślnie w języku CMAKE_<LANG>_FLAGS.",
+		"introduced_version": "3.15"
+	},
+	"CMP0093": {
+		"name": "CMP0093",
+		"description": "Raporty funkcji FindBoost Boost_VERSION w formacie x.y.z.",
+		"introduced_version": "3.15"
+	},
+	"CMP0094": {
+		"name": "CMP0094",
+		"description": "Moduły FindPython3, FindPython2 i FindPython używają LOCATION na potrzeby strategii wyszukiwania.",
+		"introduced_version": "3.15"
+	},
+	"CMP0095": {
+		"name": "CMP0095",
+		"description": "Wpisy RPATH są prawidłowo zmienione w pośrednim skrypcie instalacji narzędzia CMake.",
+		"introduced_version": "3.16"
+	},
+	"CMP0096": {
+		"name": "CMP0096",
+		"description": "Polecenie projektu zachowuje zera wiodące w składnikach wersji.",
+		"introduced_version": "3.16"
+	},
+	"CMP0097": {
+		"name": "CMP0097",
+		"description": "ExternalProject_Add z GIT_SUBMODULES nie inicjuje modułów podrzędnych.",
+		"introduced_version": "3.16"
+	},
+	"CMP0098": {
+		"name": "CMP0098",
+		"description": "FindFLEX uruchamia flex w katalogu CMAKE_CURRENT_BINARY_DIR podczas wykonywania.",
+		"introduced_version": "3.17"
+	},
+	"CMP0099": {
+		"name": "CMP0099",
+		"description": "Właściwości linku są przechodnie w stosunku do prywatnych zależności bibliotek statycznych.",
+		"introduced_version": "3.17"
+	},
+	"CMP0100": {
+		"name": "CMP0100",
+		"description": "Zezwalaj AUTOMOC i AUTOUIC na przetwarzanie plików nagłówkowych, które kończą się rozszerzeniem hh.",
+		"introduced_version": "3.17.0"
+	},
+	"CMP0101": {
+		"name": "CMP0101",
+		"description": "target_compile_options teraz zawsze uwzględnia słowo kluczowe BEFORE.",
+		"introduced_version": "3.17"
+	},
+	"CMP0102": {
+		"name": "CMP0102",
+		"description": "Polecenie mark_as_advanced nie tworzy już wpisu pamięci podręcznej, jeśli jeszcze nie istnieje.",
+		"introduced_version": "3.17"
+	},
+	"CMP0103": {
+		"name": "CMP0103",
+		"description": "Wiele wywołań polecenia eksportowania z tym samym plikiem bez funkcji APPEND nie jest już dozwolone.",
+		"introduced_version": "3.18"
+	},
+	"CMP0104": {
+		"name": "CMP0104",
+		"description": "Zainicjuj CMAKE_CUDA_ARCHITECTURES, gdy CMAKE_CUDA_COMPILER_ID <CMAKE_<LANG>_COMPILER_ID> to NVIDIA. Zgłoś błąd, jeśli CUDA_ARCHITECTURES jest pusty.",
+		"introduced_version": "3.18"
+	},
+	"CMP0105": {
+		"name": "CMP0105",
+		"description": "Właściwości miejsca docelowego LINK_OPTIONS i INTERFACE_LINK_OPTIONS są teraz używane w kroku linku urządzenia.",
+		"introduced_version": "3.18"
+	},
+	"CMP0106": {
+		"name": "CMP0106",
+		"description": "Moduł Dokumentacja został usunięty.",
+		"introduced_version": "3.18"
+	},
+	"CMP0107": {
+		"name": "CMP0107",
+		"description": "Nie można utworzyć obiektu docelowego ALIAS o takiej samej nazwie jak inne miejsce docelowe.",
+		"introduced_version": "3.17"
+	},
+	"CMP0108": {
+		"name": "CMP0108",
+		"description": "Obiekt docelowy nie może łączyć się z samym sobą nawet za pośrednictwem obiektu docelowego ALIAS.",
+		"introduced_version": "3.17"
+	},
+	"CMP0109": {
+		"name": "CMP0109",
+		"description": "find_program wymaga uprawnień do wykonania, ale nie do odczytu.",
+		"introduced_version": "3.19"
+	},
+	"CMP0110": {
+		"name": "CMP0110",
+		"description": "add_test obsługuje dowolne znaki w nazwach testów.",
+		"introduced_version": "3.19"
+	},
+	"CMP0111": {
+		"name": "CMP0111",
+		"description": "Importowane miejsce docelowe bez właściwości lokalizacji kończy się niepowodzeniem podczas generowania.",
+		"introduced_version": "3.19"
+	},
+	"CMP0112": {
+		"name": "CMP0112",
+		"description": "Wyrażenia generatora składników plików docelowych nie dodają zależności docelowych.",
+		"introduced_version": "3.19"
+	},
+	"CMP0113": {
+		"name": "CMP0113",
+		"description": "Generatory plików make nie powtarzają poleceń niestandardowych z zależności docelowych.",
+		"introduced_version": "3.19"
+	},
+	"CMP0114": {
+		"name": "CMP0114",
+		"description": "Celem kroku ExternalProject jest pełne wdrożenie kroków.",
+		"introduced_version": "3.19"
+	},
+	"CMP0115": {
+		"name": "CMP0115",
+		"description": "Rozszerzenia plików źródłowych muszą być jawne.",
+		"introduced_version": "3.20"
+	},
+	"CMP0116": {
+		"name": "CMP0116",
+		"description": "Generatory ninja przekształcają pliki DEPFILE z add_custom_command.",
+		"introduced_version": "3.20"
+	},
+	"CMP0117": {
+		"name": "CMP0117",
+		"description": "Flaga MSVC RTTI /GR nie jest domyślnie dodawana do CMAKE_CXX_FLAGS <CMAKE_<LANG>_FLAGS>.",
+		"introduced_version": "3.20"
+	},
+	"CMP0118": {
+		"name": "CMP0118",
+		"description": "WYGENEROWANE źródła mogą być używane w katalogach bez ręcznego oznaczania.",
+		"introduced_version": "3.20"
+	},
+	"CMP0119": {
+		"name": "CMP0119",
+		"description": "Właściwość pliku źródłowego LANGUAGE jawnie kompiluje się jako określony język.",
+		"introduced_version": "3.20"
+	},
+	"CMP0120": {
+		"name": "CMP0120",
+		"description": "Moduł WriteCompilerDetectionHeader został usunięty.",
+		"introduced_version": "3.20"
+	},
+	"CMP0121": {
+		"name": "CMP0121",
+		"description": "Polecenie listy wykrywa teraz nieprawidłowe indeksy.",
+		"introduced_version": "3.21"
+	},
+	"CMP0122": {
+		"name": "CMP0122",
+		"description": "Użyj SWIG użyj konwencji nazwy biblioteki dla języka CSharp.",
+		"introduced_version": "3.21"
+	},
+	"CMP0123": {
+		"name": "CMP0123",
+		"description": "Flagi kompilowania procesora CPU/arch armclang i linku muszą być jawnie ustawione.",
+		"introduced_version": "3.21"
+	},
+	"CMP0124": {
+		"name": "CMP0124",
+		"description": "Zmienne pętli foreach są dostępne tylko w zakresie pętli.",
+		"introduced_version": "3.21"
+	},
+	"CMP0125": {
+		"name": "CMP0125",
+		"description": "Polecenia find_file, find_path, find_library i find_program buforują swój wynik w zmiennej określonej przez ich pierwszy argument. Przed narzędziem CMake w wersji 3.21, jeśli zmienna pamięci podręcznej o tej nazwie istniała już przed wywołaniem, ale zmienna pamięci podręcznej nie miała typu, wszelkie zmienne inne niż pamięć podręczna o tej samej nazwie zostałyby odrzucone i zmienna pamięci podręcznej była zawsze używana (zobacz też CMP0126, aby uzyskać inne, ale podobne zachowanie). Jest to sprzeczne z konwencją, że zmienna spoza pamięci podręcznej powinna mieć pierwszeństwo przed zmienną pamięci podręcznej o tej samej nazwie. Taka sytuacja może wystąpić, jeśli użytkownik ustawia zmienną pamięci podręcznej w wierszu polecenia bez określania typu, takiego jak cmake -DMYVAR=blah... zamiast polecenia cmake -DMYVAR:FILEPATH=blah.",
+		"introduced_version": "3.21"
+	},
+	"CMP0126": {
+		"name": "CMP0126",
+		"description": "Gdy te zasady mają wartość NEW, polecenie set nie usuwa żadnej zmiennej normalnej o tej samej nazwie z bieżącego zakresu. Zachowanie OLD usuwa dowolną zmienną normalną o tej samej nazwie z bieżącego zakresu w następujących sytuacjach:",
+		"introduced_version": "3.21"
+	},
+	"CMP0127": {
+		"name": "CMP0127",
+		"description": "cmake_dependent_option obsługuje pełną składnię warunku.",
+		"introduced_version": "3.22"
+	},
+	"CMP0128": {
+		"name": "CMP0128",
+		"description": "Gdy te zasady są ustawione na NEW:",
+		"introduced_version": "3.22"
+	},
+	"CMP0129": {
+		"name": "CMP0129",
+		"description": "Identyfikator kompilatora dla kompilatorów MCST LCC to teraz LCC, a nie GNU.",
+		"introduced_version": "3.23"
+	},
+	"CMP0130": {
+		"name": "CMP0130",
+		"description": "podczas diagnozowania błędów oceny warunku.",
+		"introduced_version": "3.24"
+	},
+	"CMP0131": {
+		"name": "CMP0131",
+		"description": "LINK_LIBRARIES obsługuje wyrażenie generatora :genex:`$<LINK_ONLY:...>`",
+		"introduced_version": "3.24"
+	},
+	"CMP0132": {
+		"name": "CMP0132",
+		"description": "Nie ustawiaj zmiennych środowiskowych kompilatora przy pierwszym uruchomieniu.",
+		"introduced_version": "3.24"
+	},
+	"CMP0133": {
+		"name": "CMP0133",
+		"description": "Moduł CPack domyślnie wyłącza umowę SLA w generatorze CPack DragNDrop.",
+		"introduced_version": "3.24"
+	},
+	"CMP0134": {
+		"name": "CMP0134",
+		"description": "Domyślny widok rejestru to TARGET dla poleceń find_file, find_path, find_library i find_package oraz BOTH dla polecenia find_program.",
+		"introduced_version": "3.24"
+	},
+	"CMP0135": {
+		"name": "CMP0135",
+		"description": "W przypadku korzystania z metody pobierania adresu URL z poleceniami ExternalProject_Add lub FetchContent_Declare narzędzie CMake w wersji 3.23 i starszej ustawia sygnatury czasowe wyodrębnianej zawartości na takie same jak sygnatury czasowe w archiwum. Po zmianie adresu URL nowe archiwum jest pobierane i wyodrębniane, ale sygnatury czasowe wyodrębnianej zawartości mogą nie być nowsze niż poprzednia zawartość. Wszystko, co zależy od wyodrębnianej zawartości, może nie zostać odbudowane, nawet jeśli zawartość może ulec zmianie.",
+		"introduced_version": "3.24"
+	},
+	"CMP0136": {
+		"name": "CMP0136",
+		"description": "Flagi biblioteki środowiska uruchomieniowego Watcom są wybierane przez abstrakcję.",
+		"introduced_version": "3.24"
+	},
+	"CMP0137": {
+		"name": "CMP0137",
+		"description": "try_compile przekazuje zmienne platformy w trybie projektu.",
+		"introduced_version": "3.24"
+	},
+	"CMP0138": {
+		"name": "CMP0138",
+		"description": "Element CheckIPOSupported używa flag z wywoływania projektu.",
+		"introduced_version": "3.24"
+	},
+	"CMP0139": {
+		"name": "CMP0139",
+		"description": "Polecenie IF obsługuje porównania ścieżek przy użyciu operatora PATH_EQUAL.",
+		"introduced_version": "3.24"
+	},
+	"CMP0140": {
+		"name": "CMP0140",
+		"description": "Polecenie zwracania sprawdza jego parametry.",
+		"introduced_version": "3.25"
+	},
+	"CMP0141": {
+		"name": "CMP0141",
+		"description": "Flagi formatu informacji debugowania MSVC są wybierane przez abstrakcję.",
+		"introduced_version": "3.25"
+	},
+	"CMP0142": {
+		"name": "CMP0142",
+		"description": "Generator Xcode nie dołącza sufiksów dla konfiguracji do ścieżek wyszukiwania biblioteki.",
+		"introduced_version": "3.25"
+	},
+	"CMP0143": {
+		"name": "CMP0143",
+		"description": "Właściwość globalna USE_FOLDERS jest domyślnie traktowana jako ON.",
+		"introduced_version": "3.26"
+	},
+	"CMP0144": {
+		"name": "CMP0144",
+		"description": "find_package używa zmiennych <PACKAGENAME>_ROOT z wielkimi literami.",
+		"introduced_version": "3.27"
+	},
+	"CMP0145": {
+		"name": "CMP0145",
+		"description": "Moduły Dart i FindDart zostały usunięte.",
+		"introduced_version": "3.27"
+	},
+	"CMP0146": {
+		"name": "CMP0146",
+		"description": "Moduł FindCUDA został usunięty.",
+		"introduced_version": "3.27"
+	},
+	"CMP0147": {
+		"name": "CMP0147",
+		"description": "Generatory programu Visual Studio kompilują polecenia niestandardowe równolegle.",
+		"introduced_version": "3.27"
+	},
+	"CMP0148": {
+		"name": "CMP0148",
+		"description": "Moduły FindPythonInterp i FindPythonLibs zostały usunięte.",
+		"introduced_version": "3.27"
+	},
+	"CMP0149": {
+		"name": "CMP0149",
+		"description": "Generatory programu Visual Studio domyślnie wybierają najnowszy zestaw Windows SDK.",
+		"introduced_version": "3.27"
+	},
+	"CMP0150": {
+		"name": "CMP0150",
+		"description": "Polecenia ExternalProject_Add i FetchContent_Declare traktują względne ścieżki GIT_REPOSITORY jako względne względem zdalnego projektu nadrzędnego.",
+		"introduced_version": "3.27"
+	},
+	"CMP0151": {
+		"name": "CMP0151",
+		"description": "Katalog dołączany AUTOMOC jest domyślnie katalogiem dołączania systemu.",
+		"introduced_version": "3.27"
+	},
+	"CMP0152": {
+		"name": "CMP0152",
+		"description": "plik rozwiązuje sylinki przed zwijaniem. /Składniki.",
+		"introduced_version": "3.28"
+	},
+	"CMP0153": {
+		"name": "CMP0153",
+		"description": "Nie należy wywoływać polecenia exec_program.",
+		"introduced_version": "3.28"
+	},
+	"CMP0154": {
+		"name": "CMP0154",
+		"description": "Wygenerowane pliki są domyślnie prywatne w miejscach docelowych przy użyciu zestawów plików.",
+		"introduced_version": "3.28"
+	},
+	"CMP0155": {
+		"name": "CMP0155",
+		"description": "Źródła języka C++ w miejscach docelowych z co najmniej językiem C++20 są skanowane w poszukiwaniu importów, jeśli są obsługiwane.",
+		"introduced_version": "3.28"
+	},
+	"CMP0156": {
+		"name": "CMP0156",
+		"description": "Cofnij duplikację bibliotek w wierszach linku na podstawie możliwości konsolidatora.",
+		"introduced_version": "3.29"
+	},
+	"CMP0157": {
+		"name": "CMP0157",
+		"description": "Tryb kompilacji Swift jest wybierany przez abstrakcję.",
+		"introduced_version": "3.29"
+	},
+	"CMP0158": {
+		"name": "CMP0158",
+		"description": "add_test uwzględnia CMAKE_CROSSCOMPILING_EMULATOR tylko podczas kompilowania krzyżowego.",
+		"introduced_version": "3.29"
+	},
+	"CMP0159": {
+		"name": "CMP0159",
+		"description": "plik z aktualizacjami REGEX CMAKE_MATCH_.",
+		"introduced_version": "3.29"
+	},
+	"CMP0160": {
+		"name": "CMP0160",
+		"description": "Więcej właściwości obiektu docelowego tylko do odczytu jest teraz błędem podczas próby ich ustawienia.",
+		"introduced_version": "3.29"
+	},
+	"CMP0161": {
+		"name": "CMP0161",
+		"description": "Zmienna CPACK_PRODUCTBUILD_DOMAINS domyślnie ma wartość true.",
+		"introduced_version": "3.29"
+	},
+	"CMP0162": {
+		"name": "CMP0162",
+		"description": "Generatory programu Visual Studio domyślnie dodają wskaźniki UseDebugLibraries.",
+		"introduced_version": "3.30"
+	},
+	"CMP0163": {
+		"name": "CMP0163",
+		"description": "Właściwość pliku źródłowego GENERATED jest teraz widoczna we wszystkich katalogach.",
+		"introduced_version": "3.30"
+	},
+	"CMP0164": {
+		"name": "CMP0164",
+		"description": "add_library odrzuca biblioteki SHARED, gdy nie są obsługiwane przez platformę.",
+		"introduced_version": "3.30"
+	},
+	"CMP0165": {
+		"name": "CMP0165",
+		"description": "enable_language nie może być wywoływana przed projektem.",
+		"introduced_version": "3.30"
+	},
+	"CMP0166": {
+		"name": "CMP0166",
+		"description": "TARGET_PROPERTY ocenia właściwości linków przechodnio w zależnościach prywatnych bibliotek statycznych.",
+		"introduced_version": "3.30"
+	},
+	"CMP0167": {
+		"name": "CMP0167",
+		"description": "Moduł FindBoost został usunięty.",
+		"introduced_version": "3.30"
+	},
+	"CMP0168": {
+		"name": "CMP0168",
+		"description": "Moduł FetchContent implementuje kroki bezpośrednio, a nie za pomocą kompilacji podrzędnej.",
+		"introduced_version": "3.30"
+	},
+	"CMP0169": {
+		"name": "CMP0169",
+		"description": "Wywoływanie FetchContent_Populate z pojedynczym argumentem (nazwą zadeklarowanej zależności) jest przestarzałe.",
+		"introduced_version": "3.30"
+	},
+	"CMP0170": {
+		"name": "CMP0170",
+		"description": "Gdy FETCHCONTENT_FULLY_DISCONNECTED jest ustawiona na wartość true, FetchContent_MakeAvailable i FetchContent_Populate wymuszają ograniczenie, że katalog źródłowy musi być już wypełniony. To wymaganie zawsze było udokumentowane, ale nie zostało sprawdzone ani wymuszone za pomocą narzędzia CMake w wersji 3.29 lub starszej. Czasami powodowało to trudne do śledzenia błędy, gdy projekt oczekiwał wypełnienia zależności, ale jego populacja została pominięta w trybie dyskretnym.",
+		"introduced_version": "3.30"
+	},
+	"CMP0171": {
+		"name": "CMP0171",
+		"description": "codegen to zastrzeżona nazwa docelowa.",
+		"introduced_version": "3.31"
+	},
+	"CMP0172": {
+		"name": "CMP0172",
+		"description": "Moduł CPack domyślnie włącza instalację dla poszczególnych maszyn w generatorze WIX CPack.",
+		"introduced_version": "3.31"
+	},
+	"CMP0173": {
+		"name": "CMP0173",
+		"description": "Moduł CMakeFindFrameworks został usunięty.",
+		"introduced_version": "3.31"
+	},
+	"CMP0174": {
+		"name": "CMP0174",
+		"description": "cmake_parse_arguments definiuje zmienną dla pustego ciągu po słowie kluczowym z jedną wartością.",
+		"introduced_version": "3.31"
+	},
+	"CMP0175": {
+		"name": "CMP0175",
+		"description": "add_custom_command odrzuca nieprawidłowe argumenty.",
+		"introduced_version": "3.31"
+	},
+	"CMP0176": {
+		"name": "CMP0176",
+		"description": "KODOWANIE execute_process jest domyślnie ustawione jako UTF-8.",
+		"introduced_version": "3.31"
+	},
+	"CMP0177": {
+		"name": "CMP0177",
+		"description": "Ścieżki install DESTINATION są znormalizowane.",
+		"introduced_version": "3.31"
+	},
+	"CMP0178": {
+		"name": "CMP0178",
+		"description": "Wiersze poleceń testowych zachowują puste argumenty.",
+		"introduced_version": "3.31"
+	},
+	"CMP0179": {
+		"name": "CMP0179",
+		"description": "Cofnięcie duplikacji bibliotek statycznych w wierszach linku powoduje zachowanie pierwszego wystąpienia. Te zasady mają zastosowanie tylko wtedy, gdy zasady CMP0156 są ustawiona na NEW.",
+		"introduced_version": "3.31"
+	},
+	"CMP0180": {
+		"name": "CMP0180",
+		"description": "Projekt zawsze ustawia <PROJECT-NAME>_* jako zmienne normalne.",
+		"introduced_version": "3.31"
+	},
+	"CMP0181": {
+		"name": "CMP0181",
+		"description": "Zmienne CMAKE_EXE_LINKER_FLAGS, CMAKE_EXE_LINKER_FLAGS_, CMAKE_SHARED_LINKER_FLAGS, CMAKE_SHARED_LINKER_FLAGS_, CMAKE_MODULE_LINKER_FLAGS, i CMAKE_MODULE_LINKER_FLAGS_ są analizowane i ponownie cytowane oraz obsługują prefiks LINKER:",
+		"introduced_version": "4.0"
+	},
+	"CMP0182": {
+		"name": "CMP0182",
+		"description": "Domyślnie twórz archiwa biblioteki udostępnionej w usłudze AIX.",
+		"introduced_version": "4.0"
+	},
+	"CMP0183": {
+		"name": "CMP0183",
+		"description": "add_feature_info obsługuje pełną składnię warunku.",
+		"introduced_version": "4.0"
+	},
+	"CMP0184": {
+		"name": "CMP0184",
+		"description": "Flagi sprawdzania środowiska uruchomieniowego MSVC są wybierane według abstrakcji.",
+		"introduced_version": "4.0"
+	},
+	"CMP0185": {
+		"name": "CMP0185",
+		"description": "FindRuby nie udostępnia już zmiennych pisanych wielkimi literami RUBY_*.",
+		"introduced_version": "4.0"
+	},
+	"CMP0186": {
+		"name": "CMP0186",
+		"description": "Wyrażenia regularne pasują najwyżej raz w powtarzanych wyszukiwaniach.",
+		"introduced_version": "4.1"
+	},
+	"CMP0187": {
+		"name": "CMP0187",
+		"description": "Uwzględnij plik źródłowy bez rozszerzenia po tej samej nazwie z rozszerzeniem.",
+		"introduced_version": "4.1"
+	},
+	"CMP0188": {
+		"name": "CMP0188",
+		"description": "Moduł FindGCCXML został usunięty.",
+		"introduced_version": "4.1"
+	},
+	"CMP0189": {
+		"name": "CMP0189",
+		"description": "TARGET_PROPERTY ocenia przechodnio właściwości LINK_LIBRARIES.",
+		"introduced_version": "4.1"
+	},
+	"CMP0190": {
+		"name": "CMP0190",
+		"description": "Moduły FindPython3, FindPython2 i FindPython wymuszają spójność artefaktów w trybie kompilacji krzyżowej.",
+		"introduced_version": "4.1"
+	},
+	"CMP0191": {
+		"name": "CMP0191",
+		"description": "Moduł FindCABLE został usunięty.",
+		"introduced_version": "4.1"
+	},
+	"CMP0192": {
+		"name": "CMP0192",
+		"description": "GNUInstallDirs używa bezwzględnych SYSCONFDIR, LOCALSTATEDIR i RUNSTATEDIR w specjalnych prefiksach.",
+		"introduced_version": "4.1"
+	},
+	"CMP0193": {
+		"name": "CMP0193",
+		"description": "GNUInstallDirs buforuje CMAKE_INSTALL_* z wiodącym usr/ prefiksem instalacji /.",
+		"introduced_version": "4.1"
+	},
+	"CMP0194": {
+		"name": "CMP0194",
+		"description": "MSVC nie jest asemblerem dla języka ASM.",
+		"introduced_version": "4.1"
+	},
+	"CMP0195": {
+		"name": "CMP0195",
+		"description": "Moduły Swift w drzewach kompilacji używają struktury katalogu modułu Swift.",
+		"introduced_version": "4.1"
+	},
+	"CMP0196": {
+		"name": "CMP0196",
+		"description": "Moduł CMakeDetermineVSServicePack został usunięty.",
+		"introduced_version": "4.1"
+	},
+	"CMP0197": {
+		"name": "CMP0197",
+		"description": "Link MSVC -machine: flaga nie znajduje się w CMAKE_*_LINKER_FLAGS.",
+		"introduced_version": "4.1"
+	},
+	"CMP0198": {
+		"name": "CMP0198",
+		"description": "CMAKE_PARENT_LIST_FILE nie jest zdefiniowana w CMakeLists.txt.",
+		"introduced_version": "4.2"
+	},
+	"CMP0199": {
+		"name": "CMP0199",
+		"description": ":genex:`$<CONFIG:cfgs>` nie pasuje do zamapowanych konfiguracji, które nie są wybrane.",
+		"introduced_version": "4.2"
+	},
+	"CMP0200": {
+		"name": "CMP0200",
+		"description": "Wybór lokalizacji i konfiguracji dla zaimportowanych miejsc docelowych jest bardziej spójny.",
+		"introduced_version": "4.2"
+	},
+	"CMP0201": {
+		"name": "CMP0201",
+		"description": "Python::NumPy nie zależy od python::D evelopment.Module.",
+		"introduced_version": "4.2"
+	},
+	"CMP0202": {
+		"name": "CMP0202",
+		"description": "Nazwy plików PDB zawsze zawierają POSTFIX na konfigurację w miejscu docelowym.",
+		"introduced_version": "4.2"
+	},
+	"CMP0203": {
+		"name": "CMP0203",
+		"description": "_WINDLL jest zdefiniowana dla bibliotek udostępnionych przeznaczonych dla usługi MSVC ABI.",
+		"introduced_version": "4.2"
+	},
+	"CMP0204": {
+		"name": "CMP0204",
+		"description": "Zestaw znaków jest zawsze definiowany podczas określania MSVC ABI.",
+		"introduced_version": "4.2"
+	},
+	"CMP0205": {
+		"name": "CMP0205",
+		"description": "plik z COPY_ON_ERROR kopiuje zawartość katalogu.",
+		"introduced_version": "4.3"
+	},
+	"CMP0206": {
+		"name": "CMP0206",
+		"description": "Generator archiwum CPack domyślnie ma wartość UID 0 i GID 0.",
+		"introduced_version": "4.3"
+	},
+	"CMP0207": {
+		"name": "CMP0207",
+		"description": "plik normalizuje ścieżki przed dopasowaniem.",
+		"introduced_version": "4.3"
+	},
+	"CMP0208": {
+		"name": "CMP0208",
+		"description": "eksport nie zezwala na puste argumenty.",
+		"introduced_version": "4.3"
+	},
+	"CMP0209": {
+		"name": "CMP0209",
+		"description": "Sprawdź, czy zestawy nagłówków interfejsu sprawdzają pliki wykonywalne bez eksportowania.",
+		"introduced_version": "4.3"
+	},
+	"CMP0210": {
+		"name": "CMP0210",
+		"description": "CMAKE_<LANG>_LINK_FLAGS dodaje flagi linku do wszystkich typów docelowych.",
+		"introduced_version": "4.3"
+	}
+}

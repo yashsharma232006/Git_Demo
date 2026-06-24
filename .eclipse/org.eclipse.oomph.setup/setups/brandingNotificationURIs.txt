@@ -1,0 +1,1 @@
+https://www.eclipse.org/sponsor/ide/?scope=${scope}&version=${scope.version}&campaign=2026-03

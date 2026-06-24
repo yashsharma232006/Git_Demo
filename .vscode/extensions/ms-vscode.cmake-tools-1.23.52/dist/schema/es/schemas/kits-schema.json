@@ -1,0 +1,125 @@
+{
+	"type": "array",
+	"description": "Kits de CMake",
+	"items": {
+		"type": "object",
+		"description": "Un kit",
+		"additionalProperties": false,
+		"properties": {
+			"name": {
+				"type": "string",
+				"description": "Nombre del kit"
+			},
+			"description": {
+				"type": "string",
+				"description": "Descripción de este kit."
+			},
+			"vendor": {
+				"type": "string",
+				"description": "El nombre del proveedor de este kit"
+			},
+			"triple": {
+				"type": "string",
+				"description": "El triple de destino de este kit"
+			},
+			"version": {
+				"type": "string",
+				"description": "La versión de este kit"
+			},
+			"versionRuntime": {
+				"type": "string",
+				"description": "Versión del runtime de C para el kit"
+			},
+			"keep": {
+				"type": "boolean",
+				"description": "Si es `true`, el kit se conserva aunque aparezca como expirado."
+			},
+			"compilers": {
+				"type": "object",
+				"patternProperties": {
+					"\\w+": {
+						"type": "string",
+						"description": "Ruta de acceso a un compilador de este lenguaje"
+					}
+				}
+			},
+			"toolchainFile": {
+				"type": "string",
+				"description": "Ruta de acceso a un archivo de cadena de herramientas"
+			},
+			"visualStudio": {
+				"type": "string",
+				"description": "Id. de instancia del producto de Visual Studio"
+			},
+			"visualStudioArchitecture": {
+				"type": "string",
+				"description": "Arquitectura de destino"
+			},
+			"visualStudioArguments": {
+				"type": "array",
+				"description": "Argumentos para vcvarsall.bat",
+				"items": {
+					"type": "string"
+				}
+			},
+			"environmentSetupScript": {
+				"type": "string",
+				"description": "Ruta de acceso absoluta a un script que modifica el entorno del kit"
+			},
+			"environmentVariables": {
+				"type": "object",
+				"patternProperties": {
+					".*": {
+						"type": "string",
+						"description": "Valor de la variable de entorno"
+					}
+				}
+			},
+			"cmakeSettings": {
+				"type": "object",
+				"patternProperties": {
+					".*": {
+						"oneOf": [
+							{
+								"type": "string",
+								"description": "Valor de la configuración de CMake. Los signos de punto y coma de las cadenas se convierten en caracteres de escape."
+							},
+							{
+								"type": "array",
+								"items": {
+									"type": "string"
+								},
+								"description": "Valores combinados con punto y coma para formar una lista de CMake sin escape."
+							}
+						]
+					}
+				}
+			},
+			"preferredGenerator": {
+				"type": "object",
+				"description": "Establecer un generador de CMake preferido para el kit",
+				"properties": {
+					"name": {
+						"type": "string",
+						"description": "Nombre del generador que se va a usar"
+					},
+					"platform": {
+						"type": "string",
+						"description": "Plataforma de CMake para el argumento -A"
+					},
+					"toolset": {
+						"type": "string",
+						"description": "Conjunto de herramientas de CMake para el argumento -T"
+					}
+				},
+				"required": [
+					"name"
+				]
+			},
+			"isTrusted": {
+				"type": "boolean",
+				"description": "Verdadero si este kit procede de una ruta de acceso de confianza"
+			}
+		}
+	}
+}

@@ -1,0 +1,1078 @@
+{
+	"AddFileDependencies": {
+		"name": "AddFileDependencies",
+		"description": "使用以下内容在 CMake 项目中加载此模块:"
+	},
+	"AndroidTestUtilities": {
+		"name": "AndroidTestUtilities",
+		"description": "此模块提供一个命令来创建测试，用于将测试 Android 设备行为所需的数据推送到连接的 Android 设备上。"
+	},
+	"BundleUtilities": {
+		"name": "BundleUtilities",
+		"description": "此模块提供用于通过 CMake 汇编独立捆绑式应用程序的实用工具命令，例如 macOS .app 捆绑包或其他操作系统上类似基于目录的应用程序捆绑包。"
+	},
+	"CheckCCompilerFlag": {
+		"name": "CheckCCompilerFlag",
+		"description": "此模块提供一个命令来检查 C 编译程序是否支持给定标志。"
+	},
+	"CheckCompilerFlag": {
+		"name": "CheckCompilerFlag",
+		"description": "此模块提供一个命令来检查编译程序是否支持给定标志。"
+	},
+	"CheckCSourceCompiles": {
+		"name": "CheckCSourceCompiles",
+		"description": "此模块提供一个命令来检查是否可以生成 C 源。"
+	},
+	"CheckCSourceRuns": {
+		"name": "CheckCSourceRuns",
+		"description": "此模块提供一个命令来检查是否可以生成和运行 C 源。"
+	},
+	"CheckCXXCompilerFlag": {
+		"name": "CheckCXXCompilerFlag",
+		"description": "此模块提供一个命令来检查 C++ 编译程序是否支持给定标志。"
+	},
+	"CheckCXXSourceCompiles": {
+		"name": "CheckCXXSourceCompiles",
+		"description": "此模块提供一个命令来检查是否可以生成 C++ 源。"
+	},
+	"CheckCXXSourceRuns": {
+		"name": "CheckCXXSourceRuns",
+		"description": "此模块提供一个命令来检查是否可以生成和运行 C++ 源。"
+	},
+	"CheckCXXSymbolExists": {
+		"name": "CheckCXXSymbolExists",
+		"description": "此模块提供一个命令来检查 C++ 符号是否存在。"
+	},
+	"CheckFortranCompilerFlag": {
+		"name": "CheckFortranCompilerFlag",
+		"description": "此模块提供一个命令来检查 Fortran 编译程序是否支持给定标志。"
+	},
+	"CheckFortranFunctionExists": {
+		"name": "CheckFortranFunctionExists",
+		"description": "此模块提供一个命令来检查 Fortran 函数是否存在。"
+	},
+	"CheckFortranSourceCompiles": {
+		"name": "CheckFortranSourceCompiles",
+		"description": "此模块提供一个命令来检查是否可以生成 Fortran 源。"
+	},
+	"CheckFortranSourceRuns": {
+		"name": "CheckFortranSourceRuns",
+		"description": "此模块提供一个命令来检查是否可以生成和运行 Fortran 源。"
+	},
+	"CheckFunctionExists": {
+		"name": "CheckFunctionExists",
+		"description": "此模块提供一个命令来检查是否存在 C 函数。"
+	},
+	"CheckIncludeFile": {
+		"name": "CheckIncludeFile",
+		"description": "此模块提供一个命令来检查 C 头文件。"
+	},
+	"CheckIncludeFileCXX": {
+		"name": "CheckIncludeFileCXX",
+		"description": "此模块提供一个命令来检查 C++ 头文件。"
+	},
+	"CheckIncludeFiles": {
+		"name": "CheckIncludeFiles",
+		"description": "此模块提供一个命令来检查一个或多个 C/C++ 头文件。"
+	},
+	"CheckIPOSupported": {
+		"name": "CheckIPOSupported",
+		"description": "此模块提供一个命令来检查编译程序是否支持过程间优化(IPO/LTO)。"
+	},
+	"CheckLanguage": {
+		"name": "CheckLanguage",
+		"description": "此模块提供一个命令来检查是否可以使用 enable_language 或项目命令启用语言。"
+	},
+	"CheckLibraryExists": {
+		"name": "CheckLibraryExists",
+		"description": "此模块提供一个命令来检查 C 库是否存在。"
+	},
+	"CheckLinkerFlag": {
+		"name": "CheckLinkerFlag",
+		"description": "此模块提供一个命令来检查编译程序是否支持给定的链接标志。"
+	},
+	"CheckOBJCCompilerFlag": {
+		"name": "CheckOBJCCompilerFlag",
+		"description": "此模块提供一个命令来检查 Objective-C 编译程序是否支持给定标志。"
+	},
+	"CheckOBJCSourceCompiles": {
+		"name": "CheckOBJCSourceCompiles",
+		"description": "此模块提供一个命令来检查是否可以生成 Objective-C 源。"
+	},
+	"CheckOBJCSourceRuns": {
+		"name": "CheckOBJCSourceRuns",
+		"description": "此模块提供一个命令来检查是否可以生成和运行 Objective-C 源。"
+	},
+	"CheckOBJCXXCompilerFlag": {
+		"name": "CheckOBJCXXCompilerFlag",
+		"description": "此模块提供一个命令来检查 Objective-C++ 编译程序是否支持给定标志。"
+	},
+	"CheckOBJCXXSourceCompiles": {
+		"name": "CheckOBJCXXSourceCompiles",
+		"description": "此模块提供一个命令来检查是否可以生成 Objective-C++ 源。"
+	},
+	"CheckOBJCXXSourceRuns": {
+		"name": "CheckOBJCXXSourceRuns",
+		"description": "此模块提供一个命令来检查是否可以生成和运行 Objective-C++ 源。"
+	},
+	"CheckPIESupported": {
+		"name": "CheckPIESupported",
+		"description": "此模块提供一个命令来检查链接器是否支持可执行文件的位置无关代码(PIE)或非位置无关代码(NO_PIE)。"
+	},
+	"CheckPrototypeDefinition": {
+		"name": "CheckPrototypeDefinition",
+		"description": "此模块提供一个命令来检查 C 函数是否具有预期的原型。"
+	},
+	"CheckSourceCompiles": {
+		"name": "CheckSourceCompiles",
+		"description": "此模块提供一个命令来检查是否可以为给定语言生成源代码。"
+	},
+	"CheckSourceRuns": {
+		"name": "CheckSourceRuns",
+		"description": "此模块提供一个命令来检查是否可以生成和运行源代码。"
+	},
+	"CheckStructHasMember": {
+		"name": "CheckStructHasMember",
+		"description": "此模块提供一个命令来检查结构或类是否具有指定的成员变量。"
+	},
+	"CheckSymbolExists": {
+		"name": "CheckSymbolExists",
+		"description": "此模块提供一个命令来检查 C 符号是否存在。"
+	},
+	"CheckTypeSize": {
+		"name": "CheckTypeSize",
+		"description": "此模块提供一个命令来检查 C/C++ 类型或表达式的大小。"
+	},
+	"CheckVariableExists": {
+		"name": "CheckVariableExists",
+		"description": "此模块提供一个命令来检查 C 变量是否存在。"
+	},
+	"CMakeAddFortranSubdirectory": {
+		"name": "CMakeAddFortranSubdirectory",
+		"description": "此模块提供一个命令来添加位于子目录中的 Fortran 项目。"
+	},
+	"CMakeBackwardCompatibilityCXX": {
+		"name": "CMakeBackwardCompatibilityCXX",
+		"description": "此模块为 CXX 语言定义多个后向兼容性缓存变量以支持早期 C++(C++98 之前、ANSI C++)。"
+	},
+	"CMakeDependentOption": {
+		"name": "CMakeDependentOption",
+		"description": "此模块提供一个命令来定义可用性和默认值取决于指定条件或其他选项的布尔选项。这仅通过显示与当前设置相关的选项来帮助维护干净的配置接口。"
+	},
+	"CMakeDetermineVSServicePack": {
+		"name": "CMakeDetermineVSServicePack",
+		"description": "此模块提供一个命令来确定为 Visual Studio 2012 及更早版本安装的 Visual Studio Service Pack 版本。"
+	},
+	"CMakeExpandImportedTargets": {
+		"name": "CMakeExpandImportedTargets",
+		"description": "使用以下内容在 CMake 项目中加载此模块:"
+	},
+	"CMakeFindDependencyMacro": {
+		"name": "CMakeFindDependencyMacro",
+		"description": "此模块提供一个作为宏实现的命令，用于查找包的依赖项。"
+	},
+	"CMakeFindFrameworks": {
+		"name": "CMakeFindFrameworks",
+		"description": "用于查找 OSX 框架的帮助程序模块"
+	},
+	"CMakeFindPackageMode": {
+		"name": "CMakeFindPackageMode",
+		"description": "使用 --find-package <Find-Package Tool Mode> 选项调用时，cmake 将执行此模块以查找请求的包。"
+	},
+	"CMakeForceCompiler": {
+		"name": "CMakeForceCompiler",
+		"description": "在 CMake 工具链文件中加载此模块:"
+	},
+	"CMakeGraphVizOptions": {
+		"name": "CMakeGraphVizOptions",
+		"description": "不应直接将此模块添加到 CMake 项目中。它曾包含在 CMake 中使用 Graphviz 的信息。有关 CMake 中的 Graphviz 用法，请参阅 cmake --graphviz。"
+	},
+	"CMakePackageConfigHelpers": {
+		"name": "CMakePackageConfigHelpers",
+		"description": "此模块提供帮助程序命令，用于创建配置文件 <Libraries providing Config-file packages>，其他项目可以添加这些文件以查找和使用包。"
+	},
+	"CMakeParseArguments": {
+		"name": "CMakeParseArguments",
+		"description": "此模块曾经实现了现在由 CMake 本机实现的 cmake_parse_arguments 命令。它现在是一个空占位符，用于与包含它的项目兼容，以从 CMake 3.4 及更低版本获取命令。"
+	},
+	"CMakePrintHelpers": {
+		"name": "CMakePrintHelpers",
+		"description": "此模块提供方便的命令，主要用于调试、打印属性和变量的值。"
+	},
+	"CMakePrintSystemInformation": {
+		"name": "CMakePrintSystemInformation",
+		"description": "此模块可用于诊断以打印系统信息。"
+	},
+	"CMakePushCheckState": {
+		"name": "CMakePushCheckState",
+		"description": "此模块提供用于管理影响各种 CMake 检查命令(如 check_symbol_exists 等)执行方式的变量状态的命令。"
+	},
+	"CMakeVerifyManifest": {
+		"name": "CMakeVerifyManifest",
+		"description": "此模块旨在通过命令行模式使用 cmake -P 来验证项目的嵌入清单和并行清单是否匹配。"
+	},
+	"CPack": {
+		"name": "CPack",
+		"description": "此模块为二进制安装程序和源包配置生成器。"
+	},
+	"CPackArchive": {
+		"name": "CPackArchive",
+		"description": "CPack 存档生成器的文档已移动到此处: CPack 存档生成器"
+	},
+	"CPackBundle": {
+		"name": "CPackBundle",
+		"description": "CPack 捆绑包生成器的文档已移动到此处: CPack 捆绑包生成器"
+	},
+	"CPackComponent": {
+		"name": "CPackComponent",
+		"description": "此模块提供命令，用于配置二进制安装程序和源包的组件。"
+	},
+	"CPackCygwin": {
+		"name": "CPackCygwin",
+		"description": "CPack Cygwin 生成器的文档已移动到此处: CPack Cygwin 生成器"
+	},
+	"CPackDeb": {
+		"name": "CPackDeb",
+		"description": "CPack DEB 生成器的文档已移动到此处: CPack DEB 生成器"
+	},
+	"CPackDMG": {
+		"name": "CPackDMG",
+		"description": "CPack DragNDrop 生成器的文档已移动到此处: CPack DragNDrop 生成器"
+	},
+	"CPackFreeBSD": {
+		"name": "CPackFreeBSD",
+		"description": "CPack FreeBSD 生成器的文档已移动到此处: CPack FreeBSD 生成器"
+	},
+	"CPackIFW": {
+		"name": "CPackIFW",
+		"description": "此模块可查找 Qt 安装程序框架(QtIFW)提供的命令行实用工具的位置。"
+	},
+	"CPackIFWConfigureFile": {
+		"name": "CPackIFWConfigureFile",
+		"description": "此模块提供类似于 configure_file 的命令，用于配置以 QtIFW/SDK/Creator 样式准备的文件模板。"
+	},
+	"CPackNSIS": {
+		"name": "CPackNSIS",
+		"description": "CPack NSIS 生成器的文档已移动到此处: CPack NSIS 生成器"
+	},
+	"CPackNuGet": {
+		"name": "CPackNuGet",
+		"description": "CPack NuGet 生成器的文档已移动到此处: CPack NuGet 生成器"
+	},
+	"CPackProductBuild": {
+		"name": "CPackProductBuild",
+		"description": "CPack productbuild 生成器的文档已移动到此处: CPack productbuild 生成器"
+	},
+	"CPackRPM": {
+		"name": "CPackRPM",
+		"description": "CPack RPM 生成器的文档已移动到此处: CPack RPM 生成器"
+	},
+	"CPackWIX": {
+		"name": "CPackWIX",
+		"description": "CPack WIX 生成器的文档已移动到此处: CPack WIX 生成器"
+	},
+	"CSharpUtilities": {
+		"name": "CSharpUtilities",
+		"description": "此实用工具模块旨在简化 CSharp/.NET 目标的配置，并提供用于使用 Visual Studio Generators 版本 2010 及更高版本管理 CSharp 目标的命令集合。"
+	},
+	"CTest": {
+		"name": "CTest",
+		"description": "配置项目以使用 CTest/CDash 进行测试"
+	},
+	"CTestCoverageCollectGCOV": {
+		"name": "CTestCoverageCollectGCOV",
+		"description": "此模块旨在用于 CTest 仪表板脚本，并提供一个命令来生成包含代码覆盖率报告的 tarball。"
+	},
+	"CTestScriptMode": {
+		"name": "CTestScriptMode",
+		"description": "不应使用项目代码直接添加或调用此模块。它由以脚本模式(-S)运行的 CTest 内部使用，用于确定当前系统。有关使用情况详细信息，请参阅 ctest -S。"
+	},
+	"CTestUseLaunchers": {
+		"name": "CTestUseLaunchers",
+		"description": "当 CTEST_USE_LAUNCHERS 变量设置为类似 true 的值(例如 ON)时，此模块设置 RULE_LAUNCH_* 全局属性:"
+	},
+	"Dart": {
+		"name": "Dart",
+		"description": "配置项目以使用 CTest 或旧的 Dart Tcl 客户端进行测试"
+	},
+	"DeployQt4": {
+		"name": "DeployQt4",
+		"description": "此模块提供一组 CMake 实用工具命令，可用于汇编和部署独立的 Qt4 可执行文件。"
+	},
+	"Documentation": {
+		"name": "Documentation",
+		"description": "此模块提供了对 VTK 文档框架的支持。它依赖于多个工具(Doxygen、Perl 等)。"
+	},
+	"ExternalData": {
+		"name": "ExternalData",
+		"description": "此模块提供命令，用于管理存储在源代码树外部的数据文件。"
+	},
+	"ExternalProject": {
+		"name": "ExternalProject",
+		"description": "此模块提供用于下载和生成外部项目的命令，作为 CMake 生成阶段的一部分。"
+	},
+	"FeatureSummary": {
+		"name": "FeatureSummary",
+		"description": "此模块提供命令，用于生成已启用/已禁用功能的摘要。"
+	},
+	"FetchContent": {
+		"name": "FetchContent",
+		"description": "此模块提供命令，用于在配置时填充内容，或作为调用脚本的一部分填充内容。"
+	},
+	"FindALSA": {
+		"name": "FindALSA",
+		"description": "查找高级 Linux 声音体系结构(ALSA)库(asound):"
+	},
+	"FindArmadillo": {
+		"name": "FindArmadillo",
+		"description": "查找 Armad C++ 库:"
+	},
+	"FindASPELL": {
+		"name": "FindASPELL",
+		"description": "查找 GNU Aspell 拼写检查器库:"
+	},
+	"FindAVIFile": {
+		"name": "FindAVIFile",
+		"description": "查找 AVIFile 库和 include 路径:"
+	},
+	"FindBacktrace": {
+		"name": "FindBacktrace",
+		"description": "查找 backtrace(3)，这是一个提供应用程序自调试函数的库:"
+	},
+	"FindBISON": {
+		"name": "FindBISON",
+		"description": "查找 Bison 命令行分析程序生成器，并提供 CMake 命令来生成用于使用 Bison 的自定义生成规则:"
+	},
+	"FindBLAS": {
+		"name": "FindBLAS",
+		"description": "查找已安装的基本线性代数子程序(BLAS) Fortran 库，该库实现 BLAS 线性代数接口:"
+	},
+	"FindBoost": {
+		"name": "FindBoost",
+		"description": "查找 Boost 包括目录和库"
+	},
+	"FindBullet": {
+		"name": "FindBullet",
+		"description": "查找 Bullet 物理引擎:"
+	},
+	"FindBZip2": {
+		"name": "FindBZip2",
+		"description": "查找 BZip2 数据压缩库(libbz2):"
+	},
+	"FindCABLE": {
+		"name": "FindCABLE",
+		"description": "查找 CABLE 安装并确定其 include 路径和库:"
+	},
+	"FindCoin3D": {
+		"name": "FindCoin3D",
+		"description": "查找 Coin3D (Open Inventor):"
+	},
+	"FindCUDA": {
+		"name": "FindCUDA",
+		"description": "编译 CUDA 代码已不再必须使用此模块或调用 find_package(CUDA)。而是在对项目命令的顶级调用中命名的语言中列出 CUDA，或使用 CUDA 调用 enable_language 命令。然后，可以直接将 CUDA (.cu)源添加到类似于其他语言的目标。"
+	},
+	"FindCUDAToolkit": {
+		"name": "FindCUDAToolkit",
+		"description": "查找 NVIDIA CUDA 工具包和关联的库，但无需为给定项目启用 CUDA 语言:"
+	},
+	"FindCups": {
+		"name": "FindCups",
+		"description": "查找通用 UNIX 打印系统(CUPS):"
+	},
+	"FindCURL": {
+		"name": "FindCURL",
+		"description": "查找用于使用 URL 传输数据的本机 curl 安装(include 目录和库):"
+	},
+	"FindCurses": {
+		"name": "FindCurses",
+		"description": "查找 curses 或 ncurses 库:"
+	},
+	"FindCVS": {
+		"name": "FindCVS",
+		"description": "查找并发版本系统(CVS):"
+	},
+	"FindCxxTest": {
+		"name": "FindCxxTest",
+		"description": "查找 CxxTest (C++ 单元测试框架套件)，并提供帮助程序命令来创建测试运行程序并将其与 CTest 集成:"
+	},
+	"FindCygwin": {
+		"name": "FindCygwin",
+		"description": "查找 Cygwin (一个与 POSIX 兼容且在 Microsoft Windows 上本机运行的环境):"
+	},
+	"FindDart": {
+		"name": "FindDart",
+		"description": "查找 DART:"
+	},
+	"FindDCMTK": {
+		"name": "FindDCMTK",
+		"description": "查找 DICOM 工具包(DCMTK)库和应用程序:"
+	},
+	"FindDevIL": {
+		"name": "FindDevIL",
+		"description": "查找开发人员的图像库 DevIL:"
+	},
+	"FindDoxygen": {
+		"name": "FindDoxygen",
+		"description": "查找 Doxygen (源代码文档生成器)以及一些可选支持工具，并提供用于将基于 Doxygen 的文档集成到 CMake 项目的命令:"
+	},
+	"FindEnvModules": {
+		"name": "FindEnvModules",
+		"description": "查找环境模块实现并提供用于 CMake 脚本的命令:"
+	},
+	"FindEXPAT": {
+		"name": "FindEXPAT",
+		"description": "查找本机 Expat 标头和库:"
+	},
+	"FindFLEX": {
+		"name": "FindFLEX",
+		"description": "查找快速词法分析器(Flex)命令行生成器及其库，并提供 CMake 命令以创建使用 Flex 的自定义生成规则:"
+	},
+	"FindFLTK": {
+		"name": "FindFLTK",
+		"description": "查找 Fast Light Toolkit (FLTK)，这是一个用于 GUI 开发的跨平台工具包:"
+	},
+	"FindFLTK2": {
+		"name": "FindFLTK2",
+		"description": "查找 Fast Light Toolkit (FLTK)版本 2.x，这是用于 GUI 开发的跨平台工具包:"
+	},
+	"FindFontconfig": {
+		"name": "FindFontconfig",
+		"description": "查找 Fontconfig，这是一个用于字体配置和自定义的库:"
+	},
+	"FindFreetype": {
+		"name": "FindFreetype",
+		"description": "查找 FreeType 字体呈现器库:"
+	},
+	"FindGCCXML": {
+		"name": "FindGCCXML",
+		"description": "查找 GCC-XML 前端可执行文件:"
+	},
+	"FindGDAL": {
+		"name": "FindGDAL",
+		"description": "查找地理空间数据抽象库(GDAL):"
+	},
+	"FindGettext": {
+		"name": "FindGettext",
+		"description": "查找 GNU gettext 工具并提供用于生成多语言消息的命令:"
+	},
+	"FindGIF": {
+		"name": "FindGIF",
+		"description": "查找图形交换格式(GIF)库(giflib):"
+	},
+	"FindGit": {
+		"name": "FindGit",
+		"description": "查找 Git 分布式版本控制系统："
+	},
+	"FindGLEW": {
+		"name": "FindGLEW",
+		"description": "查找 OpenGL Extension Wrangler (GLEW)库:"
+	},
+	"FindGLUT": {
+		"name": "FindGLUT",
+		"description": "查找 OpenGL 实用工具包(GLUT)库，其提供用于在 OpenGL 应用程序中创建窗口、处理输入和管理事件的简单 API:"
+	},
+	"FindGnuplot": {
+		"name": "FindGnuplot",
+		"description": "查找用于生成二维和三维绘图(gnuplot)的 Gnuplot 命令行图形实用工具:"
+	},
+	"FindGnuTLS": {
+		"name": "FindGnuTLS",
+		"description": "查找 GNU 传输层安全性库(GnuTLS):"
+	},
+	"FindGSL": {
+		"name": "FindGSL",
+		"description": "查找本机 GNU 科学库(GSL) include 项和库:"
+	},
+	"FindGTest": {
+		"name": "FindGTest",
+		"description": "查找 GoogleTest (Google C++ 测试和模拟框架):"
+	},
+	"FindGTK": {
+		"name": "FindGTK",
+		"description": "查找 GTK、glib 和 GTKGLArea:"
+	},
+	"FindGTK2": {
+		"name": "FindGTK2",
+		"description": "查找 GTK 小组件库及其几个其他可选组件:"
+	},
+	"FindHDF5": {
+		"name": "FindHDF5",
+		"description": "查找分层数据格式(HDF5)，它是用于读取和写入自描述数组数据的库:"
+	},
+	"FindHg": {
+		"name": "FindHg",
+		"description": "查找 Mercurial 命令行客户端可执行文件(hg)，并提供用于从 Mercurial 工作副本中提取信息的命令:"
+	},
+	"FindHSPELL": {
+		"name": "FindHSPELL",
+		"description": "查找希伯来语拼写检查器(Hspell)和 morphology 引擎:"
+	},
+	"FindHTMLHelp": {
+		"name": "FindHTMLHelp",
+		"description": "查找 Microsoft HTML 帮助编译程序及其 API。它是 HTML Help Workshop 的一部分:"
+	},
+	"FindIce": {
+		"name": "FindIce",
+		"description": "查找 Internet 通信引擎(Ice)程序、库和数据文件:"
+	},
+	"FindIconv": {
+		"name": "FindIconv",
+		"description": "查找系统上的 iconv() POSIX.1 函数:"
+	},
+	"FindIcotool": {
+		"name": "FindIcotool",
+		"description": "查找 icotool，这是用于转换和创建 Win32 图标和光标文件的命令行程序:"
+	},
+	"FindICU": {
+		"name": "FindICU",
+		"description": "查找 Unicode 国际组件(ICU)库和程序:"
+	},
+	"FindImageMagick": {
+		"name": "FindImageMagick",
+		"description": "查找 ImageMagick，它是用于显示、转换和操作光栅图像的软件套件:"
+	},
+	"FindIntl": {
+		"name": "FindIntl",
+		"description": "查找包括消息翻译功能(如 gettext())的国际化支持:"
+	},
+	"FindITK": {
+		"name": "FindITK",
+		"description": "此模块已不再存在。"
+	},
+	"FindJasper": {
+		"name": "FindJasper",
+		"description": "查找 JasPer 图像编码工具包，用于处理各种格式的图像数据(例如 JPEG-2000):"
+	},
+	"FindJava": {
+		"name": "FindJava",
+		"description": "查找 Java 安装并确定其运行时工具和开发组件:"
+	},
+	"FindJNI": {
+		"name": "FindJNI",
+		"description": "查找 Java 本机接口(JNI) include 目录和库:"
+	},
+	"FindJPEG": {
+		"name": "FindJPEG",
+		"description": "查找联合图像专家组(JPEG)库(libjpeg):"
+	},
+	"FindKDE3": {
+		"name": "FindKDE3",
+		"description": "查找 KDE 3 include 目录、库和 KDE 特定的预处理器工具:"
+	},
+	"FindKDE4": {
+		"name": "FindKDE4",
+		"description": "查找 KDE 4 安装:"
+	},
+	"FindLAPACK": {
+		"name": "FindLAPACK",
+		"description": "查找已安装的线性代数包 (LAPACK) Fortran 库，该库实现 LAPACK 线性代数接口:"
+	},
+	"FindLATEX": {
+		"name": "FindLATEX",
+		"description": "查找 LaTeX 编译程序和与 Latex 相关的软件(如 BibTeX):"
+	},
+	"FindLibArchive": {
+		"name": "FindLibArchive",
+		"description": "查找 libarchive 库和 include 目录:"
+	},
+	"FindLibinput": {
+		"name": "FindLibinput",
+		"description": "查找在 Wayland 组合器中处理输入设备并提供泛型 X.Org 输入驱动程序的 libinput 库:"
+	},
+	"FindLibLZMA": {
+		"name": "FindLibLZMA",
+		"description": "查找 liblzma,这是实现 LZMA (Lempel-Ziv-Markov 链算法)的数据压缩库:"
+	},
+	"FindLibXml2": {
+		"name": "FindLibXml2",
+		"description": "查找 XML 处理库(libxml2):"
+	},
+	"FindLibXslt": {
+		"name": "FindLibXslt",
+		"description": "查找 XSL 转换、可扩展样式表语言转换(XSLT)库(libxslt):"
+	},
+	"FindLTTngUST": {
+		"name": "FindLTTngUST",
+		"description": "查找 LTTng (Linux 跟踪工具包: 下一代)用户空间跟踪库(LTTng-UST):"
+	},
+	"FindLua": {
+		"name": "FindLua",
+		"description": "查找 Lua 库:"
+	},
+	"FindLua50": {
+		"name": "FindLua50",
+		"description": "查找 Lua 库:"
+	},
+	"FindLua51": {
+		"name": "FindLua51",
+		"description": "查找 Lua 库:"
+	},
+	"FindMatlab": {
+		"name": "FindMatlab",
+		"description": "查找 MATLAB 或 MATLAB 编译器运行时(MCR)，并向 CMake 提供其工具、库和编译器:"
+	},
+	"FindMFC": {
+		"name": "FindMFC",
+		"description": "查找用于在 Windows 上开发 MFC 应用程序的本机 Microsoft 基础类库(MFC):"
+	},
+	"FindMotif": {
+		"name": "FindMotif",
+		"description": "查找 Motif (或 LessTif)图形用户界面工具包:"
+	},
+	"FindMPEG": {
+		"name": "FindMPEG",
+		"description": "查找本机 MPEG 库(libmpeg2):"
+	},
+	"FindMPEG2": {
+		"name": "FindMPEG2",
+		"description": "查找本机 MPEG2 库(libmpeg2):"
+	},
+	"FindMPI": {
+		"name": "FindMPI",
+		"description": "查找消息传递接口(MPI)实现:"
+	},
+	"FindMsys": {
+		"name": "FindMsys",
+		"description": "查找 MSYS，这是与 POSIX 兼容且在 Microsoft Windows 上本机运行的环境:"
+	},
+	"FindODBC": {
+		"name": "FindODBC",
+		"description": "查找开放式数据库连接(ODBC)库，其实现用于访问数据库系统的标准 API:"
+	},
+	"FindOpenACC": {
+		"name": "FindOpenACC",
+		"description": "查找并检测编译器中对 OpenACC 的支持:"
+	},
+	"FindOpenAL": {
+		"name": "FindOpenAL",
+		"description": "查找 Open Audio Library (OpenAL):"
+	},
+	"FindOpenCL": {
+		"name": "FindOpenCL",
+		"description": "查找开放计算语言(OpenCL):"
+	},
+	"FindOpenGL": {
+		"name": "FindOpenGL",
+		"description": "查找用于在 CMake 项目中使用的 OpenGL 和 OpenGL 实用库 (GLU):"
+	},
+	"FindOpenMP": {
+		"name": "FindOpenMP",
+		"description": "在编译程序中查找开放多处理(OpenMP)支持:"
+	},
+	"FindOpenSceneGraph": {
+		"name": "FindOpenSceneGraph",
+		"description": "查找 OpenSceneGraph (OSG)，这是一个 3D 图形应用程序编程接口:"
+	},
+	"FindOpenSP": {
+		"name": "FindOpenSP",
+		"description": "查找 OpenSP 库:"
+	},
+	"FindOpenSSL": {
+		"name": "FindOpenSSL",
+		"description": "查找已安装的 OpenSSL 加密库并确定其版本:"
+	},
+	"FindOpenThreads": {
+		"name": "FindOpenThreads",
+		"description": "查找基于 OpenThreads C++ 的线程库:"
+	},
+	"Findosg": {
+		"name": "Findosg",
+		"description": "查找核心 OpenSceneGraph osg 库(libosg)。"
+	},
+	"FindosgAnimation": {
+		"name": "FindosgAnimation",
+		"description": "从 OpenSceneGraph 工具包中查找 osgAnimation 库。"
+	},
+	"FindosgDB": {
+		"name": "FindosgDB",
+		"description": "从 OpenSceneGraph 工具包中查找 osgDB 库。"
+	},
+	"FindosgFX": {
+		"name": "FindosgFX",
+		"description": "从 OpenSceneGraph 工具包中查找 osgFX NodeKit。"
+	},
+	"FindosgGA": {
+		"name": "FindosgGA",
+		"description": "从 OpenSceneGraph 工具包中查找 osgGA 库。"
+	},
+	"FindosgIntrospection": {
+		"name": "FindosgIntrospection",
+		"description": "从 OpenSceneGraph 工具包中查找 osgIntrospection 库。"
+	},
+	"FindosgManipulator": {
+		"name": "FindosgManipulator",
+		"description": "从 OpenSceneGraph 工具包中查找 osgManipulator NodeKit。"
+	},
+	"FindosgParticle": {
+		"name": "FindosgParticle",
+		"description": "从 OpenSceneGraph 工具包中查找 osgParticle NodeKit。"
+	},
+	"FindosgPresentation": {
+		"name": "FindosgPresentation",
+		"description": "从 OpenSceneGraph 工具包中查找 osgPresentation NodeKit，自 OpenSceneGraph 版本 3.0.0 起可用。"
+	},
+	"FindosgProducer": {
+		"name": "FindosgProducer",
+		"description": "从 OpenSceneGraph 工具包中查找 osgProducer 实用工具库。"
+	},
+	"FindosgQt": {
+		"name": "FindosgQt",
+		"description": "从 OpenSceneGraph 工具包中查找 osgQt 实用工具库。"
+	},
+	"FindosgShadow": {
+		"name": "FindosgShadow",
+		"description": "从 OpenSceneGraph 工具包中查找 osgShadow NodeKit。"
+	},
+	"FindosgSim": {
+		"name": "FindosgSim",
+		"description": "从 OpenSceneGraph 工具包中查找 osgSim NodeKit。"
+	},
+	"FindosgTerrain": {
+		"name": "FindosgTerrain",
+		"description": "从 OpenSceneGraph 工具包中查找 osgTerrain NodeKit。"
+	},
+	"FindosgText": {
+		"name": "FindosgText",
+		"description": "从 OpenSceneGraph 工具包中查找 osgText NodeKit。"
+	},
+	"FindosgUtil": {
+		"name": "FindosgUtil",
+		"description": "从 OpenSceneGraph 工具包中查找 osgUtil 库。"
+	},
+	"FindosgViewer": {
+		"name": "FindosgViewer",
+		"description": "从 OpenSceneGraph 工具包中查找 osgViewer 库。"
+	},
+	"FindosgVolume": {
+		"name": "FindosgVolume",
+		"description": "从 OpenSceneGraph 工具包中查找 osgVolume NodeKit。"
+	},
+	"FindosgWidget": {
+		"name": "FindosgWidget",
+		"description": "从 OpenSceneGraph 工具包中查找 osgWidget NodeKit。"
+	},
+	"Findosg_functions": {
+		"name": "Findosg_functions",
+		"description": "在 find_package 命令的典型使用期间，项目代码不会直接包含或调用此模块。它在 OpenSceneGraph (OSG) 查找模块内部用于协助搜索 OSG 库和 NodeKit。有关使用情况详细信息，请参阅 FindOpenSceneGraph 模块。"
+	},
+	"FindPackageHandleStandardArgs": {
+		"name": "FindPackageHandleStandardArgs",
+		"description": "此模块提供的命令旨在用于实现 find_package(<PackageName>)调用的 Find 模块。"
+	},
+	"FindPackageMessage": {
+		"name": "FindPackageMessage",
+		"description": "此模块提供用于打印查找结果消息的命令，旨在用于查找执行 find_package(<PackageName>) 调用的模块。"
+	},
+	"FindPatch": {
+		"name": "FindPatch",
+		"description": "查找用于将差异修补程序应用于原始文件的修补程序命令行可执行文件:"
+	},
+	"FindPerl": {
+		"name": "FindPerl",
+		"description": "查找 Perl 解释器:"
+	},
+	"FindPerlLibs": {
+		"name": "FindPerlLibs",
+		"description": "查找 Perl 库:"
+	},
+	"FindPHP4": {
+		"name": "FindPHP4",
+		"description": "查找 PHP 版本 4 (一种通用脚本语言):"
+	},
+	"FindPhysFS": {
+		"name": "FindPhysFS",
+		"description": "查找用于文件 I/O 抽象的 PhysicsFS 库(PhysFS):"
+	},
+	"FindPike": {
+		"name": "FindPike",
+		"description": "查找 Pike 编译程序和解释器:"
+	},
+	"FindPkgConfig": {
+		"name": "FindPkgConfig",
+		"description": "CMake 的 pkg-config 模块。"
+	},
+	"FindPNG": {
+		"name": "FindPNG",
+		"description": "查找 PNG 图像格式的官方参考库 libpng:"
+	},
+	"FindPostgreSQL": {
+		"name": "FindPostgreSQL",
+		"description": "查找 PostgreSQL 安装 - 客户端库(libpq)和服务器(可选):"
+	},
+	"FindProducer": {
+		"name": "FindProducer",
+		"description": "查找创建器库，这是一个窗口化和事件处理库，主要用于实时图形应用程序:"
+	},
+	"FindProtobuf": {
+		"name": "FindProtobuf",
+		"description": "此模块在模块模式下查找协议缓冲区库(Protobuf):"
+	},
+	"FindPython": {
+		"name": "FindPython",
+		"description": "查找 Python 解释器、编译器和开发环境(包括目录和库):"
+	},
+	"FindPython2": {
+		"name": "FindPython2",
+		"description": "查找 Python 2 解释器、编译器和开发环境(包括目录和库):"
+	},
+	"FindPython3": {
+		"name": "FindPython3",
+		"description": "查找 Python 3 解释器、编译器和开发环境(包括目录和库):"
+	},
+	"FindPythonInterp": {
+		"name": "FindPythonInterp",
+		"description": "查找 Python 解释器并确定其可执行文件的位置:"
+	},
+	"FindPythonLibs": {
+		"name": "FindPythonLibs",
+		"description": "查找 Python 安装，并确定其 include 目录和库的位置以及要链接到的 Python 库的名称:"
+	},
+	"FindQt": {
+		"name": "FindQt",
+		"description": "此模块查找已安装的 Qt3 或 Qt4 版本:"
+	},
+	"FindQt3": {
+		"name": "FindQt3",
+		"description": "Qt3 是用于创建图形用户界面和应用程序的跨平台应用程序开发框架:"
+	},
+	"FindQt4": {
+		"name": "FindQt4",
+		"description": "Qt4 是用于创建图形用户界面和应用程序的跨平台应用程序开发框架:"
+	},
+	"FindQuickTime": {
+		"name": "FindQuickTime",
+		"description": "查找 QuickTime 多媒体框架，其提供对视频、音频和交互媒体的支持:"
+	},
+	"FindRTI": {
+		"name": "FindRTI",
+		"description": "查找 HLA RTI 标准库及其 include 目录:"
+	},
+	"FindRuby": {
+		"name": "FindRuby",
+		"description": "查找 Ruby 安装及其包含文件和库的位置:"
+	},
+	"FindSDL": {
+		"name": "FindSDL",
+		"description": "查找 SDL (简单 DirectMedia 层)库:"
+	},
+	"FindSDL_gfx": {
+		"name": "FindSDL_gfx",
+		"description": "查找 SDL_gfx 库，其在 SDL (简单 DirectMedia 层)应用程序中提供图形支持:"
+	},
+	"FindSDL_image": {
+		"name": "FindSDL_image",
+		"description": "查找 SDL_image 库，其将各种格式的图像加载为 SDL (简单 DirectMedia 层)图面:"
+	},
+	"FindSDL_mixer": {
+		"name": "FindSDL_mixer",
+		"description": "查找 SDL_mixer 库，其提供支持 SDL (简单 DirectMedia 层)应用程序中各种文件格式的音频混音器:"
+	},
+	"FindSDL_net": {
+		"name": "FindSDL_net",
+		"description": "查找 SDL_net 库，这是一个用于 SDL (简单 DirectMedia 层)应用程序的跨平台网络库:"
+	},
+	"FindSDL_sound": {
+		"name": "FindSDL_sound",
+		"description": "查找 SDL_sound 库，这是一个用于 SDL (简单 DirectMedia 层)应用程序的抽象声音文件解码器:"
+	},
+	"FindSDL_ttf": {
+		"name": "FindSDL_ttf",
+		"description": "查找 SDL_ttf 库，其支持在 SDL (简单 DirectMedia 层)应用程序中使用 TrueType 字体呈现文本:"
+	},
+	"FindSelfPackers": {
+		"name": "FindSelfPackers",
+		"description": "查找 UPX (Ultimate Packer for eXecutables):"
+	},
+	"FindSQLite3": {
+		"name": "FindSQLite3",
+		"description": "查找 SQLite 3 库:"
+	},
+	"FindSquish": {
+		"name": "FindSquish",
+		"description": "查找 Squish，这是一个跨平台的自动 GUI 测试框架，用于基于各种 GUI 技术构建的应用程序:"
+	},
+	"FindSubversion": {
+		"name": "FindSubversion",
+		"description": "查找 Subversion 命令行客户端可执行文件(svn)，并提供用于从 Subversion 工作副本中提取信息的命令:"
+	},
+	"FindSWIG": {
+		"name": "FindSWIG",
+		"description": "查找已安装的简化封装器和接口生成器 (SWIG) 可执行文件，并确定其版本:"
+	},
+	"FindTCL": {
+		"name": "FindTCL",
+		"description": "查找动态编程语言 Tcl (工具命令语言):"
+	},
+	"FindTclsh": {
+		"name": "FindTclsh",
+		"description": "查找 Tcl shell 命令行可执行文件(tclsh)，其包括 Tcl (工具命令语言)解释器:"
+	},
+	"FindTclStub": {
+		"name": "FindTclStub",
+		"description": "查找 Tcl Stub 库，其用于生成与版本无关的 Tcl 扩展:"
+	},
+	"FindThreads": {
+		"name": "FindThreads",
+		"description": "查找并确定系统的线程库以支持多线程:"
+	},
+	"FindTIFF": {
+		"name": "FindTIFF",
+		"description": "查找 TIFF 库(libtiff):"
+	},
+	"FindUnixCommands": {
+		"name": "FindUnixCommands",
+		"description": "查找 Unix 命令 bash、cp、gzip、mv、rm 和 tar，包括来自 Cygwin 或 MSYS 的版本:"
+	},
+	"FindVTK": {
+		"name": "FindVTK",
+		"description": "此模块已不再存在。"
+	},
+	"FindVulkan": {
+		"name": "FindVulkan",
+		"description": "查找 Vulkan (这是一种低开销的跨平台 3D 图形和计算 API)以及通常由 Vulkan SDK 提供的相关开发工具:"
+	},
+	"FindWget": {
+		"name": "FindWget",
+		"description": "此模块查找用于从 Web 服务器检索内容的 wget 命令行工具:"
+	},
+	"FindWish": {
+		"name": "FindWish",
+		"description": "查找 wish，这是一个简单的窗口 shell 命令行可执行文件:"
+	},
+	"FindwxWidgets": {
+		"name": "FindwxWidgets",
+		"description": "查找 wxWidgets 安装并提供项目中使用的使用要求:"
+	},
+	"FindwxWindows": {
+		"name": "FindwxWindows",
+		"description": "查找 wxWidgets (以前称为 wxWindows)安装，并确定其 include 目录和库的位置以及库的名称:"
+	},
+	"FindX11": {
+		"name": "FindX11",
+		"description": "查找类 Unix 系统上的 X11 安装:"
+	},
+	"FindXalanC": {
+		"name": "FindXalanC",
+		"description": "查找 Apache Xalan-C++ XSL 转换处理器标头和库:"
+	},
+	"FindXCTest": {
+		"name": "FindXCTest",
+		"description": "查找用于在 Xcode 项目中编写单元测试的 XCTest 框架:"
+	},
+	"FindXercesC": {
+		"name": "FindXercesC",
+		"description": "查找验证 XML 分析程序标头和库的 Apache Xcerces-C++:"
+	},
+	"FindXMLRPC": {
+		"name": "FindXMLRPC",
+		"description": "查找适用于 C 和 C++ 的本机 XML-RPC 库:"
+	},
+	"FindZLIB": {
+		"name": "FindZLIB",
+		"description": "查找本机 zlib 数据压缩库:"
+	},
+	"FortranCInterface": {
+		"name": "FortranCInterface",
+		"description": "此模块提供变量和命令，用于检测 Fortran/C 接口。"
+	},
+	"GenerateExportHeader": {
+		"name": "GenerateExportHeader",
+		"description": "此模块提供用于生成包含预处理器宏定义的头文件的命令，以控制 C/C++ 符号可见性。"
+	},
+	"GetPrerequisites": {
+		"name": "GetPrerequisites",
+		"description": "此模块提供用于分析和列出可执行文件或共享库文件的依赖项(先决条件)的命令。这些命令列出可执行文件或共享库所需的共享库(.dll、.dylib 或 .so 文件)。"
+	},
+	"GNUInstallDirs": {
+		"name": "GNUInstallDirs",
+		"description": "此模块根据 GNU 编码标准定义安装目录变量，并提供一个命令来计算与安装相关的绝对路径。"
+	},
+	"GoogleTest": {
+		"name": "GoogleTest",
+		"description": "此模块提供了用于帮助使用 Google Test 基础结构的命令。"
+	},
+	"InstallRequiredSystemLibraries": {
+		"name": "InstallRequiredSystemLibraries",
+		"description": "此模块会搜索编译器提供的系统运行时库，并为其添加安装规则。"
+	},
+	"MacroAddFileDependencies": {
+		"name": "MacroAddFileDependencies",
+		"description": "使用以下内容在 CMake 项目中加载此模块:"
+	},
+	"ProcessorCount": {
+		"name": "ProcessorCount",
+		"description": "此模块提供一个命令来确定处理器/核心数。"
+	},
+	"SelectLibraryConfigurations": {
+		"name": "SelectLibraryConfigurations",
+		"description": "此模块提供了一个命令以在包具有多个生成配置时自动设置库变量。它旨在用于实现 find_package(<PackageName>)调用的 Find 模块。"
+	},
+	"SquishTestScript": {
+		"name": "SquishTestScript",
+		"description": "此模块不应直接包含在 CMake 项目中。它是一个内部 CMake 测试脚本，用于通过 Squish 启动 GUI 测试。有关用法详细信息，请参阅 FindSquish 模块中的 squish_add_test 命令文档。"
+	},
+	"TestBigEndian": {
+		"name": "TestBigEndian",
+		"description": "此模块提供命令，用于检查目标架构的字节顺序(endianness)。"
+	},
+	"TestCXXAcceptsFlag": {
+		"name": "TestCXXAcceptsFlag",
+		"description": "此模块提供了一个命令来测试 C++ (CXX) 编译程序是否支持特定标志。"
+	},
+	"TestForANSIForScope": {
+		"name": "TestForANSIForScope",
+		"description": "此模块检查 CXX 编译器是否将 for-init-statement 中声明的变量的范围限制为循环正文。"
+	},
+	"TestForANSIStreamHeaders": {
+		"name": "TestForANSIStreamHeaders",
+		"description": "此模块检查 CXX 编译程序是否支持不带 .h 扩展名的标准库头(例如 <iostream>)。"
+	},
+	"TestForSSTREAM": {
+		"name": "TestForSSTREAM",
+		"description": "此模块检查 C++ 标准头 <sstream> 是否存在并正常运行。"
+	},
+	"TestForSTDNamespace": {
+		"name": "TestForSTDNamespace",
+		"description": "此模块检查 CXX 编译程序是否支持 C++ 标准库的 std 命名空间。"
+	},
+	"UseEcos": {
+		"name": "UseEcos",
+		"description": "此模块定义变量并提供生成 eCos 应用程序所需的命令。"
+	},
+	"UseJava": {
+		"name": "UseJava",
+		"description": "此文件提供对 Java 的支持。它假定已加载 FindJava。有关如何将 Java 加载到 CMake 项目中的信息，请参阅 FindJava。"
+	},
+	"UseJavaClassFilelist": {
+		"name": "UseJavaClassFilelist",
+		"description": "此模块以前是错误记录的，并且本意从来不是由项目代码直接包含。请参阅 UseJava 模块。"
+	},
+	"UseJavaSymlinks": {
+		"name": "UseJavaSymlinks",
+		"description": "此模块以前是错误记录的，并且本意从来不是由项目代码直接包含。请参阅 UseJava 模块。"
+	},
+	"UsePkgConfig": {
+		"name": "UsePkgConfig",
+		"description": "使用以下内容在 CMake 项目中加载此模块:"
+	},
+	"UseSWIG": {
+		"name": "UseSWIG",
+		"description": "此模块提供对 SWIG 的支持。假定已加载 FindSWIG 模块。"
+	},
+	"UsewxWidgets": {
+		"name": "UsewxWidgets",
+		"description": "此模块作为使用 wxWidgets 库(前称 wxWindows)的便捷包装器，将其使用要求(如库目录、包含目录和编译器标志)传递到当前目录范围，供目标使用。"
+	},
+	"Use_wxWindows": {
+		"name": "Use_wxWindows",
+		"description": "此模块作为查找 wxWidgets 库(前称 wxWindows)的便捷包装器，将其使用要求(如库、包含目录和编译器标志)传递到当前目录范围，供目标使用。"
+	},
+	"WriteBasicConfigVersionFile": {
+		"name": "WriteBasicConfigVersionFile",
+		"description": "自版本 3.0 起弃用:使用模块 CMakePackageConfigHelpers 中的相同命令 write_basic_package_version_file()。"
+	},
+	"WriteCompilerDetectionHeader": {
+		"name": "WriteCompilerDetectionHeader",
+		"description": "此模块提供命令，用于生成带有预处理器宏的头文件。"
+	}
+}

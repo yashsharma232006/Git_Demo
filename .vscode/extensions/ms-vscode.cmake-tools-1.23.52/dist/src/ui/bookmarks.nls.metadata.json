@@ -1,0 +1,19 @@
+{
+	"messages": [
+		"{0}\nProject: {1}\nType: {2}\nFolder: {3}",
+		"N/A",
+		"Loaded {0} bookmarks",
+		"Saved {0} bookmarks",
+		"Removed bookmark: {0}",
+		"Cleared {0} bookmarks"
+	],
+	"keys": [
+		"bookmark.tooltip",
+		"not.available",
+		"loaded.bookmarks",
+		"saved.bookmarks",
+		"removed.bookmark",
+		"cleared.bookmarks"
+	],
+	"filePath": "src\\ui\\bookmarks"
+}

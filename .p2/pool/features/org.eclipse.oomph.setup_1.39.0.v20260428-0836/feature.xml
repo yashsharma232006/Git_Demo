@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright (c) 2014-2017 Eike Stepper (Loehne, Germany) and others.
+  All rights reserved. This program and the accompanying materials
+  are made available under the terms of the Eclipse Public License v2.0
+  which accompanies this distribution, and is available at
+  http://www.eclipse.org/legal/epl-v20.html
+
+  Contributors:
+    Eike Stepper - initial API and implementation
+-->
+<feature
+      id="org.eclipse.oomph.setup"
+      label="%featureName"
+      version="1.39.0.v20260428-0836"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="%updateSiteName" url="https://download.eclipse.org/oomph/updates"/>
+      <discovery label="%updateSiteName" url="https://download.eclipse.org/oomph/updates"/>
+   </url>
+
+   <includes
+         id="org.eclipse.oomph.setup.core"
+         version="1.37.0.v20260428-0836"/>
+
+   <includes
+         id="org.eclipse.oomph.p2"
+         version="1.36.0.v20260409-1346"/>
+
+   <plugin
+         id="org.eclipse.oomph.setup.editor"
+         version="1.32.0.v20251223-0956"/>
+
+   <plugin
+         id="org.eclipse.oomph.setup.ui"
+         version="1.37.0.v20260428-0836"/>
+
+   <plugin
+         id="org.eclipse.oomph.setup.doc"
+         version="1.15.0.v20250302-1233"/>
+
+   <plugin
+         id="org.eclipse.oomph.setup.ui.questionnaire"
+         version="1.14.0.v20250518-0704"/>
+
+   <plugin
+         id="org.eclipse.oomph.jreinfo.ui"
+         version="1.20.0.v20260212-1311"/>
+
+</feature>

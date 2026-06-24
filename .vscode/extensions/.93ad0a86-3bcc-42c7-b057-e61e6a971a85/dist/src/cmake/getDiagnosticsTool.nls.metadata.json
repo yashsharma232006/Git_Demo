@@ -1,0 +1,9 @@
+{
+	"messages": [
+		"Get CMake diagnostics"
+	],
+	"keys": [
+		"get.cmake.diagnostics"
+	],
+	"filePath": "src\\cmake\\getDiagnosticsTool"
+}

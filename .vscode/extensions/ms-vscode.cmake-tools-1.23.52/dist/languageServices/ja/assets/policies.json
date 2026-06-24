@@ -1,0 +1,1123 @@
+{
+	"CMP0000": {
+		"name": "CMP0000",
+		"description": "CMake の最小必須バージョンを指定する必要があります。",
+		"introduced_version": "2.6.0",
+		"removed_version": "4.0"
+	},
+	"CMP0001": {
+		"name": "CMP0001",
+		"description": "CMAKE_BACKWARDS_COMPATIBILITY は、もはや使用すべきではありません。",
+		"introduced_version": "2.6.0",
+		"removed_version": "4.0"
+	},
+	"CMP0002": {
+		"name": "CMP0002",
+		"description": "論理ターゲット名はグローバルに一意である必要があります。",
+		"introduced_version": "2.6.0",
+		"removed_version": "4.0"
+	},
+	"CMP0003": {
+		"name": "CMP0003",
+		"description": "完全パスを介してリンクされたライブラリでは、リンカー検索パスが生成されなくなりました。",
+		"introduced_version": "2.6.0",
+		"removed_version": "4.0"
+	},
+	"CMP0004": {
+		"name": "CMP0004",
+		"description": "リンクされるライブラリ名の先頭または末尾に空白を含めることはできません。",
+		"introduced_version": "2.6.0",
+		"removed_version": "4.0"
+	},
+	"CMP0005": {
+		"name": "CMP0005",
+		"description": "プリプロセッサ定義の値は自動的にエスケープされるようになりました。",
+		"introduced_version": "2.6.0",
+		"removed_version": "4.0"
+	},
+	"CMP0006": {
+		"name": "CMP0006",
+		"description": "MACOSX_BUNDLE ターゲットをインストールするには、BUNDLE DESTINATION を指定する必要があります。",
+		"introduced_version": "2.6.0",
+		"removed_version": "4.0"
+	},
+	"CMP0007": {
+		"name": "CMP0007",
+		"description": "list コマンドは空の要素を無視しなくなりました。",
+		"introduced_version": "2.6.0",
+		"removed_version": "4.0"
+	},
+	"CMP0008": {
+		"name": "CMP0008",
+		"description": "完全パスでリンクされたライブラリは有効なライブラリ ファイル名を持っている必要があります。",
+		"introduced_version": "2.6.1",
+		"removed_version": "4.0"
+	},
+	"CMP0009": {
+		"name": "CMP0009",
+		"description": "FILE GLOB_RECURSE の呼び出しでは、デフォルトでシンボリックリンクをたどるべきではありません。",
+		"introduced_version": "2.6.2",
+		"removed_version": "4.0"
+	},
+	"CMP0010": {
+		"name": "CMP0010",
+		"description": "不正な変数参照構文はエラーです。",
+		"introduced_version": "2.6.3",
+		"removed_version": "4.0"
+	},
+	"CMP0011": {
+		"name": "CMP0011",
+		"description": "include されたスクリプトは自動的に cmake_policy の PUSH と POP を行います。",
+		"introduced_version": "2.6.3",
+		"removed_version": "4.0"
+	},
+	"CMP0012": {
+		"name": "CMP0012",
+		"description": "if は数値とブール定数を認識します。",
+		"introduced_version": "2.8.0",
+		"removed_version": "4.0"
+	},
+	"CMP0013": {
+		"name": "CMP0013",
+		"description": "重複するバイナリ ディレクトリは許可されません。",
+		"introduced_version": "2.8.0",
+		"removed_version": "4.0"
+	},
+	"CMP0014": {
+		"name": "CMP0014",
+		"description": "入力ディレクトリには CMakeLists.txt が必要です。",
+		"introduced_version": "2.8.0",
+		"removed_version": "4.0"
+	},
+	"CMP0015": {
+		"name": "CMP0015",
+		"description": "link_directories はパスをソース ディレクトリからの相対パスとして扱います。",
+		"introduced_version": "2.8.1",
+		"removed_version": "4.0"
+	},
+	"CMP0016": {
+		"name": "CMP0016",
+		"description": "target_link_libraries は唯一の引数がターゲットでない場合にエラーを報告します。",
+		"introduced_version": "2.8.3",
+		"removed_version": "4.0"
+	},
+	"CMP0017": {
+		"name": "CMP0017",
+		"description": "CMake モジュール ディレクトリから include する場合は、そこにあるファイルを優先します。",
+		"introduced_version": "2.8.4",
+		"removed_version": "4.0"
+	},
+	"CMP0018": {
+		"name": "CMP0018",
+		"description": "CMAKE_SHARED_LIBRARY_<Lang>_FLAGS 変数を無視します。",
+		"introduced_version": "2.8.9",
+		"removed_version": "4.0"
+	},
+	"CMP0019": {
+		"name": "CMP0019",
+		"description": "include および link 情報内の変数を再展開しないでください。",
+		"introduced_version": "2.8.11",
+		"removed_version": "4.0"
+	},
+	"CMP0020": {
+		"name": "CMP0020",
+		"description": "Windows では Qt 実行可能ファイルを qtmain ターゲットに自動的にリンクします。",
+		"introduced_version": "2.8.11",
+		"removed_version": "4.0"
+	},
+	"CMP0021": {
+		"name": "CMP0021",
+		"description": "INCLUDE_DIRECTORIES ターゲットプロパティで相対パスを使用すると致命的なエラーが発生します。",
+		"introduced_version": "2.8.12",
+		"removed_version": "4.0"
+	},
+	"CMP0022": {
+		"name": "CMP0022",
+		"description": "INTERFACE_LINK_LIBRARIES はリンク インターフェイスを定義します。",
+		"introduced_version": "2.8.12",
+		"removed_version": "4.0"
+	},
+	"CMP0023": {
+		"name": "CMP0023",
+		"description": "プレーンおよびキーワードの target_link_libraries シグネチャを混在させることはできません。",
+		"introduced_version": "2.8.12",
+		"removed_version": "4.0"
+	},
+	"CMP0024": {
+		"name": "CMP0024",
+		"description": "export の結果の include を許可しません。",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0025": {
+		"name": "CMP0025",
+		"description": "Apple Clang のコンパイラ ID は AppleClang になりました。",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0026": {
+		"name": "CMP0026",
+		"description": "ビルド ターゲットに LOCATION プロパティを使用することを許可しません。",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0027": {
+		"name": "CMP0027",
+		"description": "インクルード ディレクトリが見つからない条件付きでリンクされたインポート ターゲット。",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0028": {
+		"name": "CMP0028",
+		"description": "ターゲット名の二重コロンは ALIAS または IMPORTED ターゲットを意味します。",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0029": {
+		"name": "CMP0029",
+		"description": "subdir_depends コマンドを呼び出さないでください。",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0030": {
+		"name": "CMP0030",
+		"description": "use_mangled_mesa コマンドを呼び出さないでください。",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0031": {
+		"name": "CMP0031",
+		"description": "load_command コマンドを呼び出さないでください。",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0032": {
+		"name": "CMP0032",
+		"description": "output_required_files コマンドを呼び出さないでください。",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0033": {
+		"name": "CMP0033",
+		"description": "export_library_dependencies コマンドを呼び出さないでください。",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0034": {
+		"name": "CMP0034",
+		"description": "utility_source コマンドを呼び出さないでください。",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0035": {
+		"name": "CMP0035",
+		"description": "variable_requires コマンドを呼び出さないでください。",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0036": {
+		"name": "CMP0036",
+		"description": "build_name コマンドを呼び出さないでください。",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0037": {
+		"name": "CMP0037",
+		"description": "ターゲット名は予約名であってはならず、有効なパターンに一致する必要があります。",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0038": {
+		"name": "CMP0038",
+		"description": "ターゲットは自身に直接リンクできません。",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0039": {
+		"name": "CMP0039",
+		"description": "ユーティリティ ターゲットはリンク依存関係を持つことができません。",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0040": {
+		"name": "CMP0040",
+		"description": "add_custom_command の TARGET シグネチャのターゲットは存在し、現在のディレクトリで定義されている必要があります。",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0041": {
+		"name": "CMP0041",
+		"description": "ジェネレーター式を使用した相対インクルードでエラーになります。",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0042": {
+		"name": "CMP0042",
+		"description": "MACOSX_RPATH は既定で有効です。",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0043": {
+		"name": "CMP0043",
+		"description": "COMPILE_DEFINITIONS_<Config> プロパティを無視します",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0044": {
+		"name": "CMP0044",
+		"description": "大文字と小文字を区別する <LANG>_COMPILER_ID ジェネレーター式",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0045": {
+		"name": "CMP0045",
+		"description": "get_target_property で存在しないターゲットに対するエラーです。",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0046": {
+		"name": "CMP0046",
+		"description": "add_dependencies の存在しない依存関係でエラーになります。",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0047": {
+		"name": "CMP0047",
+		"description": "QNX の qcc ドライバーには QCC コンパイラ ID を使用します。",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0048": {
+		"name": "CMP0048",
+		"description": "project コマンドは VERSION 変数を管理します。",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0049": {
+		"name": "CMP0049",
+		"description": "ターゲット ソース エントリ内の変数を展開しないでください。",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0050": {
+		"name": "CMP0050",
+		"description": "add_custom_command の SOURCE シグネチャを許可しません。",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0051": {
+		"name": "CMP0051",
+		"description": "TARGET_OBJECTS を SOURCES ターゲット プロパティに一覧表示します。",
+		"introduced_version": "3.1",
+		"removed_version": "4.0"
+	},
+	"CMP0052": {
+		"name": "CMP0052",
+		"description": "インストールされた INTERFACE_INCLUDE_DIRECTORIES に含まれるソース ディレクトリとビルド ディレクトリを拒否します。",
+		"introduced_version": "3.1",
+		"removed_version": "4.0"
+	},
+	"CMP0053": {
+		"name": "CMP0053",
+		"description": "変数参照とエスケープ シーケンスの評価を簡略化します。",
+		"introduced_version": "3.1",
+		"removed_version": "4.0"
+	},
+	"CMP0054": {
+		"name": "CMP0054",
+		"description": "引用符で囲まれていない場合のみ、if 引数を変数またはキーワードとして解釈します。",
+		"introduced_version": "3.1",
+		"removed_version": "4.0"
+	},
+	"CMP0055": {
+		"name": "CMP0055",
+		"description": "break コマンドの厳密なチェック。",
+		"introduced_version": "3.2",
+		"removed_version": "4.0"
+	},
+	"CMP0056": {
+		"name": "CMP0056",
+		"description": "try_compile のソース ファイル シグネチャでリンク フラグを尊重します。",
+		"introduced_version": "3.2",
+		"removed_version": "4.0"
+	},
+	"CMP0057": {
+		"name": "CMP0057",
+		"description": "新しい if IN_LIST 演算子をサポートします。",
+		"introduced_version": "3.3",
+		"removed_version": "4.0"
+	},
+	"CMP0058": {
+		"name": "CMP0058",
+		"description": "Ninja ではカスタム コマンドの副生成物を明示する必要があります。",
+		"introduced_version": "3.3",
+		"removed_version": "4.0"
+	},
+	"CMP0059": {
+		"name": "CMP0059",
+		"description": "DEFINITIONS を組み込みディレクトリ プロパティとして扱わないでください。",
+		"introduced_version": "3.3",
+		"removed_version": "4.0"
+	},
+	"CMP0060": {
+		"name": "CMP0060",
+		"description": "暗黙的なディレクトリ内であっても、完全なパスでライブラリをリンクします。",
+		"introduced_version": "3.3",
+		"removed_version": "4.0"
+	},
+	"CMP0061": {
+		"name": "CMP0061",
+		"description": "CTest は既定では make にエラーを無視するよう (-i) 指示しません。",
+		"introduced_version": "3.3",
+		"removed_version": "4.0"
+	},
+	"CMP0062": {
+		"name": "CMP0062",
+		"description": "export の結果の install を許可しません。",
+		"introduced_version": "3.3",
+		"removed_version": "4.0"
+	},
+	"CMP0063": {
+		"name": "CMP0063",
+		"description": "すべてのターゲットの種類で可視性プロパティを尊重します。。",
+		"introduced_version": "3.3",
+		"removed_version": "4.0"
+	},
+	"CMP0064": {
+		"name": "CMP0064",
+		"description": "TEST を if コマンドの演算子として認識します。",
+		"introduced_version": "3.4",
+		"removed_version": "4.0"
+	},
+	"CMP0065": {
+		"name": "CMP0065",
+		"description": "ENABLE_EXPORTS ターゲット プロパティがない実行可能ファイルからシンボルをエクスポートするフラグを追加しないでください。",
+		"introduced_version": "3.4",
+		"removed_version": "4.0"
+	},
+	"CMP0066": {
+		"name": "CMP0066",
+		"description": "try_compile のソース ファイル シグネチャで構成ごとのフラグを尊重します。",
+		"introduced_version": "3.7"
+	},
+	"CMP0067": {
+		"name": "CMP0067",
+		"description": "try_compile のソース ファイル シグネチャで言語標準を尊重します。",
+		"introduced_version": "3.8"
+	},
+	"CMP0068": {
+		"name": "CMP0068",
+		"description": "macOS の RPATH 設定は install_name に影響しません。",
+		"introduced_version": "3.9"
+	},
+	"CMP0069": {
+		"name": "CMP0069",
+		"description": "INTERPROCEDURAL_OPTIMIZATION は有効化されている場合に適用されます。",
+		"introduced_version": "3.9"
+	},
+	"CMP0070": {
+		"name": "CMP0070",
+		"description": "相対パスのファイル動作を定義します。",
+		"introduced_version": "3.10"
+	},
+	"CMP0071": {
+		"name": "CMP0071",
+		"description": "AUTOMOC と AUTOUIC が GENERATED ファイルを処理できるようにします。",
+		"introduced_version": "3.10"
+	},
+	"CMP0072": {
+		"name": "CMP0072",
+		"description": "FindOpenGL は利用可能な場合、既定で GLVND を優先します。",
+		"introduced_version": "3.11"
+	},
+	"CMP0073": {
+		"name": "CMP0073",
+		"description": "レガシーの _LIB_DEPENDS キャッシュ エントリを生成しません。",
+		"introduced_version": "3.12"
+	},
+	"CMP0074": {
+		"name": "CMP0074",
+		"description": "find_package は <PackageName>_ROOT 変数を使用します。",
+		"introduced_version": "3.12"
+	},
+	"CMP0075": {
+		"name": "CMP0075",
+		"description": "インクルード ファイル チェック マクロは CMAKE_REQUIRED_LIBRARIES を尊重します。",
+		"introduced_version": "3.12"
+	},
+	"CMP0076": {
+		"name": "CMP0076",
+		"description": "target_sources コマンドは相対パスを絶対パスに変換します。",
+		"introduced_version": "3.13"
+	},
+	"CMP0077": {
+		"name": "CMP0077",
+		"description": "option は通常の変数を尊重します。",
+		"introduced_version": "3.13"
+	},
+	"CMP0078": {
+		"name": "CMP0078",
+		"description": "UseSWIG は標準のターゲット名を生成します。",
+		"introduced_version": "3.13"
+	},
+	"CMP0079": {
+		"name": "CMP0079",
+		"description": "target_link_libraries は他のディレクトリのターゲットでの使用を許可します。",
+		"introduced_version": "3.13"
+	},
+	"CMP0080": {
+		"name": "CMP0080",
+		"description": "BundleUtilities は構成時に include できません。",
+		"introduced_version": "3.13"
+	},
+	"CMP0081": {
+		"name": "CMP0081",
+		"description": "LINK_DIRECTORIES ターゲット プロパティでは相対パスは許可されません。",
+		"introduced_version": "3.13"
+	},
+	"CMP0082": {
+		"name": "CMP0082",
+		"description": "add_subdirectory 呼び出しのインストール ルールは、呼び出し元のルールと交互に処理されます。",
+		"introduced_version": "3.14"
+	},
+	"CMP0083": {
+		"name": "CMP0083",
+		"description": "位置独立実行可能ファイル (PIE) の生成を制御するには、リンク時にいくつかのフラグが必要です。",
+		"introduced_version": "3.14"
+	},
+	"CMP0084": {
+		"name": "CMP0084",
+		"description": "FindQt モジュールは find_package 用には存在しません。",
+		"introduced_version": "3.14"
+	},
+	"CMP0085": {
+		"name": "CMP0085",
+		"description": "$<IN_LIST:...> は空のリスト項目を処理します。",
+		"introduced_version": "3.14"
+	},
+	"CMP0086": {
+		"name": "CMP0086",
+		"description": "UseSWIG は -module フラグを通じて SWIG_MODULE_NAME を尊重します。",
+		"introduced_version": "3.14"
+	},
+	"CMP0087": {
+		"name": "CMP0087",
+		"description": "install および install はジェネレーター式をサポートします。",
+		"introduced_version": "3.14"
+	},
+	"CMP0088": {
+		"name": "CMP0088",
+		"description": "FindBISON は実行時に CMAKE_CURRENT_BINARY_DIR で bison を実行します。",
+		"introduced_version": "3.14"
+	},
+	"CMP0089": {
+		"name": "CMP0089",
+		"description": "IBM の Clang ベースの XL コンパイラのコンパイラ ID は XLClang になりました。",
+		"introduced_version": "3.15"
+	},
+	"CMP0090": {
+		"name": "CMP0090",
+		"description": "export は既定ではパッケージ レジストリを登録しません。",
+		"introduced_version": "3.15"
+	},
+	"CMP0091": {
+		"name": "CMP0091",
+		"description": "MSVC ランタイム ライブラリ フラグは抽象化によって選択されます。",
+		"introduced_version": "3.15"
+	},
+	"CMP0092": {
+		"name": "CMP0092",
+		"description": "MSVC の警告フラグは、デフォルトでは CMAKE_<LANG>_FLAGS に含まれません。",
+		"introduced_version": "3.15"
+	},
+	"CMP0093": {
+		"name": "CMP0093",
+		"description": "FindBoost は Boost_VERSION を x.y.z 形式で報告します。",
+		"introduced_version": "3.15"
+	},
+	"CMP0094": {
+		"name": "CMP0094",
+		"description": "FindPython3、FindPython2、および FindPython モジュールは、検索戦略に LOCATION を使用します。",
+		"introduced_version": "3.15"
+	},
+	"CMP0095": {
+		"name": "CMP0095",
+		"description": "RPATH エントリは中間の CMake インストール スクリプトで適切にエスケープされます。",
+		"introduced_version": "3.16"
+	},
+	"CMP0096": {
+		"name": "CMP0096",
+		"description": "project コマンドは、バージョンコンポーネントの先頭のゼロを保持します。",
+		"introduced_version": "3.16"
+	},
+	"CMP0097": {
+		"name": "CMP0097",
+		"description": "GIT_SUBMODULES \"\" を指定した ExternalProject_Add はサブモジュールを初期化しません。",
+		"introduced_version": "3.16"
+	},
+	"CMP0098": {
+		"name": "CMP0098",
+		"description": "FindFLEX は実行時にディレクトリ CMAKE_CURRENT_BINARY_DIR で flex を実行します。",
+		"introduced_version": "3.17"
+	},
+	"CMP0099": {
+		"name": "CMP0099",
+		"description": "リンク プロパティは、静的ライブラリのプライベート依存関係に対して推移的です。",
+		"introduced_version": "3.17"
+	},
+	"CMP0100": {
+		"name": "CMP0100",
+		"description": "AUTOMOC と AUTOUIC が .hh 拡張子で終わるヘッダー ファイルを処理できるようにします。",
+		"introduced_version": "3.17.0"
+	},
+	"CMP0101": {
+		"name": "CMP0101",
+		"description": "target_compile_options は、常に BEFORE キーワードを尊重するようになりました。",
+		"introduced_version": "3.17"
+	},
+	"CMP0102": {
+		"name": "CMP0102",
+		"description": "mark_as_advanced コマンドは、既存のキャッシュ エントリがない場合、新しいキャッシュ エントリを作成しなくなりました。",
+		"introduced_version": "3.17"
+	},
+	"CMP0103": {
+		"name": "CMP0103",
+		"description": "同じ FILE を指定して APPEND を使用しない export コマンドの複数回の呼び出しは、もはや許可されません。",
+		"introduced_version": "3.18"
+	},
+	"CMP0104": {
+		"name": "CMP0104",
+		"description": "CMAKE_CUDA_COMPILER_ID <CMAKE_<LANG>_COMPILER_ID> が NVIDIA の場合、CMAKE_CUDA_ARCHITECTURES を初期化します。CUDA_ARCHITECTURES が空の場合はエラーを発生させます。",
+		"introduced_version": "3.18"
+	},
+	"CMP0105": {
+		"name": "CMP0105",
+		"description": "LINK_OPTIONS および INTERFACE_LINK_OPTIONS ターゲット プロパティは、デバイス リンク ステップで使用されるようになりました。",
+		"introduced_version": "3.18"
+	},
+	"CMP0106": {
+		"name": "CMP0106",
+		"description": "Documentation モジュールは削除されました。",
+		"introduced_version": "3.18"
+	},
+	"CMP0107": {
+		"name": "CMP0107",
+		"description": "別のターゲットと同じ名前で ALIAS ターゲットを作成することは許可されていません。",
+		"introduced_version": "3.17"
+	},
+	"CMP0108": {
+		"name": "CMP0108",
+		"description": "ターゲットは、ALIAS ターゲットを介した場合でも自分自身にリンクすることは許可されません。",
+		"introduced_version": "3.17"
+	},
+	"CMP0109": {
+		"name": "CMP0109",
+		"description": "find_program は読み取り権限ではなく実行権限を必要とします。",
+		"introduced_version": "3.19"
+	},
+	"CMP0110": {
+		"name": "CMP0110",
+		"description": "add_test はテスト名で任意の文字をサポートします。",
+		"introduced_version": "3.19"
+	},
+	"CMP0111": {
+		"name": "CMP0111",
+		"description": "location プロパティが欠けているインポートされたターゲットは、生成時に失敗します。",
+		"introduced_version": "3.19"
+	},
+	"CMP0112": {
+		"name": "CMP0112",
+		"description": "Target file コンポーネント ジェネレーター式は、ターゲット依存関係を追加しません。",
+		"introduced_version": "3.19"
+	},
+	"CMP0113": {
+		"name": "CMP0113",
+		"description": "Makefile ジェネレーターは、ターゲット依存関係からのカスタム コマンドを繰り返し実行しません。",
+		"introduced_version": "3.19"
+	},
+	"CMP0114": {
+		"name": "CMP0114",
+		"description": "ExternalProject のステップ ターゲットはそれらのステップを完全に採用します。",
+		"introduced_version": "3.19"
+	},
+	"CMP0115": {
+		"name": "CMP0115",
+		"description": "ソースファイルの拡張子は明示的に指定する必要があります。",
+		"introduced_version": "3.20"
+	},
+	"CMP0116": {
+		"name": "CMP0116",
+		"description": "Ninja ジェネレーターは add_custom_command の DEPFILE を変換します。",
+		"introduced_version": "3.20"
+	},
+	"CMP0117": {
+		"name": "CMP0117",
+		"description": "MSVC の RTTI フラグ/GR は既定で CMAKE_CXX_FLAGS <CMAKE_<LANG>_FLAGS> に追加されません。",
+		"introduced_version": "3.20"
+	},
+	"CMP0118": {
+		"name": "CMP0118",
+		"description": "GENERATED ソースは、手動で指定しなくてもディレクトリ間で使用できます。",
+		"introduced_version": "3.20"
+	},
+	"CMP0119": {
+		"name": "CMP0119",
+		"description": "LANGUAGE ソース ファイル プロパティは、指定された言語として明示的にコンパイルします。",
+		"introduced_version": "3.20"
+	},
+	"CMP0120": {
+		"name": "CMP0120",
+		"description": "WriteCompilerDetectionHeader モジュールは削除されました。",
+		"introduced_version": "3.20"
+	},
+	"CMP0121": {
+		"name": "CMP0121",
+		"description": "list コマンドは無効なインデックスを検出するようになりました。",
+		"introduced_version": "3.21"
+	},
+	"CMP0122": {
+		"name": "CMP0122",
+		"description": "UseSWIG は CSharp 言語のライブラリ名の規則を使用します。",
+		"introduced_version": "3.21"
+	},
+	"CMP0123": {
+		"name": "CMP0123",
+		"description": "ARMClang の cpu/arch コンパイル フラグおよびリンク フラグは、明示的に設定する必要があります。",
+		"introduced_version": "3.21"
+	},
+	"CMP0124": {
+		"name": "CMP0124",
+		"description": "foreach ループ変数は、ループのスコープ内でのみ使用できます。",
+		"introduced_version": "3.21"
+	},
+	"CMP0125": {
+		"name": "CMP0125",
+		"description": "find_file、find_path、find_library、find_program コマンドは、最初の引数で指定された変数に結果をキャッシュします。CMake 3.21 より前では、その名前のキャッシュ変数が呼び出し前に既に存在しており、かつキャッシュ変数に型がない場合、同名の非キャッシュ変数は破棄され、常にキャッシュ変数が使用されました (異なるが類似した動作については CMP0126 も参照してください)。これは、同名のキャッシュ変数よりも非キャッシュ変数が優先されるべきという慣例に反します。このような状況は、ユーザーがコマンドラインで型を指定せずにキャッシュ変数を設定した場合に発生することがあります。たとえば、cmake -DMYVAR:FILEPATH=blah の代わりに cmake -DMYVAR=blah ... を使用した場合です。",
+		"introduced_version": "3.21"
+	},
+	"CMP0126": {
+		"name": "CMP0126",
+		"description": "このポリシーが NEW に設定されている場合、set コマンドは現在のスコープから同名の通常の変数を削除しません。OLD の動作では、次の状況で現在のスコープから同名の通常の変数が削除されます。",
+		"introduced_version": "3.21"
+	},
+	"CMP0127": {
+		"name": "CMP0127",
+		"description": "cmake_dependent_option は完全な Condition 構文をサポートします。",
+		"introduced_version": "3.22"
+	},
+	"CMP0128": {
+		"name": "CMP0128",
+		"description": "このポリシーが NEW に設定されている場合:",
+		"introduced_version": "3.22"
+	},
+	"CMP0129": {
+		"name": "CMP0129",
+		"description": "MCST LCC コンパイラのコンパイラ ID は、GNU ではなく LCC になりました。",
+		"introduced_version": "3.23"
+	},
+	"CMP0130": {
+		"name": "CMP0130",
+		"description": "while は条件評価エラーを診断します。",
+		"introduced_version": "3.24"
+	},
+	"CMP0131": {
+		"name": "CMP0131",
+		"description": "LINK_LIBRARIES は :genex:`$<LINK_ONLY:...>` ジェネレーター式をサポートします。",
+		"introduced_version": "3.24"
+	},
+	"CMP0132": {
+		"name": "CMP0132",
+		"description": "最初の実行時にコンパイラの環境変数を設定しません。",
+		"introduced_version": "3.24"
+	},
+	"CMP0133": {
+		"name": "CMP0133",
+		"description": "CPack モジュールは、CPack DragNDrop ジェネレーターで既定では SLA を無効にします。",
+		"introduced_version": "3.24"
+	},
+	"CMP0134": {
+		"name": "CMP0134",
+		"description": "find_file、find_path、find_library、find_package コマンドの既定のレジストリビューは TARGET であり、find_program コマンドでは BOTH です。",
+		"introduced_version": "3.24"
+	},
+	"CMP0135": {
+		"name": "CMP0135",
+		"description": "ExternalProject_Add または FetchContent_Declare コマンドで URL ダウンロード方法を使用する場合、CMake 3.23 以前では、展開された内容のタイムスタンプはアーカイブ内のタイムスタンプと同じに設定されます。URL が変更されると新しいアーカイブがダウンロードおよび展開されますが、展開された内容のタイムスタンプが以前の内容より新しくならない場合があります。展開された内容に依存するものは、内容が変更されていても再ビルドされない場合があります。",
+		"introduced_version": "3.24"
+	},
+	"CMP0136": {
+		"name": "CMP0136",
+		"description": "Watcom ランタイム ライブラリ フラグは、抽象化によって選択されます。",
+		"introduced_version": "3.24"
+	},
+	"CMP0137": {
+		"name": "CMP0137",
+		"description": "try_compile は、プロジェクト モードでプラットフォーム変数を渡します。",
+		"introduced_version": "3.24"
+	},
+	"CMP0138": {
+		"name": "CMP0138",
+		"description": "CheckIPOSupported は呼び出し元プロジェクトのフラグを使用します。",
+		"introduced_version": "3.24"
+	},
+	"CMP0139": {
+		"name": "CMP0139",
+		"description": "if コマンドは PATH_EQUAL 演算子を使用したパス比較をサポートします。",
+		"introduced_version": "3.24"
+	},
+	"CMP0140": {
+		"name": "CMP0140",
+		"description": "return コマンドはそのパラメーターを検証します。",
+		"introduced_version": "3.25"
+	},
+	"CMP0141": {
+		"name": "CMP0141",
+		"description": "MSVC デバッグ情報形式フラグは、抽象化によって選択されます。",
+		"introduced_version": "3.25"
+	},
+	"CMP0142": {
+		"name": "CMP0142",
+		"description": "Xcode ジェネレーターはライブラリ検索パスに構成ごとのサフィックスを追加しません。",
+		"introduced_version": "3.25"
+	},
+	"CMP0143": {
+		"name": "CMP0143",
+		"description": "USE_FOLDERS グローバル プロパティは、既定で ON として扱われます。",
+		"introduced_version": "3.26"
+	},
+	"CMP0144": {
+		"name": "CMP0144",
+		"description": "find_package は大文字の <PACKAGENAME>_ROOT 変数を使用します。",
+		"introduced_version": "3.27"
+	},
+	"CMP0145": {
+		"name": "CMP0145",
+		"description": "Dart モジュールおよび FindDart モジュールは削除されました。",
+		"introduced_version": "3.27"
+	},
+	"CMP0146": {
+		"name": "CMP0146",
+		"description": "FindCUDA モジュールは削除されました。",
+		"introduced_version": "3.27"
+	},
+	"CMP0147": {
+		"name": "CMP0147",
+		"description": "Visual Studio ジェネレーターはカスタムコマンドを並列でビルドします。",
+		"introduced_version": "3.27"
+	},
+	"CMP0148": {
+		"name": "CMP0148",
+		"description": "FindPythonInterp モジュールと FindPythonLibs モジュールは削除されました。",
+		"introduced_version": "3.27"
+	},
+	"CMP0149": {
+		"name": "CMP0149",
+		"description": "Visual Studio ジェネレーターは既定で最新の Windows SDK を選択します。",
+		"introduced_version": "3.27"
+	},
+	"CMP0150": {
+		"name": "CMP0150",
+		"description": "ExternalProject_Add および FetchContent_Declare コマンドは、相対的な GIT_REPOSITORY パスを親プロジェクトのリモートを基準としたものとして扱います。",
+		"introduced_version": "3.27"
+	},
+	"CMP0151": {
+		"name": "CMP0151",
+		"description": "AUTOMOC のインクルード ディレクトリは、デフォルトでシステム インクルード ディレクトリです。",
+		"introduced_version": "3.27"
+	},
+	"CMP0152": {
+		"name": "CMP0152",
+		"description": "file は ../ コンポーネントを折りたたむ前にシンボリック リンクを解決します。",
+		"introduced_version": "3.28"
+	},
+	"CMP0153": {
+		"name": "CMP0153",
+		"description": "exec_program コマンドは呼び出してはなりません。",
+		"introduced_version": "3.28"
+	},
+	"CMP0154": {
+		"name": "CMP0154",
+		"description": "file set を使用するターゲットでは、生成されたファイルは既定で private になります。",
+		"introduced_version": "3.28"
+	},
+	"CMP0155": {
+		"name": "CMP0155",
+		"description": "少なくとも C++20 を使用するターゲットの C++ ソースは、サポートされている場合に import のスキャンが行われます。",
+		"introduced_version": "3.28"
+	},
+	"CMP0156": {
+		"name": "CMP0156",
+		"description": "リンカーの機能に基づいて、リンク行のライブラリを重複排除します。",
+		"introduced_version": "3.29"
+	},
+	"CMP0157": {
+		"name": "CMP0157",
+		"description": "Swift コンパイル モードは抽象化によって選択されます。",
+		"introduced_version": "3.29"
+	},
+	"CMP0158": {
+		"name": "CMP0158",
+		"description": "add_test は、クロスコンパイル時にのみ CMAKE_CROSSCOMPILING_EMULATOR を尊重します。",
+		"introduced_version": "3.29"
+	},
+	"CMP0159": {
+		"name": "CMP0159",
+		"description": "REGEX を使用する file は CMAKE_MATCH_ を更新します。",
+		"introduced_version": "3.29"
+	},
+	"CMP0160": {
+		"name": "CMP0160",
+		"description": "より多くの読み取り専用ターゲット プロパティは、設定しようとするとエラーになります。",
+		"introduced_version": "3.29"
+	},
+	"CMP0161": {
+		"name": "CMP0161",
+		"description": "CPACK_PRODUCTBUILD_DOMAINS 変数の既定値は true です。",
+		"introduced_version": "3.29"
+	},
+	"CMP0162": {
+		"name": "CMP0162",
+		"description": "Visual Studio ジェネレーターは、既定で UseDebugLibraries インジケーターを追加します。",
+		"introduced_version": "3.30"
+	},
+	"CMP0163": {
+		"name": "CMP0163",
+		"description": "GENERATED ソース ファイル プロパティは、すべてのディレクトリで表示されるようになりました。",
+		"introduced_version": "3.30"
+	},
+	"CMP0164": {
+		"name": "CMP0164",
+		"description": "add_library は、プラットフォームでサポートされていない場合、SHARED ライブラリを拒否します。",
+		"introduced_version": "3.30"
+	},
+	"CMP0165": {
+		"name": "CMP0165",
+		"description": "enable_language は project より前に呼び出してはなりません。",
+		"introduced_version": "3.30"
+	},
+	"CMP0166": {
+		"name": "CMP0166",
+		"description": "TARGET_PROPERTY は静的ライブラリの private 依存関係に対しても推移的にリンク プロパティを評価します。",
+		"introduced_version": "3.30"
+	},
+	"CMP0167": {
+		"name": "CMP0167",
+		"description": "FindBoost モジュールは削除されました。",
+		"introduced_version": "3.30"
+	},
+	"CMP0168": {
+		"name": "CMP0168",
+		"description": "FetchContent モジュールは、サブビルドを介さずにステップを直接実装します。",
+		"introduced_version": "3.30"
+	},
+	"CMP0169": {
+		"name": "CMP0169",
+		"description": "FetchContent_Populate を単一の引数 (宣言された依存関係の名前) で呼び出すことは非推奨です。",
+		"introduced_version": "3.30"
+	},
+	"CMP0170": {
+		"name": "CMP0170",
+		"description": "FETCHCONTENT_FULLY_DISCONNECTED が true に設定されている場合、FetchContent_MakeAvailable と FetchContent_Populate は、ソース ディレクトリがすでに展開済みであるという制約を強制します。この要件は常に文書化されていましたが、CMake 3.29 以前ではチェックも強制もされていませんでした。これにより、プロジェクトが依存関係が展開されていることを期待しているにもかかわらず、その展開が黙ってスキップされることで、原因を特定しにくいエラーが発生する場合がありました。",
+		"introduced_version": "3.30"
+	},
+	"CMP0171": {
+		"name": "CMP0171",
+		"description": "codegen は予約されたターゲット名です。",
+		"introduced_version": "3.31"
+	},
+	"CMP0172": {
+		"name": "CMP0172",
+		"description": "CPack モジュールは、CPack WIX ジェネレーターで既定によりマシン単位のインストールを有効にします。",
+		"introduced_version": "3.31"
+	},
+	"CMP0173": {
+		"name": "CMP0173",
+		"description": "CMakeFindFrameworks モジュールは削除されました。",
+		"introduced_version": "3.31"
+	},
+	"CMP0174": {
+		"name": "CMP0174",
+		"description": "cmake_parse_arguments は、単一値キーワードの後に空文字列がある場合でも変数を定義します。",
+		"introduced_version": "3.31"
+	},
+	"CMP0175": {
+		"name": "CMP0175",
+		"description": "add_custom_command は無効な引数を拒否します。",
+		"introduced_version": "3.31"
+	},
+	"CMP0176": {
+		"name": "CMP0176",
+		"description": "execute_process の ENCODING は既定で UTF-8 です。",
+		"introduced_version": "3.31"
+	},
+	"CMP0177": {
+		"name": "CMP0177",
+		"description": "install の DESTINATION パスは正規化されます。",
+		"introduced_version": "3.31"
+	},
+	"CMP0178": {
+		"name": "CMP0178",
+		"description": "test コマンド ラインは空の引数を保持します。",
+		"introduced_version": "3.31"
+	},
+	"CMP0179": {
+		"name": "CMP0179",
+		"description": "リンク行における静的ライブラリの重複除去では、最初の出現が保持されます。このポリシーは、ポリシー CMP0156 が NEW に設定されている場合にのみ関連します。",
+		"introduced_version": "3.31"
+	},
+	"CMP0180": {
+		"name": "CMP0180",
+		"description": "project は常に <PROJECT-NAME>_* を通常変数として設定します。",
+		"introduced_version": "3.31"
+	},
+	"CMP0181": {
+		"name": "CMP0181",
+		"description": "CMAKE_EXE_LINKER_FLAGS、CMAKE_EXE_LINKER_FLAGS_、CMAKE_SHARED_LINKER_FLAGS、CMAKE_SHARED_LINKER_FLAGS_、CMAKE_MODULE_LINKER_FLAGS、CMAKE_MODULE_LINKER_FLAGS_ 変数は解析されて再クォートされ、LINKER: プレフィックスをサポートします。",
+		"introduced_version": "4.0"
+	},
+	"CMP0182": {
+		"name": "CMP0182",
+		"description": "AIX では既定で共有ライブラリ アーカイブを作成します。",
+		"introduced_version": "4.0"
+	},
+	"CMP0183": {
+		"name": "CMP0183",
+		"description": "add_feature_info は完全な Condition 構文をサポートします。",
+		"introduced_version": "4.0"
+	},
+	"CMP0184": {
+		"name": "CMP0184",
+		"description": "MSVC ランタイム チェック フラグは、抽象化によって選択されます。",
+		"introduced_version": "4.0"
+	},
+	"CMP0185": {
+		"name": "CMP0185",
+		"description": "FindRuby は、もはや大文字の RUBY_* 変数を提供しません。",
+		"introduced_version": "4.0"
+	},
+	"CMP0186": {
+		"name": "CMP0186",
+		"description": "正規表現は、繰り返し検索において ^ を最大 1 回だけ一致させます。",
+		"introduced_version": "4.1"
+	},
+	"CMP0187": {
+		"name": "CMP0187",
+		"description": "拡張子付きの同名ファイルの後に、拡張子なしのソース ファイルをインクルードします。",
+		"introduced_version": "4.1"
+	},
+	"CMP0188": {
+		"name": "CMP0188",
+		"description": "FindGCCXML モジュールは削除されました。",
+		"introduced_version": "4.1"
+	},
+	"CMP0189": {
+		"name": "CMP0189",
+		"description": "TARGET_PROPERTY は LINK_LIBRARIES プロパティを推移的に評価します。",
+		"introduced_version": "4.1"
+	},
+	"CMP0190": {
+		"name": "CMP0190",
+		"description": "FindPython3、FindPython2、および FindPython モジュールは、クロスコンパイル モードにおいてアーティファクトの整合性を強制します。",
+		"introduced_version": "4.1"
+	},
+	"CMP0191": {
+		"name": "CMP0191",
+		"description": "FindCABLE モジュールは削除されました。",
+		"introduced_version": "4.1"
+	},
+	"CMP0192": {
+		"name": "CMP0192",
+		"description": "GNUInstallDirs は、特別なプレフィックスにおいて SYSCONFDIR、LOCALSTATEDIR、RUNSTATEDIR に絶対パスを使用します。",
+		"introduced_version": "4.1"
+	},
+	"CMP0193": {
+		"name": "CMP0193",
+		"description": "GNUInstallDirs は install prefix が / の場合、先頭に usr/ を付けて CMAKE_INSTALL_* をキャッシュします。",
+		"introduced_version": "4.1"
+	},
+	"CMP0194": {
+		"name": "CMP0194",
+		"description": "MSVC は言語 ASM のアセンブラーではありません。",
+		"introduced_version": "4.1"
+	},
+	"CMP0195": {
+		"name": "CMP0195",
+		"description": "ビルド ツリー内の Swift モジュールは、Swift モジュール ディレクトリ構造を使用します。",
+		"introduced_version": "4.1"
+	},
+	"CMP0196": {
+		"name": "CMP0196",
+		"description": "CMakeDetermineVSServicePack モジュールは削除されました。",
+		"introduced_version": "4.1"
+	},
+	"CMP0197": {
+		"name": "CMP0197",
+		"description": "MSVC のリンク -machine: フラグは CMAKE_*_LINKER_FLAGS に含まれません。",
+		"introduced_version": "4.1"
+	},
+	"CMP0198": {
+		"name": "CMP0198",
+		"description": "CMakeLists.txt では CMAKE_PARENT_LIST_FILE は定義されません。",
+		"introduced_version": "4.2"
+	},
+	"CMP0199": {
+		"name": "CMP0199",
+		"description": ":genex:`$<CONFIG:cfgs>` は、選択されていないマップ済み構成とは一致しません。",
+		"introduced_version": "4.2"
+	},
+	"CMP0200": {
+		"name": "CMP0200",
+		"description": "インポートされたターゲットの場所と構成の選択がより一貫したものになりました。",
+		"introduced_version": "4.2"
+	},
+	"CMP0201": {
+		"name": "CMP0201",
+		"description": "Python::NumPy は Python::Development.Module に依存しません。",
+		"introduced_version": "4.2"
+	},
+	"CMP0202": {
+		"name": "CMP0202",
+		"description": "PDB ファイル名には常にターゲットの構成ごとの POSTFIX が含まれます。",
+		"introduced_version": "4.2"
+	},
+	"CMP0203": {
+		"name": "CMP0203",
+		"description": "MSVC ABI をターゲットとする共有ライブラリでは _WINDLL が定義されます。",
+		"introduced_version": "4.2"
+	},
+	"CMP0204": {
+		"name": "CMP0204",
+		"description": "MSVC ABI をターゲットとする場合、文字セットは常に定義されます。",
+		"introduced_version": "4.2"
+	},
+	"CMP0205": {
+		"name": "CMP0205",
+		"description": "COPY_ON_ERROR を含むファイルはディレクトリ コンテンツをコピーします。",
+		"introduced_version": "4.3"
+	},
+	"CMP0206": {
+		"name": "CMP0206",
+		"description": "CPack アーカイブ ジェネレーターの既定値は UID 0 と GID 0 です。",
+		"introduced_version": "4.3"
+	},
+	"CMP0207": {
+		"name": "CMP0207",
+		"description": "ファイルは、一致する前にパスを正規化します。",
+		"introduced_version": "4.3"
+	},
+	"CMP0208": {
+		"name": "CMP0208",
+		"description": "export では、空の引数は許可されません。",
+		"introduced_version": "4.3"
+	},
+	"CMP0209": {
+		"name": "CMP0209",
+		"description": "インターフェイス ヘッダー セットがエクスポートなしで実行可能ファイルをチェックしていることを確認します。",
+		"introduced_version": "4.3"
+	},
+	"CMP0210": {
+		"name": "CMP0210",
+		"description": "CMAKE_<LANG>_LINK_FLAGS は、すべてのターゲットの種類にリンク フラグを追加します。",
+		"introduced_version": "4.3"
+	}
+}

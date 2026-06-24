@@ -1,0 +1,13 @@
+{
+	"cpp-devtools-companion.languageModelTools.Build_CMakeTools.userDescription": "Erstellt ein CMake-Projekt mit der CMake Tools-Erweiterung.",
+	"cpp-devtools-companion.languageModelTools.RunCtest_CMakeTools.userDescription": "Führt die CTest-Tests für ein CMake-Projekt mit der CMake Tools-Erweiterung aus",
+	"cpp-devtools-companion.languageModelTools.ListBuildTargets_CMakeTools.userDescription": "Listet die verfügbaren Buildziele für dieses CMake-Projekt mit der CMake Tools-Erweiterung auf.",
+	"cpp-devtools-companion.languageModelTools.ListTests_CMakeTools.userDescription": "Listet die verfügbaren Tests für dieses CMake-Projekt mit der CMake Tools-Erweiterung auf.",
+	"cpp-devtools-companion.languageModelTools.GetDiagnostics_CMakeTools.userDescription": "CMake-Diagnosen (Fehler, Warnungen und Probleme) aus dem Bereich „VS Code Probleme“ abrufen",
+	"cpp-devtools-companion.symbolReferencesLimit.description": "Maximale Anzahl der Symbolverweise, die pro einzelner Anfrage zurückgegeben werden.",
+	"cpp-devtools-companion.enableCppCodeEditingTools.description": "C++-Codebearbeitungstools aktivieren.",
+	"cpp-devtools-companion.enableCMakeGetDiagnosticsTool.description": "Aktivieren Sie das CMake Get-Diagnosetool.",
+	"cpp-devtools-companion.languageModelTools.GetSymbolReferences_CppTools.userDescription": "Alle Verweise für ein C++-Symbol finden.",
+	"cpp-devtools-companion.languageModelTools.GetSymbolInfo_CppTools.userDescription": "Symboldefinition für ein C++-Symbol abrufen.",
+	"cpp-devtools-companion.languageModelTools.GetSymbolCallHierarchy_CppTools.userDescription": "Aufrufhierarchie für ein C++-Symbol abrufen."
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "name": "GCC 6.3.0 mingw32",
+    "compilers": {
+      "C": "C:\\MinGW\\bin\\gcc.exe",
+      "CXX": "C:\\MinGW\\bin\\g++.exe"
+    },
+    "isTrusted": true,
+    "environmentVariables": {
+      "CMT_MINGW_PATH": "C:\\MinGW\\bin"
+    },
+    "preferredGenerator": {
+      "name": "MinGW Makefiles"
+    }
+  }
+]

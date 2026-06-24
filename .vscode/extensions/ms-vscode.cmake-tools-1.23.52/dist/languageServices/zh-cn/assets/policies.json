@@ -1,0 +1,1123 @@
+{
+	"CMP0000": {
+		"name": "CMP0000",
+		"description": "必须指定所需的最低 CMake 版本。",
+		"introduced_version": "2.6.0",
+		"removed_version": "4.0"
+	},
+	"CMP0001": {
+		"name": "CMP0001",
+		"description": "不应再使用 CMAKE_BACKWARDS_COMPATIBILITY。",
+		"introduced_version": "2.6.0",
+		"removed_version": "4.0"
+	},
+	"CMP0002": {
+		"name": "CMP0002",
+		"description": "逻辑目标名称必须全局唯一。",
+		"introduced_version": "2.6.0",
+		"removed_version": "4.0"
+	},
+	"CMP0003": {
+		"name": "CMP0003",
+		"description": "通过完整路径链接的库不再生成链接器搜索路径。",
+		"introduced_version": "2.6.0",
+		"removed_version": "4.0"
+	},
+	"CMP0004": {
+		"name": "CMP0004",
+		"description": "链接的库名称不能有前导或尾随空格。",
+		"introduced_version": "2.6.0",
+		"removed_version": "4.0"
+	},
+	"CMP0005": {
+		"name": "CMP0005",
+		"description": "预处理器定义值现在会自动转义。",
+		"introduced_version": "2.6.0",
+		"removed_version": "4.0"
+	},
+	"CMP0006": {
+		"name": "CMP0006",
+		"description": "安装 MACOSX_BUNDLE 目标时需要指定 BUNDLE DESTINATION。",
+		"introduced_version": "2.6.0",
+		"removed_version": "4.0"
+	},
+	"CMP0007": {
+		"name": "CMP0007",
+		"description": "list 命令不再忽略空元素。",
+		"introduced_version": "2.6.0",
+		"removed_version": "4.0"
+	},
+	"CMP0008": {
+		"name": "CMP0008",
+		"description": "通过完整路径链接的库必须具有有效的库文件名。",
+		"introduced_version": "2.6.1",
+		"removed_version": "4.0"
+	},
+	"CMP0009": {
+		"name": "CMP0009",
+		"description": "默认情况下，FILE GLOB_RECURSE 调用不应遵循符号链接。",
+		"introduced_version": "2.6.2",
+		"removed_version": "4.0"
+	},
+	"CMP0010": {
+		"name": "CMP0010",
+		"description": "错误的变量引用语法会导致报错。",
+		"introduced_version": "2.6.3",
+		"removed_version": "4.0"
+	},
+	"CMP0011": {
+		"name": "CMP0011",
+		"description": "引入的脚本会自动执行 cmake_policy PUSH 和 POP。",
+		"introduced_version": "2.6.3",
+		"removed_version": "4.0"
+	},
+	"CMP0012": {
+		"name": "CMP0012",
+		"description": "如果识别数字和布尔常量。",
+		"introduced_version": "2.8.0",
+		"removed_version": "4.0"
+	},
+	"CMP0013": {
+		"name": "CMP0013",
+		"description": "不允许使用重复的二进制目录。",
+		"introduced_version": "2.8.0",
+		"removed_version": "4.0"
+	},
+	"CMP0014": {
+		"name": "CMP0014",
+		"description": "输入目录必须包含 CMakeLists.txt。",
+		"introduced_version": "2.8.0",
+		"removed_version": "4.0"
+	},
+	"CMP0015": {
+		"name": "CMP0015",
+		"description": "link_directories 将路径视为相对于源目录的路径。",
+		"introduced_version": "2.8.1",
+		"removed_version": "4.0"
+	},
+	"CMP0016": {
+		"name": "CMP0016",
+		"description": "如果 target_link_libraries 的唯一参数不是目标，则报错。",
+		"introduced_version": "2.8.3",
+		"removed_version": "4.0"
+	},
+	"CMP0017": {
+		"name": "CMP0017",
+		"description": "从 CMake 模块目录引入文件时，优先使用该目录下的文件。",
+		"introduced_version": "2.8.4",
+		"removed_version": "4.0"
+	},
+	"CMP0018": {
+		"name": "CMP0018",
+		"description": "忽略 CMAKE_SHARED_LIBRARY_<Lang>_FLAGS 变量。",
+		"introduced_version": "2.8.9",
+		"removed_version": "4.0"
+	},
+	"CMP0019": {
+		"name": "CMP0019",
+		"description": "不会在 include 和 link 信息中重新展开变量。",
+		"introduced_version": "2.8.11",
+		"removed_version": "4.0"
+	},
+	"CMP0020": {
+		"name": "CMP0020",
+		"description": "在 Windows 上自动将 Qt 可执行文件链接到 qtmain 目标。",
+		"introduced_version": "2.8.11",
+		"removed_version": "4.0"
+	},
+	"CMP0021": {
+		"name": "CMP0021",
+		"description": "INCLUDE_DIRECTORIES 目标属性中的相对路径导致致命错误。",
+		"introduced_version": "2.8.12",
+		"removed_version": "4.0"
+	},
+	"CMP0022": {
+		"name": "CMP0022",
+		"description": "INTERFACE_LINK_LIBRARIES 定义链接接口。",
+		"introduced_version": "2.8.12",
+		"removed_version": "4.0"
+	},
+	"CMP0023": {
+		"name": "CMP0023",
+		"description": "target_link_libraries 普通签名和关键字签名不能混用。",
+		"introduced_version": "2.8.12",
+		"removed_version": "4.0"
+	},
+	"CMP0024": {
+		"name": "CMP0024",
+		"description": "不允许包含导出结果。",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0025": {
+		"name": "CMP0025",
+		"description": "Apple Clang 的编译器 ID 现为 AppleClang。",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0026": {
+		"name": "CMP0026",
+		"description": "不允许对编译目标使用 LOCATION 属性。",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0027": {
+		"name": "CMP0027",
+		"description": "条件性链接的导入目标，但缺少 include 目录。",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0028": {
+		"name": "CMP0028",
+		"description": "目标名称中的双冒号表示 ALIAS 或 IMPORTED 目标。",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0029": {
+		"name": "CMP0029",
+		"description": "不应调用 subdir_depends 命令。",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0030": {
+		"name": "CMP0030",
+		"description": "不应调用 use_mangled_mesa 命令。",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0031": {
+		"name": "CMP0031",
+		"description": "不应调用 load_command 命令。",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0032": {
+		"name": "CMP0032",
+		"description": "不应调用 output_required_files 命令。",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0033": {
+		"name": "CMP0033",
+		"description": "不应调用 export_library_dependencies 命令。",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0034": {
+		"name": "CMP0034",
+		"description": "不应调用 utility_source 命令。",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0035": {
+		"name": "CMP0035",
+		"description": "不应调用 variable_requires 命令。",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0036": {
+		"name": "CMP0036",
+		"description": "不应调用 build_name 命令。",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0037": {
+		"name": "CMP0037",
+		"description": "目标名称不应为保留名称，且应符合有效性模式。",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0038": {
+		"name": "CMP0038",
+		"description": "目标不能直接链接到自身。",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0039": {
+		"name": "CMP0039",
+		"description": "实用工具目标不能有链接依赖项。",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0040": {
+		"name": "CMP0040",
+		"description": "add_custom_command 的 TARGET 签名中的目标必须存在，并且必须在当前目录中定义。",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0041": {
+		"name": "CMP0041",
+		"description": "生成器表达式中使用相对 include 路径时出错。",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0042": {
+		"name": "CMP0042",
+		"description": "默认启用 MACOSX_RPATH。",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0043": {
+		"name": "CMP0043",
+		"description": "忽略 COMPILE_DEFINITIONS_<Config> 属性",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0044": {
+		"name": "CMP0044",
+		"description": "区分大小写的 <LANG>_COMPILER_ID 生成器表达式",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0045": {
+		"name": "CMP0045",
+		"description": "get_target_property 中存在错误，指定的目标不存在。",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0046": {
+		"name": "CMP0046",
+		"description": "add_dependencies 中存在错误，指定的依赖项不存在。",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0047": {
+		"name": "CMP0047",
+		"description": "针对 QNX 上的 qcc 驱动程序使用 QCC 编译器 ID。",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0048": {
+		"name": "CMP0048",
+		"description": "project 命令将管理 VERSION 变量。",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0049": {
+		"name": "CMP0049",
+		"description": "不会在目标源条目中展开变量。",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0050": {
+		"name": "CMP0050",
+		"description": "不允许 add_custom_command 使用 SOURCE 签名。",
+		"introduced_version": "3.0",
+		"removed_version": "4.0"
+	},
+	"CMP0051": {
+		"name": "CMP0051",
+		"description": "在 SOURCES 目标属性中列出 TARGET_OBJECTS。",
+		"introduced_version": "3.1",
+		"removed_version": "4.0"
+	},
+	"CMP0052": {
+		"name": "CMP0052",
+		"description": "拒绝已安装的 INTERFACE_INCLUDE_DIRECTORIES 中的源目录和编译目录。",
+		"introduced_version": "3.1",
+		"removed_version": "4.0"
+	},
+	"CMP0053": {
+		"name": "CMP0053",
+		"description": "简化变量引用和转义序列的求值。",
+		"introduced_version": "3.1",
+		"removed_version": "4.0"
+	},
+	"CMP0054": {
+		"name": "CMP0054",
+		"description": "仅在 if 参数未加引号时，将其解释为变量或关键字。",
+		"introduced_version": "3.1",
+		"removed_version": "4.0"
+	},
+	"CMP0055": {
+		"name": "CMP0055",
+		"description": "对 break 命令进行严格检查。",
+		"introduced_version": "3.2",
+		"removed_version": "4.0"
+	},
+	"CMP0056": {
+		"name": "CMP0056",
+		"description": "在 try_compile 的源文件签名中遵循链接标志。",
+		"introduced_version": "3.2",
+		"removed_version": "4.0"
+	},
+	"CMP0057": {
+		"name": "CMP0057",
+		"description": "支持新的 if IN_LIST 运算符。",
+		"introduced_version": "3.3",
+		"removed_version": "4.0"
+	},
+	"CMP0058": {
+		"name": "CMP0058",
+		"description": "Ninja 要求显式声明自定义命令生成的附带文件。",
+		"introduced_version": "3.3",
+		"removed_version": "4.0"
+	},
+	"CMP0059": {
+		"name": "CMP0059",
+		"description": "不会将 DEFINITIONS 视为内置目录属性。",
+		"introduced_version": "3.3",
+		"removed_version": "4.0"
+	},
+	"CMP0060": {
+		"name": "CMP0060",
+		"description": "即使在隐式目录中，也按完整路径链接库。",
+		"introduced_version": "3.3",
+		"removed_version": "4.0"
+	},
+	"CMP0061": {
+		"name": "CMP0061",
+		"description": "默认情况下，CTest 不会告诉 make 忽略错误(-i)。",
+		"introduced_version": "3.3",
+		"removed_version": "4.0"
+	},
+	"CMP0062": {
+		"name": "CMP0062",
+		"description": "不允许安装导出结果。",
+		"introduced_version": "3.3",
+		"removed_version": "4.0"
+	},
+	"CMP0063": {
+		"name": "CMP0063",
+		"description": "遵循所有目标类型的可见性属性。",
+		"introduced_version": "3.3",
+		"removed_version": "4.0"
+	},
+	"CMP0064": {
+		"name": "CMP0064",
+		"description": "将 TEST 识别为 if 命令的运算符。",
+		"introduced_version": "3.4",
+		"removed_version": "4.0"
+	},
+	"CMP0065": {
+		"name": "CMP0065",
+		"description": "不会为没有 ENABLE_EXPORTS 目标属性的可执行文件添加用于导出符号的标志。",
+		"introduced_version": "3.4",
+		"removed_version": "4.0"
+	},
+	"CMP0066": {
+		"name": "CMP0066",
+		"description": "在 try_compile 的源文件签名中遵循每个配置的标志。",
+		"introduced_version": "3.7"
+	},
+	"CMP0067": {
+		"name": "CMP0067",
+		"description": "在 try_compile 的源文件签名中遵循语言标准。",
+		"introduced_version": "3.8"
+	},
+	"CMP0068": {
+		"name": "CMP0068",
+		"description": "macOS 上的 RPATH 设置不影响 install_name。",
+		"introduced_version": "3.9"
+	},
+	"CMP0069": {
+		"name": "CMP0069",
+		"description": "启用时强制执行 INTERPROCEDURAL_OPTIMIZATION。",
+		"introduced_version": "3.9"
+	},
+	"CMP0070": {
+		"name": "CMP0070",
+		"description": "定义相对路径的文件行为。",
+		"introduced_version": "3.10"
+	},
+	"CMP0071": {
+		"name": "CMP0071",
+		"description": "允许 AUTOMOC 和 AUTOUIC 处理 GENERATED 文件。",
+		"introduced_version": "3.10"
+	},
+	"CMP0072": {
+		"name": "CMP0072",
+		"description": "FindOpenGL 默认优先使用 GLVND (如果可用)。",
+		"introduced_version": "3.11"
+	},
+	"CMP0073": {
+		"name": "CMP0073",
+		"description": "不会生成旧 _LIB_DEPENDS 缓存条目。",
+		"introduced_version": "3.12"
+	},
+	"CMP0074": {
+		"name": "CMP0074",
+		"description": "find_package 使用 <PackageName>_ROOT 变量。",
+		"introduced_version": "3.12"
+	},
+	"CMP0075": {
+		"name": "CMP0075",
+		"description": "Include 文件检查宏遵循 CMAKE_REQUIRED_LIBRARIES 设置。",
+		"introduced_version": "3.12"
+	},
+	"CMP0076": {
+		"name": "CMP0076",
+		"description": "target_sources 命令将相对路径转换为绝对路径。",
+		"introduced_version": "3.13"
+	},
+	"CMP0077": {
+		"name": "CMP0077",
+		"description": "option 遵循普通变量的设置。",
+		"introduced_version": "3.13"
+	},
+	"CMP0078": {
+		"name": "CMP0078",
+		"description": "UseSWIG 生成标准目标名称。",
+		"introduced_version": "3.13"
+	},
+	"CMP0079": {
+		"name": "CMP0079",
+		"description": "target_link_libraries 允许与其他目录中的目标一起使用。",
+		"introduced_version": "3.13"
+	},
+	"CMP0080": {
+		"name": "CMP0080",
+		"description": "配置时不能包含 BundleUtilities。",
+		"introduced_version": "3.13"
+	},
+	"CMP0081": {
+		"name": "CMP0081",
+		"description": "LINK_DIRECTORIES 目标属性中不允许使用相对路径。",
+		"introduced_version": "3.13"
+	},
+	"CMP0082": {
+		"name": "CMP0082",
+		"description": "add_subdirectory 调用中的安装规则与调用方种的规则交错执行。",
+		"introduced_version": "3.14"
+	},
+	"CMP0083": {
+		"name": "CMP0083",
+		"description": "若要控制是否生成位置无关型可执行文件(PIE)，需要在链接时使用某些标志。",
+		"introduced_version": "3.14"
+	},
+	"CMP0084": {
+		"name": "CMP0084",
+		"description": "find_package 不存在 FindQt 模块。",
+		"introduced_version": "3.14"
+	},
+	"CMP0085": {
+		"name": "CMP0085",
+		"description": "<IN_LIST:...> 处理空列表项。",
+		"introduced_version": "3.14"
+	},
+	"CMP0086": {
+		"name": "CMP0086",
+		"description": "UseSWIG 通过 -module 标志遵循 SWIG_MODULE_NAME 设置。",
+		"introduced_version": "3.14"
+	},
+	"CMP0087": {
+		"name": "CMP0087",
+		"description": "install 和 install 支持生成器表达式。",
+		"introduced_version": "3.14"
+	},
+	"CMP0088": {
+		"name": "CMP0088",
+		"description": "FindBISON 在执行时于 CMAKE_CURRENT_BINARY_DIR 中运行 bison。",
+		"introduced_version": "3.14"
+	},
+	"CMP0089": {
+		"name": "CMP0089",
+		"description": "基于 IBM Clang 的 XL 编译器的编译器 ID 现为 XLClang。",
+		"introduced_version": "3.15"
+	},
+	"CMP0090": {
+		"name": "CMP0090",
+		"description": "默认情况下，export 不会填充包注册表。",
+		"introduced_version": "3.15"
+	},
+	"CMP0091": {
+		"name": "CMP0091",
+		"description": "MSVC 运行时库标志由抽象层选择。",
+		"introduced_version": "3.15"
+	},
+	"CMP0092": {
+		"name": "CMP0092",
+		"description": "默认情况下，MSVC 警告标志不包含在 CMAKE_<LANG>_FLAGS 中。",
+		"introduced_version": "3.15"
+	},
+	"CMP0093": {
+		"name": "CMP0093",
+		"description": "FindBoost 以 x.y.z 格式报告 Boost_VERSION。",
+		"introduced_version": "3.15"
+	},
+	"CMP0094": {
+		"name": "CMP0094",
+		"description": "模块 FindPython3、FindPython2 和 FindPython 使用 LOCATION 作为查找策略的一部分。",
+		"introduced_version": "3.15"
+	},
+	"CMP0095": {
+		"name": "CMP0095",
+		"description": "RPATH 条目在中间的 CMake 安装脚本中正确转义。",
+		"introduced_version": "3.16"
+	},
+	"CMP0096": {
+		"name": "CMP0096",
+		"description": "project 命令将保留版本组件中的前导零。",
+		"introduced_version": "3.16"
+	},
+	"CMP0097": {
+		"name": "CMP0097",
+		"description": "当 ExternalProject_Add 中的 GIT_SUBMODULES 设置为 \"\" 时，不会初始化任何子模块。",
+		"introduced_version": "3.16"
+	},
+	"CMP0098": {
+		"name": "CMP0098",
+		"description": "FindFLEX 在执行时于目录 CMAKE_CURRENT_BINARY_DIR 中运行 flex。",
+		"introduced_version": "3.17"
+	},
+	"CMP0099": {
+		"name": "CMP0099",
+		"description": "链接属性可通过静态库的专用依赖项实现递归计算。",
+		"introduced_version": "3.17"
+	},
+	"CMP0100": {
+		"name": "CMP0100",
+		"description": "允许 AUTOMOC 和 AUTOUIC 处理以 .hh 结尾的头文件。",
+		"introduced_version": "3.17.0"
+	},
+	"CMP0101": {
+		"name": "CMP0101",
+		"description": "target_compile_options 现在始终遵循 BEFORE 关键字。",
+		"introduced_version": "3.17"
+	},
+	"CMP0102": {
+		"name": "CMP0102",
+		"description": "mark_as_advanced 命令将不再在不存在缓存项时创建缓存项。",
+		"introduced_version": "3.17"
+	},
+	"CMP0103": {
+		"name": "CMP0103",
+		"description": "不再允许多次调用具有相同 FILE 且不带 APPEND 的导出命令。",
+		"introduced_version": "3.18"
+	},
+	"CMP0104": {
+		"name": "CMP0104",
+		"description": "当 CMAKE_CUDA_COMPILER_ID <CMAKE_<LANG>_COMPILER_ID> 为 NVIDIA 时，会初始化 CMAKE_CUDA_ARCHITECTURES。如果 CUDA_ARCHITECTURES 为空，则会报错。",
+		"introduced_version": "3.18"
+	},
+	"CMP0105": {
+		"name": "CMP0105",
+		"description": "LINK_OPTIONS 和 INTERFACE_LINK_OPTIONS 目标属性现在用于设备链接步骤。",
+		"introduced_version": "3.18"
+	},
+	"CMP0106": {
+		"name": "CMP0106",
+		"description": "移除了 Documentation 模块。",
+		"introduced_version": "3.18"
+	},
+	"CMP0107": {
+		"name": "CMP0107",
+		"description": "不允许创建与另一个目标同名的 ALIAS 目标。",
+		"introduced_version": "3.17"
+	},
+	"CMP0108": {
+		"name": "CMP0108",
+		"description": "即使通过 ALIAS 目标，也不允许目标链接到自身。",
+		"introduced_version": "3.17"
+	},
+	"CMP0109": {
+		"name": "CMP0109",
+		"description": "find_program 需要执行权限，但不需要读取权限。",
+		"introduced_version": "3.19"
+	},
+	"CMP0110": {
+		"name": "CMP0110",
+		"description": "add_test 支持测试名称中的任意字符。",
+		"introduced_version": "3.19"
+	},
+	"CMP0111": {
+		"name": "CMP0111",
+		"description": "缺少 location 属性的导入目标将在生成时失败。",
+		"introduced_version": "3.19"
+	},
+	"CMP0112": {
+		"name": "CMP0112",
+		"description": "目标文件组件的生成器表达式不会添加目标依赖项。",
+		"introduced_version": "3.19"
+	},
+	"CMP0113": {
+		"name": "CMP0113",
+		"description": "Makefile 生成器不会重复执行来自目标依赖项的自定义命令。",
+		"introduced_version": "3.19"
+	},
+	"CMP0114": {
+		"name": "CMP0114",
+		"description": "ExternalProject 的步骤目标完全采用其步骤。",
+		"introduced_version": "3.19"
+	},
+	"CMP0115": {
+		"name": "CMP0115",
+		"description": "源文件扩展名必须是显式的。",
+		"introduced_version": "3.20"
+	},
+	"CMP0116": {
+		"name": "CMP0116",
+		"description": "Ninja 生成器会转换来自 add_custom_command 的 DEPFILE。",
+		"introduced_version": "3.20"
+	},
+	"CMP0117": {
+		"name": "CMP0117",
+		"description": "默认情况下，MSVC RTTI 标志 /GR 不会添加到 CMAKE_CXX_FLAGS <CMAKE_<LANG>_FLAGS> 中。",
+		"introduced_version": "3.20"
+	},
+	"CMP0118": {
+		"name": "CMP0118",
+		"description": "GENERATED 源可跨目录使用，无需手动标记。",
+		"introduced_version": "3.20"
+	},
+	"CMP0119": {
+		"name": "CMP0119",
+		"description": "LANGUAGE 源文件属性会显式地以指定语言进行编译。",
+		"introduced_version": "3.20"
+	},
+	"CMP0120": {
+		"name": "CMP0120",
+		"description": "移除了 WriteCompilerDetectionHeader 模块。",
+		"introduced_version": "3.20"
+	},
+	"CMP0121": {
+		"name": "CMP0121",
+		"description": "list 命令现在会检测无效索引。",
+		"introduced_version": "3.21"
+	},
+	"CMP0122": {
+		"name": "CMP0122",
+		"description": "UseSWIG 将采用适用于 CSharp 语言的库命名惯例。",
+		"introduced_version": "3.21"
+	},
+	"CMP0123": {
+		"name": "CMP0123",
+		"description": "ARMClang cpu/arch 编译和链接标志必须显式设置。",
+		"introduced_version": "3.21"
+	},
+	"CMP0124": {
+		"name": "CMP0124",
+		"description": "foreach 循环变量仅在循环作用域内有效。",
+		"introduced_version": "3.21"
+	},
+	"CMP0125": {
+		"name": "CMP0125",
+		"description": "find_file、find_path、find_library 和 find_program 命令会将结果缓存到其第一个参数指定的变量中。在 CMake 3.21 之前，如果该名称的缓存变量在调用之前已存在，但该缓存变量没有类型，则会丢弃同名的非缓存变量，并始终使用相应缓存变量(另见 CMP0126，了解类似但略有不同的行为)。这违背了非缓存变量应优先于同名缓存变量的惯例。如果用户在命令行上设置了缓存变量，但未指定类型，则可能会发生此情况。例如使用 cmake -DMYVAR=blah，而非 cmake -DMYVAR:FILEPATH=blah。",
+		"introduced_version": "3.21"
+	},
+	"CMP0126": {
+		"name": "CMP0126",
+		"description": "当此策略设置为 NEW 时，set 命令不会从当前作用域中移除任何同名的普通变量。在以下情况下，OLD 行为会从当前作用域中移除所有同名的普通变量:",
+		"introduced_version": "3.21"
+	},
+	"CMP0127": {
+		"name": "CMP0127",
+		"description": "cmake_dependent_option 支持完整的条件语法。",
+		"introduced_version": "3.22"
+	},
+	"CMP0128": {
+		"name": "CMP0128",
+		"description": "当此策略设置为 NEW 时:",
+		"introduced_version": "3.22"
+	},
+	"CMP0129": {
+		"name": "CMP0129",
+		"description": "MCST LCC 编译器的编译器 ID 现在是 LCC，而不是 GNU。",
+		"introduced_version": "3.23"
+	},
+	"CMP0130": {
+		"name": "CMP0130",
+		"description": "在诊断条件评估错误时。",
+		"introduced_version": "3.24"
+	},
+	"CMP0131": {
+		"name": "CMP0131",
+		"description": "LINK_LIBRARIES 支持 :genex:`$<LINK_ONLY:...>` 生成器表达式。",
+		"introduced_version": "3.24"
+	},
+	"CMP0132": {
+		"name": "CMP0132",
+		"description": "不在首次运行时设置编译器环境变量。",
+		"introduced_version": "3.24"
+	},
+	"CMP0133": {
+		"name": "CMP0133",
+		"description": "CPack 模块在 CPack DragNDrop 生成器中默认禁用 SLA。",
+		"introduced_version": "3.24"
+	},
+	"CMP0134": {
+		"name": "CMP0134",
+		"description": "find_file、find_path、find_library 和 find_package 命令默认使用 TARGET 注册表视图，find_program 命令默认使用 BOTH 视图。",
+		"introduced_version": "3.24"
+	},
+	"CMP0135": {
+		"name": "CMP0135",
+		"description": "使用 ExternalProject_Add 或 FetchContent_Declare 命令的 URL 下载方法时，CMake 3.23 及更早版本会将解压出来的内容的时间戳设置为与存档文件内部记录的时间戳一致。当 URL 发生变化时，会下载并解压缩新的存档文件，但解压出来的内容的时间戳可能并不比之前的内容更新。依赖于解压出来的内容的任何内容都可能并未重新构建，即使内容已经发生变化。",
+		"introduced_version": "3.24"
+	},
+	"CMP0136": {
+		"name": "CMP0136",
+		"description": "Watcom 运行时库标志由抽象层选择。",
+		"introduced_version": "3.24"
+	},
+	"CMP0137": {
+		"name": "CMP0137",
+		"description": "try_compile 会在项目模式下传递平台变量。",
+		"introduced_version": "3.24"
+	},
+	"CMP0138": {
+		"name": "CMP0138",
+		"description": "CheckIPOSupported 使用来自调用项目的标志。",
+		"introduced_version": "3.24"
+	},
+	"CMP0139": {
+		"name": "CMP0139",
+		"description": "if 命令支持使用 PATH_EQUAL 运算符进行路径比较。",
+		"introduced_version": "3.24"
+	},
+	"CMP0140": {
+		"name": "CMP0140",
+		"description": "return 命令会检查其参数。",
+		"introduced_version": "3.25"
+	},
+	"CMP0141": {
+		"name": "CMP0141",
+		"description": "MSVC 调试信息格式标志由抽象层选择。",
+		"introduced_version": "3.25"
+	},
+	"CMP0142": {
+		"name": "CMP0142",
+		"description": "Xcode 生成器不会将基于配置的后缀追加到库搜索路径。",
+		"introduced_version": "3.25"
+	},
+	"CMP0143": {
+		"name": "CMP0143",
+		"description": "USE_FOLDERS 全局属性默认视为 ON。",
+		"introduced_version": "3.26"
+	},
+	"CMP0144": {
+		"name": "CMP0144",
+		"description": "find_package 使用大写的 <PACKAGENAME>_ROOT 变量。",
+		"introduced_version": "3.27"
+	},
+	"CMP0145": {
+		"name": "CMP0145",
+		"description": "移除了 Dart 和 FindDart 模块。",
+		"introduced_version": "3.27"
+	},
+	"CMP0146": {
+		"name": "CMP0146",
+		"description": "移除了 FindCUDA 模块。",
+		"introduced_version": "3.27"
+	},
+	"CMP0147": {
+		"name": "CMP0147",
+		"description": "Visual Studio 生成器可并行构建自定义命令。",
+		"introduced_version": "3.27"
+	},
+	"CMP0148": {
+		"name": "CMP0148",
+		"description": "移除了 FindPythonInterp 和 FindPythonLibs 模块。",
+		"introduced_version": "3.27"
+	},
+	"CMP0149": {
+		"name": "CMP0149",
+		"description": "Visual Studio 生成器默将认选择最新的 Windows SDK。",
+		"introduced_version": "3.27"
+	},
+	"CMP0150": {
+		"name": "CMP0150",
+		"description": "ExternalProject_Add 和 FetchContent_Declare 命令会将相对 GIT_REPOSITORY 路径视为相对于父项目的远程位置的路径。",
+		"introduced_version": "3.27"
+	},
+	"CMP0151": {
+		"name": "CMP0151",
+		"description": "AUTOMOC include 目录默认为系统 include 目录。",
+		"introduced_version": "3.27"
+	},
+	"CMP0152": {
+		"name": "CMP0152",
+		"description": "file 会在折叠 ../ 组件之前会解析符号链接。",
+		"introduced_version": "3.28"
+	},
+	"CMP0153": {
+		"name": "CMP0153",
+		"description": "不应调用 exec_program 命令。",
+		"introduced_version": "3.28"
+	},
+	"CMP0154": {
+		"name": "CMP0154",
+		"description": "默认情况下，生成的文件在使用文件集的目标中是专用的。",
+		"introduced_version": "3.28"
+	},
+	"CMP0155": {
+		"name": "CMP0155",
+		"description": "当目标使用 C++20 或更高标准时，会在支持的情况下自动扫描其中的 C++ 源文件以查找 import 语句。",
+		"introduced_version": "3.28"
+	},
+	"CMP0156": {
+		"name": "CMP0156",
+		"description": "根据链接器功能对链接行上的库进行去重。",
+		"introduced_version": "3.29"
+	},
+	"CMP0157": {
+		"name": "CMP0157",
+		"description": "Swift 编译模式由抽象层选择。",
+		"introduced_version": "3.29"
+	},
+	"CMP0158": {
+		"name": "CMP0158",
+		"description": "add_test 仅在交叉编译时遵循 CMAKE_CROSSCOMPILING_EMULATOR 设置。",
+		"introduced_version": "3.29"
+	},
+	"CMP0159": {
+		"name": "CMP0159",
+		"description": "使用带有 REGEX 的 file 时，会更新 CMAKE_MATCH_。",
+		"introduced_version": "3.29"
+	},
+	"CMP0160": {
+		"name": "CMP0160",
+		"description": "现在，更多只读目标属性会在尝试设置时报错。",
+		"introduced_version": "3.29"
+	},
+	"CMP0161": {
+		"name": "CMP0161",
+		"description": "CPACK_PRODUCTBUILD_DOMAINS 变量默认为 true。",
+		"introduced_version": "3.29"
+	},
+	"CMP0162": {
+		"name": "CMP0162",
+		"description": "Visual Studio 生成器默认添加 UseDebugLibraries 指示器。",
+		"introduced_version": "3.30"
+	},
+	"CMP0163": {
+		"name": "CMP0163",
+		"description": "GENERATED 源文件属性现在在所有目录中都可见。",
+		"introduced_version": "3.30"
+	},
+	"CMP0164": {
+		"name": "CMP0164",
+		"description": "add_library 会在平台不支持时拒绝 SHARED 库。",
+		"introduced_version": "3.30"
+	},
+	"CMP0165": {
+		"name": "CMP0165",
+		"description": "enable_language 不得在 project 之前调用。",
+		"introduced_version": "3.30"
+	},
+	"CMP0166": {
+		"name": "CMP0166",
+		"description": "TARGET_PROPERTY 会通过静态库的专用依赖项递归计算链接属性。",
+		"introduced_version": "3.30"
+	},
+	"CMP0167": {
+		"name": "CMP0167",
+		"description": "移除了 FindBoost 模块。",
+		"introduced_version": "3.30"
+	},
+	"CMP0168": {
+		"name": "CMP0168",
+		"description": "FetchContent 模块将直接实现步骤，而不是通过子编译实现。",
+		"introduced_version": "3.30"
+	},
+	"CMP0169": {
+		"name": "CMP0169",
+		"description": "已弃用使用单个参数(声明的依赖项的名称)调用 FetchContent_Populate 的方法。",
+		"introduced_version": "3.30"
+	},
+	"CMP0170": {
+		"name": "CMP0170",
+		"description": "当 FETCHCONTENT_FULLY_DISCONNECTED 设置为 true 时，FetchContent_MakeAvailable 和 FetchContent_Populate 会强制要求其源目录必须已经填充这一约束条件。虽然该要求一直有文档说明，但在 CMake 3.29 及更早版本中并未进行检查或强制执行。当项目需要某个依赖项已完成填充，但填充过程却被静默跳过时，这有时会导致难以追踪的错误。",
+		"introduced_version": "3.30"
+	},
+	"CMP0171": {
+		"name": "CMP0171",
+		"description": "codegen 是保留的目标名称。",
+		"introduced_version": "3.31"
+	},
+	"CMP0172": {
+		"name": "CMP0172",
+		"description": "CPack 模块在 CPack WIX 生成器中默认启用基于计算机的安装。",
+		"introduced_version": "3.31"
+	},
+	"CMP0173": {
+		"name": "CMP0173",
+		"description": "移除了 CMakeFindFrameworks 模块。",
+		"introduced_version": "3.31"
+	},
+	"CMP0174": {
+		"name": "CMP0174",
+		"description": "cmake_parse_arguments 在单值关键字后定义空字符串变量。",
+		"introduced_version": "3.31"
+	},
+	"CMP0175": {
+		"name": "CMP0175",
+		"description": "add_custom_command 会拒绝无效参数。",
+		"introduced_version": "3.31"
+	},
+	"CMP0176": {
+		"name": "CMP0176",
+		"description": "execute_process ENCODING 默认为 UTF-8。",
+		"introduced_version": "3.31"
+	},
+	"CMP0177": {
+		"name": "CMP0177",
+		"description": "install DESTINATION 路径已规范化。",
+		"introduced_version": "3.31"
+	},
+	"CMP0178": {
+		"name": "CMP0178",
+		"description": "测试命令行将保留空参数。",
+		"introduced_version": "3.31"
+	},
+	"CMP0179": {
+		"name": "CMP0179",
+		"description": "链接行中静态库的去重将保留首次出现的库。此策略仅在 CMP0156 策略设置为 NEW 时适用。",
+		"introduced_version": "3.31"
+	},
+	"CMP0180": {
+		"name": "CMP0180",
+		"description": "project 始终将 <PROJECT-NAME>_* 设置为普通变量。",
+		"introduced_version": "3.31"
+	},
+	"CMP0181": {
+		"name": "CMP0181",
+		"description": "CMAKE_EXE_LINKER_FLAGS、CMAKE_EXE_LINKER_FLAGS_、CMAKE_SHARED_LINKER_FLAGS、CMAKE_SHARED_LINKER_FLAGS_、CMAKE_MODULE_LINKER_FLAGS 和 CMAKE_MODULE_LINKER_FLAGS_ 变量会被解析并重新引用，且支持 LINKER: 前缀。",
+		"introduced_version": "4.0"
+	},
+	"CMP0182": {
+		"name": "CMP0182",
+		"description": "默认情况下，在 AIX 上创建共享库存档。",
+		"introduced_version": "4.0"
+	},
+	"CMP0183": {
+		"name": "CMP0183",
+		"description": "add_feature_info 支持完整的条件语法。",
+		"introduced_version": "4.0"
+	},
+	"CMP0184": {
+		"name": "CMP0184",
+		"description": "MSVC 运行时检查标志由抽象层选择。",
+		"introduced_version": "4.0"
+	},
+	"CMP0185": {
+		"name": "CMP0185",
+		"description": "FindRuby 不再提供大写的 RUBY_* 变量。",
+		"introduced_version": "4.0"
+	},
+	"CMP0186": {
+		"name": "CMP0186",
+		"description": "正则表达式在重复搜索中最多匹配 ^ 一次。",
+		"introduced_version": "4.1"
+	},
+	"CMP0187": {
+		"name": "CMP0187",
+		"description": "包含不带扩展名的源文件，并将其置于同名但带扩展名的源文件之后。",
+		"introduced_version": "4.1"
+	},
+	"CMP0188": {
+		"name": "CMP0188",
+		"description": "移除了 FindGCCXML 模块。",
+		"introduced_version": "4.1"
+	},
+	"CMP0189": {
+		"name": "CMP0189",
+		"description": "TARGET_PROPERTY 会递归计算 LINK_LIBRARIES 属性。",
+		"introduced_version": "4.1"
+	},
+	"CMP0190": {
+		"name": "CMP0190",
+		"description": "FindPython3、FindPython2 和 FindPython 模块在交叉编译模式下强制保持工件一致性。",
+		"introduced_version": "4.1"
+	},
+	"CMP0191": {
+		"name": "CMP0191",
+		"description": "移除了 FindCABLE 模块。",
+		"introduced_version": "4.1"
+	},
+	"CMP0192": {
+		"name": "CMP0192",
+		"description": "GNUInstallDirs 在特殊前缀中使用绝对路径 SYSCONFDIR、LOCALSTATEDIR 和 RUNSTATEDIR。",
+		"introduced_version": "4.1"
+	},
+	"CMP0193": {
+		"name": "CMP0193",
+		"description": "对于安装前缀 /，GNUInstallDirs 会使用前缀 usr/ 缓存 CMAKE_INSTALL_*。",
+		"introduced_version": "4.1"
+	},
+	"CMP0194": {
+		"name": "CMP0194",
+		"description": "MSVC 不是 ASM 语言的汇编器。",
+		"introduced_version": "4.1"
+	},
+	"CMP0195": {
+		"name": "CMP0195",
+		"description": "构建树中的 Swift 模块采用 Swift 模块目录结构。",
+		"introduced_version": "4.1"
+	},
+	"CMP0196": {
+		"name": "CMP0196",
+		"description": "移除了 CMakeDetermineVSServicePack 模块。",
+		"introduced_version": "4.1"
+	},
+	"CMP0197": {
+		"name": "CMP0197",
+		"description": "MSVC 链接 -machine: 标志不包含在 CMAKE_*_LINKER_FLAGS 中。",
+		"introduced_version": "4.1"
+	},
+	"CMP0198": {
+		"name": "CMP0198",
+		"description": "CMakeLists.txt 中不会定义 CMAKE_PARENT_LIST_FILE。",
+		"introduced_version": "4.2"
+	},
+	"CMP0199": {
+		"name": "CMP0199",
+		"description": ":genex:`$<CONFIG:cfgs>` 不匹配未选中的映射配置。",
+		"introduced_version": "4.2"
+	},
+	"CMP0200": {
+		"name": "CMP0200",
+		"description": "导入目标的位置和配置选择将更加一致。",
+		"introduced_version": "4.2"
+	},
+	"CMP0201": {
+		"name": "CMP0201",
+		"description": "Python::NumPy 不依赖于 Python::Development.Module。",
+		"introduced_version": "4.2"
+	},
+	"CMP0202": {
+		"name": "CMP0202",
+		"description": "PDB 文件名将始终包含其目标的基于配置的后缀。",
+		"introduced_version": "4.2"
+	},
+	"CMP0203": {
+		"name": "CMP0203",
+		"description": "_WINDLL 是为以 MSVC ABI 为目标的共享库定义的。",
+		"introduced_version": "4.2"
+	},
+	"CMP0204": {
+		"name": "CMP0204",
+		"description": "在以 MSVC ABI 为目标时，一律定义字符集。",
+		"introduced_version": "4.2"
+	},
+	"CMP0205": {
+		"name": "CMP0205",
+		"description": "带 COPY_ON_ERROR 的文件会复制目录内容。",
+		"introduced_version": "4.3"
+	},
+	"CMP0206": {
+		"name": "CMP0206",
+		"description": "CPack 存档生成器默认为 UID 0 和 GID 0。",
+		"introduced_version": "4.3"
+	},
+	"CMP0207": {
+		"name": "CMP0207",
+		"description": "文件将在匹配之前规范化路径。",
+		"introduced_version": "4.3"
+	},
+	"CMP0208": {
+		"name": "CMP0208",
+		"description": "导出不允许使用空参数。",
+		"introduced_version": "4.3"
+	},
+	"CMP0209": {
+		"name": "CMP0209",
+		"description": "验证接口标头集会在不导出的情况下检查可执行文件。",
+		"introduced_version": "4.3"
+	},
+	"CMP0210": {
+		"name": "CMP0210",
+		"description": "CMAKE_<LANG>_LINK_FLAGS 会将链接标志添加到所有目标类型。",
+		"introduced_version": "4.3"
+	}
+}

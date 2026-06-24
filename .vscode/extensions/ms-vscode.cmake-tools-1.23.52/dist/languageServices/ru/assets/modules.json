@@ -1,0 +1,1078 @@
+{
+	"AddFileDependencies": {
+		"name": "AddFileDependencies",
+		"description": "Загрузите этот модуль в проект CMake с помощью:"
+	},
+	"AndroidTestUtilities": {
+		"name": "AndroidTestUtilities",
+		"description": "Этот модуль предоставляет команду для создания теста, который отправляет данные, необходимые для тестирования поведения устройства Android, на подключенное устройство Android."
+	},
+	"BundleUtilities": {
+		"name": "BundleUtilities",
+		"description": "Этот модуль предоставляет команды служебной программы для сборки автономных приложений в стиле пакетов с помощью CMake, таких как пакеты .app для macOS или аналогичные пакеты приложений на основе каталогов в других операционных системах."
+	},
+	"CheckCCompilerFlag": {
+		"name": "CheckCCompilerFlag",
+		"description": "Этот модуль предоставляет команду для проверки того, поддерживает ли компилятор C заданный флаг."
+	},
+	"CheckCompilerFlag": {
+		"name": "CheckCompilerFlag",
+		"description": "Этот модуль предоставляет команду для проверки того, поддерживает ли компилятор заданный флаг."
+	},
+	"CheckCSourceCompiles": {
+		"name": "CheckCSourceCompiles",
+		"description": "Этот модуль предоставляет команду для проверки возможности сборки исходного кода C."
+	},
+	"CheckCSourceRuns": {
+		"name": "CheckCSourceRuns",
+		"description": "Этот модуль предоставляет команду для проверки возможности сборки и запуска исходного кода C."
+	},
+	"CheckCXXCompilerFlag": {
+		"name": "CheckCXXCompilerFlag",
+		"description": "Этот модуль предоставляет команду для проверки того, поддерживает ли компилятор C++ заданный флаг."
+	},
+	"CheckCXXSourceCompiles": {
+		"name": "CheckCXXSourceCompiles",
+		"description": "Этот модуль предоставляет команду для проверки возможности сборки исходного кода C++."
+	},
+	"CheckCXXSourceRuns": {
+		"name": "CheckCXXSourceRuns",
+		"description": "Этот модуль предоставляет команду для проверки возможности сборки и запуска исходного кода C++."
+	},
+	"CheckCXXSymbolExists": {
+		"name": "CheckCXXSymbolExists",
+		"description": "Этот модуль предоставляет команду для проверки существования символа C++."
+	},
+	"CheckFortranCompilerFlag": {
+		"name": "CheckFortranCompilerFlag",
+		"description": "Этот модуль предоставляет команду для проверки того, поддерживает ли компилятор Fortran заданный флаг."
+	},
+	"CheckFortranFunctionExists": {
+		"name": "CheckFortranFunctionExists",
+		"description": "Этот модуль предоставляет команду для проверки существования функции Fortran."
+	},
+	"CheckFortranSourceCompiles": {
+		"name": "CheckFortranSourceCompiles",
+		"description": "Этот модуль предоставляет команду для проверки возможности сборки кода Fortran."
+	},
+	"CheckFortranSourceRuns": {
+		"name": "CheckFortranSourceRuns",
+		"description": "Этот модуль предоставляет команду для проверки возможности сборки и запуска кода Fortran."
+	},
+	"CheckFunctionExists": {
+		"name": "CheckFunctionExists",
+		"description": "Этот модуль предоставляет команду для проверки существования функции C."
+	},
+	"CheckIncludeFile": {
+		"name": "CheckIncludeFile",
+		"description": "Этот модуль предоставляет команду для проверки заголовочного файла C."
+	},
+	"CheckIncludeFileCXX": {
+		"name": "CheckIncludeFileCXX",
+		"description": "Этот модуль предоставляет команду для проверки заголовочного файла C++."
+	},
+	"CheckIncludeFiles": {
+		"name": "CheckIncludeFiles",
+		"description": "Этот модуль предоставляет команду для проверки одного или нескольких заголовочных файлов C/C++."
+	},
+	"CheckIPOSupported": {
+		"name": "CheckIPOSupported",
+		"description": "Этот модуль предоставляет команду для проверки того, поддерживает ли компилятор межпроцедурную оптимизацию (IPO/LTO)."
+	},
+	"CheckLanguage": {
+		"name": "CheckLanguage",
+		"description": "Этот модуль предоставляет команду для проверки возможности включения языка с помощью команд enable_language или project."
+	},
+	"CheckLibraryExists": {
+		"name": "CheckLibraryExists",
+		"description": "Этот модуль предоставляет команду для проверки существования библиотеки C."
+	},
+	"CheckLinkerFlag": {
+		"name": "CheckLinkerFlag",
+		"description": "Этот модуль предоставляет команду для проверки того, поддерживается ли компилятором заданный флаг ссылки."
+	},
+	"CheckOBJCCompilerFlag": {
+		"name": "CheckOBJCCompilerFlag",
+		"description": "Этот модуль предоставляет команду для проверки того, поддерживает ли компилятор Objective-C заданный флаг."
+	},
+	"CheckOBJCSourceCompiles": {
+		"name": "CheckOBJCSourceCompiles",
+		"description": "Этот модуль предоставляет команду для проверки возможности сборки исходного кода Objective-C."
+	},
+	"CheckOBJCSourceRuns": {
+		"name": "CheckOBJCSourceRuns",
+		"description": "Этот модуль предоставляет команду для проверки возможности сборки и запуска исходного кода Objective-C."
+	},
+	"CheckOBJCXXCompilerFlag": {
+		"name": "CheckOBJCXXCompilerFlag",
+		"description": "Этот модуль предоставляет команду для проверки того, поддерживает ли компилятор Objective-C++ заданный флаг."
+	},
+	"CheckOBJCXXSourceCompiles": {
+		"name": "CheckOBJCXXSourceCompiles",
+		"description": "Этот модуль предоставляет команду для проверки возможности сборки исходного кода Objective-C++."
+	},
+	"CheckOBJCXXSourceRuns": {
+		"name": "CheckOBJCXXSourceRuns",
+		"description": "Этот модуль предоставляет команду для проверки возможности сборки и запуска исходного кода Objective-C++."
+	},
+	"CheckPIESupported": {
+		"name": "CheckPIESupported",
+		"description": "Этот модуль предоставляет команду для проверки того, поддерживает ли компоновщик позиционно-независимый код (PIE) или позиционно-зависимый код (NO_PIE) для исполняемых файлов."
+	},
+	"CheckPrototypeDefinition": {
+		"name": "CheckPrototypeDefinition",
+		"description": "Этот модуль предоставляет команду для проверки того, имеет ли функция C ожидаемый прототип."
+	},
+	"CheckSourceCompiles": {
+		"name": "CheckSourceCompiles",
+		"description": "Этот модуль предоставляет команду, которая проверяет возможность сборки исходного кода для заданного языка."
+	},
+	"CheckSourceRuns": {
+		"name": "CheckSourceRuns",
+		"description": "Этот модуль предоставляет команду для проверки возможности сборки и запуска исходного кода.."
+	},
+	"CheckStructHasMember": {
+		"name": "CheckStructHasMember",
+		"description": "Этот модуль предоставляет команду для проверки наличия у структуры или класса указанной переменной-члена."
+	},
+	"CheckSymbolExists": {
+		"name": "CheckSymbolExists",
+		"description": "Этот модуль предоставляет команду для проверки существования символа C."
+	},
+	"CheckTypeSize": {
+		"name": "CheckTypeSize",
+		"description": "Этот модуль предоставляет команду для проверки размера типа или выражения C/C++."
+	},
+	"CheckVariableExists": {
+		"name": "CheckVariableExists",
+		"description": "Этот модуль предоставляет команду для проверки существования переменной C."
+	},
+	"CMakeAddFortranSubdirectory": {
+		"name": "CMakeAddFortranSubdirectory",
+		"description": "Этот модуль предоставляет команду для добавления проекта Fortran, расположенного в подкаталоге."
+	},
+	"CMakeBackwardCompatibilityCXX": {
+		"name": "CMakeBackwardCompatibilityCXX",
+		"description": "Этот модуль определяет несколько переменных кэша обратной совместимости для языка CXX для поддержки ранних версий C++ (до C++98, ANSI C++)."
+	},
+	"CMakeDependentOption": {
+		"name": "CMakeDependentOption",
+		"description": "Этот модуль предоставляет команду для определения логических параметров, доступность и значения по умолчанию которых зависят от указанных условий или других параметров. Это помогает поддерживать понятный интерфейс конфигурации, отображая только те параметры, которые соответствуют текущим настройкам."
+	},
+	"CMakeDetermineVSServicePack": {
+		"name": "CMakeDetermineVSServicePack",
+		"description": "Этот модуль предоставляет команду для определения установленной версии пакета обновления Visual Studio для Visual Studio 2012 и более ранних версий."
+	},
+	"CMakeExpandImportedTargets": {
+		"name": "CMakeExpandImportedTargets",
+		"description": "Загрузите этот модуль в проект CMake с помощью:"
+	},
+	"CMakeFindDependencyMacro": {
+		"name": "CMakeFindDependencyMacro",
+		"description": "Этот модуль предоставляет команду, реализованную как макрос, которая находит зависимости для пакета."
+	},
+	"CMakeFindFrameworks": {
+		"name": "CMakeFindFrameworks",
+		"description": "вспомогательный модуль для поиска платформ OSX"
+	},
+	"CMakeFindPackageMode": {
+		"name": "CMakeFindPackageMode",
+		"description": "Этот модуль выполняется cmake при вызове с опцией --find-package <Find-Package Tool Mode> для поиска запрошенного пакета."
+	},
+	"CMakeForceCompiler": {
+		"name": "CMakeForceCompiler",
+		"description": "Загрузите этот модуль в файл цепочки инструментов CMake:"
+	},
+	"CMakeGraphVizOptions": {
+		"name": "CMakeGraphVizOptions",
+		"description": "Этот модуль не предназначен для непосредственного включения в проекты CMake. Ранее он содержал информацию об использовании Graphviz в CMake. Чтобы узнать об использовании Graphviz в CMake, обратитесь к документации по cmake --graphviz."
+	},
+	"CMakePackageConfigHelpers": {
+		"name": "CMakePackageConfigHelpers",
+		"description": "Этот модуль предоставляет вспомогательные команды для создания файлов конфигурации <Libraries providing Config-file packages>, которые могут быть включены в другие проекты для поиска и использования пакета."
+	},
+	"CMakeParseArguments": {
+		"name": "CMakeParseArguments",
+		"description": "Этот модуль раньше реализовал команду cmake_parse_arguments, которая теперь реализована внутри CMake. Теперь это пустой заполнитель для обеспечения совместимости с проектами, которые включают этот модуль для вызова команды из CMake 3.4 и более ранних версий."
+	},
+	"CMakePrintHelpers": {
+		"name": "CMakePrintHelpers",
+		"description": "Этот модуль предоставляет удобные команды, предназначенные в первую очередь для отладки, для печати значений свойств и переменных."
+	},
+	"CMakePrintSystemInformation": {
+		"name": "CMakePrintSystemInformation",
+		"description": "Этот модуль можно использовать для диагностики и вывода на печать сведений о системе."
+	},
+	"CMakePushCheckState": {
+		"name": "CMakePushCheckState",
+		"description": "Этот модуль предоставляет команды для управления состоянием переменных, которые влияют на выполнение различных команд проверки CMake (например, check_symbol_exists и т. д.)."
+	},
+	"CMakeVerifyManifest": {
+		"name": "CMakeVerifyManifest",
+		"description": "Этот модуль предназначен для использования в режиме командной строки с cmake -P для проверки соответствия встроенных манифестов и параллельных манифестов проекта."
+	},
+	"CPack": {
+		"name": "CPack",
+		"description": "Этот модуль настраивает генераторы для двоичных установщиков и исходных пакетов."
+	},
+	"CPackArchive": {
+		"name": "CPackArchive",
+		"description": "Документация по генератору CPack Archive перемещена сюда: Генератор CPack Archive"
+	},
+	"CPackBundle": {
+		"name": "CPackBundle",
+		"description": "Документация по генератору CPack Bundle перемещена сюда: Генератор CPack Bundle"
+	},
+	"CPackComponent": {
+		"name": "CPackComponent",
+		"description": "Этот модуль предоставляет команды для настройки компонентов двоичных установщиков и исходных пакетов."
+	},
+	"CPackCygwin": {
+		"name": "CPackCygwin",
+		"description": "Документация по генератору CPack Cygwin перемещена сюда: Генератор CPack Cygwin"
+	},
+	"CPackDeb": {
+		"name": "CPackDeb",
+		"description": "Документация по генератору CPack DEB перемещена сюда: Генератор CPack DEB"
+	},
+	"CPackDMG": {
+		"name": "CPackDMG",
+		"description": "Документация по генератору CPack DragNDrop перемещена сюда: Генератор CPack DragNDrop"
+	},
+	"CPackFreeBSD": {
+		"name": "CPackFreeBSD",
+		"description": "Документация по генератору CPack FreeBSD перемещена сюда: Генератор CPack FreeBSD"
+	},
+	"CPackIFW": {
+		"name": "CPackIFW",
+		"description": "Этот модуль ищет расположение утилит командной строки, поставляемых с платформой установщика Qt (QtIFW)."
+	},
+	"CPackIFWConfigureFile": {
+		"name": "CPackIFWConfigureFile",
+		"description": "Этот модуль предоставляет команду, аналогичную configure_file, для настройки шаблонов файлов в стиле QtIFW/SDK/Creator."
+	},
+	"CPackNSIS": {
+		"name": "CPackNSIS",
+		"description": "Документация по генератору CPack NSIS перемещена сюда: Генератор CPack NSIS"
+	},
+	"CPackNuGet": {
+		"name": "CPackNuGet",
+		"description": "Документация по генератору CPack NuGet перемещена сюда: Генератор CPack NuGet"
+	},
+	"CPackProductBuild": {
+		"name": "CPackProductBuild",
+		"description": "Документация по генератору CPack productbuild перемещена сюда: Генератор CPack productbuild"
+	},
+	"CPackRPM": {
+		"name": "CPackRPM",
+		"description": "Документация по генератору CPack RPM перемещена сюда: Генератор CPack RPM"
+	},
+	"CPackWIX": {
+		"name": "CPackWIX",
+		"description": "Документация по генератору CPack WIX перемещена сюда: Генератор CPack WIX"
+	},
+	"CSharpUtilities": {
+		"name": "CSharpUtilities",
+		"description": "Этот служебный модуль предназначен для упрощения настройки целевых объектов CSharp/.NET и предоставляет набор команд для управления целевыми объектами CSharp с помощью генераторов Visual Studio версии 2010 и новее."
+	},
+	"CTest": {
+		"name": "CTest",
+		"description": "Настройка проекта для тестирования с помощью CTest/CDash"
+	},
+	"CTestCoverageCollectGCOV": {
+		"name": "CTestCoverageCollectGCOV",
+		"description": "Этот модуль предназначен для использования в скриптах панели управления CTest и предоставляет команду для создания tarball-архива, содержащего отчеты о покрытии кода."
+	},
+	"CTestScriptMode": {
+		"name": "CTestScriptMode",
+		"description": "Этот модуль не предназначен для непосредственного включения в проект или вызова из программного кода проекта. Он используется CTest, работающим в режиме скрипта (-S) для определения текущей системы. Чтобы узнать о его использовании, обратитесь к документации по ctest -S."
+	},
+	"CTestUseLaunchers": {
+		"name": "CTestUseLaunchers",
+		"description": "Этот модуль устанавливает глобальные свойства RULE_LAUNCH_*, когда переменная CTEST_USE_LAUNCHERS имеет значение true-like (например, ON):"
+	},
+	"Dart": {
+		"name": "Dart",
+		"description": "Настройка проекта для тестирования с помощью CTest или старого клиента Dart Tcl"
+	},
+	"DeployQt4": {
+		"name": "DeployQt4",
+		"description": "Этот модуль предоставляет набор команд служебных программ CMake, полезных для сборки и развертывания автономных исполняемых файлов Qt4."
+	},
+	"Documentation": {
+		"name": "Documentation",
+		"description": "Этот модуль обеспечивает поддержку платформы документирования VTK. Он использует несколько инструментов (Doxygen, Perl и т. д.)."
+	},
+	"ExternalData": {
+		"name": "ExternalData",
+		"description": "Этот модуль предоставляет команды для управления файлами данных, хранящимися за пределами исходного дерева."
+	},
+	"ExternalProject": {
+		"name": "ExternalProject",
+		"description": "Этот модуль предоставляет команды для загрузки и сборки внешних проектов в рамках этапа сборки CMake."
+	},
+	"FeatureSummary": {
+		"name": "FeatureSummary",
+		"description": "Этот модуль предоставляет команды для создания сводки включённых и отключённых функций."
+	},
+	"FetchContent": {
+		"name": "FetchContent",
+		"description": "Этот модуль предоставляет команды для заполнения содержимого во время настройки или в рамках скрипта вызовов."
+	},
+	"FindALSA": {
+		"name": "FindALSA",
+		"description": "Находит библиотеку Advanced Linux Sound Architecture (ALSA) (asound):"
+	},
+	"FindArmadillo": {
+		"name": "FindArmadillo",
+		"description": "Находит библиотеку Armadillo C++:"
+	},
+	"FindASPELL": {
+		"name": "FindASPELL",
+		"description": "Находит библиотеку проверки орфографии GNU Aspell:"
+	},
+	"FindAVIFile": {
+		"name": "FindAVIFile",
+		"description": "Находит библиотеку AVIFile и включает пути:"
+	},
+	"FindBacktrace": {
+		"name": "FindBacktrace",
+		"description": "Находит backtrace(3), библиотеку, которая предоставляет функции для самостоятельной отладки приложений:"
+	},
+	"FindBISON": {
+		"name": "FindBISON",
+		"description": "Находит генератор анализатора командной строки Bison и предоставляет команду CMake для генерации пользовательских правил сборки для использования Bison:"
+	},
+	"FindBLAS": {
+		"name": "FindBLAS",
+		"description": "Находит установленную библиотеку Basic Linear Algebra Subprograms (BLAS) на Fortran, реализующую интерфейс BLAS для линейной алгебры:"
+	},
+	"FindBoost": {
+		"name": "FindBoost",
+		"description": "Поиск каталогов вложений и библиотек Boost"
+	},
+	"FindBullet": {
+		"name": "FindBullet",
+		"description": "Находит физический движок Bullet:"
+	},
+	"FindBZip2": {
+		"name": "FindBZip2",
+		"description": "Находит библиотеку сжатия данных BZip2 (libbz2):"
+	},
+	"FindCABLE": {
+		"name": "FindCABLE",
+		"description": "Находит установку CABLE и определяет пути ее включения и библиотеки:"
+	},
+	"FindCoin3D": {
+		"name": "FindCoin3D",
+		"description": "Находит Coin3D (Open Inventor):"
+	},
+	"FindCUDA": {
+		"name": "FindCUDA",
+		"description": "Больше не требуется использовать этот модуль или вызывать find_package(CUDA) для компиляции кода CUDA. Вместо этого включите CUDA в список языков, именуемых в вызове команды проекта верхнего уровня, или вызовите команду enable_language с CUDA. Затем можно добавить исходные файлы CUDA (.cu) непосредственно в целевые объекты, как это делается для других языков."
+	},
+	"FindCUDAToolkit": {
+		"name": "FindCUDAToolkit",
+		"description": "Находит набор средств NVIDIA CUDA и связанные библиотеки, но не требует включения языка CUDA для данного проекта:"
+	},
+	"FindCups": {
+		"name": "FindCups",
+		"description": "Находит сервер Common UNIX Printing System (CUPS):"
+	},
+	"FindCURL": {
+		"name": "FindCURL",
+		"description": "Находит собственную установку cURL (включая каталоги и библиотеки) для передачи данных с помощью URL-адресов:"
+	},
+	"FindCurses": {
+		"name": "FindCurses",
+		"description": "Находит библиотеку curses или ncurses:"
+	},
+	"FindCVS": {
+		"name": "FindCVS",
+		"description": "Находит систему Concurrent Versions System (CVS):"
+	},
+	"FindCxxTest": {
+		"name": "FindCxxTest",
+		"description": "Находит CxxTest, набор платформы модульного тестирования C++, и предоставляет вспомогательную команду для создания тестовых исполнителей и их интеграции с CTest:"
+	},
+	"FindCygwin": {
+		"name": "FindCygwin",
+		"description": "Находит Cygwin, совместимую с POSIX среду, которая изначально работает в Microsoft Windows:"
+	},
+	"FindDart": {
+		"name": "FindDart",
+		"description": "Находит DART:"
+	},
+	"FindDCMTK": {
+		"name": "FindDCMTK",
+		"description": "Находит библиотеки и приложения DICOM ToolKit (DCMTK):"
+	},
+	"FindDevIL": {
+		"name": "FindDevIL",
+		"description": "Находит библиотеку изображений разработчика DevIL:"
+	},
+	"FindDoxygen": {
+		"name": "FindDoxygen",
+		"description": "Находит Doxygen, генератор документации по исходному коду, а также некоторые дополнительные вспомогательные инструменты и предоставляет команду для интеграции документации на основе Doxygen в проекты CMake:"
+	},
+	"FindEnvModules": {
+		"name": "FindEnvModules",
+		"description": "Находит реализацию модулей среды и предоставляет команды для использования в скриптах CMake:"
+	},
+	"FindEXPAT": {
+		"name": "FindEXPAT",
+		"description": "Находит собственные заголовки и библиотеку Expat:"
+	},
+	"FindFLEX": {
+		"name": "FindFLEX",
+		"description": "Находит генератор командной строки Fast Lexical Analyzer (Flex) и его библиотеку, а также предоставляет команды CMake для создания пользовательских правил сборки для использования Flex:"
+	},
+	"FindFLTK": {
+		"name": "FindFLTK",
+		"description": "Находит кроссплатформенный набор средств Fast Light Toolkit (FLTK) для разработки графических интерфейсов:"
+	},
+	"FindFLTK2": {
+		"name": "FindFLTK2",
+		"description": "Находит кроссплатформенный набор средств Fast Light Toolkit (FLTK) версии 2.x для разработки графических интерфейсов:"
+	},
+	"FindFontconfig": {
+		"name": "FindFontconfig",
+		"description": "Находит Fontconfig — библиотеку для настройки шрифтов и управления ими:"
+	},
+	"FindFreetype": {
+		"name": "FindFreetype",
+		"description": "Находит библиотеку отрисовщика шрифтов FreeType:"
+	},
+	"FindGCCXML": {
+		"name": "FindGCCXML",
+		"description": "Находит исполняемый файл интерфейса GCC-XML:"
+	},
+	"FindGDAL": {
+		"name": "FindGDAL",
+		"description": "Находит библиотеку Geospatial Data Abstraction Library (GDAL):"
+	},
+	"FindGettext": {
+		"name": "FindGettext",
+		"description": "Находит инструменты GNU gettext и предоставляет команды для создания многоязычных сообщений:"
+	},
+	"FindGIF": {
+		"name": "FindGIF",
+		"description": "Находит библиотеку GIF (giflib):"
+	},
+	"FindGit": {
+		"name": "FindGit",
+		"description": "Находит распределенную систему управления версиями Git:"
+	},
+	"FindGLEW": {
+		"name": "FindGLEW",
+		"description": "Находит библиотеку OpenGL Extension Wrangler Library (GLEW):"
+	},
+	"FindGLUT": {
+		"name": "FindGLUT",
+		"description": "Находит библиотеку OpenGL Utility Toolkit (GLUT), которая предоставляет простой API для создания окон, обработки ввода и управления событиями в приложениях OpenGL:"
+	},
+	"FindGnuplot": {
+		"name": "FindGnuplot",
+		"description": "Находит служебную программу командной строки Gnuplot для построения графиков, предназначенную для создания двух- и трехмерных графиков (gnuplot):"
+	},
+	"FindGnuTLS": {
+		"name": "FindGnuTLS",
+		"description": "Находит библиотеку GNU TLS (GnuTLS):"
+	},
+	"FindGSL": {
+		"name": "FindGSL",
+		"description": "Находит собственные включения и библиотеки GNU Scientific Library (GSL):"
+	},
+	"FindGTest": {
+		"name": "FindGTest",
+		"description": "Находит GoogleTest — платформа Google C++ для тестирования и имитации:"
+	},
+	"FindGTK": {
+		"name": "FindGTK",
+		"description": "Находит GTK, glib и GTKGLArea:"
+	},
+	"FindGTK2": {
+		"name": "FindGTK2",
+		"description": "Находит библиотеки мини-приложений GTK и несколько других дополнительных компонентов:"
+	},
+	"FindHDF5": {
+		"name": "FindHDF5",
+		"description": "Находит формат иерархических данных (HDF5), библиотеку чтения и записи самоописываемых данных массивов."
+	},
+	"FindHg": {
+		"name": "FindHg",
+		"description": "Находит исполняемый файл клиента командной строки Mercurial (hg) и предоставляет команду для извлечения информации из рабочей копии Mercurial:"
+	},
+	"FindHSPELL": {
+		"name": "FindHSPELL",
+		"description": "Находит средство проверки орфографии и обработчик морфологии для иврита (Hspell):"
+	},
+	"FindHTMLHelp": {
+		"name": "FindHTMLHelp",
+		"description": "Находит компилятор Microsoft HTML Help и его API, который является частью программы HTML Help Workshop:"
+	},
+	"FindIce": {
+		"name": "FindIce",
+		"description": "Находит программы, библиотеки и файлы данных Internet Communication Engine (ICE):"
+	},
+	"FindIconv": {
+		"name": "FindIconv",
+		"description": "Находит в системе функции iconv() POSIX.1:"
+	},
+	"FindIcotool": {
+		"name": "FindIcotool",
+		"description": "Находит icotool — программу командной строки для преобразования и создания файлов значков и курсоров Win32:"
+	},
+	"FindICU": {
+		"name": "FindICU",
+		"description": "Находит библиотеки и программы International Components for Unicode (ICU):"
+	},
+	"FindImageMagick": {
+		"name": "FindImageMagick",
+		"description": "Находит ImageMagick — набор программного обеспечения для отображения, преобразования и обработки растровых изображений:"
+	},
+	"FindIntl": {
+		"name": "FindIntl",
+		"description": "Находит поддержку интернационализации, которая включает функции перевода сообщений, такие как gettext():"
+	},
+	"FindITK": {
+		"name": "FindITK",
+		"description": "Этот модуль больше не существует."
+	},
+	"FindJasper": {
+		"name": "FindJasper",
+		"description": "Находит набор средств кодирования изображений JasPer для обработки данных изображений в различных форматах, таких как JPEG-2000:"
+	},
+	"FindJava": {
+		"name": "FindJava",
+		"description": "Находит установку Java и определяет ее инструменты выполнения и компоненты разработки:"
+	},
+	"FindJNI": {
+		"name": "FindJNI",
+		"description": "Находит каталоги и библиотеки Java Native Interface (JNI):"
+	},
+	"FindJPEG": {
+		"name": "FindJPEG",
+		"description": "Находит библиотеку Joint Photographic Experts Group (JPEG) (libjpeg):"
+	},
+	"FindKDE3": {
+		"name": "FindKDE3",
+		"description": "Находит каталоги, библиотеки и инструменты препроцессора KDE 3:"
+	},
+	"FindKDE4": {
+		"name": "FindKDE4",
+		"description": "Находит установку KDE 4:"
+	},
+	"FindLAPACK": {
+		"name": "FindLAPACK",
+		"description": "Находит установленную библиотеку Linear Algebra PACKage (LAPACK) на Fortran, реализующую интерфейс LAPACK для линейной алгебры:"
+	},
+	"FindLATEX": {
+		"name": "FindLATEX",
+		"description": "Находит компилятор LaTeX и связанное с LaTeX программное обеспечение, такое как BibTeX:"
+	},
+	"FindLibArchive": {
+		"name": "FindLibArchive",
+		"description": "Находит библиотеку libarchive и включает каталоги:"
+	},
+	"FindLibinput": {
+		"name": "FindLibinput",
+		"description": "Находит библиотеку libinput, которая обрабатывает устройства ввода в композиторах Wayland и предоставляет универсальный драйвер ввода X.Org:"
+	},
+	"FindLibLZMA": {
+		"name": "FindLibLZMA",
+		"description": "Находит liblzma — библиотеку сжатия данных, реализующую LZMA (цепной алгоритм Лемпеля-Зива-Маркова):"
+	},
+	"FindLibXml2": {
+		"name": "FindLibXml2",
+		"description": "Находит библиотеку обработки XML (libxml2):"
+	},
+	"FindLibXslt": {
+		"name": "FindLibXslt",
+		"description": "Находит библиотеку преобразований XSL, Extensible Stylesheet Language Transformations (XSLT) (libxslt):"
+	},
+	"FindLTTngUST": {
+		"name": "FindLTTngUST",
+		"description": "Находит библиотеку трассировки пользовательского пространства LTTng (Linux Trace Toolkit: следующее поколение) (LTTng-UST):"
+	},
+	"FindLua": {
+		"name": "FindLua",
+		"description": "Находит библиотеку Lua:"
+	},
+	"FindLua50": {
+		"name": "FindLua50",
+		"description": "Находит библиотеку Lua:"
+	},
+	"FindLua51": {
+		"name": "FindLua51",
+		"description": "Находит библиотеку Lua:"
+	},
+	"FindMatlab": {
+		"name": "FindMatlab",
+		"description": "Находит MATLAB или MATLAB Compiler Runtime (MCR) и предоставляет CMake его инструменты, библиотеки и компиляторы:"
+	},
+	"FindMFC": {
+		"name": "FindMFC",
+		"description": "Находит собственную библиотеку Microsoft Foundation Class (MFC) для разработки приложений MFC в Windows:"
+	},
+	"FindMotif": {
+		"name": "FindMotif",
+		"description": "Находит набор средств графического пользовательского интерфейса Motif (или LessTif):"
+	},
+	"FindMPEG": {
+		"name": "FindMPEG",
+		"description": "Находит собственную библиотеку MPEG (libmpeg2):"
+	},
+	"FindMPEG2": {
+		"name": "FindMPEG2",
+		"description": "Находит собственную библиотеку MPEG2 (libmpeg2):"
+	},
+	"FindMPI": {
+		"name": "FindMPI",
+		"description": "Находит реализацию Message Passing Interface (MPI):"
+	},
+	"FindMsys": {
+		"name": "FindMsys",
+		"description": "Находит MSYS, совместимую с POSIX среду, которая изначально работает в Microsoft Windows:"
+	},
+	"FindODBC": {
+		"name": "FindODBC",
+		"description": "Находит библиотеку ODBC, которая реализует стандартный API для доступа к системам баз данных:"
+	},
+	"FindOpenACC": {
+		"name": "FindOpenACC",
+		"description": "Находит и определяет поддержку OpenACC в компиляторе:"
+	},
+	"FindOpenAL": {
+		"name": "FindOpenAL",
+		"description": "Находит библиотеку Open Audio Library (OpenAL):"
+	},
+	"FindOpenCL": {
+		"name": "FindOpenCL",
+		"description": "Находит библиотеку Open Computing Language (OpenCL):"
+	},
+	"FindOpenGL": {
+		"name": "FindOpenGL",
+		"description": "Находит OpenGL и библиотеку OpenGL Utility Library (GLU) для использования OpenGL в проекте CMake:"
+	},
+	"FindOpenMP": {
+		"name": "FindOpenMP",
+		"description": "Находит поддержку Open Multi-Processing (OpenMP) в компиляторе:"
+	},
+	"FindOpenSceneGraph": {
+		"name": "FindOpenSceneGraph",
+		"description": "Находит OpenSceneGraph (OSG), интерфейс прикладного программирования для 3D-графики:"
+	},
+	"FindOpenSP": {
+		"name": "FindOpenSP",
+		"description": "Находит библиотеку OpenSP:"
+	},
+	"FindOpenSSL": {
+		"name": "FindOpenSSL",
+		"description": "Находит установленную библиотеку шифрования OpenSSL и определяет её версию:"
+	},
+	"FindOpenThreads": {
+		"name": "FindOpenThreads",
+		"description": "Находит библиотеку потоков на основе C++ OpenThreads:"
+	},
+	"Findosg": {
+		"name": "Findosg",
+		"description": "Находит основную библиотеку OpenSceneGraph osg (libosg)."
+	},
+	"FindosgAnimation": {
+		"name": "FindosgAnimation",
+		"description": "Находит библиотеку osgAnimation из набора инструментов OpenSceneGraph."
+	},
+	"FindosgDB": {
+		"name": "FindosgDB",
+		"description": "Находит библиотеку osgDB из набора инструментов OpenSceneGraph."
+	},
+	"FindosgFX": {
+		"name": "FindosgFX",
+		"description": "Находит osgFX NodeKit из набора инструментов OpenSceneGraph."
+	},
+	"FindosgGA": {
+		"name": "FindosgGA",
+		"description": "Находит библиотеку osgGA из набора инструментов OpenSceneGraph."
+	},
+	"FindosgIntrospection": {
+		"name": "FindosgIntrospection",
+		"description": "Находит библиотеку osgIntrospection из набора инструментов OpenSceneGraph."
+	},
+	"FindosgManipulator": {
+		"name": "FindosgManipulator",
+		"description": "Находит osgManipulator NodeKit из набора инструментов OpenSceneGraph."
+	},
+	"FindosgParticle": {
+		"name": "FindosgParticle",
+		"description": "Находит osgParticle NodeKit из набора инструментов OpenSceneGraph."
+	},
+	"FindosgPresentation": {
+		"name": "FindosgPresentation",
+		"description": "Находит osgPresentation NodeKit из набора инструментов OpenSceneGraph, доступного начиная с версии OpenSceneGraph 3.0.0."
+	},
+	"FindosgProducer": {
+		"name": "FindosgProducer",
+		"description": "Находит библиотеку служебных программ osgProducer из набора инструментов OpenSceneGraph."
+	},
+	"FindosgQt": {
+		"name": "FindosgQt",
+		"description": "Находит библиотеку служебных программ osgQt из набора инструментов OpenSceneGraph."
+	},
+	"FindosgShadow": {
+		"name": "FindosgShadow",
+		"description": "Находит osgShadow NodeKit из набора инструментов OpenSceneGraph."
+	},
+	"FindosgSim": {
+		"name": "FindosgSim",
+		"description": "Находит osgSim NodeKit из набора инструментов OpenSceneGraph."
+	},
+	"FindosgTerrain": {
+		"name": "FindosgTerrain",
+		"description": "Находит osgTerrain NodeKit из набора инструментов OpenSceneGraph."
+	},
+	"FindosgText": {
+		"name": "FindosgText",
+		"description": "Находит osgText NodeKit из набора инструментов OpenSceneGraph."
+	},
+	"FindosgUtil": {
+		"name": "FindosgUtil",
+		"description": "Находит библиотеку osgUtil из набора инструментов OpenSceneGraph."
+	},
+	"FindosgViewer": {
+		"name": "FindosgViewer",
+		"description": "Находит библиотеку osgViewer из набора инструментов OpenSceneGraph."
+	},
+	"FindosgVolume": {
+		"name": "FindosgVolume",
+		"description": "Находит osgVolume NodeKit из набора инструментов OpenSceneGraph."
+	},
+	"FindosgWidget": {
+		"name": "FindosgWidget",
+		"description": "Находит osgWidget NodeKit из набора инструментов OpenSceneGraph."
+	},
+	"Findosg_functions": {
+		"name": "Findosg_functions",
+		"description": "Во время типичного использования команды find_package этот модуль не предназначен для непосредственного включения в проект или вызова из программного кода проекта. Он используется внутренними модулями поиска OpenSceneGraph (OSG) для помощи в поиске библиотек OSG и NodeKit. Дополнительные сведения об использовании можно найти в документации модуля FindOpenSceneGraph."
+	},
+	"FindPackageHandleStandardArgs": {
+		"name": "FindPackageHandleStandardArgs",
+		"description": "Этот модуль предоставляет команды, предназначенные для использования в модулях поиска, реализующих вызовы find_package(<PackageName>)."
+	},
+	"FindPackageMessage": {
+		"name": "FindPackageMessage",
+		"description": "Этот модуль предоставляет команду для печати сообщений о результатах поиска и предназначен для использования в модулях поиска, реализующих вызовы find_package(<PackageName>)."
+	},
+	"FindPatch": {
+		"name": "FindPatch",
+		"description": "Находит исполняемый файл командной строки исправления для применения исправлений различий к исходным файлам:"
+	},
+	"FindPerl": {
+		"name": "FindPerl",
+		"description": "Находит интерпретатор Perl:"
+	},
+	"FindPerlLibs": {
+		"name": "FindPerlLibs",
+		"description": "Находит библиотеки Perl:"
+	},
+	"FindPHP4": {
+		"name": "FindPHP4",
+		"description": "Находит PHP версии 4 — язык сценариев общего назначения:"
+	},
+	"FindPhysFS": {
+		"name": "FindPhysFS",
+		"description": "Находит библиотеку PhysicsFS (PhysFS) для абстракции файлового ввода-вывода:"
+	},
+	"FindPike": {
+		"name": "FindPike",
+		"description": "Находит компилятор и интерпретатор Pike:"
+	},
+	"FindPkgConfig": {
+		"name": "FindPkgConfig",
+		"description": "Модуль pkg-config для CMake."
+	},
+	"FindPNG": {
+		"name": "FindPNG",
+		"description": "Находит libpng — официальную справочную библиотеку по формату изображения PNG:"
+	},
+	"FindPostgreSQL": {
+		"name": "FindPostgreSQL",
+		"description": "Находит установку PostgreSQL — клиентскую библиотеку (libpq) и, при необходимости, сервер:"
+	},
+	"FindProducer": {
+		"name": "FindProducer",
+		"description": "Находит библиотеку Producer — библиотеку для работы с окнами и обработки событий, разработанную в первую очередь для графических приложений реального времени:"
+	},
+	"FindProtobuf": {
+		"name": "FindProtobuf",
+		"description": "Этот модуль находит библиотеку Protocol Buffers (Protobuf) в модульном режиме:"
+	},
+	"FindPython": {
+		"name": "FindPython",
+		"description": "Находит интерпретатор, компилятор и среду разработки Python (каталоги включения и библиотеки):"
+	},
+	"FindPython2": {
+		"name": "FindPython2",
+		"description": "Находит интерпретатор, компилятор и среду разработки Python 2 (каталоги включения и библиотеки):"
+	},
+	"FindPython3": {
+		"name": "FindPython3",
+		"description": "Находит интерпретатор, компилятор и среду разработки Python 3 (каталоги включения и библиотеки):"
+	},
+	"FindPythonInterp": {
+		"name": "FindPythonInterp",
+		"description": "Находит интерпретатор Python и определяет расположение его исполняемого файла:"
+	},
+	"FindPythonLibs": {
+		"name": "FindPythonLibs",
+		"description": "Находит установку Python и определяет расположение каталогов включения и библиотек, а также имя библиотеки Python, с которой нужно связаться:"
+	},
+	"FindQt": {
+		"name": "FindQt",
+		"description": "Находит установленную версию Qt3 или Qt4:"
+	},
+	"FindQt3": {
+		"name": "FindQt3",
+		"description": "Находит Qt3 — кроссплатформенную платформу разработки приложений для создания графических пользовательских интерфейсов и приложений:"
+	},
+	"FindQt4": {
+		"name": "FindQt4",
+		"description": "Находит Qt4 — кроссплатформенную платформу разработки приложений для создания графических пользовательских интерфейсов и приложений:"
+	},
+	"FindQuickTime": {
+		"name": "FindQuickTime",
+		"description": "Находит мультимедийную платформу QuickTime, которая обеспечивает поддержку видео, аудио и интерактивных медиа:"
+	},
+	"FindRTI": {
+		"name": "FindRTI",
+		"description": "Находит стандартные библиотеки HLA RTI и их каталоги включения:"
+	},
+	"FindRuby": {
+		"name": "FindRuby",
+		"description": "Находит установку Ruby и расположения файлов включения и библиотек:"
+	},
+	"FindSDL": {
+		"name": "FindSDL",
+		"description": "Находит библиотеку SDL (Simple DirectMedia Layer):"
+	},
+	"FindSDL_gfx": {
+		"name": "FindSDL_gfx",
+		"description": "Находит библиотеку SDL_gfx, которая обеспечивает поддержку графики в приложениях SDL (Simple DirectMedia Layer):"
+	},
+	"FindSDL_image": {
+		"name": "FindSDL_image",
+		"description": "Находит библиотеку SDL_image, которая загружает изображения различных форматов в виде поверхностей SDL (Simple DirectMedia Layer):"
+	},
+	"FindSDL_mixer": {
+		"name": "FindSDL_mixer",
+		"description": "Находит библиотеку SDL_mixer, которая предоставляет звуковой микшер с поддержкой различных форматов файлов в приложениях SDL (Simple DirectMedia Layer):"
+	},
+	"FindSDL_net": {
+		"name": "FindSDL_net",
+		"description": "Находит библиотеку SDL_net — кроссплатформенную сетевую библиотеку для использования с приложениями SDL (Simple DirectMedia Layer):"
+	},
+	"FindSDL_sound": {
+		"name": "FindSDL_sound",
+		"description": "Находит библиотеку SDL_sound, абстрактный декодер звуковых файлов для использования в приложениях SDL (Simple DirectMedia Layer):"
+	},
+	"FindSDL_ttf": {
+		"name": "FindSDL_ttf",
+		"description": "Находит библиотеку SDL_ttf, которая обеспечивает поддержку отрисовки текста со шрифтами TrueType в приложениях SDL (Simple DirectMedia Layer):"
+	},
+	"FindSelfPackers": {
+		"name": "FindSelfPackers",
+		"description": "Находит UPX — Ultimate Packer для исполняемых файлов:"
+	},
+	"FindSQLite3": {
+		"name": "FindSQLite3",
+		"description": "Находит библиотеку SQLite 3:"
+	},
+	"FindSquish": {
+		"name": "FindSquish",
+		"description": "Находит Squish — кроссплатформенную автоматизированную платформу тестирования графического интерфейса для приложений, созданных на основе различных технологий графического интерфейса:"
+	},
+	"FindSubversion": {
+		"name": "FindSubversion",
+		"description": "Находит исполняемый файл клиента командной строки Subversion (svn) и предоставляет команды для извлечения информации из рабочей копии Subversion:"
+	},
+	"FindSWIG": {
+		"name": "FindSWIG",
+		"description": "Находит установленный исполняемый файл Simplified Wrapper and Interface Generator (SWIG) и определяет его версию:"
+	},
+	"FindTCL": {
+		"name": "FindTCL",
+		"description": "Находит Tcl (Tool Command Language) — динамический язык программирования:"
+	},
+	"FindTclsh": {
+		"name": "FindTclsh",
+		"description": "Находит исполняемый файл командной строки оболочки Tcl (tclsh), который включает интерпретатор Tcl (Tool Command Language):"
+	},
+	"FindTclStub": {
+		"name": "FindTclStub",
+		"description": "Находит библиотеку Tcl Stub Library, которая используется для создания независимых от версии расширений Tcl:"
+	},
+	"FindThreads": {
+		"name": "FindThreads",
+		"description": "Находит и определяет системную библиотеку потоков для поддержки многопоточности:"
+	},
+	"FindTIFF": {
+		"name": "FindTIFF",
+		"description": "Находит библиотеку TIFF (libtiff):"
+	},
+	"FindUnixCommands": {
+		"name": "FindUnixCommands",
+		"description": "Находит команды UNIX: bash, cp, gzip, mv, rm и tar, включая команды из Cygwin или MSYS:"
+	},
+	"FindVTK": {
+		"name": "FindVTK",
+		"description": "Этот модуль больше не существует."
+	},
+	"FindVulkan": {
+		"name": "FindVulkan",
+		"description": "Находит Vulkan — кроссплатформенный API для 3D-графики и вычислений с низкими накладными расходами, а также соответствующие инструменты разработки, обычно предоставляемые Vulkan SDK:"
+	},
+	"FindWget": {
+		"name": "FindWget",
+		"description": "Этот модуль находит программу командной строки wget для извлечения содержимого с веб-серверов:"
+	},
+	"FindWish": {
+		"name": "FindWish",
+		"description": "Находит wish — простой исполняемый файл командной строки оболочки с оконным интерфейсом:"
+	},
+	"FindwxWidgets": {
+		"name": "FindwxWidgets",
+		"description": "Находит установку wxWidgets и предоставляет требования к использованию в проектах:"
+	},
+	"FindwxWindows": {
+		"name": "FindwxWindows",
+		"description": "Находит установку wxWidgets (ранее известную как wxWindows) и определяет расположение ее каталогов и библиотек, а также имя библиотеки:"
+	},
+	"FindX11": {
+		"name": "FindX11",
+		"description": "Находит установку X11 в системах, подобных UNIX:"
+	},
+	"FindXalanC": {
+		"name": "FindXalanC",
+		"description": "Находит заголовки и библиотеки процессора преобразования XSL Apache Xalan-C++:"
+	},
+	"FindXCTest": {
+		"name": "FindXCTest",
+		"description": "Находит платформу XCTest для написания модульных тестов в проектах Xcode:"
+	},
+	"FindXercesC": {
+		"name": "FindXercesC",
+		"description": "Находит заголовки и библиотеки анализа и проверки XML Apache Xerces-C++:"
+	},
+	"FindXMLRPC": {
+		"name": "FindXMLRPC",
+		"description": "Находит собственную библиотеку XML-RPC для C и C++:"
+	},
+	"FindZLIB": {
+		"name": "FindZLIB",
+		"description": "Находит собственную библиотеку сжатия данных zlib:"
+	},
+	"FortranCInterface": {
+		"name": "FortranCInterface",
+		"description": "Этот модуль предоставляет переменные и команды для обнаружения интерфейса Fortran/C."
+	},
+	"GenerateExportHeader": {
+		"name": "GenerateExportHeader",
+		"description": "Этот модуль предоставляет команды для создания файла заголовка, содержащего определения макросов препроцессора для управления видимостью символов C/C++."
+	},
+	"GetPrerequisites": {
+		"name": "GetPrerequisites",
+		"description": "Этот модуль предоставляет команды для анализа и перечисления зависимостей (предпосылок) исполняемых файлов или файлов общей библиотеки. Эти команды выводят список общих библиотек (файлы .dll, .dylib или .so), необходимых исполняемому файлу или общей библиотеке."
+	},
+	"GNUInstallDirs": {
+		"name": "GNUInstallDirs",
+		"description": "Этот модуль определяет переменные каталога установки в соответствии со стандартами кодирования GNU и предоставляет команду для вычисления абсолютных путей, связанных с установкой."
+	},
+	"GoogleTest": {
+		"name": "GoogleTest",
+		"description": "Этот модуль предоставляет команды, которые помогают использовать инфраструктуру Google Test."
+	},
+	"InstallRequiredSystemLibraries": {
+		"name": "InstallRequiredSystemLibraries",
+		"description": "Этот модуль выполняет поиск системных библиотек среды выполнения, предоставляемых компилятором, и добавляет правила установки для них."
+	},
+	"MacroAddFileDependencies": {
+		"name": "MacroAddFileDependencies",
+		"description": "Загрузите этот модуль в проект CMake с помощью:"
+	},
+	"ProcessorCount": {
+		"name": "ProcessorCount",
+		"description": "Этот модуль предоставляет команду для определения количества процессоров и ядер."
+	},
+	"SelectLibraryConfigurations": {
+		"name": "SelectLibraryConfigurations",
+		"description": "Этот модуль предоставляет команду для автоматического задания переменных библиотеки, когда пакет доступен с несколькими конфигурациями сборки. Он предназначен для использования в модулях поиска, реализующих вызовы find_package(<PackageName>)."
+	},
+	"SquishTestScript": {
+		"name": "SquishTestScript",
+		"description": "Этот модуль не предназначен для непосредственного включения в проект CMake. Это внутренний тестовый скрипт CMake, используемый для запуска тестов графического интерфейса с помощью Squish. Подробную информацию об использовании см. в документации по команде squish_add_test в модуле FindSquish."
+	},
+	"TestBigEndian": {
+		"name": "TestBigEndian",
+		"description": "Этот модуль предоставляет команду для проверки порядка байтов целевой архитектуры."
+	},
+	"TestCXXAcceptsFlag": {
+		"name": "TestCXXAcceptsFlag",
+		"description": "Этот модуль предоставляет команду для проверки того, поддерживает ли компилятор C++ (CXX) определенные флаги."
+	},
+	"TestForANSIForScope": {
+		"name": "TestForANSIForScope",
+		"description": "Этот модуль проверяет, ограничивает ли компилятор CXX область действия переменных, объявленных в операторе for-init, телом цикла."
+	},
+	"TestForANSIStreamHeaders": {
+		"name": "TestForANSIStreamHeaders",
+		"description": "Этот модуль проверяет, поддерживает ли компилятор CXX заголовочные файлы стандартной библиотеки без расширения .h (например, <iostream>)."
+	},
+	"TestForSSTREAM": {
+		"name": "TestForSSTREAM",
+		"description": "Этот модуль проверяет наличие и корректность работы стандартного заголовка C++ <sstream>."
+	},
+	"TestForSTDNamespace": {
+		"name": "TestForSTDNamespace",
+		"description": "Этот модуль проверяет, поддерживает ли компилятор CXX пространство имен std для стандартной библиотеки C++."
+	},
+	"UseEcos": {
+		"name": "UseEcos",
+		"description": "Этот модуль определяет переменные и предоставляет команды, необходимые для создания приложения eCos."
+	},
+	"UseJava": {
+		"name": "UseJava",
+		"description": "Этот файл предоставляет поддержку для Java. Предполагается, что модуль FindJava уже загружен. Сведения о том, как загрузить Java в проект CMake, см. в описании модуля FindJava."
+	},
+	"UseJavaClassFilelist": {
+		"name": "UseJavaClassFilelist",
+		"description": "Этот модуль был ранее задокументирован по ошибке и никогда не предназначался для непосредственного включения в программный код проекта. См. модуль UseJava."
+	},
+	"UseJavaSymlinks": {
+		"name": "UseJavaSymlinks",
+		"description": "Этот модуль был ранее задокументирован по ошибке и никогда не предназначался для непосредственного включения в программный код проекта. См. модуль UseJava."
+	},
+	"UsePkgConfig": {
+		"name": "UsePkgConfig",
+		"description": "Загрузите этот модуль в проект CMake с помощью:"
+	},
+	"UseSWIG": {
+		"name": "UseSWIG",
+		"description": "Этот модуль предоставляет поддержку для SWIG. Предполагается, что модуль FindSWIG уже загружен."
+	},
+	"UsewxWidgets": {
+		"name": "UsewxWidgets",
+		"description": "Этот модуль служит удобной программой-оболочкой для использования библиотеки wxWidgets (ранее — wxWindows) и распространяет её требования к использованию, такие как каталоги библиотек, каталоги включения и флаги компилятора, в область текущего каталога для использования целевыми объектами."
+	},
+	"Use_wxWindows": {
+		"name": "Use_wxWindows",
+		"description": "Этот модуль служит удобной программой-оболочкой для поиска библиотеки wxWidgets (ранее — wxWindows) и распространяет её требования к использованию, такие как библиотеки, каталоги включения и флаги компилятора, в область текущего каталога для использования целевыми объектами."
+	},
+	"WriteBasicConfigVersionFile": {
+		"name": "WriteBasicConfigVersionFile",
+		"description": "Не рекомендуется начиная с версии 3.0: используйте идентичную команду write_basic_package_version_file() из модуля CMakePackageConfigHelpers."
+	},
+	"WriteCompilerDetectionHeader": {
+		"name": "WriteCompilerDetectionHeader",
+		"description": "Этот модуль предоставляет команду для создания заголовочного файла с макросами препроцессора."
+	}
+}

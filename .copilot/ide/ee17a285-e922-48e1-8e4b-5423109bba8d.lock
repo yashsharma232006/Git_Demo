@@ -1,0 +1,14 @@
+{
+  "socketPath": "\\\\.\\pipe\\mcp-0627ef86-13ec-4d92-98cc-ac04f96c58ef.sock",
+  "scheme": "pipe",
+  "headers": {
+    "Authorization": "Nonce 1c3e0c67-8b3c-4bcf-82a7-8d65ef7ab9f5"
+  },
+  "pid": 27000,
+  "ideName": "Visual Studio Code",
+  "timestamp": 1782269873181,
+  "workspaceFolders": [
+    "c:\\Users\\Yash Sharma\\OneDrive\\Documents\\amazon clone"
+  ],
+  "isTrusted": true
+}

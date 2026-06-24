@@ -1,0 +1,1078 @@
+{
+	"AddFileDependencies": {
+		"name": "AddFileDependencies",
+		"description": "다음을 사용하여 CMake 프로젝트에서 이 모듈을 로드합니다."
+	},
+	"AndroidTestUtilities": {
+		"name": "AndroidTestUtilities",
+		"description": "이 모듈은 연결된 Android 디바이스에 Android 동작을 테스트하는 데 필요한 데이터를 푸시하는 테스트를 만드는 명령을 제공합니다."
+	},
+	"BundleUtilities": {
+		"name": "BundleUtilities",
+		"description": "이 모듈은 macOS .app 번들이나 다른 운영 체제의 유사한 디렉터리 기반 애플리케이션 번들 같은 독립 실행형 번들 스타일 애플리케이션을 CMake로 어셈블하는 유틸리티 명령을 제공합니다."
+	},
+	"CheckCCompilerFlag": {
+		"name": "CheckCCompilerFlag",
+		"description": "이 모듈은 C 컴파일러가 지정된 플래그를 지원하는지 여부를 확인하는 명령을 제공합니다."
+	},
+	"CheckCompilerFlag": {
+		"name": "CheckCompilerFlag",
+		"description": "이 모듈은 컴파일러가 지정된 플래그를 지원하는지 여부를 확인하는 명령을 제공합니다."
+	},
+	"CheckCSourceCompiles": {
+		"name": "CheckCSourceCompiles",
+		"description": "이 모듈은 C 소스를 빌드할 수 있는지 여부를 확인하는 명령을 제공합니다."
+	},
+	"CheckCSourceRuns": {
+		"name": "CheckCSourceRuns",
+		"description": "이 모듈은 C 소스를 빌드하고 실행할 수 있는지 여부를 확인하는 명령을 제공합니다."
+	},
+	"CheckCXXCompilerFlag": {
+		"name": "CheckCXXCompilerFlag",
+		"description": "이 모듈은 C++ 컴파일러가 지정된 플래그를 지원하는지 여부를 확인하는 명령을 제공합니다."
+	},
+	"CheckCXXSourceCompiles": {
+		"name": "CheckCXXSourceCompiles",
+		"description": "이 모듈은 C++ 소스를 빌드할 수 있는지 여부를 확인하는 명령을 제공합니다."
+	},
+	"CheckCXXSourceRuns": {
+		"name": "CheckCXXSourceRuns",
+		"description": "이 모듈은 C++ 소스를 빌드하고 실행할 수 있는지 여부를 확인하는 명령을 제공합니다."
+	},
+	"CheckCXXSymbolExists": {
+		"name": "CheckCXXSymbolExists",
+		"description": "이 모듈에서는 C++ 기호가 있는지 여부를 확인하는 명령을 제공합니다."
+	},
+	"CheckFortranCompilerFlag": {
+		"name": "CheckFortranCompilerFlag",
+		"description": "이 모듈은 Fortran 컴파일러가 지정된 플래그를 지원하는지 여부를 확인하는 명령을 제공합니다."
+	},
+	"CheckFortranFunctionExists": {
+		"name": "CheckFortranFunctionExists",
+		"description": "이 모듈은 Fortran 함수가 있는지 여부를 확인하는 명령을 제공합니다."
+	},
+	"CheckFortranSourceCompiles": {
+		"name": "CheckFortranSourceCompiles",
+		"description": "이 모듈은 Fortran 소스를 빌드할 수 있는지 여부를 확인하는 명령을 제공합니다."
+	},
+	"CheckFortranSourceRuns": {
+		"name": "CheckFortranSourceRuns",
+		"description": "이 모듈은 Fortran 소스를 빌드하고 실행할 수 있는지 여부를 확인하는 명령을 제공합니다."
+	},
+	"CheckFunctionExists": {
+		"name": "CheckFunctionExists",
+		"description": "이 모듈은 C 함수가 있는지 여부를 확인하는 명령을 제공합니다."
+	},
+	"CheckIncludeFile": {
+		"name": "CheckIncludeFile",
+		"description": "이 모듈은 C 헤더 파일을 확인하는 명령을 제공합니다."
+	},
+	"CheckIncludeFileCXX": {
+		"name": "CheckIncludeFileCXX",
+		"description": "이 모듈은 C++ 헤더 파일을 확인하는 명령을 제공합니다."
+	},
+	"CheckIncludeFiles": {
+		"name": "CheckIncludeFiles",
+		"description": "이 모듈은 하나 이상의 C/C++ 헤더 파일을 확인하는 명령을 제공합니다."
+	},
+	"CheckIPOSupported": {
+		"name": "CheckIPOSupported",
+		"description": "이 모듈은 컴파일러가 IPO/LTO(절차 간 최적화)를 지원하는지 검사하는 명령을 제공합니다."
+	},
+	"CheckLanguage": {
+		"name": "CheckLanguage",
+		"description": "이 모듈은 enable_language 또는 project 명령으로 언어를 활성화할 수 있는지 확인하는 명령을 제공합니다."
+	},
+	"CheckLibraryExists": {
+		"name": "CheckLibraryExists",
+		"description": "이 모듈에서는 C 라이브러리가 있는지 여부를 확인하는 명령을 제공합니다."
+	},
+	"CheckLinkerFlag": {
+		"name": "CheckLinkerFlag",
+		"description": "이 모듈은 컴파일러가 지정된 링크 플래그를 지원하는지 확인하는 명령을 제공합니다."
+	},
+	"CheckOBJCCompilerFlag": {
+		"name": "CheckOBJCCompilerFlag",
+		"description": "이 모듈은 Objective-C 컴파일러가 지정된 플래그를 지원하는지 여부를 확인하는 명령을 제공합니다."
+	},
+	"CheckOBJCSourceCompiles": {
+		"name": "CheckOBJCSourceCompiles",
+		"description": "이 모듈은 Objective-C 소스를 빌드할 수 있는지 여부를 확인하는 명령을 제공합니다."
+	},
+	"CheckOBJCSourceRuns": {
+		"name": "CheckOBJCSourceRuns",
+		"description": "이 모듈은 Objective-C 소스를 빌드하고 실행할 수 있는지 여부를 확인하는 명령을 제공합니다."
+	},
+	"CheckOBJCXXCompilerFlag": {
+		"name": "CheckOBJCXXCompilerFlag",
+		"description": "이 모듈은 Objective-C++ 컴파일러가 지정된 플래그를 지원하는지 여부를 확인하는 명령을 제공합니다."
+	},
+	"CheckOBJCXXSourceCompiles": {
+		"name": "CheckOBJCXXSourceCompiles",
+		"description": "이 모듈은 Objective-C++ 소스를 빌드할 수 있는지 여부를 확인하는 명령을 제공합니다."
+	},
+	"CheckOBJCXXSourceRuns": {
+		"name": "CheckOBJCXXSourceRuns",
+		"description": "이 모듈은 Objective-C++ 소스를 빌드하고 실행할 수 있는지 여부를 확인하는 명령을 제공합니다."
+	},
+	"CheckPIESupported": {
+		"name": "CheckPIESupported",
+		"description": "이 모듈은 링커가 실행 파일에 대해 PIE(위치 독립적 코드) 또는 NO_PIE(위치 독립적 코드 없음)를 지원하는지 확인하는 명령을 제공합니다."
+	},
+	"CheckPrototypeDefinition": {
+		"name": "CheckPrototypeDefinition",
+		"description": "이 모듈은 C 함수가 예상 프로토타입을 갖고 있는지 확인하는 명령을 제공합니다."
+	},
+	"CheckSourceCompiles": {
+		"name": "CheckSourceCompiles",
+		"description": "이 모듈은 지정된 언어에 대해 소스 코드를 빌드할 수 있는지 확인하는 명령을 제공합니다."
+	},
+	"CheckSourceRuns": {
+		"name": "CheckSourceRuns",
+		"description": "이 모듈은 소스 코드를 빌드하고 실행할 수 있는지 여부를 확인하는 명령을 제공합니다."
+	},
+	"CheckStructHasMember": {
+		"name": "CheckStructHasMember",
+		"description": "이 모듈은 구조체 또는 클래스에 지정된 멤버 변수가 있는지 여부를 확인하는 명령을 제공합니다."
+	},
+	"CheckSymbolExists": {
+		"name": "CheckSymbolExists",
+		"description": "이 모듈에서는 C 기호가 있는지 여부를 확인하는 명령을 제공합니다."
+	},
+	"CheckTypeSize": {
+		"name": "CheckTypeSize",
+		"description": "이 모듈은 C/C++ 형식 또는 식의 크기를 확인하는 명령을 제공합니다."
+	},
+	"CheckVariableExists": {
+		"name": "CheckVariableExists",
+		"description": "이 모듈에서는 C 변수가 있는지 여부를 확인하는 명령을 제공합니다."
+	},
+	"CMakeAddFortranSubdirectory": {
+		"name": "CMakeAddFortranSubdirectory",
+		"description": "이 모듈은 하위 디렉터리에 있는 Fortran 프로젝트를 추가하는 명령을 제공합니다."
+	},
+	"CMakeBackwardCompatibilityCXX": {
+		"name": "CMakeBackwardCompatibilityCXX",
+		"description": "이 모듈은 초기 C++(C++98 이전, ANSI C++)를 지원하기 위해 CXX 언어용 이전 버전과의 호환성 캐시 변수를 여러 개 정의합니다."
+	},
+	"CMakeDependentOption": {
+		"name": "CMakeDependentOption",
+		"description": "이 모듈은 지정된 조건이나 다른 옵션에 따라 사용 가능 여부와 기본값이 달라지는 부울 옵션을 정의하는 명령을 제공합니다. 이를 통해 현재 설정과 관련된 옵션만 표시하여 깔끔한 구성 인터페이스를 유지할 수 있습니다."
+	},
+	"CMakeDetermineVSServicePack": {
+		"name": "CMakeDetermineVSServicePack",
+		"description": "이 모듈은 Visual Studio 2012 및 이전 버전의 설치된 Visual Studio 서비스 팩 버전을 확인하는 명령을 제공합니다."
+	},
+	"CMakeExpandImportedTargets": {
+		"name": "CMakeExpandImportedTargets",
+		"description": "다음을 사용하여 CMake 프로젝트에서 이 모듈을 로드합니다."
+	},
+	"CMakeFindDependencyMacro": {
+		"name": "CMakeFindDependencyMacro",
+		"description": "이 모듈에서는 패키지에 대한 종속성을 찾는 매크로로 구현된 명령을 제공합니다."
+	},
+	"CMakeFindFrameworks": {
+		"name": "CMakeFindFrameworks",
+		"description": "OSX 프레임워크를 찾는 도우미 모듈"
+	},
+	"CMakeFindPackageMode": {
+		"name": "CMakeFindPackageMode",
+		"description": "이 모듈은 --find-package <Find-Package Tool Mode> 옵션으로 호출될 때 요청된 패키지를 찾기 위해 cmake가 실행합니다."
+	},
+	"CMakeForceCompiler": {
+		"name": "CMakeForceCompiler",
+		"description": "CMake 툴체인 파일에서 이 모듈을 로드합니다."
+	},
+	"CMakeGraphVizOptions": {
+		"name": "CMakeGraphVizOptions",
+		"description": "이 모듈은 CMake 프로젝트에 직접 포함되지 않습니다. 이전에 CMake에서 Graphviz를 사용하기 위한 정보가 포함되어 있었습니다. CMake에서 Graphviz 사용 방법은 cmake --graphviz를 참고하세요."
+	},
+	"CMakePackageConfigHelpers": {
+		"name": "CMakePackageConfigHelpers",
+		"description": "이 모듈은 다른 프로젝트에서 패키지를 찾고 사용할 수 있도록 포함할 수 있는 구성 파일 <Libraries providing Config-file packages>을 만드는 도우미 명령을 제공합니다."
+	},
+	"CMakeParseArguments": {
+		"name": "CMakeParseArguments",
+		"description": "이 모듈은 CMake에서 기본적으로 구현되는 cmake_parse_arguments 명령을 구현했습니다. 이제 CMake 3.4 이하에서 명령을 가져오는 데 포함된 프로젝트와의 호환성을 위한 빈 자리 표시자입니다."
+	},
+	"CMakePrintHelpers": {
+		"name": "CMakePrintHelpers",
+		"description": "이 모듈은 주로 디버깅용으로 속성과 변수 값을 출력하는 편리한 명령을 제공합니다."
+	},
+	"CMakePrintSystemInformation": {
+		"name": "CMakePrintSystemInformation",
+		"description": "이 모듈은 시스템 정보를 출력하는 진단용으로 사용할 수 있습니다."
+	},
+	"CMakePushCheckState": {
+		"name": "CMakePushCheckState",
+		"description": "이 모듈에서는 다양한 CMake 검사 명령(예: check_symbol_exists 등)이 수행되는 방식에 영향을 주는 변수의 상태를 관리하기 위한 명령을 제공합니다."
+	},
+	"CMakeVerifyManifest": {
+		"name": "CMakeVerifyManifest",
+		"description": "cmake -P를 사용하여 프로젝트 일치를 위해 포함된 매니페스트 및 병렬 매니페스트를 확인하는 명령줄 모드에서 사용하기 위한 모듈입니다."
+	},
+	"CPack": {
+		"name": "CPack",
+		"description": "이 모듈은 이진 설치 관리자 및 원본 패키지에 대한 생성기를 구성합니다."
+	},
+	"CPackArchive": {
+		"name": "CPackArchive",
+		"description": "CPack 보관 생성기에 대한 설명서는 여기로 이동되었습니다. CPack 보관 생성기"
+	},
+	"CPackBundle": {
+		"name": "CPackBundle",
+		"description": "CPack 번들 생성기에 대한 설명서는 여기로 이동되었습니다. CPack 번들 생성기"
+	},
+	"CPackComponent": {
+		"name": "CPackComponent",
+		"description": "이 모듈에서는 이진 설치 관리자 및 원본 패키지에 대한 구성 요소를 구성하는 명령을 제공합니다."
+	},
+	"CPackCygwin": {
+		"name": "CPackCygwin",
+		"description": "CPack Cygwin 생성기에 대한 설명서는 여기로 이동되었습니다. CPack Cygwin 생성기"
+	},
+	"CPackDeb": {
+		"name": "CPackDeb",
+		"description": "CPack DEB 생성기에 대한 설명서는 CPack DEB 생성기에서 이동되었습니다."
+	},
+	"CPackDMG": {
+		"name": "CPackDMG",
+		"description": "CPack DragNDrop 생성기에 대한 설명서는 여기로 이동되었습니다. CPack DragNDrop 생성기"
+	},
+	"CPackFreeBSD": {
+		"name": "CPackFreeBSD",
+		"description": "CPack FreeBSD 생성기에 대한 설명서는 여기로 이동되었습니다. CPack FreeBSD 생성기"
+	},
+	"CPackIFW": {
+		"name": "CPackIFW",
+		"description": "이 모듈은 QtIFW(Qt Installer Framework)와 함께 제공되는 명령줄 유틸리티의 위치를 찾습니다."
+	},
+	"CPackIFWConfigureFile": {
+		"name": "CPackIFWConfigureFile",
+		"description": "이 모듈에서는 QtIFW/SDK/Creator 스타일로 준비된 파일 템플릿을 구성하기 위한 configure_file과 유사한 명령을 제공합니다."
+	},
+	"CPackNSIS": {
+		"name": "CPackNSIS",
+		"description": "CPack NSIS 생성기에 대한 설명서는 여기로 이동되었습니다. CPack NSIS 생성기"
+	},
+	"CPackNuGet": {
+		"name": "CPackNuGet",
+		"description": "CPack NuGet 생성기에 대한 설명서는 여기로 이동되었습니다. CPack NuGet 생성기"
+	},
+	"CPackProductBuild": {
+		"name": "CPackProductBuild",
+		"description": "CPack productbuild 생성기에 대한 설명서는 여기로 이동되었습니다. CPack productbuild 생성기"
+	},
+	"CPackRPM": {
+		"name": "CPackRPM",
+		"description": "CPack RPM 생성기에 대한 설명서는 CPack RPM 생성기에서 이동되었습니다."
+	},
+	"CPackWIX": {
+		"name": "CPackWIX",
+		"description": "CPack WIX 생성기에 대한 설명서는 CPack WIX 생성기에서 이동되었습니다."
+	},
+	"CSharpUtilities": {
+		"name": "CSharpUtilities",
+		"description": "이 유틸리티 모듈은 CSharp/.NET 대상 구성을 간소화하며, Visual Studio 생성기(2010 버전 이상)에서 CSharp 대상을 관리하는 명령 모음을 제공합니다."
+	},
+	"CTest": {
+		"name": "CTest",
+		"description": "CTest/CDash를 사용하여 테스트할 프로젝트 구성"
+	},
+	"CTestCoverageCollectGCOV": {
+		"name": "CTestCoverageCollectGCOV",
+		"description": "이 모듈은 CTest 대시보드 스크립트에서 사용하도록 설계되었으며, 코드 검사 보고서를 포함하는 tarball을 생성하는 명령을 제공합니다."
+	},
+	"CTestScriptMode": {
+		"name": "CTestScriptMode",
+		"description": "이 모듈은 프로젝트 코드에 의해 직접 포함되거나 호출되지 않습니다. 현재 시스템을 확인하기 위해 스크립트 모드(-S)에서 실행되는 CTest에서 내부적으로 사용됩니다. 사용법에 대한 자세한 내용은 ctest -S를 참조하세요."
+	},
+	"CTestUseLaunchers": {
+		"name": "CTestUseLaunchers",
+		"description": "이 모듈은 CTEST_USE_LAUNCHERS 변수가 ON과 같은 true 같은 값으로 설정되면 RULE_LAUNCH_* 전역 속성을 설정합니다."
+	},
+	"Dart": {
+		"name": "Dart",
+		"description": "CTest 또는 이전 처리 Tcl 클라이언트를 사용하여 테스트할 프로젝트 구성"
+	},
+	"DeployQt4": {
+		"name": "DeployQt4",
+		"description": "이 모듈은 독립 실행형 Qt4 실행 파일을 어셈블하고 배포하는 데 유용한 CMake 유틸리티 명령 모음을 제공합니다."
+	},
+	"Documentation": {
+		"name": "Documentation",
+		"description": "이 모듈에서는 VTK 설명서 프레임워크를 지원합니다. 여러 도구(Doxygen, Perl 등)를 사용합니다."
+	},
+	"ExternalData": {
+		"name": "ExternalData",
+		"description": "이 모듈에서는 원본 트리 외부에 저장된 데이터 파일을 관리하는 명령을 제공합니다."
+	},
+	"ExternalProject": {
+		"name": "ExternalProject",
+		"description": "이 모듈은 CMake 빌드 단계에서 외부 프로젝트를 다운로드하고 빌드하는 명령을 제공합니다."
+	},
+	"FeatureSummary": {
+		"name": "FeatureSummary",
+		"description": "이 모듈에서는 사용하도록 설정/사용하지 않도록 설정된 기능의 요약을 생성하기 위한 명령을 제공합니다."
+	},
+	"FetchContent": {
+		"name": "FetchContent",
+		"description": "이 모듈에서는 구성 시 또는 호출 스크립트의 일부로 콘텐츠를 채우는 명령을 제공합니다."
+	},
+	"FindALSA": {
+		"name": "FindALSA",
+		"description": "ALSA(Advanced Linux Sound Architecture) 라이브러리(asound)를 찾습니다."
+	},
+	"FindArmadillo": {
+		"name": "FindArmadillo",
+		"description": "Armadillo C++ 라이브러리를 찾습니다."
+	},
+	"FindASPELL": {
+		"name": "FindASPELL",
+		"description": "GNU Aspell 맞춤법 검사기 라이브러리를 찾습니다."
+	},
+	"FindAVIFile": {
+		"name": "FindAVIFile",
+		"description": "AVIFile 라이브러리와 포함 경로를 찾습니다."
+	},
+	"FindBacktrace": {
+		"name": "FindBacktrace",
+		"description": "애플리케이션 자체 디버깅을 위한 함수를 제공하는 라이브러리인 backtrace(3)를 찾습니다."
+	},
+	"FindBISON": {
+		"name": "FindBISON",
+		"description": "Bison 명령줄 파서 생성기를 찾아 Bison 사용을 위한 사용자 지정 빌드 규칙을 생성하는 CMake 명령을 제공합니다."
+	},
+	"FindBLAS": {
+		"name": "FindBLAS",
+		"description": "BLAS 선형 대수 인터페이스를 구현하는 설치된 BLAS(Basic Linear Algebra Subprograms) Fortran 라이브러리를 찾습니다."
+	},
+	"FindBoost": {
+		"name": "FindBoost",
+		"description": "Boost 포함 디렉터리 및 라이브러리 찾기"
+	},
+	"FindBullet": {
+		"name": "FindBullet",
+		"description": "글머리 기호 물리 엔진을 찾습니다."
+	},
+	"FindBZip2": {
+		"name": "FindBZip2",
+		"description": "BZip2 데이터 압축 라이브러리(libbz2)를 찾습니다."
+	},
+	"FindCABLE": {
+		"name": "FindCABLE",
+		"description": "CABLE 설치를 찾아 포함 경로와 라이브러리를 결정합니다."
+	},
+	"FindCoin3D": {
+		"name": "FindCoin3D",
+		"description": "Coin3D(Open Inventor)를 찾습니다."
+	},
+	"FindCUDA": {
+		"name": "FindCUDA",
+		"description": "더 이상 이 모듈을 사용하거나 CUDA(find_package)를 호출하여 CUDA 코드를 컴파일할 필요가 없습니다. 대신 프로젝트 명령에 대한 최상위 호출에서 명명된 언어 중에서 CUDA를 나열하거나 CUDA를 사용하여 enable_language 명령을 호출합니다. 그런 다음 다른 언어와 유사한 대상에 직접 CUDA(.cu) 소스를 추가할 수 있습니다."
+	},
+	"FindCUDAToolkit": {
+		"name": "FindCUDAToolkit",
+		"description": "NVIDIA CUDA 도구 키트 및 연결된 라이브러리를 찾지만 지정된 프로젝트에 대해 CUDA 언어를 사용하도록 설정할 필요는 없습니다."
+	},
+	"FindCups": {
+		"name": "FindCups",
+		"description": "CUPS(Common UNIX Printing System)를 찾습니다."
+	},
+	"FindCURL": {
+		"name": "FindCURL",
+		"description": "URL을 사용하여 데이터를 전송하기 위한 네이티브 curl 설치(디렉터리 및 라이브러리 포함)를 찾습니다."
+	},
+	"FindCurses": {
+		"name": "FindCurses",
+		"description": "curses 또는 ncurses 라이브러리를 찾습니다."
+	},
+	"FindCVS": {
+		"name": "FindCVS",
+		"description": "CVS(동시 버전 시스템)를 찾습니다."
+	},
+	"FindCxxTest": {
+		"name": "FindCxxTest",
+		"description": "C++ 유닛 테스트 프레임워크 제품군인 CxxTest를 찾아 테스트 실행기를 만들고 CTest와 통합하는 도우미 명령을 제공합니다."
+	},
+	"FindCygwin": {
+		"name": "FindCygwin",
+		"description": "Microsoft Windows에서 기본적으로 실행되는 POSIX 호환 환경인 Cygwin을 찾습니다."
+	},
+	"FindDart": {
+		"name": "FindDart",
+		"description": "DART를 찾습니다."
+	},
+	"FindDCMTK": {
+		"name": "FindDCMTK",
+		"description": "DCMTK(DICOM ToolKit) 라이브러리 및 애플리케이션을 찾습니다."
+	},
+	"FindDevIL": {
+		"name": "FindDevIL",
+		"description": "개발자의 이미지 라이브러리인 DevIL을 찾습니다."
+	},
+	"FindDoxygen": {
+		"name": "FindDoxygen",
+		"description": "몇 가지 선택적 지원 도구와 함께 소스 코드 문서 생성기인 Doxygen을 찾고, Doxygen 기반 문서를 CMake 프로젝트에 통합하는 명령을 제공합니다."
+	},
+	"FindEnvModules": {
+		"name": "FindEnvModules",
+		"description": "환경 모듈 구현을 찾고 CMake 스크립트에서 사용할 명령을 제공합니다."
+	},
+	"FindEXPAT": {
+		"name": "FindEXPAT",
+		"description": "네이티브 Expat 헤더 및 라이브러리를 찾습니다."
+	},
+	"FindFLEX": {
+		"name": "FindFLEX",
+		"description": "Flex(Fast Lexical Analyzer) 명령줄 생성기 및 해당 라이브러리를 찾고, Flex를 사용하기 위한 사용자 지정 빌드 규칙을 만드는 CMake 명령을 제공합니다."
+	},
+	"FindFLTK": {
+		"name": "FindFLTK",
+		"description": "GUI 개발을 위한 플랫폼 간 도구 키트인 FLTK(Fast Light Toolkit)를 찾습니다."
+	},
+	"FindFLTK2": {
+		"name": "FindFLTK2",
+		"description": "GUI 개발을 위한 플랫폼 간 도구 키트인 FLTK(Fast Light Toolkit) 버전 2.x를 찾습니다."
+	},
+	"FindFontconfig": {
+		"name": "FindFontconfig",
+		"description": "글꼴 구성 및 사용자 지정을 위한 라이브러리인 Fontconfig를 찾습니다."
+	},
+	"FindFreetype": {
+		"name": "FindFreetype",
+		"description": "FreeType 글꼴 렌더러 라이브러리를 찾습니다."
+	},
+	"FindGCCXML": {
+		"name": "FindGCCXML",
+		"description": "GCC-XML 프런트 엔드 실행 파일을 찾습니다."
+	},
+	"FindGDAL": {
+		"name": "FindGDAL",
+		"description": "GDAL(지리 공간적 데이터 추상화 라이브러리)을 찾습니다."
+	},
+	"FindGettext": {
+		"name": "FindGettext",
+		"description": "GNU gettext 도구를 찾아 다국어 메시지를 생성하는 명령을 제공합니다."
+	},
+	"FindGIF": {
+		"name": "FindGIF",
+		"description": "GIF(Graphics Interchange Format) 라이브러리(giflib)를 찾습니다."
+	},
+	"FindGit": {
+		"name": "FindGit",
+		"description": "Git 분산 버전 제어 시스템을 찾습니다."
+	},
+	"FindGLEW": {
+		"name": "FindGLEW",
+		"description": "GLEW(OpenGL 확장 Wrangler 라이브러리)를 찾습니다."
+	},
+	"FindGLUT": {
+		"name": "FindGLUT",
+		"description": "OpenGL 애플리케이션에서 창을 만들고, 입력을 처리하고, 이벤트를 관리하기 위한 간단한 API를 제공하는 OPENGL(유틸리티 도구 키트) 라이브러리를 찾습니다."
+	},
+	"FindGnuplot": {
+		"name": "FindGnuplot",
+		"description": "2차원 및 3차원 플롯(gnuplot)을 생성하기 위한 Gnuplot 명령줄 그래프 유틸리티를 찾습니다."
+	},
+	"FindGnuTLS": {
+		"name": "FindGnuTLS",
+		"description": "GnuTLS(GNU 전송 계층 보안 라이브러리)를 찾습니다."
+	},
+	"FindGSL": {
+		"name": "FindGSL",
+		"description": "네이티브 GSL(GNU Scientific Library) 포함 및 라이브러리를 찾습니다."
+	},
+	"FindGTest": {
+		"name": "FindGTest",
+		"description": "Google C++ 테스트 및 모의 프레임워크인 GoogleTest를 찾습니다."
+	},
+	"FindGTK": {
+		"name": "FindGTK",
+		"description": "GTK, glib 및 GTKGLArea를 찾습니다."
+	},
+	"FindGTK2": {
+		"name": "FindGTK2",
+		"description": "GTK 위젯 라이브러리 및 다른 여러 선택적 구성 요소를 찾습니다."
+	},
+	"FindHDF5": {
+		"name": "FindHDF5",
+		"description": "자체 설명 배열 데이터를 읽고 쓰기 위한 라이브러리인 HDF5(계층적 데이터 형식)를 찾습니다."
+	},
+	"FindHg": {
+		"name": "FindHg",
+		"description": "Mercurial 명령줄 클라이언트 실행 파일(hg)을 찾고, Mercurial 작업 복사본에서 정보를 추출하는 명령을 제공합니다."
+	},
+	"FindHSPELL": {
+		"name": "FindHSPELL",
+		"description": "히브리어 맞춤법 검사기 및 모폴로지 엔진(Hspell)을 찾습니다."
+	},
+	"FindHTMLHelp": {
+		"name": "FindHTMLHelp",
+		"description": "HTML 도움말 워크샵의 일부인 Microsoft HTML 도움말 컴파일러 및 해당 API를 찾습니다."
+	},
+	"FindIce": {
+		"name": "FindIce",
+		"description": "Ice(인터넷 통신 엔진) 프로그램, 라이브러리 및 데이터 파일을 찾습니다."
+	},
+	"FindIconv": {
+		"name": "FindIconv",
+		"description": "시스템에서 iconv() POSIX.1 함수를 찾습니다."
+	},
+	"FindIcotool": {
+		"name": "FindIcotool",
+		"description": "Win32 아이콘 및 커서 파일을 변환하고 만들기 위한 icotool 명령줄 프로그램을 찾습니다."
+	},
+	"FindICU": {
+		"name": "FindICU",
+		"description": "ICU(International Components for Unicode) 라이브러리 및 프로그램을 찾습니다."
+	},
+	"FindImageMagick": {
+		"name": "FindImageMagick",
+		"description": "래스터 이미지를 표시, 변환 및 조작하기 위한 소프트웨어 제품군인 ImageMagick을 찾습니다."
+	},
+	"FindIntl": {
+		"name": "FindIntl",
+		"description": "gettext()와 같은 메시지 번역 기능을 포함하는 국제화 지원을 찾습니다."
+	},
+	"FindITK": {
+		"name": "FindITK",
+		"description": "이 모듈은 더 이상 존재하지 않습니다."
+	},
+	"FindJasper": {
+		"name": "FindJasper",
+		"description": "JPEG-2000과 같은 다양한 형식으로 이미지 데이터를 처리하기 위한 JasPer 이미지 코딩 도구 키트를 찾습니다."
+	},
+	"FindJava": {
+		"name": "FindJava",
+		"description": "Java 설치를 찾아 런타임 도구 및 개발 구성 요소를 결정합니다."
+	},
+	"FindJNI": {
+		"name": "FindJNI",
+		"description": "JNI(Java Native Interface) 포함 디렉터리 및 라이브러리를 찾습니다."
+	},
+	"FindJPEG": {
+		"name": "FindJPEG",
+		"description": "JPEG(Joint Photographic Experts Group) 라이브러리(libjpeg)를 찾습니다."
+	},
+	"FindKDE3": {
+		"name": "FindKDE3",
+		"description": "KDE 3 포함 디렉터리, 라이브러리 및 KDE 전용 전처리기 도구를 찾습니다."
+	},
+	"FindKDE4": {
+		"name": "FindKDE4",
+		"description": "KDE 4 설치를 찾습니다."
+	},
+	"FindLAPACK": {
+		"name": "FindLAPACK",
+		"description": "LAPACK 선형 대수 인터페이스를 구현하는 설치된 LAPACK(선형 대수 PACKage) Fortran 라이브러리를 찾습니다."
+	},
+	"FindLATEX": {
+		"name": "FindLATEX",
+		"description": "BibTeX와 같은 LaTeX 컴파일러 및 Latex 관련 소프트웨어를 찾습니다."
+	},
+	"FindLibArchive": {
+		"name": "FindLibArchive",
+		"description": "libarchive 라이브러리와 포함 디렉터리를 찾습니다."
+	},
+	"FindLibinput": {
+		"name": "FindLibinput",
+		"description": "Wayland 컴포지터에서 입력 디바이스를 처리하고 일반 X.Org 입력 드라이버를 제공하는 libinput 라이브러리를 찾습니다."
+	},
+	"FindLibLZMA": {
+		"name": "FindLibLZMA",
+		"description": "LZMA(Lempel-Ziv-Markov 체인 알고리즘)를 구현하는 데이터 압축 라이브러리인 liblzma를 찾습니다."
+	},
+	"FindLibXml2": {
+		"name": "FindLibXml2",
+		"description": "XML 처리 라이브러리(libxml2)를 찾습니다."
+	},
+	"FindLibXslt": {
+		"name": "FindLibXslt",
+		"description": "XSL 변환, XSLT(Extensible Stylesheet Language Transformations) 라이브러리(libxslt)를 찾습니다."
+	},
+	"FindLTTngUST": {
+		"name": "FindLTTngUST",
+		"description": "LTTng(Linux 추적 도구 키트: 차세대) 사용자 공간 추적 라이브러리(LTTng-UST)를 찾습니다."
+	},
+	"FindLua": {
+		"name": "FindLua",
+		"description": "Lua 라이브러리를 찾습니다."
+	},
+	"FindLua50": {
+		"name": "FindLua50",
+		"description": "Lua 라이브러리를 찾습니다."
+	},
+	"FindLua51": {
+		"name": "FindLua51",
+		"description": "Lua 라이브러리를 찾습니다."
+	},
+	"FindMatlab": {
+		"name": "FindMatlab",
+		"description": "Matlab 또는 MCR(Matlab 컴파일러 런타임)을 찾아 해당 도구, 라이브러리 및 컴파일러를 CMake에 제공합니다."
+	},
+	"FindMFC": {
+		"name": "FindMFC",
+		"description": "Windows에서 MFC 애플리케이션을 개발하기 위한 네이티브 MFC(Microsoft Foundation Classes)를 찾습니다."
+	},
+	"FindMotif": {
+		"name": "FindMotif",
+		"description": "Motif(또는 LessTif) 그래픽 사용자 인터페이스 도구 키트를 찾습니다."
+	},
+	"FindMPEG": {
+		"name": "FindMPEG",
+		"description": "네이티브 MPEG 라이브러리(libmpeg2)를 찾습니다."
+	},
+	"FindMPEG2": {
+		"name": "FindMPEG2",
+		"description": "네이티브 MPEG2 라이브러리(libmpeg2)를 찾습니다."
+	},
+	"FindMPI": {
+		"name": "FindMPI",
+		"description": "MPI(메시지 전달 인터페이스) 구현을 찾습니다."
+	},
+	"FindMsys": {
+		"name": "FindMsys",
+		"description": "Microsoft Windows에서 기본적으로 실행되는 POSIX 호환 환경인 MSYS를 찾습니다."
+	},
+	"FindODBC": {
+		"name": "FindODBC",
+		"description": "데이터베이스 시스템에 액세스하기 위한 표준 API를 구현하는 ODBC(Open Database Connectivity) 라이브러리를 찾습니다."
+	},
+	"FindOpenACC": {
+		"name": "FindOpenACC",
+		"description": "컴파일러에서 OpenACC 지원을 찾아 감지합니다."
+	},
+	"FindOpenAL": {
+		"name": "FindOpenAL",
+		"description": "OpenAL(Open Audio Library)을 찾습니다."
+	},
+	"FindOpenCL": {
+		"name": "FindOpenCL",
+		"description": "OpenCL(Open Computing Language)을 찾습니다."
+	},
+	"FindOpenGL": {
+		"name": "FindOpenGL",
+		"description": "CMake 프로젝트에서 OpenGL을 사용하기 위한 OpenGL 및 GLU(OpenGL 유틸리티 라이브러리)를 찾습니다."
+	},
+	"FindOpenMP": {
+		"name": "FindOpenMP",
+		"description": "컴파일러에서 OpenMP(Open Multi-Processing) 지원을 찾습니다."
+	},
+	"FindOpenSceneGraph": {
+		"name": "FindOpenSceneGraph",
+		"description": "3D 그래픽 애플리케이션 프로그래밍 인터페이스인 OSG(OpenSceneGraph)를 찾습니다."
+	},
+	"FindOpenSP": {
+		"name": "FindOpenSP",
+		"description": "OpenSP 라이브러리를 찾습니다."
+	},
+	"FindOpenSSL": {
+		"name": "FindOpenSSL",
+		"description": "설치된 OpenSSL 암호화 라이브러리를 찾고 해당 버전을 결정합니다."
+	},
+	"FindOpenThreads": {
+		"name": "FindOpenThreads",
+		"description": "OpenThreads C++ 기반 스레딩 라이브러리를 찾습니다."
+	},
+	"Findosg": {
+		"name": "Findosg",
+		"description": "핵심 OpenSceneGraph osg 라이브러리(libosg)를 찾습니다."
+	},
+	"FindosgAnimation": {
+		"name": "FindosgAnimation",
+		"description": "OpenSceneGraph 도구 키트에서 osgAnimation 라이브러리를 찾습니다."
+	},
+	"FindosgDB": {
+		"name": "FindosgDB",
+		"description": "OpenSceneGraph 도구 키트에서 osgDB 라이브러리를 찾습니다."
+	},
+	"FindosgFX": {
+		"name": "FindosgFX",
+		"description": "OpenSceneGraph 도구 키트에서 osgFX NodeKit를 찾습니다."
+	},
+	"FindosgGA": {
+		"name": "FindosgGA",
+		"description": "OpenSceneGraph 도구 키트에서 osgGA 라이브러리를 찾습니다."
+	},
+	"FindosgIntrospection": {
+		"name": "FindosgIntrospection",
+		"description": "OpenSceneGraph 도구 키트에서 osgIntrospection 라이브러리를 찾습니다."
+	},
+	"FindosgManipulator": {
+		"name": "FindosgManipulator",
+		"description": "OpenSceneGraph 도구 키트에서 osgManipulator NodeKit를 찾습니다."
+	},
+	"FindosgParticle": {
+		"name": "FindosgParticle",
+		"description": "OpenSceneGraph 도구 키트에서 osgParticle NodeKit를 찾습니다."
+	},
+	"FindosgPresentation": {
+		"name": "FindosgPresentation",
+		"description": "OpenSceneGraph 버전 3.0.0 이후 사용 가능한 OpenSceneGraph 도구 키트에서 osgPresentation NodeKit를 찾습니다."
+	},
+	"FindosgProducer": {
+		"name": "FindosgProducer",
+		"description": "OpenSceneGraph 도구 키트에서 osgProducer 유틸리티 라이브러리를 찾습니다."
+	},
+	"FindosgQt": {
+		"name": "FindosgQt",
+		"description": "OpenSceneGraph 도구 키트에서 osgQt 유틸리티 라이브러리를 찾습니다."
+	},
+	"FindosgShadow": {
+		"name": "FindosgShadow",
+		"description": "OpenSceneGraph 도구 키트에서 osgShadow NodeKit를 찾습니다."
+	},
+	"FindosgSim": {
+		"name": "FindosgSim",
+		"description": "OpenSceneGraph 도구 키트에서 osgSim NodeKit를 찾습니다."
+	},
+	"FindosgTerrain": {
+		"name": "FindosgTerrain",
+		"description": "OpenSceneGraph 도구 키트에서 osgTerrain NodeKit를 찾습니다."
+	},
+	"FindosgText": {
+		"name": "FindosgText",
+		"description": "OpenSceneGraph 도구 키트에서 osgText NodeKit를 찾습니다."
+	},
+	"FindosgUtil": {
+		"name": "FindosgUtil",
+		"description": "OpenSceneGraph 도구 키트에서 osgUtil 라이브러리를 찾습니다."
+	},
+	"FindosgViewer": {
+		"name": "FindosgViewer",
+		"description": "OpenSceneGraph 도구 키트에서 osgViewer 라이브러리를 찾습니다."
+	},
+	"FindosgVolume": {
+		"name": "FindosgVolume",
+		"description": "OpenSceneGraph 도구 키트에서 osgVolume NodeKit를 찾습니다."
+	},
+	"FindosgWidget": {
+		"name": "FindosgWidget",
+		"description": "OpenSceneGraph 도구 키트에서 osgWidget NodeKit를 찾습니다."
+	},
+	"Findosg_functions": {
+		"name": "Findosg_functions",
+		"description": "이 모듈은 일반적으로 find_package 명령을 사용하는 동안 프로젝트 코드에서 직접 포함하거나 호출할 수 없습니다. OSG(OpenSceneGraph)에서 OSG 라이브러리와 NodeKits를 찾는 데 내부적으로 사용됩니다. 사용법에 대한 자세한 내용은 FindOpenSceneGraph 모듈을 참조하세요."
+	},
+	"FindPackageHandleStandardArgs": {
+		"name": "FindPackageHandleStandardArgs",
+		"description": "이 모듈에서는 find_package(<PackageName>) 호출을 구현하는 모듈 찾기에 사용할 명령을 제공합니다."
+	},
+	"FindPackageMessage": {
+		"name": "FindPackageMessage",
+		"description": "이 모듈은 찾기 결과 메시지를 인쇄하는 명령을 제공하며 find_package(<PackageName>) 호출을 구현하는 찾기 모듈에 사용하도록 설계되었습니다."
+	},
+	"FindPatch": {
+		"name": "FindPatch",
+		"description": "원래 파일에 diff 패치를 적용하기 위한 패치 명령줄 실행 파일을 찾습니다."
+	},
+	"FindPerl": {
+		"name": "FindPerl",
+		"description": "Perl 인터프리터를 찾습니다."
+	},
+	"FindPerlLibs": {
+		"name": "FindPerlLibs",
+		"description": "Perl 라이브러리를 찾습니다."
+	},
+	"FindPHP4": {
+		"name": "FindPHP4",
+		"description": "범용 스크립트 언어인 PHP 버전 4를 찾습니다."
+	},
+	"FindPhysFS": {
+		"name": "FindPhysFS",
+		"description": "파일 I/O 추상화를 위한 PhysFS(PhysFS) 라이브러리를 찾습니다."
+	},
+	"FindPike": {
+		"name": "FindPike",
+		"description": "Pike 컴파일러 및 인터프리터를 찾습니다."
+	},
+	"FindPkgConfig": {
+		"name": "FindPkgConfig",
+		"description": "CMake용 pkg-config 모듈."
+	},
+	"FindPNG": {
+		"name": "FindPNG",
+		"description": "PNG 이미지 형식에 대한 공식 참조 라이브러리인 libpng를 찾습니다."
+	},
+	"FindPostgreSQL": {
+		"name": "FindPostgreSQL",
+		"description": "PostgreSQL 설치- 클라이언트 라이브러리(libpq) 및 선택적으로 서버를 찾습니다."
+	},
+	"FindProducer": {
+		"name": "FindProducer",
+		"description": "주로 실시간 그래픽 애플리케이션을 위해 설계된 창 및 이벤트 처리 라이브러리인 Producer 라이브러리를 찾습니다."
+	},
+	"FindProtobuf": {
+		"name": "FindProtobuf",
+		"description": "이 모듈은 모듈 모드에서 프로토콜 버퍼 라이브러리(Protobuf)를 찾습니다."
+	},
+	"FindPython": {
+		"name": "FindPython",
+		"description": "Python 인터프리터, 컴파일러 및 개발 환경(디렉터리 및 라이브러리 포함)을 찾습니다."
+	},
+	"FindPython2": {
+		"name": "FindPython2",
+		"description": "Python 2 인터프리터, 컴파일러 및 개발 환경(디렉터리 및 라이브러리 포함)을 찾습니다."
+	},
+	"FindPython3": {
+		"name": "FindPython3",
+		"description": "Python 3 인터프리터, 컴파일러 및 개발 환경(디렉터리 및 라이브러리 포함)을 찾습니다."
+	},
+	"FindPythonInterp": {
+		"name": "FindPythonInterp",
+		"description": "Python 인터프리터를 찾고 실행 파일의 위치를 결정합니다."
+	},
+	"FindPythonLibs": {
+		"name": "FindPythonLibs",
+		"description": "Python 설치를 찾고 포함 디렉터리 및 라이브러리의 위치는 물론 연결할 Python 라이브러리의 이름을 결정합니다."
+	},
+	"FindQt": {
+		"name": "FindQt",
+		"description": "설치된 Qt3 또는 Qt4 버전을 찾습니다."
+	},
+	"FindQt3": {
+		"name": "FindQt3",
+		"description": "그래픽 사용자 인터페이스 및 애플리케이션을 만들기 위한 플랫폼 간 애플리케이션 개발 프레임워크인 Qt3을 찾습니다."
+	},
+	"FindQt4": {
+		"name": "FindQt4",
+		"description": "그래픽 사용자 인터페이스 및 애플리케이션을 만들기 위한 플랫폼 간 애플리케이션 개발 프레임워크인 Qt4를 찾습니다."
+	},
+	"FindQuickTime": {
+		"name": "FindQuickTime",
+		"description": "비디오, 오디오 및 대화형 미디어를 지원하는 QuickTime 멀티미디어 프레임워크를 찾습니다."
+	},
+	"FindRTI": {
+		"name": "FindRTI",
+		"description": "HLA RTI 표준 라이브러리 및 해당 포함 디렉터리를 찾습니다."
+	},
+	"FindRuby": {
+		"name": "FindRuby",
+		"description": "Ruby 설치 및 포함 파일 및 라이브러리의 위치를 찾습니다."
+	},
+	"FindSDL": {
+		"name": "FindSDL",
+		"description": "SDL(Simple DirectMedia Layer) 라이브러리를 찾습니다."
+	},
+	"FindSDL_gfx": {
+		"name": "FindSDL_gfx",
+		"description": "SDL(Simple DirectMedia Layer) 애플리케이션에서 그래픽 지원을 제공하는 SDL_gfx 라이브러리를 찾습니다."
+	},
+	"FindSDL_image": {
+		"name": "FindSDL_image",
+		"description": "다양한 형식의 이미지를 SDL(Simple DirectMedia Layer) 표면으로 로드하는 SDL_image 라이브러리를 찾습니다."
+	},
+	"FindSDL_mixer": {
+		"name": "FindSDL_mixer",
+		"description": "SDL(Simple DirectMedia Layer) 애플리케이션에서 다양한 파일 형식을 지원하는 오디오 믹서인 SDL_mixer 라이브러리를 찾습니다."
+	},
+	"FindSDL_net": {
+		"name": "FindSDL_net",
+		"description": "SDL(Simple DirectMedia Layer) 애플리케이션에 사용할 플랫폼 간 네트워크 라이브러리인 SDL_net 라이브러리를 찾습니다."
+	},
+	"FindSDL_sound": {
+		"name": "FindSDL_sound",
+		"description": "SDL(Simple DirectMedia Layer) 애플리케이션에서 사용할 추상 사운드 파일 디코더인 SDL_sound 라이브러리를 찾습니다."
+	},
+	"FindSDL_ttf": {
+		"name": "FindSDL_ttf",
+		"description": "SDL(Simple DirectMedia Layer) 애플리케이션에서 TrueType 글꼴을 사용하여 텍스트를 렌더링할 수 있도록 지원하는 SDL_ttf 라이브러리를 찾습니다."
+	},
+	"FindSelfPackers": {
+		"name": "FindSelfPackers",
+		"description": "eXecutables용 Ultimate Packer인 UPX를 찾습니다."
+	},
+	"FindSQLite3": {
+		"name": "FindSQLite3",
+		"description": "SQLite 3 라이브러리를 찾습니다."
+	},
+	"FindSquish": {
+		"name": "FindSquish",
+		"description": "다양한 GUI 기술을 기반으로 하는 애플리케이션을 위한 플랫폼 간 자동화된 GUI 테스트 프레임워크인 Squish를 찾습니다."
+	},
+	"FindSubversion": {
+		"name": "FindSubversion",
+		"description": "Subversion 명령줄 클라이언트 실행 파일(svn)을 찾고, Subversion 작업 복사본에서 정보를 추출하는 명령을 제공합니다."
+	},
+	"FindSWIG": {
+		"name": "FindSWIG",
+		"description": "설치된 SWIG(Simplified Wrapper and Interface Generator) 실행 파일을 찾아 버전을 결정합니다."
+	},
+	"FindTCL": {
+		"name": "FindTCL",
+		"description": "동적 프로그래밍 언어인 Tcl(도구 명령 언어)을 찾습니다:"
+	},
+	"FindTclsh": {
+		"name": "FindTclsh",
+		"description": "Tcl(도구 명령 언어) 인터프리터를 포함하는 Tcl 셸 명령줄 실행 파일(tclsh)을 찾습니다."
+	},
+	"FindTclStub": {
+		"name": "FindTclStub",
+		"description": "버전 독립적인 Tcl 확장을 빌드하는 데 사용되는 Tcl Stub 라이브러리를 찾습니다."
+	},
+	"FindThreads": {
+		"name": "FindThreads",
+		"description": "다중 스레딩 지원을 위한 시스템의 스레드 라이브러리를 찾고 결정합니다."
+	},
+	"FindTIFF": {
+		"name": "FindTIFF",
+		"description": "TIFF 라이브러리(libtiff)를 찾습니다."
+	},
+	"FindUnixCommands": {
+		"name": "FindUnixCommands",
+		"description": "Cygwin 또는 MSYS의 명령을 포함하여 Unix 명령 bash, cp, gzip, mv, rm 및 tar를 찾습니다."
+	},
+	"FindVTK": {
+		"name": "FindVTK",
+		"description": "이 모듈은 더 이상 존재하지 않습니다."
+	},
+	"FindVulkan": {
+		"name": "FindVulkan",
+		"description": "Vullot SDK에서 일반적으로 제공하는 관련 개발 도구와 함께 오버헤드가 낮은 플랫폼 간 3D 그래픽 및 컴퓨팅 API인 Vulkan을 찾습니다."
+	},
+	"FindWget": {
+		"name": "FindWget",
+		"description": "이 모듈에서는 웹 서버에서 콘텐츠를 검색하기 위한 wget 명령줄 도구를 찾습니다."
+	},
+	"FindWish": {
+		"name": "FindWish",
+		"description": "간단한 창 셸 명령줄 실행 파일인 wish를 찾습니다."
+	},
+	"FindwxWidgets": {
+		"name": "FindwxWidgets",
+		"description": "wxWidgets 설치를 찾고 프로젝트에서 사용하기 위한 사용 요구 사항을 제공합니다."
+	},
+	"FindwxWindows": {
+		"name": "FindwxWindows",
+		"description": "wxWidgets(이전의 wxWindows) 설치를 찾고 포함 디렉터리 및 라이브러리의 위치와 라이브러리의 이름을 결정합니다."
+	},
+	"FindX11": {
+		"name": "FindX11",
+		"description": "Unix 계열 시스템에서 X11 설치를 찾습니다."
+	},
+	"FindXalanC": {
+		"name": "FindXalanC",
+		"description": "Apache Xalan-C++ XSL 변환 프로세서 헤더 및 라이브러리를 찾습니다."
+	},
+	"FindXCTest": {
+		"name": "FindXCTest",
+		"description": "Xcode 프로젝트에서 단위 테스트를 작성하기 위한 XCTest 프레임워크를 찾습니다."
+	},
+	"FindXercesC": {
+		"name": "FindXercesC",
+		"description": "XML 파서 헤더 및 라이브러리의 유효성을 검사하는 Apache Xerces-C++를 찾습니다."
+	},
+	"FindXMLRPC": {
+		"name": "FindXMLRPC",
+		"description": "C 및 C++용 네이티브 XML-RPC 라이브러리를 찾습니다."
+	},
+	"FindZLIB": {
+		"name": "FindZLIB",
+		"description": "네이티브 zlib 데이터 압축 라이브러리를 찾습니다."
+	},
+	"FortranCInterface": {
+		"name": "FortranCInterface",
+		"description": "이 모듈에서는 Fortran/C 인터페이스를 감지하는 변수 및 명령을 제공합니다."
+	},
+	"GenerateExportHeader": {
+		"name": "GenerateExportHeader",
+		"description": "이 모듈에서는 전처리기 매크로 정의가 포함된 헤더 파일을 생성하여 C/C++ 기호 표시 유형을 제어하는 명령을 제공합니다."
+	},
+	"GetPrerequisites": {
+		"name": "GetPrerequisites",
+		"description": "이 모듈에서는 실행 파일 또는 공유 라이브러리 파일의 종속성(필수 구성 요소)을 분석하고 나열하는 명령을 제공합니다. 이러한 명령은 실행 파일 또는 공유 라이브러리에 필요한 공유 라이브러리(.dll, .dylib 또는 .so 파일)를 나열합니다."
+	},
+	"GNUInstallDirs": {
+		"name": "GNUInstallDirs",
+		"description": "이 모듈은 GNU 코딩 표준에 따라 설치 디렉터리 변수를 정의하고, 설치 관련 절대 경로를 계산하는 명령을 제공합니다."
+	},
+	"GoogleTest": {
+		"name": "GoogleTest",
+		"description": "이 모듈에서는 Google Test 인프라를 사용하는 데 도움이 되는 명령을 제공합니다."
+	},
+	"InstallRequiredSystemLibraries": {
+		"name": "InstallRequiredSystemLibraries",
+		"description": "이 모듈은 컴파일러에서 제공하는 시스템 런타임 라이브러리를 검색하고 설치 규칙을 추가합니다."
+	},
+	"MacroAddFileDependencies": {
+		"name": "MacroAddFileDependencies",
+		"description": "다음을 사용하여 CMake 프로젝트에서 이 모듈을 로드합니다."
+	},
+	"ProcessorCount": {
+		"name": "ProcessorCount",
+		"description": "이 모듈은 프로세서/코어 수를 확인하는 명령을 제공합니다."
+	},
+	"SelectLibraryConfigurations": {
+		"name": "SelectLibraryConfigurations",
+		"description": "이 모듈에서는 여러 빌드 구성에서 패키지를 사용할 수 있는 경우 라이브러리 변수를 자동으로 설정하는 명령을 제공합니다. find_package(<PackageName>) 호출을 구현하는 모듈 찾기에 사용됩니다."
+	},
+	"SquishTestScript": {
+		"name": "SquishTestScript",
+		"description": "이 모듈은 CMake 프로젝트에 직접 포함되지 않습니다. Squish를 사용하여 GUI 테스트를 시작하는 데 사용되는 내부 CMake 테스트 스크립트입니다. 사용법에 대한 자세한 내용은 FindSquish 모듈의 squish_add_test 명령 문서를 참조하세요."
+	},
+	"TestBigEndian": {
+		"name": "TestBigEndian",
+		"description": "이 모듈은 대상 아키텍처의 엔디안(바이트 순서)을 확인하는 명령을 제공합니다."
+	},
+	"TestCXXAcceptsFlag": {
+		"name": "TestCXXAcceptsFlag",
+		"description": "이 모듈은 CXX(C++) 컴파일러가 특정 플래그를 지원하는지 여부를 테스트하는 명령을 제공합니다."
+	},
+	"TestForANSIForScope": {
+		"name": "TestForANSIForScope",
+		"description": "이 모듈은 CXX 컴파일러가 for-init 문에 선언된 변수의 범위를 루프 본문으로 제한하는지 여부를 확인합니다."
+	},
+	"TestForANSIStreamHeaders": {
+		"name": "TestForANSIStreamHeaders",
+		"description": "이 모듈은 CXX 컴파일러가 .h 확장자 없이 표준 라이브러리 헤더(예: <iostream>)를 지원하는지 확인합니다."
+	},
+	"TestForSSTREAM": {
+		"name": "TestForSSTREAM",
+		"description": "이 모듈은 C++ 표준 헤더 <sstream>가 존재하고 제대로 작동하는지 확인합니다."
+	},
+	"TestForSTDNamespace": {
+		"name": "TestForSTDNamespace",
+		"description": "이 모듈은 CXX 컴파일러가 C++ 표준 라이브러리에 대한 std 네임스페이스를 지원하는지 여부를 확인합니다."
+	},
+	"UseEcos": {
+		"name": "UseEcos",
+		"description": "이 모듈은 변수를 정의하고 eCos 애플리케이션을 빌드하는 데 필요한 명령을 제공합니다."
+	},
+	"UseJava": {
+		"name": "UseJava",
+		"description": "이 파일은 Java를 지원합니다. FindJava가 이미 로드되었다고 가정합니다. CMake 프로젝트에 Java를 로드하는 방법에 대한 자세한 내용은 FindJava를 참조하세요."
+	},
+	"UseJavaClassFilelist": {
+		"name": "UseJavaClassFilelist",
+		"description": "이 모듈은 이전에 실수로 문서화되었으며 프로젝트 코드에 직접 포함할 수 없었습니다. UseJava 모듈을 참조하세요."
+	},
+	"UseJavaSymlinks": {
+		"name": "UseJavaSymlinks",
+		"description": "이 모듈은 이전에 실수로 문서화되었으며 프로젝트 코드에 직접 포함할 수 없었습니다. UseJava 모듈을 참조하세요."
+	},
+	"UsePkgConfig": {
+		"name": "UsePkgConfig",
+		"description": "다음을 사용하여 CMake 프로젝트에서 이 모듈을 로드합니다."
+	},
+	"UseSWIG": {
+		"name": "UseSWIG",
+		"description": "이 모듈에서는 SWIG를 지원합니다. FindSWIG 모듈이 이미 로드된 것으로 가정합니다."
+	},
+	"UsewxWidgets": {
+		"name": "UsewxWidgets",
+		"description": "이 모듈은 wxWidgets 라이브러리(이전의 wxWindows)를 사용하기 위한 편리한 래퍼 역할을 하며 라이브러리 디렉터리, 포함 디렉터리 및 컴파일러 플래그와 같은 사용 요구 사항을 대상에서 사용할 현재 디렉터리 범위로 전파합니다."
+	},
+	"Use_wxWindows": {
+		"name": "Use_wxWindows",
+		"description": "이 모듈은 wxWidgets 라이브러리(이전의 wxWindows)를 찾기 위한 편리한 래퍼 역할을 하며 라이브러리, 포함 디렉터리 및 컴파일러 플래그와 같은 사용 요구 사항을 대상에서 사용할 현재 디렉터리 범위로 전파합니다."
+	},
+	"WriteBasicConfigVersionFile": {
+		"name": "WriteBasicConfigVersionFile",
+		"description": "버전 3.0 이후 사용되지 않음: 모듈 CMakePackageConfigHelpers에서 동일한 명령 write_basic_package_version_file()를 사용합니다."
+	},
+	"WriteCompilerDetectionHeader": {
+		"name": "WriteCompilerDetectionHeader",
+		"description": "이 모듈은 전처리기 매크로를 사용하여 헤더를 생성하는 명령을 제공합니다."
+	}
+}

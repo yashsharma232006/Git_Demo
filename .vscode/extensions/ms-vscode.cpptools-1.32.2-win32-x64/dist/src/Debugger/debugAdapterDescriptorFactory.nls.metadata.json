@@ -1,0 +1,19 @@
+{
+	"messages": [
+		"Debugger type '{0}' is not available for non-Windows machines.",
+		"Run Without Debugging is only supported for launch configurations.",
+		"Run Without Debugging is not supported for configurations with 'pipeTransport' set.",
+		"Run Without Debugging is not supported for configurations with 'debugServerPath' set.",
+		"Run Without Debugging is not supported for configurations with 'miDebuggerServerAddress' set.",
+		"Run Without Debugging is not supported for configurations with 'coreDumpPath' set."
+	],
+	"keys": [
+		"debugger.not.available",
+		"debugger.noDebug.requestType.not.supported",
+		"debugger.noDebug.pipeTransport.not.supported",
+		"debugger.noDebug.debugServerPath.not.supported",
+		"debugger.noDebug.miDebuggerServerAddress.not.supported",
+		"debugger.noDebug.coreDumpPath.not.supported"
+	],
+	"filePath": "Debugger\\debugAdapterDescriptorFactory"
+}

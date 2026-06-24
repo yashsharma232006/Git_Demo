@@ -1,0 +1,9 @@
+{
+	"messages": [
+		"List build targets with the CMake Tools extension"
+	],
+	"keys": [
+		"list.build.targets.with.cmake.tools"
+	],
+	"filePath": "src\\cmake\\listBuildTargetsTool"
+}
